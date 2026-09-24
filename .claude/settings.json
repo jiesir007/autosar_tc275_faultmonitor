@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /d/GitLFS)"
+    ],
+    "additionalDirectories": [
+      "D:\\"
+    ]
+  }
+}
