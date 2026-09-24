@@ -1,0 +1,3746 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_01_BSW\\Gen\\GenData\\.CanIf_Lcfg.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_01_BSW\\Gen\\GenData\\CanIf_Lcfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _01_BSW\\Gen\\GenData\\CanIf_Lcfg.src ..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c'
+
+	
+$TC16X
+	
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_BusOffNotificationFctPtr',data,rom,cluster('CanIf_BusOffNotificationFctPtr')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_BusOffNotificationFctPtr'
+	.global	CanIf_BusOffNotificationFctPtr
+	.align	4
+CanIf_BusOffNotificationFctPtr:	.type	object
+	.size	CanIf_BusOffNotificationFctPtr,4
+	.word	CanSM_ControllerBusOff
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_CanIfCtrlId2MappedTxBuffersConfig',data,rom,cluster('CanIf_CanIfCtrlId2MappedTxBuffersConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_CanIfCtrlId2MappedTxBuffersConfig'
+	.global	CanIf_CanIfCtrlId2MappedTxBuffersConfig
+	.align	2
+CanIf_CanIfCtrlId2MappedTxBuffersConfig:	.type	object
+	.size	CanIf_CanIfCtrlId2MappedTxBuffersConfig,4
+	.space	2
+	.byte	1
+	.space	1
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_CtrlModeIndicationFctPtr',data,rom,cluster('CanIf_CtrlModeIndicationFctPtr')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_CtrlModeIndicationFctPtr'
+	.global	CanIf_CtrlModeIndicationFctPtr
+	.align	4
+CanIf_CtrlModeIndicationFctPtr:	.type	object
+	.size	CanIf_CtrlModeIndicationFctPtr,4
+	.word	CanSM_ControllerModeIndication
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_MailBoxConfig',data,rom,cluster('CanIf_MailBoxConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_MailBoxConfig'
+	.global	CanIf_MailBoxConfig
+	.align	2
+CanIf_MailBoxConfig:	.type	object
+	.size	CanIf_MailBoxConfig,60
+	.space	3
+	.byte	255,3,2
+	.space	3
+	.byte	255,3
+	.space	1
+	.byte	1
+	.space	3
+	.byte	1,2,1,2
+	.byte	2,255,3,1
+	.byte	1,3,3,255
+	.byte	3,1,1,4
+	.byte	4,255,3,1
+	.byte	1,5,5,255
+	.byte	3,1,1,6
+	.byte	6,255,3,1
+	.byte	1,7,7,255
+	.byte	3,1,1,1
+	.byte	1,255,3
+	.space	1
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_MappedTxBuffersConfig',data,rom,cluster('CanIf_MappedTxBuffersConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_MappedTxBuffersConfig'
+	.global	CanIf_MappedTxBuffersConfig
+CanIf_MappedTxBuffersConfig:	.type	object
+	.size	CanIf_MappedTxBuffersConfig,1
+	.byte	2
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_RxIndicationFctList',data,rom,cluster('CanIf_RxIndicationFctList')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_RxIndicationFctList'
+	.global	CanIf_RxIndicationFctList
+	.align	4
+CanIf_RxIndicationFctList:	.type	object
+	.size	CanIf_RxIndicationFctList,40
+	.space	8
+	.word	CanNm_RxIndication
+	.byte	1
+	.space	3
+	.word	CanTp_RxIndication
+	.byte	1
+	.space	3
+	.word	PduR_CanIfRxIndication
+	.byte	1
+	.space	3
+	.word	XB_INTER_CAN_RxIndication
+	.byte	1
+	.space	3
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_RxPduConfig',data,rom,cluster('CanIf_RxPduConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_RxPduConfig'
+	.global	CanIf_RxPduConfig
+	.align	4
+CanIf_RxPduConfig:	.type	object
+	.size	CanIf_RxPduConfig,64
+	.half	8192,24576
+	.space	2
+	.byte	4,8
+	.half	1536,26239
+	.space	1
+	.byte	1,1,8
+	.half	2015,18431
+	.byte	1
+	.space	1
+	.byte	2,8
+	.half	1793,18431
+	.space	2
+	.byte	2,8
+	.half	772,18431
+	.byte	2
+	.space	1
+	.byte	3,8
+	.half	770,18431
+	.byte	3
+	.space	1
+	.byte	3,8
+	.half	769,18431
+	.space	2
+	.byte	3,8
+	.half	768,18431
+	.byte	1
+	.space	1
+	.byte	3,8
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TrcvModeIndicationFctPtr',data,rom,cluster('CanIf_TrcvModeIndicationFctPtr')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TrcvModeIndicationFctPtr'
+	.global	CanIf_TrcvModeIndicationFctPtr
+	.align	4
+CanIf_TrcvModeIndicationFctPtr:	.type	object
+	.size	CanIf_TrcvModeIndicationFctPtr,4
+	.word	CanSM_TransceiverModeIndication
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TrcvToCtrlMap',data,rom,cluster('CanIf_TrcvToCtrlMap')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TrcvToCtrlMap'
+	.global	CanIf_TrcvToCtrlMap
+CanIf_TrcvToCtrlMap:	.type	object
+	.size	CanIf_TrcvToCtrlMap,1
+	.byte	1
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TxBufferPrioByCanIdByteQueueConfig',data,rom,cluster('CanIf_TxBufferPrioByCanIdByteQueueConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TxBufferPrioByCanIdByteQueueConfig'
+	.global	CanIf_TxBufferPrioByCanIdByteQueueConfig
+	.align	2
+CanIf_TxBufferPrioByCanIdByteQueueConfig:	.type	object
+	.size	CanIf_TxBufferPrioByCanIdByteQueueConfig,4
+	.space	1
+	.byte	8,8
+	.space	1
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus',data,rom,cluster('CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus'
+	.global	CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus:	.type	object
+	.size	CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus,8
+	.byte	1,2,3,4
+	.byte	5,6,7,8
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TxConfirmationFctList',data,rom,cluster('CanIf_TxConfirmationFctList')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TxConfirmationFctList'
+	.global	CanIf_TxConfirmationFctList
+	.align	4
+CanIf_TxConfirmationFctList:	.type	object
+	.size	CanIf_TxConfirmationFctList,20
+	.space	4
+	.word	CanNm_TxConfirmation,CanTp_TxConfirmation,PduR_CanIfTxConfirmation,XB_INTER_CAN_TxConfirm
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TxPduConfig',data,rom,cluster('CanIf_TxPduConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TxPduConfig'
+	.global	CanIf_TxPduConfig
+	.align	4
+CanIf_TxPduConfig:	.type	object
+	.size	CanIf_TxPduConfig,72
+	.half	256
+	.space	1
+	.byte	1
+	.space	2
+	.byte	4,8
+	.half	1873
+	.space	1
+	.byte	1,1,2,2
+	.byte	8
+	.half	1537
+	.space	1
+	.byte	1,1,2,1
+	.byte	8
+	.half	534
+	.byte	2,1,1,2
+	.space	1
+	.byte	8
+	.half	532
+	.byte	3,1,1,2
+	.byte	3,8
+	.half	531
+	.space	1
+	.byte	1,1,2
+	.space	1
+	.byte	8
+	.half	530
+	.byte	5,1,1,2
+	.space	1
+	.byte	8
+	.half	529
+	.byte	1,1,1,2
+	.space	1
+	.byte	8
+	.half	528
+	.byte	4,1,1,2
+	.space	1
+	.byte	8
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_TxPduQueueIndex',data,rom,cluster('CanIf_TxPduQueueIndex')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_TxPduQueueIndex'
+	.global	CanIf_TxPduQueueIndex
+CanIf_TxPduQueueIndex:	.type	object
+	.size	CanIf_TxPduQueueIndex,9
+	.byte	255
+	.space	1
+	.byte	1,2,3,4
+	.byte	5,6,7
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_WakeUpConfig',data,rom,cluster('CanIf_WakeUpConfig')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_WakeUpConfig'
+	.global	CanIf_WakeUpConfig
+	.align	2
+CanIf_WakeUpConfig:	.type	object
+	.size	CanIf_WakeUpConfig,4
+	.byte	1,32
+	.space	1
+	.byte	2
+	.sdecl	'.rodata.CanIf_Lcfg.CanIf_WakeUpValidationFctPtr',data,rom,cluster('CanIf_WakeUpValidationFctPtr')
+	.sect	'.rodata.CanIf_Lcfg.CanIf_WakeUpValidationFctPtr'
+	.global	CanIf_WakeUpValidationFctPtr
+	.align	4
+CanIf_WakeUpValidationFctPtr:	.type	object
+	.size	CanIf_WakeUpValidationFctPtr,4
+	.word	EcuM_ValidateWakeupEvent
+	.sdecl	'.bss.CanIf_Lcfg.CanIf_CtrlStates',data,cluster('CanIf_CtrlStates')
+	.sect	'.bss.CanIf_Lcfg.CanIf_CtrlStates'
+	.global	CanIf_CtrlStates
+	.align	4
+CanIf_CtrlStates:	.type	object
+	.size	CanIf_CtrlStates,8
+	.space	8
+	.sdecl	'.bss.CanIf_Lcfg.CanIf_TxBufferPrioByCanIdBase',data,cluster('CanIf_TxBufferPrioByCanIdBase')
+	.sect	'.bss.CanIf_Lcfg.CanIf_TxBufferPrioByCanIdBase'
+	.global	CanIf_TxBufferPrioByCanIdBase
+CanIf_TxBufferPrioByCanIdBase:	.type	object
+	.size	CanIf_TxBufferPrioByCanIdBase,1
+	.space	1
+	.sdecl	'.bss.CanIf_Lcfg.CanIf_TxQueue',data,cluster('CanIf_TxQueue')
+	.sect	'.bss.CanIf_Lcfg.CanIf_TxQueue'
+	.global	CanIf_TxQueue
+	.align	4
+CanIf_TxQueue:	.type	object
+	.size	CanIf_TxQueue,128
+	.space	128
+	.calls	'__INDIRECT__','EcuM_ValidateWakeupEvent'
+	.calls	'__INDIRECT__','CanNm_RxIndication'
+	.calls	'__INDIRECT__','CanNm_TxConfirmation'
+	.calls	'__INDIRECT__','CanTp_RxIndication'
+	.calls	'__INDIRECT__','CanTp_TxConfirmation'
+	.calls	'__INDIRECT__','PduR_CanIfRxIndication'
+	.calls	'__INDIRECT__','PduR_CanIfTxConfirmation'
+	.calls	'__INDIRECT__','XB_INTER_CAN_RxIndication'
+	.calls	'__INDIRECT__','XB_INTER_CAN_TxConfirm'
+	.calls	'__INDIRECT__','CanSM_ControllerBusOff'
+	.calls	'__INDIRECT__','CanSM_ControllerModeIndication'
+	.extern	EcuM_ValidateWakeupEvent
+	.extern	CanNm_RxIndication
+	.extern	CanNm_TxConfirmation
+	.extern	CanTp_RxIndication
+	.extern	CanTp_TxConfirmation
+	.extern	PduR_CanIfRxIndication
+	.extern	PduR_CanIfTxConfirmation
+	.extern	XB_INTER_CAN_RxIndication
+	.extern	XB_INTER_CAN_TxConfirm
+	.extern	CanSM_ControllerBusOff
+	.extern	CanSM_ControllerModeIndication
+	.extern	CanSM_TransceiverModeIndication
+	.extern	__INDIRECT__
+	.calls	'__INDIRECT__','CanSM_TransceiverModeIndication'
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	28925
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L5
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	197
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	204
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	246
+	.byte	7
+	.word	246
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	262
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	267
+	.byte	9
+	.byte	'value',0
+	.word	246
+	.byte	9
+	.byte	'compare',0
+	.word	246
+	.byte	0,2
+	.byte	'unsigned long int',0,4,7,10
+	.byte	'EcuM_ValidateWakeupEvent',0,1,82,29,1,1,1,1,11
+	.byte	'CanWakeupEvents',0,1,82,76
+	.word	324
+	.byte	0,2
+	.byte	'unsigned char',0,1,8,7
+	.word	403
+	.byte	12
+	.byte	'SduDataPtrType',0,3,196,1,54
+	.word	420
+	.byte	2
+	.byte	'unsigned short int',0,2,7,13,3,197,1,9,8,14
+	.byte	'SduDataPtr',0
+	.word	425
+	.byte	4,2,35,0,14
+	.byte	'SduLength',0
+	.word	449
+	.byte	2,2,35,4,0,3
+	.word	471
+	.byte	7
+	.word	517
+	.byte	10
+	.byte	'CanNm_RxIndication',0,2,87,33,1,1,1,1,11
+	.byte	'RxPduId',0,2,87,81
+	.word	403
+	.byte	11
+	.byte	'PduInfoPtr',0,2,88,103
+	.word	522
+	.byte	0,7
+	.word	403
+	.byte	10
+	.byte	'CanNm_TxConfirmation',0,2,105,33,1,1,1,1,11
+	.byte	'TxPduId',0,2,105,83
+	.word	403
+	.byte	0,10
+	.byte	'CanTp_RxIndication',0,4,80,24,1,1,1,1,11
+	.byte	'RxPduId',0,4,80,53
+	.word	403
+	.byte	11
+	.byte	'PduInfoPtr',0,4,80,111
+	.word	522
+	.byte	0,10
+	.byte	'CanTp_TxConfirmation',0,4,94,24,1,1,1,1,11
+	.byte	'TxPduId',0,4,94,55
+	.word	403
+	.byte	0,10
+	.byte	'PduR_CanIfRxIndication',0,5,81,23,1,1,1,1,11
+	.byte	'RxPduId',0,5,81,56
+	.word	403
+	.byte	11
+	.byte	'info',0,5,81,113
+	.word	522
+	.byte	0,10
+	.byte	'PduR_CanIfTxConfirmation',0,5,99,23,1,1,1,1,11
+	.byte	'TxPduId',0,5,99,58
+	.word	403
+	.byte	0,10
+	.byte	'XB_INTER_CAN_RxIndication',0,6,177,1,22,1,1,1,1,11
+	.byte	'RxPduId',0,6,177,1,58
+	.word	403
+	.byte	11
+	.byte	'PduInfoPtr',0,6,177,1,114
+	.word	522
+	.byte	0,10
+	.byte	'XB_INTER_CAN_TxConfirm',0,6,192,1,22,1,1,1,1,11
+	.byte	'TxPduId',0,6,192,1,55
+	.word	403
+	.byte	0,10
+	.byte	'CanSM_ControllerBusOff',0,7,83,26,1,1,1,1,11
+	.byte	'CanSM_ControllerId',0,7,83,56
+	.word	403
+	.byte	0,15,8,185,2,9,1,16
+	.byte	'CANIF_CS_UNINIT',0,0,16
+	.byte	'CANIF_CS_STOPPED',0,1,16
+	.byte	'CANIF_CS_STARTED',0,2,16
+	.byte	'CANIF_CS_SLEEP',0,3,0,10
+	.byte	'CanSM_ControllerModeIndication',0,7,133,1,26,1,1,1,1,11
+	.byte	'CanSM_ControllerId',0,7,133,1,64
+	.word	403
+	.byte	11
+	.byte	'CanSM_ControllerMode',0,7,133,1,109
+	.word	1043
+	.byte	0,17
+	.byte	'CanTrcv_TrcvModeTypeTag',0,9,43,14,1,16
+	.byte	'CANTRCV_TRCVMODE_NORMAL',0,0,16
+	.byte	'CANTRCV_TRCVMODE_SLEEP',0,1,16
+	.byte	'CANTRCV_TRCVMODE_STANDBY',0,2,0,10
+	.byte	'CanSM_TransceiverModeIndication',0,7,150,1,24,1,1,1,1,11
+	.byte	'CanSM_TransceiverId',0,7,150,1,63
+	.word	403
+	.byte	11
+	.byte	'CanSM_TransceiverMode',0,7,150,1,105
+	.word	1222
+	.byte	0,18
+	.byte	'__INDIRECT__',0,1,1,1,1,1,1,19,1,7
+	.word	1452
+	.byte	12
+	.byte	'__codeptr',0,1,1,1
+	.word	1454
+	.byte	12
+	.byte	'boolean',0,10,124,31
+	.word	403
+	.byte	12
+	.byte	'uint8',0,10,127,31
+	.word	403
+	.byte	2
+	.byte	'short int',0,2,5,12
+	.byte	'sint16',0,10,128,1,31
+	.word	1507
+	.byte	12
+	.byte	'uint16',0,10,129,1,31
+	.word	449
+	.byte	12
+	.byte	'uint32',0,10,131,1,31
+	.word	324
+	.byte	12
+	.byte	'uint8_least',0,10,134,1,31
+	.word	403
+	.byte	12
+	.byte	'Std_ReturnType',0,11,132,1,15
+	.word	403
+	.byte	13,11,134,1,9,8,14
+	.byte	'vendorID',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'moduleID',0
+	.word	449
+	.byte	2,2,35,2,14
+	.byte	'sw_major_version',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'sw_minor_version',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'sw_patch_version',0
+	.word	403
+	.byte	1,2,35,6,0,12
+	.byte	'Std_VersionInfoType',0,11,141,1,3
+	.word	1613
+	.byte	12
+	.byte	'PduIdType',0,12,51,15
+	.word	403
+	.byte	12
+	.byte	'PduLengthType',0,12,53,16
+	.word	449
+	.byte	12
+	.byte	'PduInfoType',0,3,201,1,3
+	.word	471
+	.byte	15,3,219,1,9,1,16
+	.byte	'TP_DATACONF',0,0,16
+	.byte	'TP_DATARETRY',0,1,16
+	.byte	'TP_CONFPENDING',0,2,0,12
+	.byte	'TpDataStateType',0,3,226,1,3
+	.word	1824
+	.byte	12
+	.byte	'CanTrcv_TrcvModeType',0,9,48,3
+	.word	1222
+	.byte	12
+	.byte	'Can_IdType',0,13,40,30
+	.word	449
+	.byte	12
+	.byte	'Can_HwHandleType',0,13,43,29
+	.word	403
+	.byte	12
+	.byte	'Can_SduPtrType',0,13,46,45
+	.word	420
+	.byte	20
+	.byte	'Can_PduTypeTag',0,13,49,16,12,14
+	.byte	'id',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'length',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'sdu',0
+	.word	1975
+	.byte	4,2,35,4,14
+	.byte	'swPduHandle',0
+	.word	403
+	.byte	1,2,35,8,0,12
+	.byte	'Can_PduType',0,13,55,3
+	.word	1998
+	.byte	7
+	.word	403
+	.byte	15,13,65,9,1,16
+	.byte	'CAN_CS_UNINIT',0,0,16
+	.byte	'CAN_CS_STARTED',0,1,16
+	.byte	'CAN_CS_STOPPED',0,2,16
+	.byte	'CAN_CS_SLEEP',0,3,0,12
+	.byte	'Can_ControllerStateType',0,13,70,3
+	.word	2106
+	.byte	15,13,72,9,1,16
+	.byte	'CAN_ERRORSTATE_ACTIVE',0,0,16
+	.byte	'CAN_ERRORSTATE_PASSIVE',0,1,16
+	.byte	'CAN_ERRORSTATE_BUSOFF',0,2,0,12
+	.byte	'Can_ErrorStateType',0,13,76,3
+	.word	2209
+	.byte	15,13,79,9,1,16
+	.byte	'CAN_NOT_OK',0,0,16
+	.byte	'CAN_OK',0,1,16
+	.byte	'CAN_BUSY',0,2,0,12
+	.byte	'Can_ReturnType',0,13,83,3
+	.word	2315
+	.byte	12
+	.byte	'tCanLLCanIntOld',0,14,162,3,37
+	.word	324
+	.byte	21,4
+	.word	449
+	.byte	22,1,0,21,4
+	.word	403
+	.byte	22,3,0,23,14,170,3,3,4,14
+	.byte	'reg32',0
+	.word	324
+	.byte	4,2,35,0,14
+	.byte	'reg16',0
+	.word	2402
+	.byte	4,2,35,0,14
+	.byte	'reg8',0
+	.word	2411
+	.byte	4,2,35,0,0,21,8
+	.word	324
+	.byte	22,1,0,20
+	.byte	'tCanTmpMsgObjStructTag',0,14,164,3,16,16,14
+	.byte	'MoFCR_Mode',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'MoFCR_Gate',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'MoFCR_IE',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'MoFCR_DLC',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'MoAR',0
+	.word	2420
+	.byte	4,2,35,4,14
+	.byte	'MoDR',0
+	.word	2471
+	.byte	8,2,35,8,0,12
+	.byte	'tCanTmpMsgObjStruct',0,14,177,3,3
+	.word	2480
+	.byte	12
+	.byte	'Can_ExternalTickType',0,14,186,3,16
+	.word	324
+	.byte	21,16
+	.word	324
+	.byte	22,3,0,12
+	.byte	'Can_LoopTimeout_dim_type',0,14,189,3,44
+	.word	2674
+	.byte	12
+	.byte	'Can_ControllerConfigIterType',0,14,253,11,21
+	.word	403
+	.byte	12
+	.byte	'Can_PduOfActiveSendObjectType',0,14,212,12,19
+	.word	403
+	.byte	12
+	.byte	'Can_StateOfActiveSendObjectType',0,14,215,12,16
+	.word	449
+	.byte	12
+	.byte	'Can_CanIfChannelIdType',0,14,221,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_CanControllerDefaultBaudrateIdxOfControllerConfigType',0,14,224,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_CanControllerDefaultBaudrateOfControllerConfigType',0,14,227,12,16
+	.word	449
+	.byte	12
+	.byte	'Can_MailboxRxBasicEndIdxOfControllerConfigType',0,14,230,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxRxBasicLengthOfControllerConfigType',0,14,233,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxRxBasicStartIdxOfControllerConfigType',0,14,236,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxRxFullEndIdxOfControllerConfigType',0,14,242,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxRxFullLengthOfControllerConfigType',0,14,245,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxRxFullStartIdxOfControllerConfigType',0,14,248,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxTxBasicEndIdxOfControllerConfigType',0,14,254,12,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxTxBasicLengthOfControllerConfigType',0,14,129,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxTxBasicStartIdxOfControllerConfigType',0,14,132,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxUnusedEndIdxOfControllerConfigType',0,14,138,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxUnusedLengthOfControllerConfigType',0,14,141,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxUnusedStartIdxOfControllerConfigType',0,14,144,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_RxBasicHwStartOfControllerConfigType',0,14,150,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_RxBasicHwStopOfControllerConfigType',0,14,153,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_RxFullHwStartOfControllerConfigType',0,14,156,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_RxFullHwStopOfControllerConfigType',0,14,159,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_TxBasicHwStartOfControllerConfigType',0,14,162,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_TxBasicHwStopOfControllerConfigType',0,14,165,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_TxFullHwStartOfControllerConfigType',0,14,168,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_TxFullHwStopOfControllerConfigType',0,14,171,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_UnusedHwStartOfControllerConfigType',0,14,174,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_UnusedHwStopOfControllerConfigType',0,14,177,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_BusOffNotifiedOfControllerDataType',0,14,180,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_BusOffTransitionRequestOfControllerDataType',0,14,183,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_CanInterruptCounterOfControllerDataType',0,14,186,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_HaltOfControllerDataType',0,14,189,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_IsBusOffOfControllerDataType',0,14,192,13,17
+	.word	403
+	.byte	12
+	.byte	'Can_LastInitObjectOfControllerDataType',0,14,195,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_LogStatusOfControllerDataType',0,14,198,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_ModeTransitionRequestOfControllerDataType',0,14,201,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_RamCheckTransitionRequestOfControllerDataType',0,14,204,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_GlobalInterruptPendingMaskType',0,14,207,13,16
+	.word	449
+	.byte	12
+	.byte	'Can_InitBTType',0,14,210,13,16
+	.word	449
+	.byte	12
+	.byte	'Can_InitCodeHType',0,14,213,13,16
+	.word	449
+	.byte	12
+	.byte	'Can_InitCodeLType',0,14,216,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_InitMaskHType',0,14,219,13,16
+	.word	449
+	.byte	12
+	.byte	'Can_InitMaskLType',0,14,222,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_InitObjectBaudrateType',0,14,225,13,16
+	.word	449
+	.byte	12
+	.byte	'Can_InitObjectStartIndexType',0,14,228,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_InitPortSelType',0,14,231,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_IsrOsIdType',0,14,234,13,16
+	.word	324
+	.byte	12
+	.byte	'Can_ActiveSendObjectOfMailboxType',0,14,237,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_ControllerConfigIdxOfMailboxType',0,14,240,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_HwHandleOfMailboxType',0,14,243,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_HwHandleStopOfMailboxType',0,14,246,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_IDValueOfMailboxType',0,14,249,13,16
+	.word	449
+	.byte	12
+	.byte	'Can_MailboxSizeOfMailboxType',0,14,252,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxTypeOfMailboxType',0,14,255,13,15
+	.word	403
+	.byte	12
+	.byte	'Can_MaxDataLenOfMailboxType',0,14,130,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_MemorySectionsIndexOfMailboxType',0,14,133,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_MemorySectionStartOfMemorySectionInfoType',0,14,136,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_MemoryStartAddressOfMemorySectionInfoType',0,14,139,14,16
+	.word	324
+	.byte	12
+	.byte	'Can_HwHandleOfMemorySectionObjectsType',0,14,142,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxElementOfMemorySectionObjectsType',0,14,145,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_MailboxHandleOfMemorySectionObjectsType',0,14,148,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_NodeAdrType',0,14,151,14,16
+	.word	324
+	.byte	12
+	.byte	'Can_NodeNumType',0,14,154,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_PhysPrioType',0,14,157,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_RxBasicInterruptPendingMaskType',0,14,163,14,16
+	.word	449
+	.byte	12
+	.byte	'Can_RxFullInterruptPendingMaskType',0,14,166,14,16
+	.word	449
+	.byte	12
+	.byte	'Can_SrcNumType',0,14,244,14,15
+	.word	403
+	.byte	12
+	.byte	'Can_TxInterruptPendingMaskType',0,14,247,14,15
+	.word	403
+	.byte	20
+	.byte	'sCan_ActiveSendObjectType',0,14,135,15,16,4,14
+	.byte	'StateOfActiveSendObject',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'PduOfActiveSendObject',0
+	.word	403
+	.byte	1,2,35,2,0,12
+	.byte	'Can_ActiveSendObjectType',0,14,139,15,3
+	.word	5758
+	.byte	20
+	.byte	'sCan_ControllerConfigType',0,14,142,15,16,28,14
+	.byte	'CanControllerDefaultBaudrateOfControllerConfig',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'CanControllerDefaultBaudrateIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'MailboxRxBasicEndIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'MailboxRxBasicLengthOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'MailboxRxBasicStartIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'MailboxRxFullEndIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'MailboxRxFullLengthOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'MailboxRxFullStartIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'MailboxTxBasicEndIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,9,14
+	.byte	'MailboxTxBasicLengthOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,10,14
+	.byte	'MailboxTxBasicStartIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,11,14
+	.byte	'MailboxUnusedEndIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,12,14
+	.byte	'MailboxUnusedLengthOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,13,14
+	.byte	'MailboxUnusedStartIdxOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,14,14
+	.byte	'RxBasicHwStartOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,15,14
+	.byte	'RxBasicHwStopOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,16,14
+	.byte	'RxFullHwStartOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,17,14
+	.byte	'RxFullHwStopOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,18,14
+	.byte	'TxBasicHwStartOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,19,14
+	.byte	'TxBasicHwStopOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,20,14
+	.byte	'TxFullHwStartOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,21,14
+	.byte	'TxFullHwStopOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,22,14
+	.byte	'UnusedHwStartOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,23,14
+	.byte	'UnusedHwStopOfControllerConfig',0
+	.word	403
+	.byte	1,2,35,24,0,12
+	.byte	'Can_ControllerConfigType',0,14,168,15,3
+	.word	5889
+	.byte	20
+	.byte	'sCan_ControllerDataType',0,14,171,15,16,32,14
+	.byte	'BusOffNotifiedOfControllerData',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'BusOffTransitionRequestOfControllerData',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'CanInterruptCounterOfControllerData',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'HaltOfControllerData',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'IsBusOffOfControllerData',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'LastInitObjectOfControllerData',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'LogStatusOfControllerData',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'ModeTransitionRequestOfControllerData',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'RamCheckTransitionRequestOfControllerData',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'CanInterruptOldStatusOfControllerData',0
+	.word	324
+	.byte	4,2,35,10,14
+	.byte	'LoopTimeoutOfControllerData',0
+	.word	2683
+	.byte	16,2,35,14,0,12
+	.byte	'Can_ControllerDataType',0,14,184,15,3
+	.word	7058
+	.byte	21,16
+	.word	324
+	.byte	22,3,0,20
+	.byte	'sCan_MailboxType',0,14,187,15,16,12,14
+	.byte	'IDValueOfMailbox',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'ActiveSendObjectOfMailbox',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'ControllerConfigIdxOfMailbox',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'HwHandleOfMailbox',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'HwHandleStopOfMailbox',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'MailboxSizeOfMailbox',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'MailboxTypeOfMailbox',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'MaxDataLenOfMailbox',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'MemorySectionsIndexOfMailbox',0
+	.word	403
+	.byte	1,2,35,9,0,12
+	.byte	'Can_MailboxType',0,14,198,15,3
+	.word	7585
+	.byte	20
+	.byte	'sCan_MemorySectionInfoType',0,14,201,15,16,6,14
+	.byte	'MemoryStartAddressOfMemorySectionInfo',0
+	.word	324
+	.byte	4,2,35,0,14
+	.byte	'MemorySectionStartOfMemorySectionInfo',0
+	.word	403
+	.byte	1,2,35,4,0,12
+	.byte	'Can_MemorySectionInfoType',0,14,205,15,3
+	.word	7918
+	.byte	20
+	.byte	'sCan_MemorySectionObjectsType',0,14,208,15,16,4,14
+	.byte	'HwHandleOfMemorySectionObjects',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'MailboxElementOfMemorySectionObjects',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'MailboxHandleOfMemorySectionObjects',0
+	.word	403
+	.byte	1,2,35,2,0,12
+	.byte	'Can_MemorySectionObjectsType',0,14,213,15,3
+	.word	8081
+	.byte	20
+	.byte	'sCan_PCConfigType',0,14,181,16,16,1,14
+	.byte	'Can_PCConfigNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'Can_PCConfigType',0,14,184,16,3
+	.word	8287
+	.byte	12
+	.byte	'Can_ConfigType',0,14,186,16,26
+	.word	8287
+	.byte	12
+	.byte	'tCanTxId0',0,15,167,9,26
+	.word	449
+	.byte	12
+	.byte	'tCanTxId1',0,15,168,9,26
+	.word	449
+	.byte	12
+	.byte	'tCanDlc',0,15,186,9,26
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferSizeType',0,16,170,1,15
+	.word	403
+	.byte	12
+	.byte	'E_Sig_0x302_Used_1',0,17,37,16
+	.word	449
+	.byte	12
+	.byte	'E_Sig_0x302_Used_2',0,17,40,15
+	.word	403
+	.byte	12
+	.byte	'E_Sig_0x302_Used_3',0,17,43,15
+	.word	403
+	.byte	12
+	.byte	'F_AAA_Angle',0,17,46,15
+	.word	403
+	.byte	12
+	.byte	'F_Button1_State',0,17,49,15
+	.word	403
+	.byte	12
+	.byte	'F_Button2_State',0,17,52,15
+	.word	403
+	.byte	12
+	.byte	'F_Button3_State',0,17,55,15
+	.word	403
+	.byte	12
+	.byte	'F_Button4_State',0,17,58,15
+	.word	403
+	.byte	12
+	.byte	'F_Meg_E2E_Error',0,17,61,15
+	.word	403
+	.byte	12
+	.byte	'F_Mes_Lost_Error',0,17,64,15
+	.word	403
+	.byte	12
+	.byte	'F_PowerMode',0,17,67,15
+	.word	403
+	.byte	12
+	.byte	'F_Sig_0x214_Used_1',0,17,70,16
+	.word	449
+	.byte	12
+	.byte	'F_Sig_0x214_Used_2',0,17,73,16
+	.word	449
+	.byte	12
+	.byte	'F_Sig_0x214_Used_3',0,17,76,16
+	.word	449
+	.byte	12
+	.byte	'F_Sig_0x214_Used_5',0,17,79,16
+	.word	449
+	.byte	12
+	.byte	'SupD_Checksum_0x300',0,17,85,15
+	.word	403
+	.byte	12
+	.byte	'SupD_Checksum_0x304',0,17,88,15
+	.word	403
+	.byte	12
+	.byte	'SupD_Counter_0x300',0,17,91,15
+	.word	403
+	.byte	12
+	.byte	'SupD_Counter_0x304',0,17,94,15
+	.word	403
+	.byte	12
+	.byte	'SupF_Checksum_0x212',0,17,97,15
+	.word	403
+	.byte	12
+	.byte	'SupF_Counter_0x212',0,17,100,15
+	.word	403
+	.byte	12
+	.byte	'D_Button1_Control',0,17,103,15
+	.word	403
+	.byte	12
+	.byte	'D_Button2_Control',0,17,106,15
+	.word	403
+	.byte	12
+	.byte	'D_Button3_Control',0,17,109,15
+	.word	403
+	.byte	12
+	.byte	'D_Button4_Control',0,17,112,15
+	.word	403
+	.byte	12
+	.byte	'D_Led1_Control',0,17,115,15
+	.word	403
+	.byte	12
+	.byte	'D_Led1_CtrlMode',0,17,118,15
+	.word	403
+	.byte	12
+	.byte	'D_Led2_Control',0,17,121,15
+	.word	403
+	.byte	12
+	.byte	'D_Led2_CtrlMode',0,17,124,15
+	.word	403
+	.byte	12
+	.byte	'D_Led3_Control',0,17,127,15
+	.word	403
+	.byte	12
+	.byte	'D_Led3_CtrlMode',0,17,130,1,15
+	.word	403
+	.byte	12
+	.byte	'D_Led4_Control',0,17,133,1,15
+	.word	403
+	.byte	12
+	.byte	'D_Led4_CtrlMode',0,17,136,1,15
+	.word	403
+	.byte	12
+	.byte	'F_Led1_State',0,17,139,1,15
+	.word	403
+	.byte	12
+	.byte	'F_Led2_State',0,17,142,1,15
+	.word	403
+	.byte	12
+	.byte	'F_Led3_State',0,17,145,1,15
+	.word	403
+	.byte	12
+	.byte	'F_Led4_State',0,17,148,1,15
+	.word	403
+	.byte	12
+	.byte	'ComM_InhibitionStatusType',0,17,137,2,15
+	.word	403
+	.byte	12
+	.byte	'ComM_ModeType',0,17,173,2,15
+	.word	403
+	.byte	12
+	.byte	'EcuM_ModeType',0,17,132,3,15
+	.word	403
+	.byte	12
+	.byte	'EcuM_StateType',0,17,138,3,15
+	.word	403
+	.byte	12
+	.byte	'AAA_Angle',0,17,147,3,15
+	.word	403
+	.byte	12
+	.byte	'Button1_Control',0,17,150,3,17
+	.word	403
+	.byte	12
+	.byte	'Button1_State',0,17,153,3,17
+	.word	403
+	.byte	12
+	.byte	'Button2_Control',0,17,156,3,17
+	.word	403
+	.byte	12
+	.byte	'Button2_State',0,17,159,3,17
+	.word	403
+	.byte	12
+	.byte	'Button3_Control',0,17,162,3,17
+	.word	403
+	.byte	12
+	.byte	'Button3_State',0,17,165,3,17
+	.word	403
+	.byte	12
+	.byte	'Button4_Control',0,17,168,3,17
+	.word	403
+	.byte	12
+	.byte	'Button4_State',0,17,171,3,17
+	.word	403
+	.byte	12
+	.byte	'CrcSig_Pack_3',0,17,183,3,15
+	.word	403
+	.byte	12
+	.byte	'CrcSig_Pack_4',0,17,186,3,16
+	.word	324
+	.byte	12
+	.byte	'CrcSig_Pack_5',0,17,189,3,16
+	.word	324
+	.byte	12
+	.byte	'Led1_Control_1',0,17,195,3,17
+	.word	403
+	.byte	12
+	.byte	'Led1_State',0,17,198,3,17
+	.word	403
+	.byte	12
+	.byte	'Led2_Control_1',0,17,204,3,17
+	.word	403
+	.byte	12
+	.byte	'Led2_State',0,17,207,3,17
+	.word	403
+	.byte	12
+	.byte	'Led3_Control_1',0,17,213,3,17
+	.word	403
+	.byte	12
+	.byte	'Led3_State',0,17,216,3,17
+	.word	403
+	.byte	12
+	.byte	'Led4_Control_1',0,17,222,3,17
+	.word	403
+	.byte	12
+	.byte	'Led4_State',0,17,225,3,17
+	.word	403
+	.byte	12
+	.byte	'PowerMode',0,17,228,3,15
+	.word	403
+	.byte	12
+	.byte	'Sig_0x114_Used_1',0,17,231,3,15
+	.word	403
+	.byte	12
+	.byte	'Sig_0x114_Used_2',0,17,234,3,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x114_Used_3',0,17,237,3,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x114_Used_4',0,17,240,3,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x114_Used_5',0,17,243,3,15
+	.word	403
+	.byte	12
+	.byte	'Sig_0x114_Used_6',0,17,246,3,15
+	.word	403
+	.byte	12
+	.byte	'Sig_0x402_Used_1',0,17,249,3,15
+	.word	403
+	.byte	12
+	.byte	'Sig_0x402_Used_2',0,17,252,3,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x402_Used_3',0,17,255,3,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x402_Used_4',0,17,130,4,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x402_Used_5',0,17,133,4,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x403_Used_1',0,17,136,4,15
+	.word	403
+	.byte	12
+	.byte	'Sig_0x403_Used_2',0,17,139,4,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x403_Used_3',0,17,142,4,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x403_Used_4',0,17,145,4,16
+	.word	449
+	.byte	12
+	.byte	'Sig_0x403_Used_5',0,17,148,4,16
+	.word	449
+	.byte	12
+	.byte	'SupA_Checksum_0x112',0,17,151,4,15
+	.word	403
+	.byte	12
+	.byte	'SupA_Counter_0x112',0,17,154,4,15
+	.word	403
+	.byte	12
+	.byte	'SupB_Checksum_0x400_1',0,17,160,4,15
+	.word	403
+	.byte	12
+	.byte	'SupB_Counter_0x400_1',0,17,166,4,15
+	.word	403
+	.byte	12
+	.byte	'EcuM_WakeupSourceType',0,18,46,17
+	.word	324
+	.byte	7
+	.word	324
+	.byte	12
+	.byte	'EcuM_CoreStatusArrayType',0,19,137,1,17
+	.word	10546
+	.byte	24,1,1,7
+	.word	10585
+	.byte	12
+	.byte	'EcuM_DriverFuncType',0,19,237,2,9
+	.word	10588
+	.byte	12
+	.byte	'EcuM_WakeupSourceListIterType',0,19,139,3,21
+	.word	403
+	.byte	12
+	.byte	'EcuM_DefaultAppModeType',0,19,163,3,16
+	.word	324
+	.byte	12
+	.byte	'EcuM_NormalMcuModeType',0,19,181,3,16
+	.word	324
+	.byte	12
+	.byte	'EcuM_ApplicationOfPartitionDataType',0,19,184,3,15
+	.word	403
+	.byte	12
+	.byte	'EcuM_ValidationTimeoutTableType',0,19,205,3,16
+	.word	449
+	.byte	12
+	.byte	'EcuM_ChannelOfWakeupSourceListType',0,19,208,3,15
+	.word	403
+	.byte	12
+	.byte	'EcuM_ValidationTimeOfWakeupSourceListType',0,19,211,3,16
+	.word	449
+	.byte	20
+	.byte	'sEcuM_DriverInitOneType',0,19,227,3,16,4,14
+	.byte	'FunctionOfDriverInitOne',0
+	.word	10593
+	.byte	4,2,35,0,0,12
+	.byte	'EcuM_DriverInitOneType',0,19,230,3,3
+	.word	10907
+	.byte	7
+	.word	10585
+	.byte	20
+	.byte	'sEcuM_PartitionDataType',0,19,233,3,16,1,14
+	.byte	'ApplicationOfPartitionData',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'EcuM_PartitionDataType',0,19,236,3,3
+	.word	11008
+	.byte	20
+	.byte	'sEcuM_WakeupSourceListType',0,19,239,3,16,4,14
+	.byte	'ValidationTimeOfWakeupSourceList',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'ChannelOfWakeupSourceList',0
+	.word	403
+	.byte	1,2,35,2,0,12
+	.byte	'EcuM_WakeupSourceListType',0,19,243,3,3
+	.word	11107
+	.byte	20
+	.byte	'sEcuM_PCConfigType',0,19,163,4,16,1,14
+	.byte	'EcuM_PCConfigNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'EcuM_PCConfigType',0,19,166,4,3
+	.word	11253
+	.byte	12
+	.byte	'CanIf_ControllerModeType',0,8,191,2,3
+	.word	1043
+	.byte	15,8,211,2,9,1,16
+	.byte	'CANIF_GET_OFFLINE',0,0,16
+	.byte	'CANIF_GET_RX_ONLINE',0,1,16
+	.byte	'CANIF_GET_TX_ONLINE',0,2,16
+	.byte	'CANIF_GET_ONLINE',0,3,16
+	.byte	'CANIF_GET_OFFLINE_ACTIVE',0,4,16
+	.byte	'CANIF_GET_OFFLINE_ACTIVE_RX_ONLINE',0,5,16
+	.byte	'CANIF_NO_MODE_PDU_GET_MODE_TYPE_END',0,6,0,12
+	.byte	'CanIf_PduGetModeType',0,8,224,2,3
+	.word	11372
+	.byte	15,8,227,2,9,1,16
+	.byte	'CANIF_RxBasicCANMailbox',0,0,16
+	.byte	'CANIF_RxFullCANMailbox',0,1,16
+	.byte	'CANIF_TxBasicCANMailbox',0,2,16
+	.byte	'CANIF_TxFullCANMailbox',0,3,16
+	.byte	'CANIF_UnusedCANMailbox',0,4,0,12
+	.byte	'CanIf_MailBoxTypeType',0,8,234,2,3
+	.word	11594
+	.byte	15,8,237,2,9,1,16
+	.byte	'CanIf_SimpleRxIndicationLayout',0,0,16
+	.byte	'CanIf_AdvancedRxIndicationLayout',0,1,16
+	.byte	'CanIf_NmOsekRxIndicationLayout',0,2,16
+	.byte	'CanIf_CddRxIndicationLayout',0,3,0,12
+	.byte	'CanIf_RxIndicationLayoutType',0,8,243,2,3
+	.word	11759
+	.byte	15,8,252,2,9,1,16
+	.byte	'CANIF_WAKEUPREQUEST_NONE',0,0,16
+	.byte	'CANIF_WAKEUPREQUEST_CAN',0,1,16
+	.byte	'CANIF_WAKEUPREQUEST_TRCV',0,2,0,12
+	.byte	'CanIf_WakeUpTargetType',0,8,129,3,3
+	.word	11935
+	.byte	15,8,131,3,9,1,16
+	.byte	'CANIF_WUVALIDATION_IDLE',0,0,16
+	.byte	'CANIF_WUVALIDATION_ARMED',0,1,16
+	.byte	'CANIF_WUVALIDATION_DETECTED',0,2,0,12
+	.byte	'CanIf_WakeUpValidationStateType',0,8,136,3,3
+	.word	12054
+	.byte	25,1,1,5
+	.word	403
+	.byte	0,7
+	.word	12185
+	.byte	12
+	.byte	'CanIf_TxConfirmationFctType',0,8,171,3,9
+	.word	12194
+	.byte	3
+	.word	403
+	.byte	7
+	.word	12236
+	.byte	25,1,1,5
+	.word	403
+	.byte	5
+	.word	12241
+	.byte	0,7
+	.word	12246
+	.byte	12
+	.byte	'CanIf_SimpleRxIndicationFctType',0,8,177,3,9
+	.word	12260
+	.byte	3
+	.word	471
+	.byte	7
+	.word	12306
+	.byte	25,1,1,5
+	.word	403
+	.byte	5
+	.word	12311
+	.byte	0,7
+	.word	12316
+	.byte	12
+	.byte	'CanIf_AdvancedRxIndicationFctType',0,8,182,3,9
+	.word	12330
+	.byte	25,1,1,5
+	.word	403
+	.byte	5
+	.word	12241
+	.byte	5
+	.word	449
+	.byte	0,7
+	.word	12378
+	.byte	12
+	.byte	'CanIf_NmOsekRxIndicationFctType',0,8,186,3,9
+	.word	12397
+	.byte	25,1,1,5
+	.word	403
+	.byte	5
+	.word	12311
+	.byte	5
+	.word	449
+	.byte	0,7
+	.word	12443
+	.byte	12
+	.byte	'CanIf_CddRxIndicationFctType',0,8,190,3,9
+	.word	12462
+	.byte	25,1,1,5
+	.word	403
+	.byte	5
+	.word	1043
+	.byte	0,7
+	.word	12505
+	.byte	12
+	.byte	'CanIf_CtrlModeIndicationFctType',0,8,194,3,9
+	.word	12519
+	.byte	12
+	.byte	'CanIf_BusOffNotificationFctType',0,8,198,3,9
+	.word	12194
+	.byte	25,1,1,5
+	.word	324
+	.byte	0,7
+	.word	12606
+	.byte	12
+	.byte	'CanIf_WakeUpValidationFctType',0,8,204,3,9
+	.word	12615
+	.byte	25,1,1,5
+	.word	403
+	.byte	5
+	.word	1222
+	.byte	0,7
+	.word	12659
+	.byte	12
+	.byte	'CanIf_TrcvModeIndicationFctType',0,8,153,4,9
+	.word	12673
+	.byte	23,8,199,4,9,4,14
+	.byte	'eSimpleRxIndicationType',0
+	.word	12265
+	.byte	4,2,35,0,14
+	.byte	'eAdvancedRxIndicationType',0
+	.word	12335
+	.byte	4,2,35,0,14
+	.byte	'eNmOsekRxIndicationType',0
+	.word	12402
+	.byte	4,2,35,0,14
+	.byte	'eCddRxIndicationType',0
+	.word	12467
+	.byte	4,2,35,0,0,12
+	.byte	'CanIf_RxIndicationFctType',0,8,205,4,3
+	.word	12719
+	.byte	7
+	.word	12246
+	.byte	7
+	.word	12316
+	.byte	7
+	.word	12378
+	.byte	7
+	.word	12443
+	.byte	20
+	.byte	'sCanIf_TxQueueBaseType',0,8,218,4,16,1,14
+	.byte	'eSduLength',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_TxQueueBaseType',0,8,224,4,3
+	.word	12912
+	.byte	21,8
+	.word	403
+	.byte	22,7,0,20
+	.byte	'sCanIf_TxQueueBaseWithDataType',0,8,227,4,16,12,14
+	.byte	'eSdu',0
+	.word	12993
+	.byte	8,2,35,0,14
+	.byte	'eBaseParams',0
+	.word	12912
+	.byte	1,2,35,8,0,12
+	.byte	'CanIf_TxQueueBaseWithDataType',0,8,233,4,3
+	.word	13002
+	.byte	20
+	.byte	'sCanIf_TxPrioByCanIdByteQueueType',0,8,238,4,16,16,14
+	.byte	'eQueueParams',0
+	.word	13002
+	.byte	12,2,35,0,14
+	.byte	'eQueued',0
+	.word	403
+	.byte	1,2,35,12,0,12
+	.byte	'CanIf_TxPrioByCanIdByteQueueType',0,8,242,4,3
+	.word	13114
+	.byte	20
+	.byte	'sCanIf_TxBufferPrioByCanIdBaseType',0,8,252,4,16,1,14
+	.byte	'eQueueCounter',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_TxBufferPrioByCanIdBaseType',0,8,255,4,3
+	.word	13236
+	.byte	12
+	.byte	'CanIf_MappedTxBuffersConfigEndIdxOfCanIfCtrlId2MappedTxBuffersConfigType',0,16,134,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_MappedTxBuffersConfigStartIdxOfCanIfCtrlId2MappedTxBuffersConfigType',0,16,137,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_CtrlStatesIdxOfMailBoxConfigType',0,16,146,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_PduIdFirstOfMailBoxConfigType',0,16,149,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_PduIdLastOfMailBoxConfigType',0,16,152,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferCfgIdxOfMailBoxConfigType',0,16,155,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferHandlingTypeOfMailBoxConfigType',0,16,161,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_MailBoxConfigIdxOfMappedTxBuffersConfigType',0,16,164,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_IsCanNmRxPduOfRxPduConfigType',0,16,173,9,17
+	.word	403
+	.byte	12
+	.byte	'CanIf_RxIndicationFctListIdxOfRxPduConfigType',0,16,176,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_RxPduCanIdOfRxPduConfigType',0,16,179,9,16
+	.word	449
+	.byte	12
+	.byte	'CanIf_RxPduDlcOfRxPduConfigType',0,16,182,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_RxPduMaskOfRxPduConfigType',0,16,185,9,16
+	.word	449
+	.byte	12
+	.byte	'CanIf_UpperPduIdOfRxPduConfigType',0,16,188,9,19
+	.word	403
+	.byte	12
+	.byte	'CanIf_TrcvToCtrlMapType',0,16,236,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferPrioByCanIdBaseIdxOfTxBufferPrioByCanIdByteQueueConfigType',0,16,239,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdusEndIdxOfTxBufferPrioByCanIdByteQueueConfigType',0,16,242
+	.byte	9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdusLengthOfTxBufferPrioByCanIdByteQueueConfigType',0,16,245
+	.byte	9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdusStartIdxOfTxBufferPrioByCanIdByteQueueConfigType',0,16
+	.byte	248,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxPduConfigIdxOfTxBufferPrioByCanIdByteQueueMappedTxPdusType',0,16,251,9,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_CanIdOfTxPduConfigType',0,16,254,9,16
+	.word	449
+	.byte	12
+	.byte	'CanIf_CtrlStatesIdxOfTxPduConfigType',0,16,129,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_IsTxPduTruncationOfTxPduConfigType',0,16,132,10,17
+	.word	403
+	.byte	12
+	.byte	'CanIf_MailBoxConfigIdxOfTxPduConfigType',0,16,135,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxConfirmationFctListIdxOfTxPduConfigType',0,16,138,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxPduLengthOfTxPduConfigType',0,16,141,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_UpperLayerTxPduIdOfTxPduConfigType',0,16,144,10,19
+	.word	403
+	.byte	12
+	.byte	'CanIf_TxQueueIdxOfTxPduQueueIndexType',0,16,147,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_ControllerOfWakeUpConfigType',0,16,153,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_WakeUpSourceOfWakeUpConfigType',0,16,156,10,15
+	.word	403
+	.byte	12
+	.byte	'CanIf_WakeUpTargetAddressOfWakeUpConfigType',0,16,159,10,15
+	.word	403
+	.byte	20
+	.byte	'sCanIf_CanIfCtrlId2MappedTxBuffersConfigType',0,16,175,10,16,2,14
+	.byte	'MappedTxBuffersConfigEndIdxOfCanIfCtrlId2MappedTxBuffersConfig',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'MappedTxBuffersConfigStartIdxOfCanIfCtrlId2MappedTxBuffersConfig',0
+	.word	403
+	.byte	1,2,35,1,0,12
+	.byte	'CanIf_CanIfCtrlId2MappedTxBuffersConfigType',0,16,179,10,3
+	.word	15102
+	.byte	20
+	.byte	'sCanIf_CtrlStatesType',0,16,182,10,16,4,14
+	.byte	'CtrlModeOfCtrlStates',0
+	.word	1043
+	.byte	1,2,35,0,14
+	.byte	'PduModeOfCtrlStates',0
+	.word	11372
+	.byte	1,2,35,1,14
+	.byte	'WakeUpValidationStateOfCtrlStates',0
+	.word	12054
+	.byte	1,2,35,2,0,12
+	.byte	'CanIf_CtrlStatesType',0,16,187,10,3
+	.word	15353
+	.byte	20
+	.byte	'sCanIf_MailBoxConfigType',0,16,190,10,16,6,14
+	.byte	'CtrlStatesIdxOfMailBoxConfig',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'PduIdFirstOfMailBoxConfig',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'PduIdLastOfMailBoxConfig',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'TxBufferCfgIdxOfMailBoxConfig',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'TxBufferHandlingTypeOfMailBoxConfig',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'MailBoxTypeOfMailBoxConfig',0
+	.word	11594
+	.byte	1,2,35,5,0,12
+	.byte	'CanIf_MailBoxConfigType',0,16,198,10,3
+	.word	15514
+	.byte	20
+	.byte	'sCanIf_MappedTxBuffersConfigType',0,16,201,10,16,1,14
+	.byte	'MailBoxConfigIdxOfMappedTxBuffersConfig',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_MappedTxBuffersConfigType',0,16,204,10,3
+	.word	15806
+	.byte	20
+	.byte	'sCanIf_RxIndicationFctListType',0,16,207,10,16,8,14
+	.byte	'RxIndicationFctOfRxIndicationFctList',0
+	.word	12719
+	.byte	4,2,35,0,14
+	.byte	'RxIndicationLayoutOfRxIndicationFctList',0
+	.word	11759
+	.byte	1,2,35,4,0,12
+	.byte	'CanIf_RxIndicationFctListType',0,16,211,10,3
+	.word	15936
+	.byte	20
+	.byte	'sCanIf_RxPduConfigType',0,16,214,10,16,8,14
+	.byte	'RxPduCanIdOfRxPduConfig',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'RxPduMaskOfRxPduConfig',0
+	.word	449
+	.byte	2,2,35,2,14
+	.byte	'UpperPduIdOfRxPduConfig',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'IsCanNmRxPduOfRxPduConfig',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'RxIndicationFctListIdxOfRxPduConfig',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'RxPduDlcOfRxPduConfig',0
+	.word	403
+	.byte	1,2,35,7,0,12
+	.byte	'CanIf_RxPduConfigType',0,16,222,10,3
+	.word	16108
+	.byte	20
+	.byte	'sCanIf_TxBufferPrioByCanIdByteQueueConfigType',0,16,225,10,16,4,14
+	.byte	'TxBufferPrioByCanIdBaseIdxOfTxBufferPrioByCanIdByteQueueConfig',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'TxBufferPrioByCanIdByteQueueMappedTxPdusEndIdxOfTxBufferPrioByCanIdByteQueueConfig',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'TxBufferPrioByCanIdByteQueueMappedTxPdusLengthOfTxBufferPrioByCanIdByteQueueConfig',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'TxBufferPrioByCanIdByteQueueMappedTxPdusStartIdxOfTxBufferPrioByCanIdByteQueueConfig',0
+	.word	403
+	.byte	1,2,35,3,0,12
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueConfigType',0,16,231,10,3
+	.word	16378
+	.byte	20
+	.byte	'sCanIf_TxBufferPrioByCanIdByteQueueMappedTxPdusType',0,16,234,10,16,1,14
+	.byte	'TxPduConfigIdxOfTxBufferPrioByCanIdByteQueueMappedTxPdus',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdusType',0,16,237,10,3
+	.word	16835
+	.byte	20
+	.byte	'sCanIf_TxPduConfigType',0,16,240,10,16,8,14
+	.byte	'CanIdOfTxPduConfig',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'UpperLayerTxPduIdOfTxPduConfig',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'IsTxPduTruncationOfTxPduConfig',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'CtrlStatesIdxOfTxPduConfig',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'MailBoxConfigIdxOfTxPduConfig',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'TxConfirmationFctListIdxOfTxPduConfig',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'TxPduLengthOfTxPduConfig',0
+	.word	403
+	.byte	1,2,35,7,0,12
+	.byte	'CanIf_TxPduConfigType',0,16,249,10,3
+	.word	17020
+	.byte	20
+	.byte	'sCanIf_TxPduQueueIndexType',0,16,252,10,16,1,14
+	.byte	'TxQueueIdxOfTxPduQueueIndex',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_TxPduQueueIndexType',0,16,255,10,3
+	.word	17345
+	.byte	20
+	.byte	'sCanIf_WakeUpConfigType',0,16,130,11,16,4,14
+	.byte	'ControllerOfWakeUpConfig',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'WakeUpSourceOfWakeUpConfig',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'WakeUpTargetAddressOfWakeUpConfig',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'WakeUpTargetModuleOfWakeUpConfig',0
+	.word	11935
+	.byte	1,2,35,3,0,12
+	.byte	'CanIf_WakeUpConfigType',0,16,136,11,3
+	.word	17451
+	.byte	20
+	.byte	'CanIf_CtrlStatesStructSTag',0,16,148,11,16,8,14
+	.byte	'CT_DBCNetWork_INTER1_f93f8858',0
+	.word	15353
+	.byte	4,2,35,0,14
+	.byte	'CT_DBCNetWork_e3f9218e',0
+	.word	15353
+	.byte	4,2,35,4,0,12
+	.byte	'CanIf_CtrlStatesStructSType',0,16,152,11,3
+	.word	17669
+	.byte	20
+	.byte	'CanIf_TxBufferPrioByCanIdBaseStructSTag',0,16,155,11,16,1,14
+	.byte	'CHNL_50204034',0
+	.word	13236
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_TxBufferPrioByCanIdBaseStructSType',0,16,158,11,3
+	.word	17811
+	.byte	20
+	.byte	'CanIf_TxQueueStructSTag',0,16,161,11,16,128,1,14
+	.byte	'Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx',0
+	.word	13114
+	.byte	16,2,35,0,14
+	.byte	'Meg_NmTx_oDBCNetWork_c0e25960_Tx',0
+	.word	13114
+	.byte	16,2,35,16,14
+	.byte	'SupF_ComError_oDBCNetWork_bd5132c4_Tx',0
+	.word	13114
+	.byte	16,2,35,32,14
+	.byte	'SupF_Function_1_oDBCNetWork_e35ec372_Tx',0
+	.word	13114
+	.byte	16,2,35,48,14
+	.byte	'SupF_Angle_oDBCNetWork_60dbbe7b_Tx',0
+	.word	13114
+	.byte	16,2,35,64,14
+	.byte	'SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx',0
+	.word	13114
+	.byte	16,2,35,80,14
+	.byte	'SupF_Button_State_oDBCNetWork_57b80545_Tx',0
+	.word	13114
+	.byte	16,2,35,96,14
+	.byte	'SupF_Led_State_oDBCNetWork_fa0e29c4_Tx',0
+	.word	13114
+	.byte	16,2,35,112,0,12
+	.byte	'CanIf_TxQueueStructSType',0,16,171,11,3
+	.word	17931
+	.byte	21,8
+	.word	15353
+	.byte	22,1,0
+.L60:
+	.byte	26
+	.byte	'CanIf_CtrlStatesUTag',0,16,183,11,15,8,14
+	.byte	'raw',0
+	.word	18374
+	.byte	8,2,35,0,14
+	.byte	'str',0
+	.word	17669
+	.byte	8,2,35,0,0,12
+	.byte	'CanIf_CtrlStatesUType',0,16,187,11,3
+	.word	18383
+	.byte	21,1
+	.word	13236
+	.byte	22,0,0
+.L61:
+	.byte	26
+	.byte	'CanIf_TxBufferPrioByCanIdBaseUTag',0,16,190,11,15,1,14
+	.byte	'raw',0
+	.word	18468
+	.byte	1,2,35,0,14
+	.byte	'str',0
+	.word	17811
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_TxBufferPrioByCanIdBaseUType',0,16,194,11,3
+	.word	18477
+	.byte	21,128,1
+	.word	13114
+	.byte	22,7,0
+.L62:
+	.byte	26
+	.byte	'CanIf_TxQueueUTag',0,16,197,11,15,128,1,14
+	.byte	'raw',0
+	.word	18588
+	.byte	128,1,2,35,0,14
+	.byte	'str',0
+	.word	17931
+	.byte	128,1,2,35,0,0,12
+	.byte	'CanIf_TxQueueUType',0,16,201,11,3
+	.word	18598
+	.byte	20
+	.byte	'sCanIf_PCConfigType',0,16,139,12,16,1,14
+	.byte	'CanIf_PCConfigNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanIf_PCConfigType',0,16,142,12,3
+	.word	18680
+.L44:
+	.byte	3
+	.word	12565
+	.byte	7
+	.word	12185
+	.byte	21,4
+	.word	15102
+	.byte	22,1,0
+.L45:
+	.byte	3
+	.word	18778
+.L46:
+	.byte	3
+	.word	12524
+	.byte	7
+	.word	12505
+	.byte	21,60
+	.word	15514
+	.byte	22,9,0
+.L47:
+	.byte	3
+	.word	18802
+	.byte	21,1
+	.word	15806
+	.byte	22,0,0
+.L48:
+	.byte	3
+	.word	18816
+	.byte	21,40
+	.word	15936
+	.byte	22,4,0
+.L49:
+	.byte	3
+	.word	18830
+	.byte	21,64
+	.word	16108
+	.byte	22,7,0
+.L50:
+	.byte	3
+	.word	18844
+.L51:
+	.byte	3
+	.word	12678
+	.byte	7
+	.word	12659
+	.byte	21,1
+	.word	403
+	.byte	22,0,0
+.L52:
+	.byte	3
+	.word	18868
+	.byte	21,4
+	.word	16378
+	.byte	22,0,0
+.L53:
+	.byte	3
+	.word	18882
+	.byte	21,8
+	.word	16835
+	.byte	22,7,0
+.L54:
+	.byte	3
+	.word	18896
+	.byte	21,20
+	.word	12199
+	.byte	22,4,0
+.L55:
+	.byte	3
+	.word	18910
+	.byte	7
+	.word	12185
+	.byte	21,72
+	.word	17020
+	.byte	22,8,0
+.L56:
+	.byte	3
+	.word	18929
+	.byte	21,9
+	.word	17345
+	.byte	22,8,0
+.L57:
+	.byte	3
+	.word	18943
+	.byte	21,4
+	.word	17451
+	.byte	22,0,0
+.L58:
+	.byte	3
+	.word	18957
+.L59:
+	.byte	3
+	.word	12620
+	.byte	7
+	.word	12606
+	.byte	12
+	.byte	'CanNm_ChannelConfigIterType',0,20,202,8,21
+	.word	403
+	.byte	12
+	.byte	'CanNm_ActiveWakeUpBitEnabledOfChannelConfigType',0,20,155,9,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_ChannelIdOfChannelConfigType',0,20,158,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_ImmediateNmCycleTimeOfChannelConfigType',0,20,161,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_ImmediateNmTransmissionsOfChannelConfigType',0,20,164,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_MsgCycleTimeOfChannelConfigType',0,20,167,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_MsgTimeoutTimeOfChannelConfigType',0,20,170,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_NodeDetectionEnabledOfChannelConfigType',0,20,173,9,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_NodeIdEnabledOfChannelConfigType',0,20,176,9,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_PduCbvPositionOfChannelConfigType',0,20,179,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_PduNidPositionOfChannelConfigType',0,20,182,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RemoteSleepIndTimeOfChannelConfigType',0,20,185,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RepeatMessageTimeOfChannelConfigType',0,20,188,9,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_TimeoutTimeOfChannelConfigType',0,20,191,9,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_WaitBusSleepTimeOfChannelConfigType',0,20,194,9,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_CommStateType',0,20,197,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_CoordReadyToSleepStateType',0,20,200,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_ImmediateNmMsgCountType',0,20,203,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_MsgConfirmationFlagType',0,20,206,9,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_MsgIndicationFlagType',0,20,209,9,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_MsgTimeoutTimerType',0,20,212,9,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_MsgTimerType',0,20,215,9,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_NetworkRestartFlagType',0,20,218,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_NmStateType',0,20,221,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_MsgCycleOffsetOfPbChannelConfigType',0,20,224,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_NodeIdOfPbChannelConfigType',0,20,227,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageDataEndIdxOfPbChannelConfigType',0,20,230,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageDataLengthOfPbChannelConfigType',0,20,233,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageDataStartIdxOfPbChannelConfigType',0,20,236,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageData_CBVIdxOfPbChannelConfigType',0,20,242,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageData_NIDIdxOfPbChannelConfigType',0,20,248,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageData_UserDataEndIdxOfPbChannelConfigType',0,20,254,9,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageData_UserDataLengthOfPbChannelConfigType',0,20,129,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RxMessageData_UserDataStartIdxOfPbChannelConfigType',0,20,132,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageDataEndIdxOfPbChannelConfigType',0,20,138,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageDataLengthOfPbChannelConfigType',0,20,141,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageDataStartIdxOfPbChannelConfigType',0,20,144,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageData_CBVIdxOfPbChannelConfigType',0,20,150,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageData_NIDIdxOfPbChannelConfigType',0,20,156,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageData_UserDataEndIdxOfPbChannelConfigType',0,20,162,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageData_UserDataLengthOfPbChannelConfigType',0,20,165,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageData_UserDataStartIdxOfPbChannelConfigType',0,20,168,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxPduIdOfPbChannelConfigType',0,20,174,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_RepeatMsgBitIndFlagType',0,20,177,10,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_RepeatMsgReqFlagType',0,20,180,10,17
+	.word	403
+	.byte	12
+	.byte	'CanNm_RepeatMsgTimerType',0,20,183,10,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_RxMessageDataType',0,20,186,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_SysToNmChIndType',0,20,249,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TimeoutTimerType',0,20,252,10,16
+	.word	449
+	.byte	12
+	.byte	'CanNm_TxControlStateType',0,20,255,10,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxControlStateRequestType',0,20,130,11,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_TxMessageDataType',0,20,133,11,15
+	.word	403
+	.byte	12
+	.byte	'CanNm_WaitBusSleepTimerType',0,20,136,11,16
+	.word	449
+	.byte	20
+	.byte	'sCanNm_ChannelConfigType',0,20,152,11,16,20,14
+	.byte	'RepeatMessageTimeOfChannelConfig',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'TimeoutTimeOfChannelConfig',0
+	.word	449
+	.byte	2,2,35,2,14
+	.byte	'WaitBusSleepTimeOfChannelConfig',0
+	.word	449
+	.byte	2,2,35,4,14
+	.byte	'ActiveWakeUpBitEnabledOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'NodeDetectionEnabledOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'NodeIdEnabledOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'ChannelIdOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,9,14
+	.byte	'ImmediateNmCycleTimeOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,10,14
+	.byte	'ImmediateNmTransmissionsOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,11,14
+	.byte	'MsgCycleTimeOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,12,14
+	.byte	'MsgTimeoutTimeOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,13,14
+	.byte	'PduCbvPositionOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,14,14
+	.byte	'PduNidPositionOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,15,14
+	.byte	'RemoteSleepIndTimeOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,16,0,12
+	.byte	'CanNm_ChannelConfigType',0,20,168,11,3
+	.word	21497
+	.byte	20
+	.byte	'sCanNm_PbChannelConfigType',0,20,171,11,16,20,14
+	.byte	'MsgCycleOffsetOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'NodeIdOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'RxMessageDataEndIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'RxMessageDataLengthOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'RxMessageDataStartIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'RxMessageData_CBVIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'RxMessageData_NIDIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'RxMessageData_UserDataEndIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'RxMessageData_UserDataLengthOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'RxMessageData_UserDataStartIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,9,14
+	.byte	'TxMessageDataEndIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,10,14
+	.byte	'TxMessageDataLengthOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,11,14
+	.byte	'TxMessageDataStartIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,12,14
+	.byte	'TxMessageData_CBVIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,13,14
+	.byte	'TxMessageData_NIDIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,14,14
+	.byte	'TxMessageData_UserDataEndIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,15,14
+	.byte	'TxMessageData_UserDataLengthOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,16,14
+	.byte	'TxMessageData_UserDataStartIdxOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,17,14
+	.byte	'TxPduIdOfPbChannelConfig',0
+	.word	403
+	.byte	1,2,35,18,0,12
+	.byte	'CanNm_PbChannelConfigType',0,20,192,11,3
+	.word	22136
+	.byte	20
+	.byte	'CanNm_CommStateStructSTag',0,20,204,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_CommStateStructSType',0,20,207,11,3
+	.word	23115
+	.byte	20
+	.byte	'CanNm_CoordReadyToSleepStateStructSTag',0,20,210,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_CoordReadyToSleepStateStructSType',0,20,213,11,3
+	.word	23216
+	.byte	20
+	.byte	'CanNm_ImmediateNmMsgCountStructSTag',0,20,216,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_ImmediateNmMsgCountStructSType',0,20,219,11,3
+	.word	23343
+	.byte	20
+	.byte	'CanNm_MsgConfirmationFlagStructSTag',0,20,222,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_MsgConfirmationFlagStructSType',0,20,225,11,3
+	.word	23464
+	.byte	20
+	.byte	'CanNm_MsgIndicationFlagStructSTag',0,20,228,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_MsgIndicationFlagStructSType',0,20,231,11,3
+	.word	23585
+	.byte	20
+	.byte	'CanNm_MsgTimeoutTimerStructSTag',0,20,234,11,16,2,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	449
+	.byte	2,2,35,0,0,12
+	.byte	'CanNm_MsgTimeoutTimerStructSType',0,20,237,11,3
+	.word	23702
+	.byte	20
+	.byte	'CanNm_MsgTimerStructSTag',0,20,240,11,16,2,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	449
+	.byte	2,2,35,0,0,12
+	.byte	'CanNm_MsgTimerStructSType',0,20,243,11,3
+	.word	23815
+	.byte	20
+	.byte	'CanNm_NetworkRestartFlagStructSTag',0,20,246,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_NetworkRestartFlagStructSType',0,20,249,11,3
+	.word	23914
+	.byte	20
+	.byte	'CanNm_NmStateStructSTag',0,20,252,11,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_NmStateStructSType',0,20,255,11,3
+	.word	24033
+	.byte	20
+	.byte	'CanNm_RepeatMsgBitIndFlagStructSTag',0,20,130,12,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_RepeatMsgBitIndFlagStructSType',0,20,133,12,3
+	.word	24130
+	.byte	20
+	.byte	'CanNm_RepeatMsgReqFlagStructSTag',0,20,136,12,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_RepeatMsgReqFlagStructSType',0,20,139,12,3
+	.word	24251
+	.byte	20
+	.byte	'CanNm_RepeatMsgTimerStructSTag',0,20,142,12,16,2,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	449
+	.byte	2,2,35,0,0,12
+	.byte	'CanNm_RepeatMsgTimerStructSType',0,20,145,12,3
+	.word	24366
+	.byte	20
+	.byte	'CanNm_TimeoutTimerStructSTag',0,20,148,12,16,2,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	449
+	.byte	2,2,35,0,0,12
+	.byte	'CanNm_TimeoutTimerStructSType',0,20,151,12,3
+	.word	24477
+	.byte	20
+	.byte	'CanNm_TxControlStateStructSTag',0,20,154,12,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_TxControlStateStructSType',0,20,157,12,3
+	.word	24584
+	.byte	20
+	.byte	'CanNm_TxControlStateRequestStructSTag',0,20,160,12,16,1,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_TxControlStateRequestStructSType',0,20,163,12,3
+	.word	24695
+	.byte	20
+	.byte	'CanNm_WaitBusSleepTimerStructSTag',0,20,166,12,16,2,14
+	.byte	'CN_DBCNetWork_05d62413',0
+	.word	449
+	.byte	2,2,35,0,0,12
+	.byte	'CanNm_WaitBusSleepTimerStructSType',0,20,169,12,3
+	.word	24820
+	.byte	20
+	.byte	'sCanNm_PCConfigType',0,20,246,13,16,1,14
+	.byte	'CanNm_PCConfigNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanNm_PCConfigType',0,20,249,13,3
+	.word	24937
+	.byte	12
+	.byte	'CanTp_FrameType',0,21,88,50
+	.word	403
+	.byte	12
+	.byte	'CanTp_TxChannelStateType',0,21,102,50
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxChannelStateType',0,21,122,50
+	.word	403
+	.byte	12
+	.byte	'CanTp_DirectionType',0,21,141,1,50
+	.word	403
+	.byte	12
+	.byte	'CanTp_BufferStateType',0,21,180,1,50
+	.word	403
+	.byte	12
+	.byte	'CanTp_WFTmaxType',0,21,190,1,25
+	.word	449
+	.byte	12
+	.byte	'CanTp_TimerType',0,21,191,1,25
+	.word	449
+	.byte	6
+	.word	403
+	.byte	21,7
+	.word	403
+	.byte	22,6,0,20
+	.byte	'sCanTp_RxStateType',0,21,197,1,16,28,14
+	.byte	'FrameType',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'ChannelState',0
+	.word	25226
+	.byte	1,2,35,1,14
+	.byte	'Timer',0
+	.word	449
+	.byte	2,2,35,2,14
+	.byte	'DataLength',0
+	.word	449
+	.byte	2,2,35,4,14
+	.byte	'DataIndex',0
+	.word	449
+	.byte	2,2,35,6,14
+	.byte	'ProvidedBufferSize',0
+	.word	449
+	.byte	2,2,35,8,14
+	.byte	'RxHdl',0
+	.word	403
+	.byte	1,2,35,10,14
+	.byte	'WFTCounter',0
+	.word	449
+	.byte	2,2,35,12,14
+	.byte	'BufferState',0
+	.word	403
+	.byte	1,2,35,14,14
+	.byte	'BlocksizeCounter',0
+	.word	403
+	.byte	1,2,35,15,14
+	.byte	'Payload',0
+	.word	25231
+	.byte	7,2,35,16,14
+	.byte	'PayloadLength',0
+	.word	403
+	.byte	1,2,35,23,14
+	.byte	'InitalDLC',0
+	.word	403
+	.byte	1,2,35,24,14
+	.byte	'ExpectedSN',0
+	.word	403
+	.byte	1,2,35,25,14
+	.byte	'ApplState',0
+	.word	403
+	.byte	1,2,35,26,0,12
+	.byte	'CanTp_RxStateType',0,21,224,1,3
+	.word	25240
+	.byte	6
+	.word	403
+	.byte	20
+	.byte	'sCanTp_TxStateType',0,21,228,1,16,28,14
+	.byte	'Timer',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'DataLength',0
+	.word	449
+	.byte	2,2,35,2,14
+	.byte	'DataIndex',0
+	.word	449
+	.byte	2,2,35,4,14
+	.byte	'TxHdl',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'ChannelState',0
+	.word	25596
+	.byte	1,2,35,7,14
+	.byte	'BufferState',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'STmin',0
+	.word	403
+	.byte	1,2,35,9,14
+	.byte	'STminTimer',0
+	.word	403
+	.byte	1,2,35,10,14
+	.byte	'BlocksizeCounter',0
+	.word	403
+	.byte	1,2,35,11,14
+	.byte	'BS',0
+	.word	403
+	.byte	1,2,35,12,14
+	.byte	'Payload',0
+	.word	25231
+	.byte	7,2,35,13,14
+	.byte	'PayloadLength',0
+	.word	403
+	.byte	1,2,35,20,14
+	.byte	'SeqNumber',0
+	.word	403
+	.byte	1,2,35,21,14
+	.byte	'FirstFCReceived',0
+	.word	403
+	.byte	1,2,35,22,14
+	.byte	'FCLength',0
+	.word	403
+	.byte	1,2,35,23,14
+	.byte	'FCData',0
+	.word	2411
+	.byte	4,2,35,24,0,12
+	.byte	'CanTp_TxStateType',0,21,133,2,3
+	.word	25601
+	.byte	20
+	.byte	'sTxSemaphoreType',0,21,145,2,16,2,14
+	.byte	'Handle',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'Direction',0
+	.word	403
+	.byte	1,2,35,1,0,12
+	.byte	'CanTp_TxSemaphoreType',0,21,149,2,3
+	.word	25957
+	.byte	20
+	.byte	'sTxQueueEntrype',0,21,153,2,16,16,14
+	.byte	'PduId',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'SduHandle',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'SduDirection',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'SduLength',0
+	.word	449
+	.byte	2,2,35,4,14
+	.byte	'SduData',0
+	.word	12993
+	.byte	8,2,35,6,0,12
+	.byte	'CanTp_TxQueueEntryType',0,21,160,2,3
+	.word	26047
+	.byte	12
+	.byte	'CanTp_CalcBSType',0,22,113,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxSduCfgIndEndIdxOfRxPduMapType',0,22,128,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxSduCfgIndStartIdxOfRxPduMapType',0,22,131,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_TxSduCfgIndEndIdxOfRxPduMapType',0,22,137,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_TxSduCfgIndStartIdxOfRxPduMapType',0,22,140,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_LoLayerTxFcPduIdOfRxSduCfgType',0,22,158,1,19
+	.word	403
+	.byte	12
+	.byte	'CanTp_NArOfRxSduCfgType',0,22,161,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_NCrOfRxSduCfgType',0,22,167,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_PduRRxSduIdOfRxSduCfgType',0,22,173,1,19
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxPduIdOfRxSduCfgType',0,22,188,1,19
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxTaTypeOfRxSduCfgType',0,22,191,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxWftMaxOfRxSduCfgType',0,22,194,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_STminOfRxSduCfgType',0,22,197,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_TxFcPduConfirmationPduIdOfRxSduCfgType',0,22,203,1,19
+	.word	403
+	.byte	12
+	.byte	'CanTp_TxSduCfgIdxOfRxSduCfgType',0,22,206,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxSduCfgIndType',0,22,212,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_RxSduCfgIdxOfRxSduSnv2HdlType',0,22,215,1,15
+	.word	403
+	.byte	12
+	.byte	'CanTp_TxSduCfgIndType',0,22,183,2,15
+	.word	403
+	.byte	20
+	.byte	'sCanTp_RxPduMapType',0,22,205,2,16,4,14
+	.byte	'RxSduCfgIndEndIdxOfRxPduMap',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'RxSduCfgIndStartIdxOfRxPduMap',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'TxSduCfgIndEndIdxOfRxPduMap',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'TxSduCfgIndStartIdxOfRxPduMap',0
+	.word	403
+	.byte	1,2,35,3,0,12
+	.byte	'CanTp_RxPduMapType',0,22,211,2,3
+	.word	26914
+	.byte	20
+	.byte	'sCanTp_RxSduCfgType',0,22,214,2,16,12,14
+	.byte	'LoLayerTxFcPduIdOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'PduRRxSduIdOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'RxPduIdOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,2,14
+	.byte	'TxFcPduConfirmationPduIdOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,3,14
+	.byte	'NArOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'NCrOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'RxTaTypeOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'RxWftMaxOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'STminOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'TxSduCfgIdxOfRxSduCfg',0
+	.word	403
+	.byte	1,2,35,9,0,12
+	.byte	'CanTp_RxSduCfgType',0,22,226,2,3
+	.word	27121
+	.byte	20
+	.byte	'sCanTp_RxSduSnv2HdlType',0,22,229,2,16,1,14
+	.byte	'RxSduCfgIdxOfRxSduSnv2Hdl',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanTp_RxSduSnv2HdlType',0,22,232,2,3
+	.word	27472
+	.byte	20
+	.byte	'sCanTp_TxSduCfgType',0,22,235,2,16,1,14
+	.byte	'CanTp_TxSduCfgNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanTp_TxSduCfgType',0,22,238,2,3
+	.word	27570
+	.byte	20
+	.byte	'sCanTp_TxSduSnv2HdlType',0,22,241,2,16,1,14
+	.byte	'CanTp_TxSduSnv2HdlNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanTp_TxSduSnv2HdlType',0,22,244,2,3
+	.word	27658
+	.byte	20
+	.byte	'sCanTp_PCConfigType',0,22,170,3,16,1,14
+	.byte	'CanTp_PCConfigNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanTp_PCConfigType',0,22,173,3,3
+	.word	27758
+	.byte	20
+	.byte	'CanSM_ChannelVarRecordTypeTag',0,23,55,16,20,14
+	.byte	'CanSM_UniversalTimer',0
+	.word	449
+	.byte	2,2,35,0,14
+	.byte	'CanSM_LastValidBaudRate',0
+	.word	449
+	.byte	2,2,35,2,14
+	.byte	'CanSM_RequestedComMode',0
+	.word	403
+	.byte	1,2,35,4,14
+	.byte	'CanSM_IndicatedComMode',0
+	.word	403
+	.byte	1,2,35,5,14
+	.byte	'CanSM_NewComMode',0
+	.word	403
+	.byte	1,2,35,6,14
+	.byte	'CanSM_EnfroceComModeIndication',0
+	.word	403
+	.byte	1,2,35,7,14
+	.byte	'CanSM_RamCheckState',0
+	.word	403
+	.byte	1,2,35,8,14
+	.byte	'CanSM_CurrentState',0
+	.word	403
+	.byte	1,2,35,9,14
+	.byte	'CanSM_ModeRequestRepetitionCounter',0
+	.word	403
+	.byte	1,2,35,10,14
+	.byte	'CanSM_ModeIndicationResponsible',0
+	.word	403
+	.byte	1,2,35,11,14
+	.byte	'CanSM_BswMIndicatedState',0
+	.word	403
+	.byte	1,2,35,12,14
+	.byte	'CanSM_BswMNewState',0
+	.word	403
+	.byte	1,2,35,13,14
+	.byte	'CanSM_BusOffCounter',0
+	.word	403
+	.byte	1,2,35,14,14
+	.byte	'CanSM_BusOffFlag',0
+	.word	403
+	.byte	1,2,35,15,14
+	.byte	'CanSM_TxOnlineDelayTime',0
+	.word	403
+	.byte	1,2,35,16,14
+	.byte	'CanSM_TxTimeoutEndIndicationFlag',0
+	.word	403
+	.byte	1,2,35,17,0,12
+	.byte	'CanSM_ChannelVarRecordType',0,23,73,3
+	.word	27846
+	.byte	12
+	.byte	'CanSM_ChannelConfigIterType',0,24,211,3,21
+	.word	403
+	.byte	12
+	.byte	'CanSM_ControllerIdOfChannelConfigType',0,24,247,3,15
+	.word	403
+	.byte	12
+	.byte	'CanSM_TransceiverIdOfChannelConfigType',0,24,253,3,15
+	.word	403
+	.byte	12
+	.byte	'CanSM_Trcv_InActive_AtAll_NonPNCannelsOfChannelConfigType',0,24,131,4,17
+	.word	403
+	.byte	20
+	.byte	'sCanSM_ChannelConfigType',0,24,159,4,16,4,14
+	.byte	'Trcv_InActive_AtAll_NonPNCannelsOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,0,14
+	.byte	'ControllerIdOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,1,14
+	.byte	'TransceiverIdOfChannelConfig',0
+	.word	403
+	.byte	1,2,35,2,0,12
+	.byte	'CanSM_ChannelConfigType',0,24,164,4,3
+	.word	28643
+	.byte	20
+	.byte	'sCanSM_PCConfigType',0,24,209,4,16,1,14
+	.byte	'CanSM_PCConfigNeverUsed',0
+	.word	403
+	.byte	1,2,35,0,0,12
+	.byte	'CanSM_PCConfigType',0,24,212,4,3
+	.word	28840
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,11,5,0,3
+	.byte	8,58,15,59,15,57,15,73,19,0,0,12,22,0,3,8,58,15,59,15,57,15,73,19,0,0,13,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,14,13,0,3,8,73,19,11,15,56,9,0,0,15,4,1,58,15,59,15,57,15,11,15,0,0,16,40,0,3,8,28,13,0,0,17,4,1,3
+	.byte	8,58,15,59,15,57,15,11,15,0,0,18,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,19,21,0,54,15,0,0,20
+	.byte	19,1,3,8,58,15,59,15,57,15,11,15,0,0,21,1,1,11,15,73,19,0,0,22,33,0,47,15,0,0,23,23,1,58,15,59,15,57,15
+	.byte	11,15,0,0,24,21,0,54,15,39,12,0,0,25,21,1,54,15,39,12,0,0,26,23,1,3,8,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L64-.L63
+.L63:
+	.half	3
+	.word	.L66-.L65
+.L65:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can',0
+	.byte	0
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0,0,0,0
+	.byte	'CanNm_Cbk.h',0,1,0,0
+	.byte	'ComStack_Types.h',0,2,0,0
+	.byte	'CanTp_Cbk.h',0,3,0,0
+	.byte	'..\\_01_BSW\\Gen\\GenData\\PduR_CanIf.h',0,0,0,0
+	.byte	'..\\_01_BSW\\Gen\\GenData\\Cdd_Cbk.h',0,0,0,0
+	.byte	'CanSM_Cbk.h',0,4,0,0
+	.byte	'CanIf_Types.h',0,5,0,0
+	.byte	'Can_GeneralTypes.h',0,2,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0
+	.byte	'ComStack_Cfg.h',0,6,0,0
+	.byte	'Can_DrvGeneralTypes.h',0,6,0,0
+	.byte	'Can_Cfg.h',0,6,0,0
+	.byte	'Can.h',0,7,0,0
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Cfg.h',0,0,0,0
+	.byte	'Rte_Type.h',0,6,0,0
+	.byte	'EcuM_Generated_Types.h',0,6,0,0
+	.byte	'EcuM_Cfg.h',0,6,0,0
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanNm_Cfg.h',0,0,0,0
+	.byte	'CanTp_Types.h',0,3,0,0
+	.byte	'CanTp_Lcfg.h',0,6,0,0
+	.byte	'CanSM_Int.h',0,4,0,0
+	.byte	'CanSM_Cfg.h',0,6,0,0,0
+.L66:
+.L64:
+	.sdecl	'.debug_info',debug,cluster('CanIf_BusOffNotificationFctPtr')
+	.sect	'.debug_info'
+.L6:
+	.word	242
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_BusOffNotificationFctPtr',0,1,133,1,53
+	.word	.L44
+	.byte	1,5,3
+	.word	CanIf_BusOffNotificationFctPtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_BusOffNotificationFctPtr')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_CanIfCtrlId2MappedTxBuffersConfig')
+	.sect	'.debug_info'
+.L8:
+	.word	251
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_CanIfCtrlId2MappedTxBuffersConfig',0,1,154,1,65
+	.word	.L45
+	.byte	1,5,3
+	.word	CanIf_CanIfCtrlId2MappedTxBuffersConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_CanIfCtrlId2MappedTxBuffersConfig')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_CtrlModeIndicationFctPtr')
+	.sect	'.debug_info'
+.L10:
+	.word	242
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_CtrlModeIndicationFctPtr',0,1,171,1,53
+	.word	.L46
+	.byte	1,5,3
+	.word	CanIf_CtrlModeIndicationFctPtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_CtrlModeIndicationFctPtr')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_MailBoxConfig')
+	.sect	'.debug_info'
+.L12:
+	.word	231
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_MailBoxConfig',0,1,196,1,45
+	.word	.L47
+	.byte	1,5,3
+	.word	CanIf_MailBoxConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_MailBoxConfig')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_MappedTxBuffersConfig')
+	.sect	'.debug_info'
+.L14:
+	.word	239
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_MappedTxBuffersConfig',0,1,228,1,53
+	.word	.L48
+	.byte	1,5,3
+	.word	CanIf_MappedTxBuffersConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_MappedTxBuffersConfig')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_RxIndicationFctList')
+	.sect	'.debug_info'
+.L16:
+	.word	237
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_RxIndicationFctList',0,1,252,1,51
+	.word	.L49
+	.byte	1,5,3
+	.word	CanIf_RxIndicationFctList
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_RxIndicationFctList')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_RxPduConfig')
+	.sect	'.debug_info'
+.L18:
+	.word	229
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_RxPduConfig',0,1,156,2,43
+	.word	.L50
+	.byte	1,5,3
+	.word	CanIf_RxPduConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_RxPduConfig')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TrcvModeIndicationFctPtr')
+	.sect	'.debug_info'
+.L20:
+	.word	242
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TrcvModeIndicationFctPtr',0,1,179,2,53
+	.word	.L51
+	.byte	1,5,3
+	.word	CanIf_TrcvModeIndicationFctPtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TrcvModeIndicationFctPtr')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TrcvToCtrlMap')
+	.sect	'.debug_info'
+.L22:
+	.word	231
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TrcvToCtrlMap',0,1,196,2,45
+	.word	.L52
+	.byte	1,5,3
+	.word	CanIf_TrcvToCtrlMap
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TrcvToCtrlMap')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxBufferPrioByCanIdByteQueueConfig')
+	.sect	'.debug_info'
+.L24:
+	.word	252
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueConfig',0,1,222,2,66
+	.word	.L53
+	.byte	1,5,3
+	.word	CanIf_TxBufferPrioByCanIdByteQueueConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxBufferPrioByCanIdByteQueueConfig')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus')
+	.sect	'.debug_info'
+.L26:
+	.word	258
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus',0,1,245,2,72
+	.word	.L54
+	.byte	1,5,3
+	.word	CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxConfirmationFctList')
+	.sect	'.debug_info'
+.L28:
+	.word	239
+	.half	3
+	.word	.L29
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxConfirmationFctList',0,1,144,3,49
+	.word	.L55
+	.byte	1,5,3
+	.word	CanIf_TxConfirmationFctList
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxConfirmationFctList')
+	.sect	'.debug_abbrev'
+.L29:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxPduConfig')
+	.sect	'.debug_info'
+.L30:
+	.word	229
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxPduConfig',0,1,177,3,43
+	.word	.L56
+	.byte	1,5,3
+	.word	CanIf_TxPduConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxPduConfig')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxPduQueueIndex')
+	.sect	'.debug_info'
+.L32:
+	.word	233
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxPduQueueIndex',0,1,208,3,47
+	.word	.L57
+	.byte	1,5,3
+	.word	CanIf_TxPduQueueIndex
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxPduQueueIndex')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_WakeUpConfig')
+	.sect	'.debug_info'
+.L34:
+	.word	230
+	.half	3
+	.word	.L35
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_WakeUpConfig',0,1,242,3,44
+	.word	.L58
+	.byte	1,5,3
+	.word	CanIf_WakeUpConfig
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_WakeUpConfig')
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_WakeUpValidationFctPtr')
+	.sect	'.debug_info'
+.L36:
+	.word	240
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_WakeUpValidationFctPtr',0,1,130,4,51
+	.word	.L59
+	.byte	1,5,3
+	.word	CanIf_WakeUpValidationFctPtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_WakeUpValidationFctPtr')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_CtrlStates')
+	.sect	'.debug_info'
+.L38:
+	.word	228
+	.half	3
+	.word	.L39
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_CtrlStates',0,1,151,4,46
+	.word	.L60
+	.byte	1,5,3
+	.word	CanIf_CtrlStates
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_CtrlStates')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxBufferPrioByCanIdBase')
+	.sect	'.debug_info'
+.L40:
+	.word	241
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxBufferPrioByCanIdBase',0,1,172,4,59
+	.word	.L61
+	.byte	1,5,3
+	.word	CanIf_TxBufferPrioByCanIdBase
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxBufferPrioByCanIdBase')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CanIf_TxQueue')
+	.sect	'.debug_info'
+.L42:
+	.word	225
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\CanIf_Lcfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'CanIf_TxQueue',0,1,192,4,43
+	.word	.L62
+	.byte	1,5,3
+	.word	CanIf_TxQueue
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CanIf_TxQueue')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     1  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     2   *  COPYRIGHT
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     3   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     4   *  \verbatim
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     5   *
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     6   *                 This software is copyright protected and proprietary to Vector Informatik GmbH.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     7   *                 Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     8   *                 All other rights remain with Vector Informatik GmbH.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	     9   *  \endverbatim
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    10   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    11   *  LICENSE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    12   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    13   *            Module: CanIf
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    14   *           Program: MSR_Vector_SLP4
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    15   *          Customer: China FAW Group Corporation
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    16   *       Expiry Date: Not restricted
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    17   *  Ordered Derivat.: TC297TA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    18   *    License Scope : The usage is restricted to CBD1600956_D01
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    19   *
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    20   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    21   *  FILE DESCRIPTION
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    22   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    23   *              File: CanIf_Lcfg.c
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    24   *   Generation Time: 2024-03-16 11:33:24
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    25   *           Project: TC27x - Version 1.0
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    26   *          Delivery: CBD1600956_D01
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    27   *      Tool Version: DaVinci Configurator  5.20.35
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    28   *
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    29   *
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    30   *********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    31  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    32  #define CANIF_LCFG_SOURCE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    33  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    34  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    35    \file  Includes
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    36  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    37  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    38    \brief  Required external files.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    39  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    40  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    41  #include "CanIf_Cfg.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    42  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    43   /*  CanNm Header Files  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    44  #include "CanNm_Cfg.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    45  #include "CanNm_Cbk.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    46   /*  CanTp Header Files  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    47  #include "CanTp_Cfg.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    48  #include "CanTp_Cbk.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    49   /*  PduR Header Files  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    50  #include "PduR_Cfg.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    51  #include "PduR_CanIf.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    52   /*  CDD Header Files  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    53  #include "Cdd_Cbk.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    54   /*  CanSM Header Files  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    55  #include "CanSM_Cbk.h"
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    56  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    57  #define CANIF_START_SEC_APPL_CODE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    58  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    59  #include "MemMap.h" /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    60  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    61  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    62    \var  Prototypes of callback functions
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    63  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    64  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    65  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    66    \brief  Tx confirmation functions.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    67  */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    68  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    69  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    70  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    71  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    72    \brief  Rx indication functions.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    73  */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    74  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    75  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    76  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    77  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    78   /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    79    \brief  Wake-up validation function.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    80  */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    81  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    82  FUNC(void, CANIF_APPL_CODE) EcuM_ValidateWakeupEvent(EcuM_WakeupSourceType CanWakeupEvents);
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    83  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    84  #define CANIF_STOP_SEC_APPL_CODE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    85  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    86  #include "MemMap.h" /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    87  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    88  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    89    ComStackLib
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    90  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    91  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    92    LOCAL DATA PROTOTYPES
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    93  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    94  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    95    CONFIGURATION CLASS: PRE_COMPILE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    96    SECTION: LOCAL DATA TYPES AND STRUCTURES
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    97  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    98  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	    99  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   100    CONFIGURATION CLASS: LINK
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   101    SECTION: LOCAL DATA TYPES AND STRUCTURES
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   102  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   103  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   104  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   105  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   106    LOCAL DATA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   107  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   108  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   109    CONFIGURATION CLASS: PRE_COMPILE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   110    SECTION: LOCAL DATA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   111  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   112  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   113  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   114    CONFIGURATION CLASS: LINK
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   115    SECTION: LOCAL DATA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   116  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   117  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   118  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   119  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   120    GLOBAL DATA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   121  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   122  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   123    CONFIGURATION CLASS: PRE_COMPILE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   124    SECTION: GLOBAL DATA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   125  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   126  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   127    CanIf_BusOffNotificationFctPtr
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   128  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   129  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   130  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   131  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   132  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   133  CONST(CanIf_BusOffNotificationFctType, CANIF_CONST) CanIf_BusOffNotificationFctPtr = CanSM_ControllerBusOff;  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   134  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   135  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   136  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   137  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   138  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   139  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   140    CanIf_CanIfCtrlId2MappedTxBuffersConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   141  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   142  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   143    \var    CanIf_CanIfCtrlId2MappedTxBuffersConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   144    \brief  CAN controller configuration - mapped Tx-buffer(s).
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   145    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   146    Element                          Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   147    MappedTxBuffersConfigEndIdx      the end index of the 1:n relation pointing to CanIf_MappedTxBuffersConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   148    MappedTxBuffersConfigStartIdx    the start index of the 1:n relation pointing to CanIf_MappedTxBuffersConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   149  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   150  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   151  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   152  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   153  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   154  CONST(CanIf_CanIfCtrlId2MappedTxBuffersConfigType, CANIF_CONST) CanIf_CanIfCtrlId2MappedTxBuffersConfig[2] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   155      /* Index    MappedTxBuffersConfigEndIdx                                                                           MappedTxBuffersConfigStartIdx                                                                                 Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   156    { /*     0 */                          0u  /* CanChannelWithoutTxBuffer */                                        ,                            0u  /* CanChannelWithoutTxBuffer */                                         },  /* [/ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_INTER1_f93f8858] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   157    { /*     1 */                          1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */,                            0u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */ }   /* [/ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   158  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   159  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   160  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   161  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   162  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   163  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   164  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   165    CanIf_CtrlModeIndicationFctPtr
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   166  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   167  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   168  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   169  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   170  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   171  CONST(CanIf_CtrlModeIndicationFctType, CANIF_CONST) CanIf_CtrlModeIndicationFctPtr = CanSM_ControllerModeIndication;  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   172  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   173  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   174  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   175  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   176  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   177  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   178    CanIf_MailBoxConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   179  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   180  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   181    \var    CanIf_MailBoxConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   182    \brief  Mailbox table.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   183    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   184    Element                 Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   185    CtrlStatesIdx           the index of the 1:1 relation pointing to CanIf_CtrlStates
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   186    PduIdFirst              "First" PDU mapped to mailbox.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   187    PduIdLast               "Last" PDU mapped to mailbox.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   188    TxBufferCfgIdx          the index of the 0:1 relation pointing to CanIf_TxBufferPrioByCanIdByteQueueConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   189    TxBufferHandlingType
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   190    MailBoxType             Type of mailbox: Rx-/Tx- BasicCAN/FullCAN/unused.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   191  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   192  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   193  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   194  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   195  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   196  CONST(CanIf_MailBoxConfigType, CANIF_CONST) CanIf_MailBoxConfig[10] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   197      /* Index    CtrlStatesIdx                                                                                  PduIdFirst                           PduIdLast                           TxBufferCfgIdx                                                                              TxBufferHandlingType                     MailBoxType                    Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   198    { /*     0 */            0u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_INTER1_f93f8858 */,         0u  /* Unused, TxPduId 0 */,        0u  /* Unused, TxPduId 0 */, CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex0 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_TxBasicCANMailbox },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_INTER1_9768a826_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   199    { /*     1 */            0u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_INTER1_f93f8858 */,         0u  /* RxPduIdRx-range */  ,        0u  /* RxPduId Rx-range */ , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex1 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxBasicCANMailbox },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_INTER1_c87d2dc2_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   200    { /*     2 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         0u  /* Unused, TxPduId 1 */,        0u  /* Unused, TxPduId 8 */,                                     0u  /* /ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034 */, CANIF_TXBUFFER_HANDLINGTYPE_PRIOBYCANID, CANIF_TxBasicCANMailbox },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   201    { /*     3 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         2u  /* RxPduId */          ,        2u  /* RxPduId  */         , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex3 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxFullCANMailbox  },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_b9b38c08_Rx_Meg_FunDiag] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   202    { /*     4 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         3u  /* RxPduId */          ,        3u  /* RxPduId  */         , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex4 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxFullCANMailbox  },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_b9b38c08_Rx_Meg_PhyDiag] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   203    { /*     5 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         4u  /* RxPduId */          ,        4u  /* RxPduId  */         , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex5 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxFullCANMailbox  },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_b9b38c08_Rx_SupD_Led_CtrlMode] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   204    { /*     6 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         5u  /* RxPduId */          ,        5u  /* RxPduId  */         , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex6 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxFullCANMailbox  },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_b9b38c08_Rx_SupC_Function_1] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   205    { /*     7 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         6u  /* RxPduId */          ,        6u  /* RxPduId  */         , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex7 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxFullCANMailbox  },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_b9b38c08_Rx_SupD_Button_Control] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   206    { /*     8 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         7u  /* RxPduId */          ,        7u  /* RxPduId  */         , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex8 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxFullCANMailbox  },  /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_b9b38c08_Rx_SupD_Led_Control] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   207    { /*     9 */            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,         1u  /* RxPduIdRx-range */  ,        1u  /* RxPduId Rx-range */ , CANIF_NO_TXBUFFERCFGIDXOFMAILBOXCONFIG  /* unusedIndex9 */                                , CANIF_TXBUFFER_HANDLINGTYPE_NONE       , CANIF_RxBasicCANMailbox }   /* [/ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_88abbb7f_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   208  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   209  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   210  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   211  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   212  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   213  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   214  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   215    CanIf_MappedTxBuffersConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   216  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   217  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   218    \var    CanIf_MappedTxBuffersConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   219    \brief  Mapped Tx-buffer(s)
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   220    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   221    Element             Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   222    MailBoxConfigIdx    the index of the 1:1 relation pointing to CanIf_MailBoxConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   223  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   224  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   225  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   226  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   227  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   228  CONST(CanIf_MappedTxBuffersConfigType, CANIF_CONST) CanIf_MappedTxBuffersConfig[1] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   229      /* Index    MailBoxConfigIdx                                                                      Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   230    { /*     0 */               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */ }   /* [/ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   231  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   232  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   233  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   234  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   235  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   236  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   237  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   238    CanIf_RxIndicationFctList
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   239  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   240  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   241    \var    CanIf_RxIndicationFctList
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   242    \brief  Rx indication functions table.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   243    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   244    Element               Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   245    RxIndicationFct       Rx indication function.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   246    RxIndicationLayout    Layout of Rx indication function.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   247  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   248  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   249  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   250  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   251  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   252  CONST(CanIf_RxIndicationFctListType, CANIF_CONST) CanIf_RxIndicationFctList[5] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   253      /* Index    RxIndicationFct                                                  RxIndicationLayout                                                                 Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   254    { /*     0 */  { (CanIf_SimpleRxIndicationFctType)NULL_PTR }                 , CanIf_SimpleRxIndicationLayout    /* PRQA S 0313 */ /* MD_CanIf_Rule11.1 */ },  /* [NULL_PTR] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   255    { /*     1 */  { (CanIf_SimpleRxIndicationFctType)CanNm_RxIndication }       , CanIf_AdvancedRxIndicationLayout  /* PRQA S 0313 */ /* MD_CanIf_Rule11.1 */ },  /* [CanNm_RxIndication] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   256    { /*     2 */  { (CanIf_SimpleRxIndicationFctType)CanTp_RxIndication }       , CanIf_AdvancedRxIndicationLayout  /* PRQA S 0313 */ /* MD_CanIf_Rule11.1 */ },  /* [CanTp_RxIndication] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   257    { /*     3 */  { (CanIf_SimpleRxIndicationFctType)PduR_CanIfRxIndication }   , CanIf_AdvancedRxIndicationLayout  /* PRQA S 0313 */ /* MD_CanIf_Rule11.1 */ },  /* [PduR_CanIfRxIndication] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   258    { /*     4 */  { (CanIf_SimpleRxIndicationFctType)XB_INTER_CAN_RxIndication }, CanIf_AdvancedRxIndicationLayout  /* PRQA S 0313 */ /* MD_CanIf_Rule11.1 */ }   /* [XB_INTER_CAN_RxIndication] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   259  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   260  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   261  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   262  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   263  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   264  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   265  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   266    CanIf_RxPduConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   267  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   268  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   269    \var    CanIf_RxPduConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   270    \brief  Rx-PDU configuration table.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   271    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   272    Element                   Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   273    RxPduCanId                Rx-PDU: CAN identifier.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   274    RxPduMask                 Rx-PDU: CAN identifier mask.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   275    UpperPduId                PDU ID defined by upper layer.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   276    IsCanNmRxPdu              TRUE: CAN-Nm Rx-PDU (for Wakeup validation), FALSE: No CAN-Nm Rx-PDU
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   277    RxIndicationFctListIdx    the index of the 1:1 relation pointing to CanIf_RxIndicationFctList
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   278    RxPduDlc                  Rx-PDU length (DLC).
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   279  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   280  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   281  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   282  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   283  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   284  CONST(CanIf_RxPduConfigType, CANIF_CONST) CanIf_RxPduConfig[8] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   285      /* Index    RxPduCanId                                                                                     RxPduMask                                                                     UpperPduId                                               IsCanNmRxPdu  RxIndicationFctListIdx                                   RxPduDlc                                    Comment                                                                             Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   286    { /*     0 */    0x2000u  /* Code of range: INTER_RECEIVE_oDBCNetWork_INTER1_e9ebf6ca_Rx, 2.0- or FD-PDU */,   0x6000u  /* Mask of range: INTER_RECEIVE_oDBCNetWork_INTER1_e9ebf6ca_Rx */, CddConf_CddComIfUpperLayerRxPdu_CddComIfUpperLayerRxPdu, FALSE       ,                     4u  /* XB_INTER_CAN_RxIndication */,       8u  /* DLC-Check is enabled */ },  /* [PDU: INTER_RECEIVE_oDBCNetWork_INTER1_e9ebf6ca_Rx, Code of range: 0x0] */  /* [CanIfConf_CanIfRxPduCfg_INTER_RECEIVE_oDBCNetWork_INTER1_e9ebf6ca_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   287    { /*     1 */    0x0600u  /* Lower CanId of range: XB_SUP_F_32c7cbd9_Rx, 2.0- or FD-PDU */                 ,   0x667Fu  /* Upper CanId of range: XB_SUP_F_32c7cbd9_Rx */                 , CanNmConf_CanNmRxPdu_DBCNetWork_CAN_9b3bc41d_Rx        , TRUE        ,                     1u  /* CanNm_RxIndication */       ,       8u  /* DLC-Check is enabled */ },  /* [PDU: XB_SUP_F_32c7cbd9_Rx, Lower CanId of range: 0x600]                */  /* [CanIfConf_CanIfRxPduCfg_XB_SUP_F_32c7cbd9_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   288    { /*     2 */    0x07DFu  /* Meg_FunDiag_Tp_oDBCNetWork_c3b25a60_Rx, 2.0- or FD-PDU */                     ,   0x47FFu  /* Meg_FunDiag_Tp_oDBCNetWork_c3b25a60_Rx */                     , CanTpConf_CanTpRxNPdu_CanTpRxNPdu_d5fea8ba             , FALSE       ,                     2u  /* CanTp_RxIndication */       ,       8u  /* DLC-Check is enabled */ },  /* [PDU: Meg_FunDiag_Tp_oDBCNetWork_c3b25a60_Rx, CanId: 0x7df]             */  /* [CanIfConf_CanIfRxPduCfg_Meg_FunDiag_Tp_oDBCNetWork_c3b25a60_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   289    { /*     3 */    0x0701u  /* Meg_PhyDiag_Tp_oDBCNetWork_a8746177_Rx, 2.0- or FD-PDU */                     ,   0x47FFu  /* Meg_PhyDiag_Tp_oDBCNetWork_a8746177_Rx */                     , CanTpConf_CanTpRxNPdu_CanTpRxNPdu_e1197e80             , FALSE       ,                     2u  /* CanTp_RxIndication */       ,       8u  /* DLC-Check is enabled */ },  /* [PDU: Meg_PhyDiag_Tp_oDBCNetWork_a8746177_Rx, CanId: 0x701]             */  /* [CanIfConf_CanIfRxPduCfg_Meg_PhyDiag_Tp_oDBCNetWork_a8746177_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   290    { /*     4 */    0x0304u  /* SupD_Led_CtrlMode_oDBCNetWork_fed16f5e_Rx, 2.0- or FD-PDU */                  ,   0x47FFu  /* SupD_Led_CtrlMode_oDBCNetWork_fed16f5e_Rx */                  , PduRConf_PduRSrcPdu_PduRSrcPdu_dde6d85a                , FALSE       ,                     3u  /* PduR_CanIfRxIndication */   ,       8u  /* DLC-Check is enabled */ },  /* [PDU: SupD_Led_CtrlMode_oDBCNetWork_fed16f5e_Rx, CanId: 0x304]          */  /* [CanIfConf_CanIfRxPduCfg_SupD_Led_CtrlMode_oDBCNetWork_fed16f5e_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   291    { /*     5 */    0x0302u  /* SupE_Function_1_oDBCNetWork_3b86b9e4_Rx, 2.0- or FD-PDU */                    ,   0x47FFu  /* SupE_Function_1_oDBCNetWork_3b86b9e4_Rx */                    , PduRConf_PduRSrcPdu_PduRSrcPdu_ed7c8ba9                , FALSE       ,                     3u  /* PduR_CanIfRxIndication */   ,       8u  /* DLC-Check is enabled */ },  /* [PDU: SupE_Function_1_oDBCNetWork_3b86b9e4_Rx, CanId: 0x302]            */  /* [CanIfConf_CanIfRxPduCfg_SupE_Function_1_oDBCNetWork_3b86b9e4_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   292    { /*     6 */    0x0301u  /* SupD_Button_Control_oDBCNetWork_756613f9_Rx, 2.0- or FD-PDU */                ,   0x47FFu  /* SupD_Button_Control_oDBCNetWork_756613f9_Rx */                , PduRConf_PduRSrcPdu_PduRSrcPdu_c1d3fa7d                , FALSE       ,                     3u  /* PduR_CanIfRxIndication */   ,       8u  /* DLC-Check is enabled */ },  /* [PDU: SupD_Button_Control_oDBCNetWork_756613f9_Rx, CanId: 0x301]        */  /* [CanIfConf_CanIfRxPduCfg_SupD_Button_Control_oDBCNetWork_756613f9_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   293    { /*     7 */    0x0300u  /* SupD_Led_Control_oDBCNetWork_060f240d_Rx, 2.0- or FD-PDU */                   ,   0x47FFu  /* SupD_Led_Control_oDBCNetWork_060f240d_Rx */                   , PduRConf_PduRSrcPdu_PduRSrcPdu_9f4997ea                , FALSE       ,                     3u  /* PduR_CanIfRxIndication */   ,       8u  /* DLC-Check is enabled */ }   /* [PDU: SupD_Led_Control_oDBCNetWork_060f240d_Rx, CanId: 0x300]           */  /* [CanIfConf_CanIfRxPduCfg_SupD_Led_Control_oDBCNetWork_060f240d_Rx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   294  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   295  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   296  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   297  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   298  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   299  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   300  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   301    CanIf_TrcvModeIndicationFctPtr
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   302  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   303  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   304  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   305  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   306  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   307  CONST(CanIf_TrcvModeIndicationFctType, CANIF_CONST) CanIf_TrcvModeIndicationFctPtr = CanSM_TransceiverModeIndication;  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   308  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   309  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   310  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   311  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   312  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   313  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   314    CanIf_TrcvToCtrlMap
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   315  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   316  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   317    \var    CanIf_TrcvToCtrlMap
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   318    \brief  Indirection table: logical transceiver index to CAN controller index.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   319  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   320  #define CANIF_START_SEC_CONST_8BIT
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   321  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   322  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   323  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   324  CONST(CanIf_TrcvToCtrlMapType, CANIF_CONST) CanIf_TrcvToCtrlMap[1] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   325    /* Index     TrcvToCtrlMap                                          */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   326    /*     0 */             1u  /* CAN controller handle ID (upper) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   327  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   328  #define CANIF_STOP_SEC_CONST_8BIT
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   329  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   330  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   331  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   332  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   333  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   334    CanIf_TxBufferPrioByCanIdByteQueueConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   335  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   336  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   337    \var    CanIf_TxBufferPrioByCanIdByteQueueConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   338    \brief  Tx-buffer: PRIO_BY_CANID as BYTE_QUEUE
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   339    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   340    Element                                             Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   341    TxBufferPrioByCanIdBaseIdx                          the index of the 1:1 relation pointing to CanIf_TxBufferPrioByCanIdBase
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   342    TxBufferPrioByCanIdByteQueueMappedTxPdusEndIdx      the end index of the 1:n relation pointing to CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   343    TxBufferPrioByCanIdByteQueueMappedTxPdusLength      the number of relations pointing to CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   344    TxBufferPrioByCanIdByteQueueMappedTxPdusStartIdx    the start index of the 1:n relation pointing to CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   345  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   346  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   347  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   348  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   349  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   350  CONST(CanIf_TxBufferPrioByCanIdByteQueueConfigType, CANIF_CONST) CanIf_TxBufferPrioByCanIdByteQueueConfig[1] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   351      /* Index    TxBufferPrioByCanIdBaseIdx                                                      TxBufferPrioByCanIdByteQueueMappedTxPdusEndIdx                                                      TxBufferPrioByCanIdByteQueueMappedTxPdusLength                                                      TxBufferPrioByCanIdByteQueueMappedTxPdusStartIdx                                                            Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   352    { /*     0 */                         0u  /* /ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034 */,                                             8u  /* /ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034 */,                                             8u  /* /ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034 */,                                               0u  /* /ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034 */ }   /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   353  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   354  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   355  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   356  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   357  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   358  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   359  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   360    CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   361  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   362  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   363    \var    CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   364    \brief  Tx-buffer: PRIO_BY_CANID as BYTE_QUEUE: Mapped Tx-PDUs
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   365    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   366    Element           Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   367    TxPduConfigIdx    the index of the 1:1 relation pointing to CanIf_TxPduConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   368  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   369  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   370  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   371  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   372  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   373  CONST(CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdusType, CANIF_CONST) CanIf_TxBufferPrioByCanIdByteQueueMappedTxPdus[8] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   374      /* Index    TxPduConfigIdx                                                                                        Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   375    { /*     0 */             1u  /* /ActiveEcuC/CanIf/CanIfInitCfg/Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx */    },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   376    { /*     1 */             2u  /* /ActiveEcuC/CanIf/CanIfInitCfg/Meg_NmTx_oDBCNetWork_c0e25960_Tx */          },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   377    { /*     2 */             3u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_ComError_oDBCNetWork_bd5132c4_Tx */     },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   378    { /*     3 */             4u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Function_1_oDBCNetWork_e35ec372_Tx */   },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   379    { /*     4 */             5u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Angle_oDBCNetWork_60dbbe7b_Tx */        },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   380    { /*     5 */             6u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx */    },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   381    { /*     6 */             7u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Button_State_oDBCNetWork_57b80545_Tx */ },  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   382    { /*     7 */             8u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Led_State_oDBCNetWork_fa0e29c4_Tx */    }   /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   383  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   384  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   385  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   386  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   387  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   388  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   389  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   390    CanIf_TxConfirmationFctList
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   391  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   392  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   393    \var    CanIf_TxConfirmationFctList
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   394    \brief  Tx confirmation functions table.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   395  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   396  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   397  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   398  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   399  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   400  CONST(CanIf_TxConfirmationFctType, CANIF_CONST) CanIf_TxConfirmationFctList[5] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   401    /* Index     TxConfirmationFctList                      Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   402    /*     0 */ (CanIf_TxConfirmationFctType)NULL_PTR ,  /* [NULL_PTR] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   403    /*     1 */ CanNm_TxConfirmation                  ,  /* [CanNm_TxConfirmation] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   404    /*     2 */ CanTp_TxConfirmation                  ,  /* [CanTp_TxConfirmation] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   405    /*     3 */ PduR_CanIfTxConfirmation              ,  /* [PduR_CanIfTxConfirmation] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   406    /*     4 */ XB_INTER_CAN_TxConfirm                   /* [XB_INTER_CAN_TxConfirm] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   407  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   408  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   409  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   410  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   411  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   412  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   413  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   414    CanIf_TxPduConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   415  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   416  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   417    \var    CanIf_TxPduConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   418    \brief  Tx-PDUs - configuration.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   419    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   420    Element                     Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   421    CanId                       CAN identifier (16bit / 32bit).
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   422    UpperLayerTxPduId           Upper layer handle ID (8bit / 16bit).
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   423    IsTxPduTruncation           TRUE: Truncation of Tx-PDU is enabled, FALSE: Truncation of Tx-PDU is disabled
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   424    CtrlStatesIdx               the index of the 1:1 relation pointing to CanIf_CtrlStates
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   425    MailBoxConfigIdx            the index of the 1:1 relation pointing to CanIf_MailBoxConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   426    TxConfirmationFctListIdx    the index of the 1:1 relation pointing to CanIf_TxConfirmationFctList
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   427    TxPduLength                 Tx-PDU length.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   428  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   429  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   430  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   431  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   432  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   433  CONST(CanIf_TxPduConfigType, CANIF_CONST) CanIf_TxPduConfig[9] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   434      /* Index    CanId    UpperLayerTxPduId                                               IsTxPduTruncation  CtrlStatesIdx                                                                                  MailBoxConfigIdx                                                                       TxConfirmationFctListIdx                                  TxPduLength        Comment                                                      Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   435    { /*     0 */ 0x0100u, CddConf_CddComIfUpperLayerTxPdu_CddComIfUpperLayerTxPdu       , TRUE             ,            0u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_INTER1_f93f8858 */,               0u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_INTER1_9768a826_Tx */,                       4u  /* XB_INTER_CAN_TxConfirm */  ,          8u },  /* [PDU: INTER_SEND_oDBCNetWork_INTER1_c4764d88_Tx] */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/INTER_SEND_oDBCNetWork_INTER1_c4764d88_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   436    { /*     1 */ 0x0751u, CanTpConf_CanTpTxFcNPdu_CanTpTxFcNPdu_e1197e80                , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       2u  /* CanTp_TxConfirmation */    ,          8u },  /* [PDU: Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx]    */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   437    { /*     2 */ 0x0601u, CanNmConf_CanNmTxPdu_Meg_NmTx_oDBCNetWork_5d9e34f5_Tx         , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       1u  /* CanNm_TxConfirmation */    ,          8u },  /* [PDU: Meg_NmTx_oDBCNetWork_c0e25960_Tx]          */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/Meg_NmTx_oDBCNetWork_c0e25960_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   438    { /*     3 */ 0x0216u, PduRConf_PduRDestPdu_SupF_ComError_oDBCNetWork_d2a44cd7_Tx    , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       0u  /* NULL_PTR */                ,          8u },  /* [PDU: SupF_ComError_oDBCNetWork_bd5132c4_Tx]     */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_ComError_oDBCNetWork_bd5132c4_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   439    { /*     4 */ 0x0214u, PduRConf_PduRDestPdu_SupF_Function_1_oDBCNetWork_c66f379c_Tx  , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       3u  /* PduR_CanIfTxConfirmation */,          8u },  /* [PDU: SupF_Function_1_oDBCNetWork_e35ec372_Tx]   */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Function_1_oDBCNetWork_e35ec372_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   440    { /*     5 */ 0x0213u, PduRConf_PduRDestPdu_SupF_Angle_oDBCNetWork_73452188_Tx       , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       0u  /* NULL_PTR */                ,          8u },  /* [PDU: SupF_Angle_oDBCNetWork_60dbbe7b_Tx]        */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Angle_oDBCNetWork_60dbbe7b_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   441    { /*     6 */ 0x0212u, PduRConf_PduRDestPdu_SupF_PowerMode_oDBCNetWork_9f0609f7_Tx   , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       0u  /* NULL_PTR */                ,          8u },  /* [PDU: SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx]    */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   442    { /*     7 */ 0x0211u, PduRConf_PduRDestPdu_SupF_Button_State_oDBCNetWork_4aab92e3_Tx, TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       0u  /* NULL_PTR */                ,          8u },  /* [PDU: SupF_Button_State_oDBCNetWork_57b80545_Tx] */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Button_State_oDBCNetWork_57b80545_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   443    { /*     8 */ 0x0210u, PduRConf_PduRDestPdu_SupF_Led_State_oDBCNetWork_e9fc4e73_Tx   , TRUE             ,            1u  /* /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e */       ,               2u  /* /ActiveEcuC/Can/CanConfigSet/CN_DBCNetWork_05d62413_Tx */       ,                       0u  /* NULL_PTR */                ,          8u }   /* [PDU: SupF_Led_State_oDBCNetWork_fa0e29c4_Tx]    */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Led_State_oDBCNetWork_fa0e29c4_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   444  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   445  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   446  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   447  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   448  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   449  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   450  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   451    CanIf_TxPduQueueIndex
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   452  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   453  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   454    \var    CanIf_TxPduQueueIndex
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   455    \brief  Indirection table: Tx-PDU handle ID to corresponding Tx buffer handle ID. NOTE: Only BasicCAN Tx-PDUs have a valid indirection into the Tx buffer.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   456    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   457    Element       Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   458    TxQueueIdx    the index of the 0:1 relation pointing to CanIf_TxQueue
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   459  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   460  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   461  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   462  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   463  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   464  CONST(CanIf_TxPduQueueIndexType, CANIF_CONST) CanIf_TxPduQueueIndex[9] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   465      /* Index    TxQueueIdx                                                                                                                  Comment                                                                                Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   466    { /*     0 */ CANIF_NO_TXQUEUEIDXOFTXPDUQUEUEINDEX  /* /ActiveEcuC/CanIf/CanIfInitCfg/INTER_SEND_oDBCNetWork_INTER1_c4764d88_Tx */ },  /* [INTER_SEND_oDBCNetWork_INTER1_c4764d88_Tx, BasicCAN TxPdu NO Tx-buffer]   */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/INTER_SEND_oDBCNetWork_INTER1_c4764d88_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   467    { /*     1 */                                   0u  /* /ActiveEcuC/CanIf/CanIfInitCfg/Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx */    },  /* [Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx, BasicCAN TxPdu with Tx-buffer]    */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   468    { /*     2 */                                   1u  /* /ActiveEcuC/CanIf/CanIfInitCfg/Meg_NmTx_oDBCNetWork_c0e25960_Tx */          },  /* [Meg_NmTx_oDBCNetWork_c0e25960_Tx, BasicCAN TxPdu with Tx-buffer]          */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/Meg_NmTx_oDBCNetWork_c0e25960_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   469    { /*     3 */                                   2u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_ComError_oDBCNetWork_bd5132c4_Tx */     },  /* [SupF_ComError_oDBCNetWork_bd5132c4_Tx, BasicCAN TxPdu with Tx-buffer]     */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_ComError_oDBCNetWork_bd5132c4_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   470    { /*     4 */                                   3u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Function_1_oDBCNetWork_e35ec372_Tx */   },  /* [SupF_Function_1_oDBCNetWork_e35ec372_Tx, BasicCAN TxPdu with Tx-buffer]   */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Function_1_oDBCNetWork_e35ec372_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   471    { /*     5 */                                   4u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Angle_oDBCNetWork_60dbbe7b_Tx */        },  /* [SupF_Angle_oDBCNetWork_60dbbe7b_Tx, BasicCAN TxPdu with Tx-buffer]        */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Angle_oDBCNetWork_60dbbe7b_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   472    { /*     6 */                                   5u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx */    },  /* [SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx, BasicCAN TxPdu with Tx-buffer]    */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   473    { /*     7 */                                   6u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Button_State_oDBCNetWork_57b80545_Tx */ },  /* [SupF_Button_State_oDBCNetWork_57b80545_Tx, BasicCAN TxPdu with Tx-buffer] */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Button_State_oDBCNetWork_57b80545_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   474    { /*     8 */                                   7u  /* /ActiveEcuC/CanIf/CanIfInitCfg/SupF_Led_State_oDBCNetWork_fa0e29c4_Tx */    }   /* [SupF_Led_State_oDBCNetWork_fa0e29c4_Tx, BasicCAN TxPdu with Tx-buffer]    */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Led_State_oDBCNetWork_fa0e29c4_Tx, /ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   475  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   476  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   477  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   478  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   479  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   480  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   481  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   482    CanIf_WakeUpConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   483  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   484  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   485    \var    CanIf_WakeUpConfig
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   486    \brief  Wake-up source configuration
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   487    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   488    Element                Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   489    Controller             CAN controller handle ID
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   490    WakeUpSource           Wake-up source identifier
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   491    WakeUpTargetAddress    Logical handle ID of target (CAN controller / transceiver)
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   492    WakeUpTargetModule     Target for wake-up source: CAN controller / transceiver
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   493  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   494  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   495  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   496  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   497  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   498  CONST(CanIf_WakeUpConfigType, CANIF_CONST) CanIf_WakeUpConfig[1] = {  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   499      /* Index    Controller  WakeUpSource  WakeUpTargetAddress  WakeUpTargetModule              Comment */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   500    { /*     0 */         1u,          32u,                  0u, CANIF_WAKEUPREQUEST_TRCV }   /* [Only CanTrcvWakeupSource ] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   501  };
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   502  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   503  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   504  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   505  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   506  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   507  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   508    CanIf_WakeUpValidationFctPtr
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   509  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   510  #define CANIF_START_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   511  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   512  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   513  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   514  CONST(CanIf_WakeUpValidationFctType, CANIF_CONST) CanIf_WakeUpValidationFctPtr = EcuM_ValidateWakeupEvent;  /* PRQA S 1514, 1533 */  /* MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   515  #define CANIF_STOP_SEC_CONST_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   516  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   517  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   518  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   519  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   520  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   521    CanIf_CtrlStates
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   522  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   523  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   524    \var    CanIf_CtrlStates
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   525    \details
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   526    Element                  Description
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   527    CtrlMode                 Controller mode.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   528    PduMode                  PDU mode state.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   529    WakeUpValidationState    Wake-up validation state.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   530  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   531  #define CANIF_START_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   532  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   533  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   534  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   535  VAR(CanIf_CtrlStatesUType, CANIF_VAR_NOINIT) CanIf_CtrlStates;  /* PRQA S 0759, 1514, 1533 */  /* MD_CSL_Union, MD_CSL_ObjectOnlyAccessedOnce, MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   536    /* Index        Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   537    /*     0 */  /* [/ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_INTER1_f93f8858] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   538    /*     1 */  /* [/ActiveEcuC/CanIf/CanIfCtrlDrvCfg_7d254554/CT_DBCNetWork_e3f9218e] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   539  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   540  #define CANIF_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   541  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   542  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   543  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   544  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   545  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   546    CanIf_TxBufferPrioByCanIdBase
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   547  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   548  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   549    \var    CanIf_TxBufferPrioByCanIdBase
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   550    \brief  Variable declaration - Tx-buffer: PRIO_BY_CANID as byte/bit-queue. Stores at least the QueueCounter.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   551  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   552  #define CANIF_START_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   553  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   554  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   555  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   556  VAR(CanIf_TxBufferPrioByCanIdBaseUType, CANIF_VAR_NOINIT) CanIf_TxBufferPrioByCanIdBase;  /* PRQA S 0759, 1514, 1533 */  /* MD_CSL_Union, MD_CSL_ObjectOnlyAccessedOnce, MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   557    /* Index        Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   558    /*     0 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/CHNL_50204034] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   559  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   560  #define CANIF_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   561  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   562  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   563  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   564  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   565  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   566    CanIf_TxQueue
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   567  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   568  /** 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   569    \var    CanIf_TxQueue
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   570    \brief  Variable declaration - Tx byte queue.
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   571  */ 
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   572  #define CANIF_START_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   573  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   574  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   575  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   576  VAR(CanIf_TxQueueUType, CANIF_VAR_NOINIT) CanIf_TxQueue;  /* PRQA S 0759, 1514, 1533 */  /* MD_CSL_Union, MD_CSL_ObjectOnlyAccessedOnce, MD_CSL_ObjectOnlyAccessedOnce */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   577    /* Index        Referable Keys */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   578    /*     0 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/Meg_ResDiag_Tp_oDBCNetWork_d97dd71a_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   579    /*     1 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/Meg_NmTx_oDBCNetWork_c0e25960_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   580    /*     2 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_ComError_oDBCNetWork_bd5132c4_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   581    /*     3 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Function_1_oDBCNetWork_e35ec372_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   582    /*     4 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Angle_oDBCNetWork_60dbbe7b_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   583    /*     5 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_PowerMode_oDBCNetWork_d7c50fc1_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   584    /*     6 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Button_State_oDBCNetWork_57b80545_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   585    /*     7 */  /* [/ActiveEcuC/CanIf/CanIfInitCfg/SupF_Led_State_oDBCNetWork_fa0e29c4_Tx] */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   586  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   587  #define CANIF_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   588  /*lint -save -esym(961, 19.1) */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   589  #include "MemMap.h"  /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   590  /*lint -restore */
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   591  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   592  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   593  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   594    CONFIGURATION CLASS: LINK
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   595    SECTION: GLOBAL DATA
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   596  **********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   597  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   598  
+; ..\_01_BSW\Gen\GenData\CanIf_Lcfg.c	   599  
+
+	; Module end

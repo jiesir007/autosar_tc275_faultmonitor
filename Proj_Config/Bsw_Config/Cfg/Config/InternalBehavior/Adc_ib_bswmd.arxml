@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="075d6a25-500b-4eb0-8a0e-4696d4a04c0d">
+      <SHORT-NAME>AURIX</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="7973040d-43d5-43d8-8e88-394d4aca21f0">
+          <SHORT-NAME>Adc_ib_bswmd</SHORT-NAME>
+          <AR-PACKAGES>
+            <AR-PACKAGE UUID="d62183b1-aef5-4706-a8bd-3766767bde21">
+              <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+              <ELEMENTS>
+                <BSW-MODULE-DESCRIPTION UUID="9839d74d-d0b8-49a0-af54-7ea78996f4cf">
+                  <SHORT-NAME>Adc</SHORT-NAME>
+                  <INTERNAL-BEHAVIORS>
+                    <BSW-INTERNAL-BEHAVIOR UUID="badbd2e7-aa0a-441d-91f3-9fb7f8fd258c">
+                      <SHORT-NAME>AdcBehavior</SHORT-NAME>
+                      <EXCLUSIVE-AREAS>
+                        <EXCLUSIVE-AREA UUID="533e1c9d-3ef6-4cee-8e3b-6fc9c361aeba">
+                          <SHORT-NAME>StartGroup</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="168cfa45-49c6-44e1-a773-37b653786f6a">
+                          <SHORT-NAME>StopGroup</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="86893ee6-c704-43f1-b41a-c88c6a4b0922">
+                          <SHORT-NAME>ReadGroup</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="159b52b5-edb7-4595-9566-b8a63889fd58">
+                          <SHORT-NAME>EnableHwTrig</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="226b68a6-d2a4-4f99-859e-46c2df5e7f0c">
+                          <SHORT-NAME>DisableHwTrig</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="c4629713-324f-461d-84bf-36b214d37a9e">
+                          <SHORT-NAME>GetGrpStatus</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="6bfd7b5b-dc1c-4f95-887d-7bffdea92471">
+                          <SHORT-NAME>GetStreamLastPtr</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="31fb26e9-1659-450e-9263-042326a400d7">
+                          <SHORT-NAME>PopQueue</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="608dab6b-75d3-4caa-a7f0-1cd78dc3e4a9">
+                          <SHORT-NAME>PushQueue</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="085343ff-5725-4a5e-a82c-6cabba7cdbef">
+                          <SHORT-NAME>ScheduleNext</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="dd6a5bb2-d63b-4d54-b3f2-6689f54f4434">
+                          <SHORT-NAME>ScheduleStart</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="3f667bc9-f054-4c98-87b0-cf5b38ef43f1">
+                          <SHORT-NAME>ScheduleStop</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                      </EXCLUSIVE-AREAS>
+                    </BSW-INTERNAL-BEHAVIOR>
+                  </INTERNAL-BEHAVIORS>
+                </BSW-MODULE-DESCRIPTION>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

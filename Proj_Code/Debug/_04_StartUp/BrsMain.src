@@ -1,0 +1,4458 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_04_StartUp\\.BrsMain.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_04_StartUp\\BrsMain.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _04_StartUp\\BrsMain.src ..\\_04_StartUp\\BrsMain.c"
+	.compiler_name		"ctc"
+	;source	'..\\_04_StartUp\\BrsMain.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.BrsMain.BrsMainInit',code,cluster('BrsMainInit')
+	.sect	'.text.BrsMain.BrsMainInit'
+	.align	2
+	
+	.global	BrsMainInit
+
+; ..\_04_StartUp\BrsMain.c	     1  
+; ..\_04_StartUp\BrsMain.c	     2  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	     3    COPYRIGHT
+; ..\_04_StartUp\BrsMain.c	     4  -----------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	     5    \par      copyright
+; ..\_04_StartUp\BrsMain.c	     6    \verbatim
+; ..\_04_StartUp\BrsMain.c	     7    Copyright (c) 2019 by Vector Informatik GmbH.                                                  All rights reserved.
+; ..\_04_StartUp\BrsMain.c	     8  
+; ..\_04_StartUp\BrsMain.c	     9                  This software is copyright protected and proprietary to Vector Informatik GmbH.
+; ..\_04_StartUp\BrsMain.c	    10                  Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+; ..\_04_StartUp\BrsMain.c	    11                  All other rights remain with Vector Informatik GmbH.
+; ..\_04_StartUp\BrsMain.c	    12    \endverbatim
+; ..\_04_StartUp\BrsMain.c	    13  -----------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    14    FILE DESCRIPTION
+; ..\_04_StartUp\BrsMain.c	    15  -----------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    16    \file  File:  BrsMain.c
+; ..\_04_StartUp\BrsMain.c	    17        Project:  Vector Basic Runtime System
+; ..\_04_StartUp\BrsMain.c	    18         Module:  BrsMain
+; ..\_04_StartUp\BrsMain.c	    19  
+; ..\_04_StartUp\BrsMain.c	    20    \brief Description:  Main file of BRS contains
+; ..\_04_StartUp\BrsMain.c	    21                         - Main function (called from StartUpCode and calls stack entry EcuM_Init())
+; ..\_04_StartUp\BrsMain.c	    22                         - Call of BrsHw HW initialization routines
+; ..\_04_StartUp\BrsMain.c	    23                         - 1ms handler, with support of cycle functions with several cycle times
+; ..\_04_StartUp\BrsMain.c	    24                         - Exception handling
+; ..\_04_StartUp\BrsMain.c	    25                         - Default_Init_Task, Main and Background Task which can be used by the operating system
+; ..\_04_StartUp\BrsMain.c	    26  
+; ..\_04_StartUp\BrsMain.c	    27    \attention Please note:
+; ..\_04_StartUp\BrsMain.c	    28      The demo and example programs only show special aspects of the software. With regard to the fact
+; ..\_04_StartUp\BrsMain.c	    29      that these programs are meant for demonstration purposes only, Vector Informatik liability shall be
+; ..\_04_StartUp\BrsMain.c	    30      expressly excluded in cases of ordinary negligence, to the extent admissible by law or statute.
+; ..\_04_StartUp\BrsMain.c	    31  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	    32  
+; ..\_04_StartUp\BrsMain.c	    33  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	    34    AUTHOR IDENTITY
+; ..\_04_StartUp\BrsMain.c	    35   ----------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    36    Name                          Initials      Company
+; ..\_04_StartUp\BrsMain.c	    37    ----------------------------  ------------  -------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    38    Benjamin Walter               visbwa        Vector Informatik GmbH
+; ..\_04_StartUp\BrsMain.c	    39  -----------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    40    REVISION HISTORY
+; ..\_04_StartUp\BrsMain.c	    41   ----------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    42    Version   Date        Author  Description
+; ..\_04_StartUp\BrsMain.c	    43    --------  ----------  ------  ---------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    44    01.00.00  2018-03-20  visbwa  Initial creation of new BRS code basis
+; ..\_04_StartUp\BrsMain.c	    45              2018-05-08  visbwa  Introduced support for Generic Testsuite (BRS_ENABLE_TESTSUITE_SUPPORT),
+; ..\_04_StartUp\BrsMain.c	    46                                  removed support for all other testsuites,
+; ..\_04_StartUp\BrsMain.c	    47                                  introduced BRS_ENABLE_1MS_HANDLER and brsMain_CallCounter1sec
+; ..\_04_StartUp\BrsMain.c	    48    01.00.01  2018-06-22  visbwa  Added CAN stack exclusive area workaround from former BswInit_Callout_Stubs.c
+; ..\_04_StartUp\BrsMain.c	    49    01.00.02  2018-06-25  visbwa  Added configuration check for OS_MS2TICKS_SystemTimer into BrsMain.h
+; ..\_04_StartUp\BrsMain.c	    50    01.00.03  2018-07-18  visbwa  Moved BrsHwDisableInterruptAtPowerOn() from BrsMainInit() into main()
+; ..\_04_StartUp\BrsMain.c	    51                                  (OS specifies, this has to be called before Os_Init() and for every Core)
+; ..\_04_StartUp\BrsMain.c	    52    01.00.04  2018-07-30  visbwa  Encapsuled call of BrsHwDisableInterruptAtPowerOn() with usecase != VTT
+; ..\_04_StartUp\BrsMain.c	    53    01.01.00  2018-10-08  visbwa  Changed include of BrsCfg.h into vBrsCfg.h in BrsMain.h (vBaseEnv 1.1.0)
+; ..\_04_StartUp\BrsMain.c	    54    01.01.01  2018-10-10  visbwa  Moved BrsTestsuiteInit() from BrsMainInit() into Default_Init_Task(),
+; ..\_04_StartUp\BrsMain.c	    55                                  removed usage of BRS_ENABLE_HLPTEST_SUPPORT (generic Testsuite concept!)
+; ..\_04_StartUp\BrsMain.c	    56    01.01.02  2018-11-05  visbwa  Fixed include order (Can.h previous to BrsTestsuite.h)
+; ..\_04_StartUp\BrsMain.c	    57    01.01.03  2018-11-13  visbwa  Implemented Default_Init_Tasks for projects with up to 6 Cores,
+; ..\_04_StartUp\BrsMain.c	    58                                  fixed VTT support within IdleTasks (CANoeAPI_ConsumeTicks)
+; ..\_04_StartUp\BrsMain.c	    59    01.02.00  2018-11-21  visbwa  Added testsuite callouts into every function
+; ..\_04_StartUp\BrsMain.c	    60    01.02.01  2018-11-30  visbwa  Removed include of Rte_Main.h (Rte_Start() not called any more)
+; ..\_04_StartUp\BrsMain.c	    61    01.03.00  2018-12-21  visbwa  Added call of new API Os_InitialEnableInterruptSources() within every Default_Init_Task
+; ..\_04_StartUp\BrsMain.c	    62    01.03.01  2019-03-06  visbwa  Added hint for DrvCan using infix, added wrapper for Can_30_Mcan
+; ..\_04_StartUp\BrsMain.c	    63    01.03.02  2019-06-13  vismaa  Added additional Default_Init_Task_Core6
+; ..\_04_StartUp\BrsMain.c	    64    01.03.03  2019-06-26  visbwa  Moved call of BrsMainInit() previous to call of Os_Init()
+; ..\_04_StartUp\BrsMain.c	    65    01.04.00  2019-07-02  visbwa  Enhanced FBL support (encapsulations, call of fblmain())
+; ..\_04_StartUp\BrsMain.c	    66    01.04.01  2019-07-29  visbwa  Added implementation of BrsMainExceptionStartup() for calls from assembler StartUpCode
+; ..\_04_StartUp\BrsMain.c	    67    01.05.00  2019-08-08  visbwa  Implemented support for different FBL usecases Legacy, WithoutOSScheduling and
+; ..\_04_StartUp\BrsMain.c	    68                                  OSScheduling, added BrsMainExceptionHandler module code for BrsMainStartup, changed FBL
+; ..\_04_StartUp\BrsMain.c	    69                                  call from fblmain() to FblMain() for legacy mode, removed include of fbl_main.h
+; ..\_04_StartUp\BrsMain.c	    70  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	    71  
+; ..\_04_StartUp\BrsMain.c	    72  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	    73  *  EXAMPLE CODE ONLY
+; ..\_04_StartUp\BrsMain.c	    74  *  -------------------------------------------------------------------------------------------------------------------
+; ..\_04_StartUp\BrsMain.c	    75  *  This Example Code is only intended for illustrating an example of a possible BSW integration and BSW configuration.
+; ..\_04_StartUp\BrsMain.c	    76  *  The Example Code has not passed any quality control measures and may be incomplete. The Example Code is neither
+; ..\_04_StartUp\BrsMain.c	    77  *  intended nor qualified for use in series production. The Example Code as well as any of its modifications and/or
+; ..\_04_StartUp\BrsMain.c	    78  *  implementations must be tested with diligent care and must comply with all quality requirements which are necessary
+; ..\_04_StartUp\BrsMain.c	    79  *  according to the state of the art before their use.
+; ..\_04_StartUp\BrsMain.c	    80  *********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	    81  
+; ..\_04_StartUp\BrsMain.c	    82  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	    83    INCLUDES
+; ..\_04_StartUp\BrsMain.c	    84  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	    85  #include "BrsMain.h"
+; ..\_04_StartUp\BrsMain.c	    86  
+; ..\_04_StartUp\BrsMain.c	    87  #if !defined (_MICROSOFT_C_VTT_)
+; ..\_04_StartUp\BrsMain.c	    88    #include "BrsHw.h"
+; ..\_04_StartUp\BrsMain.c	    89  #endif
+; ..\_04_StartUp\BrsMain.c	    90  
+; ..\_04_StartUp\BrsMain.c	    91    #include "Can.h"
+; ..\_04_StartUp\BrsMain.c	    92    /* if DrvCan with infix is used, change the header file accordingly (e.g. Can_30_Mcan.h) */
+; ..\_04_StartUp\BrsMain.c	    93  
+; ..\_04_StartUp\BrsMain.c	    94  #if defined (BRS_ENABLE_TESTSUITE_SUPPORT)
+; ..\_04_StartUp\BrsMain.c	    95    #include "BrsTestsuite.h"
+; ..\_04_StartUp\BrsMain.c	    96  #endif
+; ..\_04_StartUp\BrsMain.c	    97  
+; ..\_04_StartUp\BrsMain.c	    98  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	    99    VERSION CHECK
+; ..\_04_StartUp\BrsMain.c	   100  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   101  #if (BRSMAIN_VERSION != 0x0105u)
+; ..\_04_StartUp\BrsMain.c	   102    #error "Header and source file are inconsistent!"
+; ..\_04_StartUp\BrsMain.c	   103  #endif
+; ..\_04_StartUp\BrsMain.c	   104  #if (BRSMAIN_BUGFIX_VERSION != 0x00u)
+; ..\_04_StartUp\BrsMain.c	   105    #error "Different versions of bugfix in Header and Source used!"
+; ..\_04_StartUp\BrsMain.c	   106  #endif
+; ..\_04_StartUp\BrsMain.c	   107  
+; ..\_04_StartUp\BrsMain.c	   108  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   109    CONFIGURATION CHECK
+; ..\_04_StartUp\BrsMain.c	   110  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   111  
+; ..\_04_StartUp\BrsMain.c	   112  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   113    DEFINITION + MACROS
+; ..\_04_StartUp\BrsMain.c	   114  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   115  
+; ..\_04_StartUp\BrsMain.c	   116  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   117    GLOBAL VARIABLES
+; ..\_04_StartUp\BrsMain.c	   118  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   119  #define BRSMAIN_CYCLIC_MAX_CALLBACKS 2u
+; ..\_04_StartUp\BrsMain.c	   120  
+; ..\_04_StartUp\BrsMain.c	   121  typedef struct
+; ..\_04_StartUp\BrsMain.c	   122  {
+; ..\_04_StartUp\BrsMain.c	   123    void (*FunctionPointer[BRSMAIN_CYCLIC_MAX_CALLBACKS]) (void);
+; ..\_04_StartUp\BrsMain.c	   124    uint8 FunctionCounter;
+; ..\_04_StartUp\BrsMain.c	   125  }brsMain_Cyclic_Callbacks;
+; ..\_04_StartUp\BrsMain.c	   126  
+; ..\_04_StartUp\BrsMain.c	   127    /* UserDefined ExclusiveArea handling for CAN channels, according to AN-ISC-8-1149_ErrorHook_E_OS_DISABLED_INT.pdf */
+; ..\_04_StartUp\BrsMain.c	   128    #define CAN_START_SEC_VAR_NOINIT_8BIT
+; ..\_04_StartUp\BrsMain.c	   129    #include "MemMap.h"
+; ..\_04_StartUp\BrsMain.c	   130    static uint8 BrsAsrApplCanInterruptLockCtr;
+; ..\_04_StartUp\BrsMain.c	   131    #define CAN_STOP_SEC_VAR_NOINIT_8BIT
+; ..\_04_StartUp\BrsMain.c	   132    #include "MemMap.h"
+; ..\_04_StartUp\BrsMain.c	   133  
+; ..\_04_StartUp\BrsMain.c	   134  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   135    GLOBAL CONST VARIABLES
+; ..\_04_StartUp\BrsMain.c	   136  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   137  
+; ..\_04_StartUp\BrsMain.c	   138  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   139    LOCAL VARIABLES
+; ..\_04_StartUp\BrsMain.c	   140  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   141  #if defined (BRS_ENABLE_1MS_HANDLER)
+; ..\_04_StartUp\BrsMain.c	   142    #define START_SEC_VAR_ZERO_INIT_16BIT
+; ..\_04_StartUp\BrsMain.c	   143    #include "MemMap.h"
+; ..\_04_StartUp\BrsMain.c	   144    /**
+; ..\_04_StartUp\BrsMain.c	   145     * \var brsMain_CallCounter1ms
+; ..\_04_StartUp\BrsMain.c	   146     *      Counter for calls of the function BrsMainCyclic1ms
+; ..\_04_StartUp\BrsMain.c	   147     */
+; ..\_04_StartUp\BrsMain.c	   148    static volatile uint16 brsMain_CallCounter1ms;
+; ..\_04_StartUp\BrsMain.c	   149  
+; ..\_04_StartUp\BrsMain.c	   150    /**
+; ..\_04_StartUp\BrsMain.c	   151     * \var brsMain_CallCounter1sec
+; ..\_04_StartUp\BrsMain.c	   152     *      Counter for 1000 calls of the function BrsMainCyclic1ms
+; ..\_04_StartUp\BrsMain.c	   153     */
+; ..\_04_StartUp\BrsMain.c	   154    static volatile uint16 brsMain_CallCounter1sec;
+; ..\_04_StartUp\BrsMain.c	   155    #define STOP_SEC_VAR 
+; ..\_04_StartUp\BrsMain.c	   156    #include "MemMap.h"
+; ..\_04_StartUp\BrsMain.c	   157  
+; ..\_04_StartUp\BrsMain.c	   158    #define START_SEC_VAR_NOINIT_UNSPECIFIED
+; ..\_04_StartUp\BrsMain.c	   159    #include "MemMap.h"
+; ..\_04_StartUp\BrsMain.c	   160    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_Background;
+; ..\_04_StartUp\BrsMain.c	   161    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_1ms;
+; ..\_04_StartUp\BrsMain.c	   162    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_10ms;
+; ..\_04_StartUp\BrsMain.c	   163    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_100ms;
+; ..\_04_StartUp\BrsMain.c	   164    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_250ms;
+; ..\_04_StartUp\BrsMain.c	   165    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_500ms;
+; ..\_04_StartUp\BrsMain.c	   166    static brsMain_Cyclic_Callbacks brsMain_Cyclic_Callbacks_1000ms;
+; ..\_04_StartUp\BrsMain.c	   167    #define STOP_SEC_VAR 
+; ..\_04_StartUp\BrsMain.c	   168    #include "MemMap.h"
+; ..\_04_StartUp\BrsMain.c	   169  #endif /*BRS_ENABLE_1MS_HANDLER*/
+; ..\_04_StartUp\BrsMain.c	   170  
+; ..\_04_StartUp\BrsMain.c	   171  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   172    LOCAL CONST VARIABLES
+; ..\_04_StartUp\BrsMain.c	   173  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   174  # if defined (_MICROSOFT_C_VTT_)
+; ..\_04_StartUp\BrsMain.c	   175    #define BRSMAIN_ERRORBUFFERSIZE  120
+; ..\_04_StartUp\BrsMain.c	   176  #endif
+; ..\_04_StartUp\BrsMain.c	   177  
+; ..\_04_StartUp\BrsMain.c	   178  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   179    PROTOTYPES OF GLOBAL FUNCTIONS
+; ..\_04_StartUp\BrsMain.c	   180  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   181  #if defined (BRS_FBL_LEGACY)
+; ..\_04_StartUp\BrsMain.c	   182  extern void FblMain(void);
+; ..\_04_StartUp\BrsMain.c	   183  #endif
+; ..\_04_StartUp\BrsMain.c	   184  
+; ..\_04_StartUp\BrsMain.c	   185  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   186    PROTOTYPES OF LOCAL FUNCTIONS
+; ..\_04_StartUp\BrsMain.c	   187  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   188  
+; ..\_04_StartUp\BrsMain.c	   189  /**********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   190    FUNCTION DEFINITIONS
+; ..\_04_StartUp\BrsMain.c	   191  **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   192  #if defined (BRS_ENABLE_SUPPORT_LEDS)
+; ..\_04_StartUp\BrsMain.c	   193  void BrsMainWrapperTogglePinLED(void)
+; ..\_04_StartUp\BrsMain.c	   194  {
+; ..\_04_StartUp\BrsMain.c	   195    BrsHwTogglePin(BRSHW_TOGGLEPIN_LED);
+; ..\_04_StartUp\BrsMain.c	   196  }
+; ..\_04_StartUp\BrsMain.c	   197  #endif
+; ..\_04_StartUp\BrsMain.c	   198  
+; ..\_04_StartUp\BrsMain.c	   199  #if defined (BRS_ENABLE_SUPPORT_TOGGLE_WD_PIN)
+; ..\_04_StartUp\BrsMain.c	   200  void BrsMainWrapperTogglePinWD(void)
+; ..\_04_StartUp\BrsMain.c	   201  {
+; ..\_04_StartUp\BrsMain.c	   202    BrsHwTogglePin(BRSHW_TOGGLEPIN_WD);
+; ..\_04_StartUp\BrsMain.c	   203  }
+; ..\_04_StartUp\BrsMain.c	   204  #endif
+; ..\_04_StartUp\BrsMain.c	   205  
+; ..\_04_StartUp\BrsMain.c	   206  #if defined (BRS_ENABLE_SUPPORT_TOGGLE_CUSTOM_PIN)
+; ..\_04_StartUp\BrsMain.c	   207  void BrsMainWrapperTogglePinCustom(void)
+; ..\_04_StartUp\BrsMain.c	   208  {
+; ..\_04_StartUp\BrsMain.c	   209    BrsHwTogglePin(BRSHW_TOGGLEPIN_CUSTOM);
+; ..\_04_StartUp\BrsMain.c	   210  }
+; ..\_04_StartUp\BrsMain.c	   211  #endif
+; ..\_04_StartUp\BrsMain.c	   212  
+; ..\_04_StartUp\BrsMain.c	   213  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   214  /**
+; ..\_04_StartUp\BrsMain.c	   215   * @brief      Main initialization routine.
+; ..\_04_StartUp\BrsMain.c	   216   *             Contains initialisation of BRSModules and BrsMain specific initialization
+; ..\_04_StartUp\BrsMain.c	   217   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   218   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   219   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   220   * @return     -
+; ..\_04_StartUp\BrsMain.c	   221   * @context    Function is called from main
+; ..\_04_StartUp\BrsMain.c	   222   */
+; ..\_04_StartUp\BrsMain.c	   223  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   224  void BrsMainInit(void)
+; Function BrsMainInit
+.L16:
+BrsMainInit:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   225  {
+; ..\_04_StartUp\BrsMain.c	   226  #if defined (BRSMAIN_BRSMAININIT_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   227    BrsTestsuite_BrsMain_BrsMainInit();
+; ..\_04_StartUp\BrsMain.c	   228  #endif
+; ..\_04_StartUp\BrsMain.c	   229  
+; ..\_04_StartUp\BrsMain.c	   230    /* UserDefined ExclusiveArea handling for CAN channels, according to AN-ISC-8-1149_ErrorHook_E_OS_DISABLED_INT.pdf */
+; ..\_04_StartUp\BrsMain.c	   231    BrsAsrApplCanInterruptLockCtr = 0u;
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+.L242:
+	mov	d15,#0
+.L243:
+	st.b	[a15],d15
+.L244:
+
+; ..\_04_StartUp\BrsMain.c	   232  
+; ..\_04_StartUp\BrsMain.c	   233  #if !defined (BRS_FBL_LEGACY)
+; ..\_04_StartUp\BrsMain.c	   234  # if defined (BRSHW_PREINIT_AVAILABLE)
+; ..\_04_StartUp\BrsMain.c	   235    BrsHwPreInitPowerOn();
+; ..\_04_StartUp\BrsMain.c	   236  # endif
+; ..\_04_StartUp\BrsMain.c	   237  
+; ..\_04_StartUp\BrsMain.c	   238  # if defined (BRS_ENABLE_WATCHDOG)
+; ..\_04_StartUp\BrsMain.c	   239    BrsHwWatchdogInitPowerOn();
+; ..\_04_StartUp\BrsMain.c	   240  # endif
+; ..\_04_StartUp\BrsMain.c	   241  
+; ..\_04_StartUp\BrsMain.c	   242  # if defined (BRS_ENABLE_PLLCLOCKS)
+; ..\_04_StartUp\BrsMain.c	   243    BrsHwPllInitPowerOn();
+; ..\_04_StartUp\BrsMain.c	   244  # endif
+; ..\_04_StartUp\BrsMain.c	   245  
+; ..\_04_StartUp\BrsMain.c	   246  # if defined (BRS_ENABLE_PORT)
+; ..\_04_StartUp\BrsMain.c	   247    BrsHwPortInitPowerOn();
+; ..\_04_StartUp\BrsMain.c	   248  # endif
+; ..\_04_StartUp\BrsMain.c	   249  #endif /*!BRS_FBL_LEGACY*/
+; ..\_04_StartUp\BrsMain.c	   250  
+; ..\_04_StartUp\BrsMain.c	   251  #if defined (BRS_ENABLE_1MS_HANDLER)
+; ..\_04_StartUp\BrsMain.c	   252    brsMain_CallCounter1ms = 0u;
+; ..\_04_StartUp\BrsMain.c	   253    brsMain_CallCounter1sec = 0u;
+; ..\_04_StartUp\BrsMain.c	   254  
+; ..\_04_StartUp\BrsMain.c	   255    brsMain_Cyclic_Callbacks_Background.FunctionCounter = 0u;
+; ..\_04_StartUp\BrsMain.c	   256    brsMain_Cyclic_Callbacks_1ms.FunctionCounter        = 0u;
+; ..\_04_StartUp\BrsMain.c	   257    brsMain_Cyclic_Callbacks_10ms.FunctionCounter       = 0u;
+; ..\_04_StartUp\BrsMain.c	   258    brsMain_Cyclic_Callbacks_100ms.FunctionCounter      = 0u;
+; ..\_04_StartUp\BrsMain.c	   259    brsMain_Cyclic_Callbacks_250ms.FunctionCounter      = 0u;
+; ..\_04_StartUp\BrsMain.c	   260    brsMain_Cyclic_Callbacks_500ms.FunctionCounter      = 0u;
+; ..\_04_StartUp\BrsMain.c	   261    brsMain_Cyclic_Callbacks_1000ms.FunctionCounter     = 0u;
+; ..\_04_StartUp\BrsMain.c	   262  #endif /*BRS_ENABLE_1MS_HANDLER*/
+; ..\_04_StartUp\BrsMain.c	   263  
+; ..\_04_StartUp\BrsMain.c	   264  #if defined (BRS_ENABLE_SUPPORT_LEDS)
+; ..\_04_StartUp\BrsMain.c	   265    BrsMainRegisterCyclic(BrsMainWrapperTogglePinLED, BRSMAIN_CYCLETIME_500MS);
+; ..\_04_StartUp\BrsMain.c	   266  #endif
+; ..\_04_StartUp\BrsMain.c	   267  
+; ..\_04_StartUp\BrsMain.c	   268  #if defined (BRS_ENABLE_SUPPORT_TOGGLE_WD_PIN)
+; ..\_04_StartUp\BrsMain.c	   269    BrsMainRegisterCyclic(BrsMainWrapperTogglePinWD, BRSMAIN_CYCLETIME_250MS);
+; ..\_04_StartUp\BrsMain.c	   270  #endif
+; ..\_04_StartUp\BrsMain.c	   271  
+; ..\_04_StartUp\BrsMain.c	   272  #if defined (BRS_ENABLE_SUPPORT_TOGGLE_CUSTOM_PIN)
+; ..\_04_StartUp\BrsMain.c	   273    BrsMainRegisterCyclic(BrsMainWrapperTogglePinCustom, BRSMAIN_CYCLETIME_1000MS);
+; ..\_04_StartUp\BrsMain.c	   274  #endif
+; ..\_04_StartUp\BrsMain.c	   275  }
+	ret
+.L180:
+	
+__BrsMainInit_function_end:
+	.size	BrsMainInit,__BrsMainInit_function_end-BrsMainInit
+.L82:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.Os_Task_Default_Init_Task',code,cluster('Os_Task_Default_Init_Task')
+	.sect	'.text.BrsMain.Os_Task_Default_Init_Task'
+	.align	2
+	
+	.global	Os_Task_Default_Init_Task
+
+; ..\_04_StartUp\BrsMain.c	   276  
+; ..\_04_StartUp\BrsMain.c	   277  #if defined (BRS_ENABLE_1MS_HANDLER)
+; ..\_04_StartUp\BrsMain.c	   278  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   279  /**
+; ..\_04_StartUp\BrsMain.c	   280   * @brief      Routine to register cyclic callbacks.
+; ..\_04_StartUp\BrsMain.c	   281   * @pre        Initialization of BrsMain was done threw call of BrsMainInit().
+; ..\_04_StartUp\BrsMain.c	   282   * @param[in]  FunctionPointer has to be a pointer to a function of type
+; ..\_04_StartUp\BrsMain.c	   283   *             void function(void).
+; ..\_04_StartUp\BrsMain.c	   284   * @param[in]  Cycletime described the cycletime, the callback should be triggered.
+; ..\_04_StartUp\BrsMain.c	   285   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   286   * @return     -
+; ..\_04_StartUp\BrsMain.c	   287   * @context    Function is called from modules that need cyclic callbacks.
+; ..\_04_StartUp\BrsMain.c	   288   */
+; ..\_04_StartUp\BrsMain.c	   289  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   290  void BrsMainRegisterCyclic(void (*FunctionPointer)(void), brsMain_Cyclic_Cycletime Cycletime)
+; ..\_04_StartUp\BrsMain.c	   291  {
+; ..\_04_StartUp\BrsMain.c	   292  #if defined (BRSMAIN_BRSMAINREGISTERCYCLIC_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   293    BrsTestsuite_BrsMain_BrsMainRegisterCyclic(FunctionPointer, Cycletime);
+; ..\_04_StartUp\BrsMain.c	   294  #endif
+; ..\_04_StartUp\BrsMain.c	   295  
+; ..\_04_StartUp\BrsMain.c	   296    switch (Cycletime)
+; ..\_04_StartUp\BrsMain.c	   297    {
+; ..\_04_StartUp\BrsMain.c	   298      case BRSMAIN_CYCLETIME_BACKGROUND:
+; ..\_04_StartUp\BrsMain.c	   299        if (brsMain_Cyclic_Callbacks_Background.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   300          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   301        brsMain_Cyclic_Callbacks_Background.FunctionPointer[brsMain_Cyclic_Callbacks_Background.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   302        brsMain_Cyclic_Callbacks_Background.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   303        break;
+; ..\_04_StartUp\BrsMain.c	   304  
+; ..\_04_StartUp\BrsMain.c	   305      case BRSMAIN_CYCLETIME_1MS:
+; ..\_04_StartUp\BrsMain.c	   306        if (brsMain_Cyclic_Callbacks_1ms.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   307          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   308        brsMain_Cyclic_Callbacks_1ms.FunctionPointer[brsMain_Cyclic_Callbacks_1ms.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   309        brsMain_Cyclic_Callbacks_1ms.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   310        break;
+; ..\_04_StartUp\BrsMain.c	   311  
+; ..\_04_StartUp\BrsMain.c	   312      case BRSMAIN_CYCLETIME_10MS:
+; ..\_04_StartUp\BrsMain.c	   313        if (brsMain_Cyclic_Callbacks_10ms.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   314          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   315        brsMain_Cyclic_Callbacks_10ms.FunctionPointer[brsMain_Cyclic_Callbacks_10ms.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   316        brsMain_Cyclic_Callbacks_10ms.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   317        break;
+; ..\_04_StartUp\BrsMain.c	   318  
+; ..\_04_StartUp\BrsMain.c	   319      case BRSMAIN_CYCLETIME_100MS:
+; ..\_04_StartUp\BrsMain.c	   320        if (brsMain_Cyclic_Callbacks_100ms.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   321          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   322        brsMain_Cyclic_Callbacks_100ms.FunctionPointer[brsMain_Cyclic_Callbacks_100ms.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   323        brsMain_Cyclic_Callbacks_100ms.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   324        break;
+; ..\_04_StartUp\BrsMain.c	   325  
+; ..\_04_StartUp\BrsMain.c	   326      case BRSMAIN_CYCLETIME_250MS:
+; ..\_04_StartUp\BrsMain.c	   327        if (brsMain_Cyclic_Callbacks_250ms.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   328          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   329        brsMain_Cyclic_Callbacks_250ms.FunctionPointer[brsMain_Cyclic_Callbacks_250ms.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   330        brsMain_Cyclic_Callbacks_250ms.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   331        break;
+; ..\_04_StartUp\BrsMain.c	   332  
+; ..\_04_StartUp\BrsMain.c	   333      case BRSMAIN_CYCLETIME_500MS:
+; ..\_04_StartUp\BrsMain.c	   334        if (brsMain_Cyclic_Callbacks_500ms.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   335          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   336        brsMain_Cyclic_Callbacks_500ms.FunctionPointer[brsMain_Cyclic_Callbacks_500ms.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   337        brsMain_Cyclic_Callbacks_500ms.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   338        break;
+; ..\_04_StartUp\BrsMain.c	   339  
+; ..\_04_StartUp\BrsMain.c	   340      case BRSMAIN_CYCLETIME_1000MS:
+; ..\_04_StartUp\BrsMain.c	   341        if (brsMain_Cyclic_Callbacks_1000ms.FunctionCounter >= BRSMAIN_CYCLIC_MAX_CALLBACKS)
+; ..\_04_StartUp\BrsMain.c	   342          BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   343        brsMain_Cyclic_Callbacks_1000ms.FunctionPointer[brsMain_Cyclic_Callbacks_1000ms.FunctionCounter] = FunctionPointer;
+; ..\_04_StartUp\BrsMain.c	   344        brsMain_Cyclic_Callbacks_1000ms.FunctionCounter++;
+; ..\_04_StartUp\BrsMain.c	   345        break;
+; ..\_04_StartUp\BrsMain.c	   346  
+; ..\_04_StartUp\BrsMain.c	   347      default:
+; ..\_04_StartUp\BrsMain.c	   348        BrsMainExceptionHandler(kBrsIllegalParameter, BRSERROR_MODULE_BRSMAIN, (uint16)(__LINE__));
+; ..\_04_StartUp\BrsMain.c	   349        break;
+; ..\_04_StartUp\BrsMain.c	   350    }
+; ..\_04_StartUp\BrsMain.c	   351  }
+; ..\_04_StartUp\BrsMain.c	   352  #endif /*BRS_ENABLE_1MS_HANDLER*/
+; ..\_04_StartUp\BrsMain.c	   353  
+; ..\_04_StartUp\BrsMain.c	   354  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   355  /**
+; ..\_04_StartUp\BrsMain.c	   356   * @brief      InitTask to call EcuM_StartupTwo()
+; ..\_04_StartUp\BrsMain.c	   357   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   358   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   359   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   360   * @return     -
+; ..\_04_StartUp\BrsMain.c	   361   * @context    The task is started once by the OS
+; ..\_04_StartUp\BrsMain.c	   362   */
+; ..\_04_StartUp\BrsMain.c	   363  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   364  TASK(Default_Init_Task)
+; Function Os_Task_Default_Init_Task
+.L18:
+Os_Task_Default_Init_Task:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   365  {
+; ..\_04_StartUp\BrsMain.c	   366  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   367    BrsTestsuite_BrsMain_Default_Init_Task();
+; ..\_04_StartUp\BrsMain.c	   368  #endif
+; ..\_04_StartUp\BrsMain.c	   369  
+; ..\_04_StartUp\BrsMain.c	   370  #if defined (BRS_ENABLE_OS_MULTICORESUPPORT)
+; ..\_04_StartUp\BrsMain.c	   371    /* Workaround for RTE ESCAN00078832 */
+; ..\_04_StartUp\BrsMain.c	   372    /* Use this code, if you get a Det Error at the end of Rte_Start() on MasterCore */
+; ..\_04_StartUp\BrsMain.c	   373     //Rte_Start() ;/*on the SlaveCores has to be called first, before Rte_Start() on MasterCore */
+; ..\_04_StartUp\BrsMain.c	   374    /* SET THIS InitTask TO FULL PREEMPTIVE (OsTaskSchedule) within OsConfig! */
+; ..\_04_StartUp\BrsMain.c	   375    /*while(Rte_InitState_1 != RTE_STATE_INIT)
+; ..\_04_StartUp\BrsMain.c	   376    {
+; ..\_04_StartUp\BrsMain.c	   377      (void)Schedule();
+; ..\_04_StartUp\BrsMain.c	   378    }*/
+; ..\_04_StartUp\BrsMain.c	   379  #endif /*BRS_ENABLE_OS_MULTICORESUPPORT*/
+; ..\_04_StartUp\BrsMain.c	   380  
+; ..\_04_StartUp\BrsMain.c	   381  
+; ..\_04_StartUp\BrsMain.c	   382  #if !defined (BRS_FBL_LEGACY) && !defined (BRS_FBL_NO_OSSCHEDULE)
+; ..\_04_StartUp\BrsMain.c	   383    EcuM_StartupTwo();
+	call	EcuM_StartupTwo
+.L221:
+
+; ..\_04_StartUp\BrsMain.c	   384  
+; ..\_04_StartUp\BrsMain.c	   385    Os_InitialEnableInterruptSources(FALSE);
+	mov	d4,#0
+	call	Os_InitialEnableInterruptSources
+.L222:
+
+; ..\_04_StartUp\BrsMain.c	   386  #endif
+; ..\_04_StartUp\BrsMain.c	   387  
+; ..\_04_StartUp\BrsMain.c	   388    (void)TerminateTask();
+	call	TerminateTask
+.L223:
+
+; ..\_04_StartUp\BrsMain.c	   389  }
+	ret
+.L177:
+	
+__Os_Task_Default_Init_Task_function_end:
+	.size	Os_Task_Default_Init_Task,__Os_Task_Default_Init_Task_function_end-Os_Task_Default_Init_Task
+.L67:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.Os_Task_Default_Init_Task_Core1',code,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.text.BrsMain.Os_Task_Default_Init_Task_Core1'
+	.align	2
+	
+	.global	Os_Task_Default_Init_Task_Core1
+
+; ..\_04_StartUp\BrsMain.c	   390  
+; ..\_04_StartUp\BrsMain.c	   391  #if defined (BRS_ENABLE_OS_MULTICORESUPPORT)
+; ..\_04_StartUp\BrsMain.c	   392  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   393  /**
+; ..\_04_StartUp\BrsMain.c	   394   * @brief      InitTask to call EcuM_StartupTwo() on 2nd Core
+; ..\_04_StartUp\BrsMain.c	   395   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   396   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   397   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   398   * @return     -
+; ..\_04_StartUp\BrsMain.c	   399   * @context    The task is started once by the OS on the 2nd Core
+; ..\_04_StartUp\BrsMain.c	   400   */
+; ..\_04_StartUp\BrsMain.c	   401  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   402  TASK(Default_Init_Task_Core1)
+; Function Os_Task_Default_Init_Task_Core1
+.L20:
+Os_Task_Default_Init_Task_Core1:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   403  {
+; ..\_04_StartUp\BrsMain.c	   404  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CORE1_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   405    BrsTestsuite_BrsMain_Default_Init_Task_Core1();
+; ..\_04_StartUp\BrsMain.c	   406  #endif
+; ..\_04_StartUp\BrsMain.c	   407  
+; ..\_04_StartUp\BrsMain.c	   408    EcuM_StartupTwo();
+	call	EcuM_StartupTwo
+.L228:
+
+; ..\_04_StartUp\BrsMain.c	   409  
+; ..\_04_StartUp\BrsMain.c	   410    Os_InitialEnableInterruptSources(FALSE);
+	mov	d4,#0
+	call	Os_InitialEnableInterruptSources
+.L229:
+
+; ..\_04_StartUp\BrsMain.c	   411  
+; ..\_04_StartUp\BrsMain.c	   412    (void)TerminateTask();
+	call	TerminateTask
+.L230:
+
+; ..\_04_StartUp\BrsMain.c	   413  }
+	ret
+.L178:
+	
+__Os_Task_Default_Init_Task_Core1_function_end:
+	.size	Os_Task_Default_Init_Task_Core1,__Os_Task_Default_Init_Task_Core1_function_end-Os_Task_Default_Init_Task_Core1
+.L72:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.Os_Task_Default_Init_Task_Core2',code,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.text.BrsMain.Os_Task_Default_Init_Task_Core2'
+	.align	2
+	
+	.global	Os_Task_Default_Init_Task_Core2
+
+; ..\_04_StartUp\BrsMain.c	   414  
+; ..\_04_StartUp\BrsMain.c	   415  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   416  /**
+; ..\_04_StartUp\BrsMain.c	   417   * @brief      InitTask to call EcuM_StartupTwo() on 3rd Core
+; ..\_04_StartUp\BrsMain.c	   418   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   419   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   420   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   421   * @return     -
+; ..\_04_StartUp\BrsMain.c	   422   * @context    The task is started once by the OS on the 3rd Core
+; ..\_04_StartUp\BrsMain.c	   423   */
+; ..\_04_StartUp\BrsMain.c	   424  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   425  TASK(Default_Init_Task_Core2)
+; Function Os_Task_Default_Init_Task_Core2
+.L22:
+Os_Task_Default_Init_Task_Core2:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   426  {
+; ..\_04_StartUp\BrsMain.c	   427  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CORE2_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   428    BrsTestsuite_BrsMain_Default_Init_Task_Core2();
+; ..\_04_StartUp\BrsMain.c	   429  #endif
+; ..\_04_StartUp\BrsMain.c	   430  
+; ..\_04_StartUp\BrsMain.c	   431    EcuM_StartupTwo();
+	call	EcuM_StartupTwo
+.L235:
+
+; ..\_04_StartUp\BrsMain.c	   432  
+; ..\_04_StartUp\BrsMain.c	   433    Os_InitialEnableInterruptSources(FALSE);
+	mov	d4,#0
+	call	Os_InitialEnableInterruptSources
+.L236:
+
+; ..\_04_StartUp\BrsMain.c	   434  
+; ..\_04_StartUp\BrsMain.c	   435    (void)TerminateTask();
+	call	TerminateTask
+.L237:
+
+; ..\_04_StartUp\BrsMain.c	   436  }
+	ret
+.L179:
+	
+__Os_Task_Default_Init_Task_Core2_function_end:
+	.size	Os_Task_Default_Init_Task_Core2,__Os_Task_Default_Init_Task_Core2_function_end-Os_Task_Default_Init_Task_Core2
+.L77:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.BrsMainExceptionHandler',code,cluster('BrsMainExceptionHandler')
+	.sect	'.text.BrsMain.BrsMainExceptionHandler'
+	.align	2
+	
+	.global	BrsMainExceptionHandler
+
+; ..\_04_StartUp\BrsMain.c	   437  
+; ..\_04_StartUp\BrsMain.c	   438  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   439  /**
+; ..\_04_StartUp\BrsMain.c	   440   * @brief      InitTask to call EcuM_StartupTwo() on 4th Core
+; ..\_04_StartUp\BrsMain.c	   441   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   442   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   443   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   444   * @return     -
+; ..\_04_StartUp\BrsMain.c	   445   * @context    The task is started once by the OS on the 4th Core
+; ..\_04_StartUp\BrsMain.c	   446   */
+; ..\_04_StartUp\BrsMain.c	   447  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   448  
+; ..\_04_StartUp\BrsMain.c	   449  
+; ..\_04_StartUp\BrsMain.c	   450  #if defined (BRS_DERIVATIVE_GROUP_TC3xx)
+; ..\_04_StartUp\BrsMain.c	   451  
+; ..\_04_StartUp\BrsMain.c	   452  TASK(Default_Init_Task_Core3)
+; ..\_04_StartUp\BrsMain.c	   453  {
+; ..\_04_StartUp\BrsMain.c	   454  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CORE3_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   455    BrsTestsuite_BrsMain_Default_Init_Task_Core3();
+; ..\_04_StartUp\BrsMain.c	   456  #endif
+; ..\_04_StartUp\BrsMain.c	   457  
+; ..\_04_StartUp\BrsMain.c	   458    EcuM_StartupTwo();
+; ..\_04_StartUp\BrsMain.c	   459  
+; ..\_04_StartUp\BrsMain.c	   460    Os_InitialEnableInterruptSources(FALSE);
+; ..\_04_StartUp\BrsMain.c	   461  
+; ..\_04_StartUp\BrsMain.c	   462    (void)TerminateTask();
+; ..\_04_StartUp\BrsMain.c	   463  }
+; ..\_04_StartUp\BrsMain.c	   464  
+; ..\_04_StartUp\BrsMain.c	   465  #endif
+; ..\_04_StartUp\BrsMain.c	   466  
+; ..\_04_StartUp\BrsMain.c	   467  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   468  /**
+; ..\_04_StartUp\BrsMain.c	   469   * @brief      InitTask to call EcuM_StartupTwo() on 5th Core
+; ..\_04_StartUp\BrsMain.c	   470   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   471   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   472   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   473   * @return     -
+; ..\_04_StartUp\BrsMain.c	   474   * @context    The task is started once by the OS on the 5th Core
+; ..\_04_StartUp\BrsMain.c	   475   */
+; ..\_04_StartUp\BrsMain.c	   476  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   477  
+; ..\_04_StartUp\BrsMain.c	   478  #if defined (BRS_DERIVATIVE_GROUP_TC3xx)
+; ..\_04_StartUp\BrsMain.c	   479  TASK(Default_Init_Task_Core4)
+; ..\_04_StartUp\BrsMain.c	   480  {
+; ..\_04_StartUp\BrsMain.c	   481  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CORE4_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   482    BrsTestsuite_BrsMain_Default_Init_Task_Core4();
+; ..\_04_StartUp\BrsMain.c	   483  #endif
+; ..\_04_StartUp\BrsMain.c	   484  
+; ..\_04_StartUp\BrsMain.c	   485    EcuM_StartupTwo();
+; ..\_04_StartUp\BrsMain.c	   486  
+; ..\_04_StartUp\BrsMain.c	   487    Os_InitialEnableInterruptSources(FALSE);
+; ..\_04_StartUp\BrsMain.c	   488  
+; ..\_04_StartUp\BrsMain.c	   489    (void)TerminateTask();
+; ..\_04_StartUp\BrsMain.c	   490  }
+; ..\_04_StartUp\BrsMain.c	   491  #endif
+; ..\_04_StartUp\BrsMain.c	   492  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   493  /**
+; ..\_04_StartUp\BrsMain.c	   494   * @brief      InitTask to call EcuM_StartupTwo() on 6th Core
+; ..\_04_StartUp\BrsMain.c	   495   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   496   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   497   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   498   * @return     -
+; ..\_04_StartUp\BrsMain.c	   499   * @context    The task is started once by the OS on the 6th Core
+; ..\_04_StartUp\BrsMain.c	   500   */
+; ..\_04_StartUp\BrsMain.c	   501  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   502  #if defined (BRS_DERIVATIVE_GROUP_TC3xx)
+; ..\_04_StartUp\BrsMain.c	   503  
+; ..\_04_StartUp\BrsMain.c	   504  TASK(Default_Init_Task_Core5)
+; ..\_04_StartUp\BrsMain.c	   505  {
+; ..\_04_StartUp\BrsMain.c	   506  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CORE5_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   507    BrsTestsuite_BrsMain_Default_Init_Task_Core5();
+; ..\_04_StartUp\BrsMain.c	   508  #endif
+; ..\_04_StartUp\BrsMain.c	   509  
+; ..\_04_StartUp\BrsMain.c	   510    EcuM_StartupTwo();
+; ..\_04_StartUp\BrsMain.c	   511  
+; ..\_04_StartUp\BrsMain.c	   512    Os_InitialEnableInterruptSources(FALSE);
+; ..\_04_StartUp\BrsMain.c	   513  
+; ..\_04_StartUp\BrsMain.c	   514    (void)TerminateTask();
+; ..\_04_StartUp\BrsMain.c	   515  }
+; ..\_04_StartUp\BrsMain.c	   516  #endif
+; ..\_04_StartUp\BrsMain.c	   517  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   518  /**
+; ..\_04_StartUp\BrsMain.c	   519   * @brief      InitTask to call EcuM_StartupTwo() on 7th Core
+; ..\_04_StartUp\BrsMain.c	   520   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   521   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   522   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   523   * @return     -
+; ..\_04_StartUp\BrsMain.c	   524   * @context    The task is started once by the OS on the 7th Core
+; ..\_04_StartUp\BrsMain.c	   525   */
+; ..\_04_StartUp\BrsMain.c	   526  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   527  #if defined (BRS_DERIVATIVE_GROUP_TC4xx)
+; ..\_04_StartUp\BrsMain.c	   528  
+; ..\_04_StartUp\BrsMain.c	   529  TASK(Default_Init_Task_Core6)
+; ..\_04_StartUp\BrsMain.c	   530  {
+; ..\_04_StartUp\BrsMain.c	   531  #if defined (BRSMAIN_DEFAULT_INIT_TASK_CORE6_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   532    BrsTestsuite_BrsMain_Default_Init_Task_Core6();
+; ..\_04_StartUp\BrsMain.c	   533  #endif
+; ..\_04_StartUp\BrsMain.c	   534  
+; ..\_04_StartUp\BrsMain.c	   535    EcuM_StartupTwo();
+; ..\_04_StartUp\BrsMain.c	   536  
+; ..\_04_StartUp\BrsMain.c	   537    Os_InitialEnableInterruptSources(FALSE);
+; ..\_04_StartUp\BrsMain.c	   538  
+; ..\_04_StartUp\BrsMain.c	   539    (void)TerminateTask();
+; ..\_04_StartUp\BrsMain.c	   540  }
+; ..\_04_StartUp\BrsMain.c	   541  #endif
+; ..\_04_StartUp\BrsMain.c	   542  
+; ..\_04_StartUp\BrsMain.c	   543  #endif /*BRS_ENABLE_OS_MULTICORESUPPORT*/
+; ..\_04_StartUp\BrsMain.c	   544  
+; ..\_04_StartUp\BrsMain.c	   545  #if defined (BRS_ENABLE_1MS_HANDLER)
+; ..\_04_StartUp\BrsMain.c	   546  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   547  /**
+; ..\_04_StartUp\BrsMain.c	   548   * @brief      One millisecond handler for BrsMain 
+; ..\_04_StartUp\BrsMain.c	   549   *               - Executes retransmission of BRS TCC messages
+; ..\_04_StartUp\BrsMain.c	   550   *               - Toggling of LED (alive signal)
+; ..\_04_StartUp\BrsMain.c	   551   *               - BRS Test code (1s cyclic negative TCC response message)
+; ..\_04_StartUp\BrsMain.c	   552   * @pre        Initialization of BrsMain was done threw call of BrsMainInit().
+; ..\_04_StartUp\BrsMain.c	   553   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   554   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   555   * @return     -
+; ..\_04_StartUp\BrsMain.c	   556   * @context    Function is called each millisecond either from the main loop or from the BRS main task (TASK(mainTask))
+; ..\_04_StartUp\BrsMain.c	   557   */
+; ..\_04_StartUp\BrsMain.c	   558  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   559  static void BrsMainCyclic1ms(void)
+; ..\_04_StartUp\BrsMain.c	   560  {
+; ..\_04_StartUp\BrsMain.c	   561    uint8 cycliccounter;
+; ..\_04_StartUp\BrsMain.c	   562  
+; ..\_04_StartUp\BrsMain.c	   563  #if defined (BRSMAIN_BRSMAINCYCLIC1MS_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   564    BrsTestsuite_BrsMain_BrsMainCyclic1ms();
+; ..\_04_StartUp\BrsMain.c	   565  #endif
+; ..\_04_StartUp\BrsMain.c	   566  
+; ..\_04_StartUp\BrsMain.c	   567    brsMain_CallCounter1ms++;
+; ..\_04_StartUp\BrsMain.c	   568  
+; ..\_04_StartUp\BrsMain.c	   569    for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_1ms.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   570      brsMain_Cyclic_Callbacks_1ms.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   571  
+; ..\_04_StartUp\BrsMain.c	   572    if (brsMain_CallCounter1ms %10 == 0)
+; ..\_04_StartUp\BrsMain.c	   573    {
+; ..\_04_StartUp\BrsMain.c	   574      for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_10ms.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   575        brsMain_Cyclic_Callbacks_10ms.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   576    }
+; ..\_04_StartUp\BrsMain.c	   577  
+; ..\_04_StartUp\BrsMain.c	   578    if (brsMain_CallCounter1ms %100 == 0)
+; ..\_04_StartUp\BrsMain.c	   579    {
+; ..\_04_StartUp\BrsMain.c	   580      for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_100ms.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   581        brsMain_Cyclic_Callbacks_100ms.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   582    }
+; ..\_04_StartUp\BrsMain.c	   583  
+; ..\_04_StartUp\BrsMain.c	   584    if (brsMain_CallCounter1ms %250 == 0)
+; ..\_04_StartUp\BrsMain.c	   585    {
+; ..\_04_StartUp\BrsMain.c	   586      for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_250ms.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   587        brsMain_Cyclic_Callbacks_250ms.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   588    }
+; ..\_04_StartUp\BrsMain.c	   589  
+; ..\_04_StartUp\BrsMain.c	   590    if (brsMain_CallCounter1ms %500 == 0)
+; ..\_04_StartUp\BrsMain.c	   591    {
+; ..\_04_StartUp\BrsMain.c	   592      for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_500ms.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   593        brsMain_Cyclic_Callbacks_500ms.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   594    }
+; ..\_04_StartUp\BrsMain.c	   595  
+; ..\_04_StartUp\BrsMain.c	   596    if (brsMain_CallCounter1ms %1000 == 0)
+; ..\_04_StartUp\BrsMain.c	   597    {
+; ..\_04_StartUp\BrsMain.c	   598      for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_1000ms.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   599        brsMain_Cyclic_Callbacks_1000ms.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   600      brsMain_CallCounter1ms = 0u;
+; ..\_04_StartUp\BrsMain.c	   601      brsMain_CallCounter1sec++;
+; ..\_04_StartUp\BrsMain.c	   602    }
+; ..\_04_StartUp\BrsMain.c	   603  }
+; ..\_04_StartUp\BrsMain.c	   604  
+; ..\_04_StartUp\BrsMain.c	   605  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   606  /**
+; ..\_04_StartUp\BrsMain.c	   607   * @brief      BrsMainTask executes the 1 millisecond handler
+; ..\_04_StartUp\BrsMain.c	   608   *             The function initiates calls to BrsMainCyclic1ms
+; ..\_04_StartUp\BrsMain.c	   609   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   610   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   611   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   612   * @return     -
+; ..\_04_StartUp\BrsMain.c	   613   * @context    The task is started once by the OS and activated by
+; ..\_04_StartUp\BrsMain.c	   614   *             the OS event EvCyclicAlarm_1ms
+; ..\_04_StartUp\BrsMain.c	   615   */
+; ..\_04_StartUp\BrsMain.c	   616  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   617  TASK(BrsMainTask)
+; ..\_04_StartUp\BrsMain.c	   618  {
+; ..\_04_StartUp\BrsMain.c	   619    EventMaskType ev;
+; ..\_04_StartUp\BrsMain.c	   620  
+; ..\_04_StartUp\BrsMain.c	   621  #if defined (BRSMAIN_BRSMAINTASK_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   622    BrsTestsuite_BrsMain_BrsMainTask();
+; ..\_04_StartUp\BrsMain.c	   623  #endif
+; ..\_04_StartUp\BrsMain.c	   624  
+; ..\_04_StartUp\BrsMain.c	   625    (void)SetRelAlarm(BrsCyclicAlarm_1ms, OS_MS2TICKS_SystemTimer(1), OS_MS2TICKS_SystemTimer(1));
+; ..\_04_StartUp\BrsMain.c	   626  
+; ..\_04_StartUp\BrsMain.c	   627    for(;;)
+; ..\_04_StartUp\BrsMain.c	   628    {
+; ..\_04_StartUp\BrsMain.c	   629      (void)WaitEvent(BrsEvCyclicAlarm_1ms);
+; ..\_04_StartUp\BrsMain.c	   630      (void)GetEvent(BrsMainTask, &ev);
+; ..\_04_StartUp\BrsMain.c	   631      (void)ClearEvent(ev);
+; ..\_04_StartUp\BrsMain.c	   632      if(ev & BrsEvCyclicAlarm_1ms)
+; ..\_04_StartUp\BrsMain.c	   633      {
+; ..\_04_StartUp\BrsMain.c	   634        /* 1ms event detected, call the ms handler */
+; ..\_04_StartUp\BrsMain.c	   635        BrsMainCyclic1ms();
+; ..\_04_StartUp\BrsMain.c	   636      }
+; ..\_04_StartUp\BrsMain.c	   637    }
+; ..\_04_StartUp\BrsMain.c	   638  }
+; ..\_04_StartUp\BrsMain.c	   639  
+; ..\_04_StartUp\BrsMain.c	   640  TASK(BrsMainBackgroundTask)
+; ..\_04_StartUp\BrsMain.c	   641  {
+; ..\_04_StartUp\BrsMain.c	   642    uint8 cycliccounter;
+; ..\_04_StartUp\BrsMain.c	   643  
+; ..\_04_StartUp\BrsMain.c	   644  #if defined (BRSMAIN_BRSMAINBACKGROUNDTASK_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   645    BrsTestsuite_BrsMain_BrsMainBackgroundTask();
+; ..\_04_StartUp\BrsMain.c	   646  #endif
+; ..\_04_StartUp\BrsMain.c	   647  
+; ..\_04_StartUp\BrsMain.c	   648    for(;;)
+; ..\_04_StartUp\BrsMain.c	   649    {
+; ..\_04_StartUp\BrsMain.c	   650  # if defined (_MICROSOFT_C_VTT_)
+; ..\_04_StartUp\BrsMain.c	   651      CANoeAPI_ConsumeTicks(100);
+; ..\_04_StartUp\BrsMain.c	   652  # endif
+; ..\_04_StartUp\BrsMain.c	   653  
+; ..\_04_StartUp\BrsMain.c	   654      for (cycliccounter=0u; cycliccounter<brsMain_Cyclic_Callbacks_Background.FunctionCounter; cycliccounter++)
+; ..\_04_StartUp\BrsMain.c	   655        brsMain_Cyclic_Callbacks_Background.FunctionPointer[cycliccounter]();
+; ..\_04_StartUp\BrsMain.c	   656  
+; ..\_04_StartUp\BrsMain.c	   657      (void)Schedule();
+; ..\_04_StartUp\BrsMain.c	   658    }
+; ..\_04_StartUp\BrsMain.c	   659  }
+; ..\_04_StartUp\BrsMain.c	   660  #endif /*BRS_ENABLE_1MS_HANDLER*/
+; ..\_04_StartUp\BrsMain.c	   661  
+; ..\_04_StartUp\BrsMain.c	   662  
+; ..\_04_StartUp\BrsMain.c	   663  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   664  /**
+; ..\_04_StartUp\BrsMain.c	   665   * @brief      This is the central exeption handler of BRS.
+; ..\_04_StartUp\BrsMain.c	   666   *             All BRS modules and all CANbedded specific fatal error handler will
+; ..\_04_StartUp\BrsMain.c	   667   *             call this API in case an assertion has failed.
+; ..\_04_StartUp\BrsMain.c	   668   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   669   * @param[in]  ErrorCode shall hold the caller specific error code (uint8)
+; ..\_04_StartUp\BrsMain.c	   670   * @param[in]  ModuleCode shall describe the caller; please use the CI constant as parameter (uint8)
+; ..\_04_StartUp\BrsMain.c	   671   * @param[in]  LineNumber shall be the line where the assertion has failed, or, 
+; ..\_04_StartUp\BrsMain.c	   672   *             if not available on caller location, the line where this API is 
+; ..\_04_StartUp\BrsMain.c	   673   *             called from
+; ..\_04_StartUp\BrsMain.c	   674   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   675   * @return     -
+; ..\_04_StartUp\BrsMain.c	   676   * @context    This function implements an endless loop with locked interrupts.
+; ..\_04_StartUp\BrsMain.c	   677   *             The recommendation is to set a breakpoint on top of this function 
+; ..\_04_StartUp\BrsMain.c	   678   *             to see if any assertion has failed during the code execution.
+; ..\_04_StartUp\BrsMain.c	   679   *             Due to an assertion has failed and the endless loop runs with
+; ..\_04_StartUp\BrsMain.c	   680   *             locked global interrupts there will be no life after the call ...
+; ..\_04_StartUp\BrsMain.c	   681   */
+; ..\_04_StartUp\BrsMain.c	   682  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   683  void BrsMainExceptionHandler(uint8 ErrorCode, uint8 ModuleCode, uint16 LineNumber)
+; Function BrsMainExceptionHandler
+.L24:
+BrsMainExceptionHandler:	.type	func
+	sub.a	a10,#8
+.L210:
+
+; ..\_04_StartUp\BrsMain.c	   684  {
+; ..\_04_StartUp\BrsMain.c	   685  #if defined (BRSMAIN_BRSMAINEXCEPTIONHANDLER_CALLOUT)
+; ..\_04_StartUp\BrsMain.c	   686    BrsTestsuite_BrsMain_BrsMainExceptionHandler();
+; ..\_04_StartUp\BrsMain.c	   687  #endif
+; ..\_04_StartUp\BrsMain.c	   688  
+; ..\_04_StartUp\BrsMain.c	   689  #if defined (BRS_ENABLE_SAFECTXSUPPORT)
+; ..\_04_StartUp\BrsMain.c	   690    while(1)
+; ..\_04_StartUp\BrsMain.c	   691    {}
+; ..\_04_StartUp\BrsMain.c	   692  
+; ..\_04_StartUp\BrsMain.c	   693  #else
+; ..\_04_StartUp\BrsMain.c	   694  # if defined (_MICROSOFT_C_VTT_)
+; ..\_04_StartUp\BrsMain.c	   695    char error[BRSMAIN_ERRORBUFFERSIZE];
+; ..\_04_StartUp\BrsMain.c	   696  
+; ..\_04_StartUp\BrsMain.c	   697    sprintf_s(error, BRSMAIN_ERRORBUFFERSIZE, "BrsMainExceptionHandler Code: [0x%x] ModuleCode: [0x%x] LineNumber: [0x%x]", ErrorCode, ModuleCode, LineNumber);
+; ..\_04_StartUp\BrsMain.c	   698  
+; ..\_04_StartUp\BrsMain.c	   699    CANoeAPI_WriteString(error);
+; ..\_04_StartUp\BrsMain.c	   700    ShutdownOS(0);
+; ..\_04_StartUp\BrsMain.c	   701  
+; ..\_04_StartUp\BrsMain.c	   702  # else
+; ..\_04_StartUp\BrsMain.c	   703    volatile uint8 BrsMain_Continue;
+; ..\_04_StartUp\BrsMain.c	   704    BrsMain_Continue = 0;
+	mov	d15,#0
+.L249:
+	st.b	[a10],d15
+.L250:
+
+; ..\_04_StartUp\BrsMain.c	   705    DisableAllInterrupts();
+	call	DisableAllInterrupts
+.L211:
+
+; ..\_04_StartUp\BrsMain.c	   706    while (BrsMain_Continue == 0)
+	j	.L2
+.L3:
+.L2:
+	ld.bu	d15,[a10]
+.L251:
+	jeq	d15,#0,.L3
+.L252:
+
+; ..\_04_StartUp\BrsMain.c	   707    {
+; ..\_04_StartUp\BrsMain.c	   708      /* Set BrsMain_Continue to 1 to continue here.
+; ..\_04_StartUp\BrsMain.c	   709       *  If the debugger is not able to show the stack properly, this mechanism can be used to find the
+; ..\_04_StartUp\BrsMain.c	   710       *  source of the exception. */
+; ..\_04_StartUp\BrsMain.c	   711    }
+; ..\_04_StartUp\BrsMain.c	   712  # endif /*_MICROSOFT_C_VTT_*/
+; ..\_04_StartUp\BrsMain.c	   713  #endif /*BRS_ENABLE_SAFECTXSUPPORT*/
+; ..\_04_StartUp\BrsMain.c	   714  }
+	ret
+.L181:
+	
+__BrsMainExceptionHandler_function_end:
+	.size	BrsMainExceptionHandler,__BrsMainExceptionHandler_function_end-BrsMainExceptionHandler
+.L87:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.BrsMainExceptionStartup',code,cluster('BrsMainExceptionStartup')
+	.sect	'.text.BrsMain.BrsMainExceptionStartup'
+	.align	2
+	
+	.global	BrsMainExceptionStartup
+
+; ..\_04_StartUp\BrsMain.c	   715  
+; ..\_04_StartUp\BrsMain.c	   716  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   717  /**
+; ..\_04_StartUp\BrsMain.c	   718   * @brief      This is just a wrapper to ease calls to
+; ..\_04_StartUp\BrsMain.c	   719   *             BrsMainExceptionHandler() from assembler StartUpCode.
+; ..\_04_StartUp\BrsMain.c	   720   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   721   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   722   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   723   * @return     -
+; ..\_04_StartUp\BrsMain.c	   724   * @context    This function will call BrsMainExceptionHandler() with the
+; ..\_04_StartUp\BrsMain.c	   725   *             error code for reaching illegal assembler in StartUpCpde.
+; ..\_04_StartUp\BrsMain.c	   726   */
+; ..\_04_StartUp\BrsMain.c	   727  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   728  void BrsMainExceptionStartup(void)
+; Function BrsMainExceptionStartup
+.L26:
+BrsMainExceptionStartup:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   729  {
+; ..\_04_StartUp\BrsMain.c	   730    BrsMainExceptionHandler(kBrsIllegalAssemblerReached, BRSERROR_MODULE_BRSSTARTUP, (uint16)0);
+	mov	d4,#13
+.L257:
+	mov	d5,#3
+.L258:
+	mov	d6,#0
+	call	BrsMainExceptionHandler
+.L259:
+
+; ..\_04_StartUp\BrsMain.c	   731  }
+	ret
+.L189:
+	
+__BrsMainExceptionStartup_function_end:
+	.size	BrsMainExceptionStartup,__BrsMainExceptionStartup_function_end-BrsMainExceptionStartup
+.L92:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.main',code,cluster('main')
+	.sect	'.text.BrsMain.main'
+	.align	2
+	
+	.global	main
+
+; ..\_04_StartUp\BrsMain.c	   732  
+; ..\_04_StartUp\BrsMain.c	   733  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   734  /**
+; ..\_04_StartUp\BrsMain.c	   735   * @brief      Main function
+; ..\_04_StartUp\BrsMain.c	   736   * @pre        -
+; ..\_04_StartUp\BrsMain.c	   737   * @param[in]  -
+; ..\_04_StartUp\BrsMain.c	   738   * @param[out] -
+; ..\_04_StartUp\BrsMain.c	   739   * @return     always 0 as the function is not expected to return
+; ..\_04_StartUp\BrsMain.c	   740   * @context    Called by the startup code
+; ..\_04_StartUp\BrsMain.c	   741   */
+; ..\_04_StartUp\BrsMain.c	   742  /*****************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   743  int main(void)
+; Function main
+.L28:
+main:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   744  {
+; ..\_04_StartUp\BrsMain.c	   745  
+; ..\_04_StartUp\BrsMain.c	   746    Os_InitMemory();
+	call	Os_InitMemory
+.L264:
+
+; ..\_04_StartUp\BrsMain.c	   747    Os_Init();
+	call	Os_Init
+.L265:
+
+; ..\_04_StartUp\BrsMain.c	   748  
+; ..\_04_StartUp\BrsMain.c	   749    EcuM_Init(); /* never returns */
+	call	EcuM_Init
+.L266:
+
+; ..\_04_StartUp\BrsMain.c	   750    return 0;
+	mov	d2,#0
+.L267:
+	j	.L4
+
+; ..\_04_StartUp\BrsMain.c	   751  }
+.L4:
+	ret
+.L191:
+	
+__main_function_end:
+	.size	main,__main_function_end-main
+.L97:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0',code,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.text.BrsMain.SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0'
+	.align	2
+	
+	.global	SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0
+
+; ..\_04_StartUp\BrsMain.c	   752  
+; ..\_04_StartUp\BrsMain.c	   753  /***********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   754   *  Additional UserCode can be placed here
+; ..\_04_StartUp\BrsMain.c	   755   **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   756  
+; ..\_04_StartUp\BrsMain.c	   757  /***********************************************************************************************************************
+; ..\_04_StartUp\BrsMain.c	   758   * UserDefined ExclusiveArea handling for CAN channels, according to AN-ISC-8-1149_ErrorHook_E_OS_DISABLED_INT.pdf
+; ..\_04_StartUp\BrsMain.c	   759   **********************************************************************************************************************/
+; ..\_04_StartUp\BrsMain.c	   760  # if defined (CAN_30_MCAN_SW_MAJOR_VERSION)
+; ..\_04_StartUp\BrsMain.c	   761    #define Can_DisableControllerInterrupts Can_30_Mcan_DisableControllerInterrupts
+; ..\_04_StartUp\BrsMain.c	   762    #define Can_EnableControllerInterrupts Can_30_Mcan_EnableControllerInterrupts
+; ..\_04_StartUp\BrsMain.c	   763  # endif
+; ..\_04_StartUp\BrsMain.c	   764  
+; ..\_04_StartUp\BrsMain.c	   765  void SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0(void)
+; Function SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0
+.L30:
+SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   766  {
+; ..\_04_StartUp\BrsMain.c	   767    if (++BrsAsrApplCanInterruptLockCtr == 1u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L290:
+	add	d15,#1
+	st.b	[a15],d15
+.L291:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L292:
+	jne	d15,#1,.L5
+.L293:
+
+; ..\_04_StartUp\BrsMain.c	   768    {
+; ..\_04_StartUp\BrsMain.c	   769      Can_DisableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_DisableControllerInterrupts
+.L5:
+
+; ..\_04_StartUp\BrsMain.c	   770    }
+; ..\_04_StartUp\BrsMain.c	   771  }
+	ret
+.L197:
+	
+__SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0_function_end:
+	.size	SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0,__SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0_function_end-SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0
+.L117:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0',code,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.text.BrsMain.SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0'
+	.align	2
+	
+	.global	SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0
+
+; ..\_04_StartUp\BrsMain.c	   772  
+; ..\_04_StartUp\BrsMain.c	   773  void SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0(void)
+; Function SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0
+.L32:
+SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   774  {
+; ..\_04_StartUp\BrsMain.c	   775    if (--BrsAsrApplCanInterruptLockCtr == 0u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L298:
+	add	d15,#-1
+	st.b	[a15],d15
+.L299:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L300:
+	jne	d15,#0,.L6
+.L301:
+
+; ..\_04_StartUp\BrsMain.c	   776    {
+; ..\_04_StartUp\BrsMain.c	   777      Can_EnableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_EnableControllerInterrupts
+.L6:
+
+; ..\_04_StartUp\BrsMain.c	   778    }
+; ..\_04_StartUp\BrsMain.c	   779  }
+	ret
+.L198:
+	
+__SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0_function_end:
+	.size	SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0,__SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0_function_end-SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0
+.L122:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6',code,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.text.BrsMain.SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6'
+	.align	2
+	
+	.global	SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6
+
+; ..\_04_StartUp\BrsMain.c	   780  
+; ..\_04_StartUp\BrsMain.c	   781  void SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6(void)
+; Function SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6
+.L34:
+SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   782  {
+; ..\_04_StartUp\BrsMain.c	   783    if (++BrsAsrApplCanInterruptLockCtr == 1u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L306:
+	add	d15,#1
+	st.b	[a15],d15
+.L307:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L308:
+	jne	d15,#1,.L7
+.L309:
+
+; ..\_04_StartUp\BrsMain.c	   784    {
+; ..\_04_StartUp\BrsMain.c	   785      Can_DisableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_DisableControllerInterrupts
+.L7:
+
+; ..\_04_StartUp\BrsMain.c	   786    }
+; ..\_04_StartUp\BrsMain.c	   787  }
+	ret
+.L199:
+	
+__SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6_function_end:
+	.size	SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6,__SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6_function_end-SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6
+.L127:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6',code,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.text.BrsMain.SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6'
+	.align	2
+	
+	.global	SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6
+
+; ..\_04_StartUp\BrsMain.c	   788  
+; ..\_04_StartUp\BrsMain.c	   789  void SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6(void)
+; Function SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6
+.L36:
+SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   790  {
+; ..\_04_StartUp\BrsMain.c	   791    if (--BrsAsrApplCanInterruptLockCtr == 0u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L314:
+	add	d15,#-1
+	st.b	[a15],d15
+.L315:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L316:
+	jne	d15,#0,.L8
+.L317:
+
+; ..\_04_StartUp\BrsMain.c	   792    {
+; ..\_04_StartUp\BrsMain.c	   793      Can_EnableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_EnableControllerInterrupts
+.L8:
+
+; ..\_04_StartUp\BrsMain.c	   794    }
+; ..\_04_StartUp\BrsMain.c	   795  }
+	ret
+.L200:
+	
+__SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6_function_end:
+	.size	SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6,__SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6_function_end-SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6
+.L132:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0',code,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.text.BrsMain.SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0'
+	.align	2
+	
+	.global	SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0
+
+; ..\_04_StartUp\BrsMain.c	   796  
+; ..\_04_StartUp\BrsMain.c	   797  void SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0(void)
+; Function SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0
+.L38:
+SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   798  {
+; ..\_04_StartUp\BrsMain.c	   799    if (++BrsAsrApplCanInterruptLockCtr == 1u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L322:
+	add	d15,#1
+	st.b	[a15],d15
+.L323:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L324:
+	jne	d15,#1,.L9
+.L325:
+
+; ..\_04_StartUp\BrsMain.c	   800    {
+; ..\_04_StartUp\BrsMain.c	   801      Can_DisableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_DisableControllerInterrupts
+.L9:
+
+; ..\_04_StartUp\BrsMain.c	   802    }
+; ..\_04_StartUp\BrsMain.c	   803  }
+	ret
+.L201:
+	
+__SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0_function_end:
+	.size	SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0,__SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0_function_end-SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0
+.L137:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0',code,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.text.BrsMain.SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0'
+	.align	2
+	
+	.global	SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0
+
+; ..\_04_StartUp\BrsMain.c	   804  
+; ..\_04_StartUp\BrsMain.c	   805  void SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0(void)
+; Function SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0
+.L40:
+SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   806  {
+; ..\_04_StartUp\BrsMain.c	   807    if (--BrsAsrApplCanInterruptLockCtr == 0u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L330:
+	add	d15,#-1
+	st.b	[a15],d15
+.L331:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L332:
+	jne	d15,#0,.L10
+.L333:
+
+; ..\_04_StartUp\BrsMain.c	   808    {
+; ..\_04_StartUp\BrsMain.c	   809      Can_EnableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_EnableControllerInterrupts
+.L10:
+
+; ..\_04_StartUp\BrsMain.c	   810    }
+; ..\_04_StartUp\BrsMain.c	   811  }
+	ret
+.L202:
+	
+__SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0_function_end:
+	.size	SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0,__SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0_function_end-SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0
+.L142:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4',code,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.text.BrsMain.SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4'
+	.align	2
+	
+	.global	SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4
+
+; ..\_04_StartUp\BrsMain.c	   812  
+; ..\_04_StartUp\BrsMain.c	   813  void SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4(void)
+; Function SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4
+.L42:
+SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   814  {
+; ..\_04_StartUp\BrsMain.c	   815    if (++BrsAsrApplCanInterruptLockCtr == 1u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L338:
+	add	d15,#1
+	st.b	[a15],d15
+.L339:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L340:
+	jne	d15,#1,.L11
+.L341:
+
+; ..\_04_StartUp\BrsMain.c	   816    {
+; ..\_04_StartUp\BrsMain.c	   817      Can_DisableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_DisableControllerInterrupts
+.L11:
+
+; ..\_04_StartUp\BrsMain.c	   818    }
+; ..\_04_StartUp\BrsMain.c	   819  }
+	ret
+.L203:
+	
+__SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4_function_end:
+	.size	SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4,__SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4_function_end-SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4
+.L147:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4',code,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.text.BrsMain.SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4'
+	.align	2
+	
+	.global	SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4
+
+; ..\_04_StartUp\BrsMain.c	   820  
+; ..\_04_StartUp\BrsMain.c	   821  void SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4(void)
+; Function SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4
+.L44:
+SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   822  {
+; ..\_04_StartUp\BrsMain.c	   823    if (--BrsAsrApplCanInterruptLockCtr == 0u)
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	movh.a	a2,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a2,[a2]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a2]
+.L346:
+	add	d15,#-1
+	st.b	[a15],d15
+.L347:
+	movh.a	a15,#@his(BrsAsrApplCanInterruptLockCtr)
+	lea	a15,[a15]@los(BrsAsrApplCanInterruptLockCtr)
+	ld.bu	d15,[a15]
+.L348:
+	jne	d15,#0,.L12
+.L349:
+
+; ..\_04_StartUp\BrsMain.c	   824    {
+; ..\_04_StartUp\BrsMain.c	   825      Can_EnableControllerInterrupts(0u);
+	mov	d4,#0
+	call	Can_EnableControllerInterrupts
+.L12:
+
+; ..\_04_StartUp\BrsMain.c	   826    }
+; ..\_04_StartUp\BrsMain.c	   827  }
+	ret
+.L204:
+	
+__SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4_function_end:
+	.size	SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4,__SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4_function_end-SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4
+.L152:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1',code,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.text.BrsMain.SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1'
+	.align	2
+	
+	.global	SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1
+
+; ..\_04_StartUp\BrsMain.c	   828  
+; ..\_04_StartUp\BrsMain.c	   829  void SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1(void)
+; Function SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1
+.L46:
+SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   830  {
+; ..\_04_StartUp\BrsMain.c	   831    /* Protects against task interruptions -> no locking needed, because all main functions are on same task */
+; ..\_04_StartUp\BrsMain.c	   832  }
+	ret
+.L205:
+	
+__SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1_function_end:
+	.size	SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1,__SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1_function_end-SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1
+.L157:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1',code,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.text.BrsMain.SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1'
+	.align	2
+	
+	.global	SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1
+
+; ..\_04_StartUp\BrsMain.c	   833  
+; ..\_04_StartUp\BrsMain.c	   834  void SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1(void)
+; Function SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1
+.L48:
+SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   835  {
+; ..\_04_StartUp\BrsMain.c	   836    /* Protects against task interruptions -> no locking needed, because all main functions are on same task */
+; ..\_04_StartUp\BrsMain.c	   837  }
+	ret
+.L206:
+	
+__SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1_function_end:
+	.size	SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1,__SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1_function_end-SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1
+.L162:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1',code,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.text.BrsMain.SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1'
+	.align	2
+	
+	.global	SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1
+
+; ..\_04_StartUp\BrsMain.c	   838  
+; ..\_04_StartUp\BrsMain.c	   839  void SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1(void)
+; Function SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1
+.L50:
+SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   840  {
+; ..\_04_StartUp\BrsMain.c	   841    /* Protects against task interruptions -> no locking needed, because all main functions are on same task */
+; ..\_04_StartUp\BrsMain.c	   842  }
+	ret
+.L207:
+	
+__SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1_function_end:
+	.size	SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1,__SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1_function_end-SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1
+.L167:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1',code,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.text.BrsMain.SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1'
+	.align	2
+	
+	.global	SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1
+
+; ..\_04_StartUp\BrsMain.c	   843  
+; ..\_04_StartUp\BrsMain.c	   844  void SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1(void)
+; Function SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1
+.L52:
+SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   845  {
+; ..\_04_StartUp\BrsMain.c	   846    /* Protects against task interruptions -> no locking needed, because all main functions are on same task */
+; ..\_04_StartUp\BrsMain.c	   847  }
+	ret
+.L208:
+	
+__SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1_function_end:
+	.size	SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1,__SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1_function_end-SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1
+.L172:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.Appl_UnlockEndinit',code,cluster('Appl_UnlockEndinit')
+	.sect	'.text.BrsMain.Appl_UnlockEndinit'
+	.align	2
+	
+	.global	Appl_UnlockEndinit
+
+; ..\_04_StartUp\BrsMain.c	   848  
+; ..\_04_StartUp\BrsMain.c	   849  
+; ..\_04_StartUp\BrsMain.c	   850  void Appl_UnlockEndinit(void)
+; Function Appl_UnlockEndinit
+.L54:
+Appl_UnlockEndinit:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   851  {
+; ..\_04_StartUp\BrsMain.c	   852  	Mcal_ResetENDINIT();
+	call	Mcal_ResetENDINIT
+.L272:
+
+; ..\_04_StartUp\BrsMain.c	   853  
+; ..\_04_StartUp\BrsMain.c	   854  }
+	ret
+.L192:
+	
+__Appl_UnlockEndinit_function_end:
+	.size	Appl_UnlockEndinit,__Appl_UnlockEndinit_function_end-Appl_UnlockEndinit
+.L102:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.Appl_LockEndinit',code,cluster('Appl_LockEndinit')
+	.sect	'.text.BrsMain.Appl_LockEndinit'
+	.align	2
+	
+	.global	Appl_LockEndinit
+
+; ..\_04_StartUp\BrsMain.c	   855  void Appl_LockEndinit(void)
+; Function Appl_LockEndinit
+.L56:
+Appl_LockEndinit:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   856  {
+; ..\_04_StartUp\BrsMain.c	   857  
+; ..\_04_StartUp\BrsMain.c	   858  	Mcal_SetENDINIT();
+	call	Mcal_SetENDINIT
+.L277:
+
+; ..\_04_StartUp\BrsMain.c	   859  
+; ..\_04_StartUp\BrsMain.c	   860  }
+	ret
+.L193:
+	
+__Appl_LockEndinit_function_end:
+	.size	Appl_LockEndinit,__Appl_LockEndinit_function_end-Appl_LockEndinit
+.L107:
+	; End of function
+	
+	.sdecl	'.text.BrsMain.ApplCanWaitSetMCR',code,cluster('ApplCanWaitSetMCR')
+	.sect	'.text.BrsMain.ApplCanWaitSetMCR'
+	.align	2
+	
+	.global	ApplCanWaitSetMCR
+
+; ..\_04_StartUp\BrsMain.c	   861  static volatile uint32 dummy;
+; ..\_04_StartUp\BrsMain.c	   862  void ApplCanWaitSetMCR(void)
+; Function ApplCanWaitSetMCR
+.L58:
+ApplCanWaitSetMCR:	.type	func
+
+; ..\_04_StartUp\BrsMain.c	   863  {
+; ..\_04_StartUp\BrsMain.c	   864  	uint32 i;
+; ..\_04_StartUp\BrsMain.c	   865  	for(i = 0 ; i < 10000 ; i++)
+	mov	d0,#0
+.L212:
+	j	.L13
+.L14:
+
+; ..\_04_StartUp\BrsMain.c	   866  	{
+; ..\_04_StartUp\BrsMain.c	   867  		dummy++;
+	movh.a	a15,#@his(dummy)
+	lea	a15,[a15]@los(dummy)
+	movh.a	a2,#@his(dummy)
+	lea	a2,[a2]@los(dummy)
+	ld.w	d15,[a2]
+.L282:
+	add	d15,#1
+	st.w	[a15],d15
+.L283:
+	add	d0,#1
+.L13:
+	mov	d15,#10000
+.L284:
+	jlt.u	d0,d15,.L14
+.L285:
+
+; ..\_04_StartUp\BrsMain.c	   868  	}
+; ..\_04_StartUp\BrsMain.c	   869  
+; ..\_04_StartUp\BrsMain.c	   870  }
+	ret
+.L194:
+	
+__ApplCanWaitSetMCR_function_end:
+	.size	ApplCanWaitSetMCR,__ApplCanWaitSetMCR_function_end-ApplCanWaitSetMCR
+.L112:
+	; End of function
+	
+	.sdecl	'.bss.BrsMain.BrsAsrApplCanInterruptLockCtr',data,cluster('BrsAsrApplCanInterruptLockCtr')
+	.sect	'.bss.BrsMain.BrsAsrApplCanInterruptLockCtr'
+BrsAsrApplCanInterruptLockCtr:	.type	object
+	.size	BrsAsrApplCanInterruptLockCtr,1
+	.space	1
+	.sdecl	'.bss.BrsMain.dummy',data,cluster('dummy')
+	.sect	'.bss.BrsMain.dummy'
+	.align	2
+dummy:	.type	object
+	.size	dummy,4
+	.space	4
+	.calls	'Os_Task_Default_Init_Task','EcuM_StartupTwo'
+	.calls	'Os_Task_Default_Init_Task','Os_InitialEnableInterruptSources'
+	.calls	'Os_Task_Default_Init_Task','TerminateTask'
+	.calls	'Os_Task_Default_Init_Task_Core1','EcuM_StartupTwo'
+	.calls	'Os_Task_Default_Init_Task_Core1','Os_InitialEnableInterruptSources'
+	.calls	'Os_Task_Default_Init_Task_Core1','TerminateTask'
+	.calls	'Os_Task_Default_Init_Task_Core2','EcuM_StartupTwo'
+	.calls	'Os_Task_Default_Init_Task_Core2','Os_InitialEnableInterruptSources'
+	.calls	'Os_Task_Default_Init_Task_Core2','TerminateTask'
+	.calls	'BrsMainExceptionHandler','DisableAllInterrupts'
+	.calls	'BrsMainExceptionStartup','BrsMainExceptionHandler'
+	.calls	'main','Os_InitMemory'
+	.calls	'main','Os_Init'
+	.calls	'main','EcuM_Init'
+	.calls	'SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0','Can_DisableControllerInterrupts'
+	.calls	'SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0','Can_EnableControllerInterrupts'
+	.calls	'SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6','Can_DisableControllerInterrupts'
+	.calls	'SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6','Can_EnableControllerInterrupts'
+	.calls	'SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0','Can_DisableControllerInterrupts'
+	.calls	'SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0','Can_EnableControllerInterrupts'
+	.calls	'SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4','Can_DisableControllerInterrupts'
+	.calls	'SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4','Can_EnableControllerInterrupts'
+	.calls	'Appl_UnlockEndinit','Mcal_ResetENDINIT'
+	.calls	'Appl_LockEndinit','Mcal_SetENDINIT'
+	.calls	'BrsMainInit','',0
+	.calls	'Os_Task_Default_Init_Task','',0
+	.calls	'Os_Task_Default_Init_Task_Core1','',0
+	.calls	'Os_Task_Default_Init_Task_Core2','',0
+	.calls	'BrsMainExceptionHandler','',8
+	.calls	'BrsMainExceptionStartup','',0
+	.calls	'main','',0
+	.calls	'SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0','',0
+	.calls	'SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0','',0
+	.calls	'SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6','',0
+	.calls	'SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6','',0
+	.calls	'SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0','',0
+	.calls	'SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0','',0
+	.calls	'SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4','',0
+	.calls	'SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4','',0
+	.calls	'SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1','',0
+	.calls	'SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1','',0
+	.calls	'SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1','',0
+	.calls	'SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1','',0
+	.calls	'Appl_UnlockEndinit','',0
+	.calls	'Appl_LockEndinit','',0
+	.extern	Os_InitMemory
+	.extern	Os_Init
+	.extern	DisableAllInterrupts
+	.extern	Os_InitialEnableInterruptSources
+	.extern	TerminateTask
+	.extern	EcuM_Init
+	.extern	EcuM_StartupTwo
+	.extern	Can_DisableControllerInterrupts
+	.extern	Can_EnableControllerInterrupts
+	.extern	Mcal_ResetENDINIT
+	.extern	Mcal_SetENDINIT
+	.calls	'ApplCanWaitSetMCR','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L60:
+	.word	18183
+	.half	3
+	.word	.L61
+	.byte	4
+.L59:
+	.byte	1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L62
+.L190:
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	186
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	193
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	235
+	.byte	7
+	.word	235
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	251
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	256
+	.byte	9
+	.byte	'value',0
+	.word	235
+	.byte	9
+	.byte	'compare',0
+	.word	235
+	.byte	0,10
+	.byte	'Os_InitMemory',0,1,128,5,21,1,1,1,1,10
+	.byte	'Os_Init',0,1,161,5,21,1,1,1,1,10
+	.byte	'DisableAllInterrupts',0,1,155,10,21,1,1,1,1
+.L182:
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'Os_InitialEnableInterruptSources',0,1,187,13,27
+	.word	383
+	.byte	1,1,1,1,12
+	.byte	'ClearPending',0,1,189,13,21
+	.word	383
+	.byte	0,13
+	.byte	'TerminateTask',0,1,161,15,27
+	.word	383
+	.byte	1,1,1,1,10
+	.byte	'EcuM_Init',0,2,211,2,23,1,1,1,1,10
+	.byte	'EcuM_StartupTwo',0,2,206,4,23,1,1,1,1
+.L185:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L187:
+	.byte	6
+	.word	383
+	.byte	14
+	.byte	'Can_DisableControllerInterrupts',0,3,185,12,32,1,1,1,1,12
+	.byte	'Controller',0,3,185,12,71
+	.word	383
+	.byte	0,14
+	.byte	'Can_EnableControllerInterrupts',0,3,200,12,32,1,1,1,1,12
+	.byte	'Controller',0,3,200,12,70
+	.word	383
+	.byte	0
+.L195:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,15
+	.byte	'Mcal_ResetENDINIT',0,4,212,6,2
+	.word	186
+	.byte	1,1,1,15
+	.byte	'Mcal_SetENDINIT',0,4,218,6,2
+	.word	186
+	.byte	1,1,1,16,1,7
+	.word	769
+	.byte	17
+	.byte	'__codeptr',0,4,1,1
+	.word	771
+	.byte	17
+	.byte	'boolean',0,5,124,31
+	.word	383
+	.byte	17
+	.byte	'uint8',0,5,127,31
+	.word	383
+	.byte	2
+	.byte	'short int',0,2,5,17
+	.byte	'sint16',0,5,128,1,31
+	.word	824
+	.byte	17
+	.byte	'uint16',0,5,129,1,31
+	.word	540
+	.byte	2
+	.byte	'long int',0,4,5,17
+	.byte	'sint32',0,5,130,1,31
+	.word	869
+	.byte	17
+	.byte	'uint32',0,5,131,1,31
+	.word	690
+	.byte	17
+	.byte	'uint8_least',0,5,134,1,31
+	.word	383
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,17
+	.byte	'uint64',0,5,145,1,30
+	.word	934
+	.byte	17
+	.byte	'StatusType',0,6,127,23
+	.word	383
+	.byte	18,6,134,1,9,8,19
+	.byte	'vendorID',0
+	.word	540
+	.byte	2,2,35,0,19
+	.byte	'moduleID',0
+	.word	540
+	.byte	2,2,35,2,19
+	.byte	'sw_major_version',0
+	.word	383
+	.byte	1,2,35,4,19
+	.byte	'sw_minor_version',0
+	.word	383
+	.byte	1,2,35,5,19
+	.byte	'sw_patch_version',0
+	.word	383
+	.byte	1,2,35,6,0,17
+	.byte	'Std_VersionInfoType',0,6,141,1,3
+	.word	995
+	.byte	20,7,157,1,9,1,21
+	.byte	'Default_Init_Task',0,0,21
+	.byte	'Default_Init_Task_Core1',0,1,21
+	.byte	'Default_Init_Task_Core2',0,2,21
+	.byte	'IdleTask_OsCore0',0,3,21
+	.byte	'IdleTask_OsCore1',0,4,21
+	.byte	'IdleTask_OsCore2',0,5,21
+	.byte	'OsTask_App10ms_Core0',0,6,21
+	.byte	'OsTask_App10ms_Core1',0,7,21
+	.byte	'OsTask_App10ms_Core2',0,8,21
+	.byte	'OsTask_App_Init_Task',0,9,21
+	.byte	'OsTask_Bsw5ms_Core0',0,10,21
+	.byte	'INVALID_TASK',0,11,21
+	.byte	'OS_TASKID_COUNT',0,11,0,17
+	.byte	'TaskType',0,7,172,1,3
+	.word	1145
+	.byte	17
+	.byte	'Os_Hal_AddressType',0,8,61,16
+	.word	690
+	.byte	22,64
+	.word	690
+	.byte	23,15,0,24
+	.byte	'Os_ExceptionContextType_Tag',0,9,92,8,156,1,19
+	.byte	'AddressRegisters',0
+	.word	1473
+	.byte	64,2,35,0,19
+	.byte	'DataRegisters',0
+	.word	1473
+	.byte	64,2,35,64,19
+	.byte	'Ra',0
+	.word	690
+	.byte	4,3,35,128,1,19
+	.byte	'Psw',0
+	.word	690
+	.byte	4,3,35,132,1,19
+	.byte	'ExceptionSource',0
+	.word	690
+	.byte	4,3,35,136,1,19
+	.byte	'Pcpn',0
+	.word	690
+	.byte	4,3,35,140,1,19
+	.byte	'Pie',0
+	.word	690
+	.byte	4,3,35,144,1,19
+	.byte	'MpuRegionForStackLow',0
+	.word	690
+	.byte	4,3,35,148,1,19
+	.byte	'MpuRegionForStackUpper',0
+	.word	690
+	.byte	4,3,35,152,1,0,17
+	.byte	'Os_ExceptionContextType',0,8,66,44
+	.word	1482
+	.byte	17
+	.byte	'Os_InterruptSourceIdType',0,10,238,1,16
+	.word	690
+	.byte	17
+	.byte	'Os_ExceptionSourceIdType',0,10,246,1,16
+	.word	690
+	.byte	20,10,161,2,9,1,21
+	.byte	'RUNNING',0,0,21
+	.byte	'READY',0,1,21
+	.byte	'WAITING',0,2,21
+	.byte	'SUSPENDED',0,3,0,17
+	.byte	'TaskStateType',0,10,175,2,3
+	.word	1812
+	.byte	17
+	.byte	'EventMaskType',0,10,182,2,16
+	.word	934
+	.byte	17
+	.byte	'Os_TickType',0,10,200,2,19
+	.word	690
+	.byte	17
+	.byte	'TickType',0,10,206,2,21
+	.word	690
+	.byte	18,10,220,2,9,12,19
+	.byte	'maxallowedvalue',0
+	.word	690
+	.byte	4,2,35,0,19
+	.byte	'ticksperbase',0
+	.word	690
+	.byte	4,2,35,4,19
+	.byte	'mincycle',0
+	.word	690
+	.byte	4,2,35,8,0,17
+	.byte	'AlarmBaseType',0,10,228,2,2
+	.word	1944
+	.byte	20,10,128,3,9,1,21
+	.byte	'APPLICATION_TERMINATED',0,0,21
+	.byte	'APPLICATION_RESTARTING',0,1,21
+	.byte	'APPLICATION_ACCESSIBLE',0,2,0,17
+	.byte	'ApplicationStateType',0,10,133,3,3
+	.word	2039
+	.byte	20,10,177,3,9,1,21
+	.byte	'OSServiceId_GetApplicationID',0,0,21
+	.byte	'OSServiceId_GetISRID',0,1,21
+	.byte	'OSServiceId_CallTrustedFunction',0,2,21
+	.byte	'OSServiceId_CheckISRMemoryAccess',0,3,21
+	.byte	'OSServiceId_CheckTaskMemoryAccess',0,4,21
+	.byte	'OSServiceId_CheckObjectAccess',0,5,21
+	.byte	'OSServiceId_CheckObjectOwnership',0,6,21
+	.byte	'OSServiceId_StartScheduleTableRel',0,7,21
+	.byte	'OSServiceId_StartScheduleTableAbs',0,8,21
+	.byte	'OSServiceId_StopScheduleTable',0,9,21
+	.byte	'OSServiceId_NextScheduleTable',0,10,21
+	.byte	'OSServiceId_StartScheduleTableSynchron',0,11,21
+	.byte	'OSServiceId_SyncScheduleTable',0,12,21
+	.byte	'OSServiceId_SetScheduleTableAsync',0,13,21
+	.byte	'OSServiceId_GetScheduleTableStatus',0,14,21
+	.byte	'OSServiceId_IncrementCounter',0,15,21
+	.byte	'OSServiceId_GetCounterValue',0,16,21
+	.byte	'OSServiceId_GetElapsedValue',0,17,21
+	.byte	'OSServiceId_TerminateApplication',0,18,21
+	.byte	'OSServiceId_AllowAccess',0,19,21
+	.byte	'OSServiceId_GetApplicationState',0,20,21
+	.byte	'OSServiceId_GetNumberOfActivatedCores',0,21,21
+	.byte	'OSServiceId_GetCoreID',0,22,21
+	.byte	'OSServiceId_StartCore',0,23,21
+	.byte	'OSServiceId_StartNonAutosarCore',0,24,21
+	.byte	'OSServiceId_GetSpinlock',0,25,21
+	.byte	'OSServiceId_ReleaseSpinlock',0,26,21
+	.byte	'OSServiceId_TryToGetSpinlock',0,27,21
+	.byte	'OSServiceId_ShutdownAllCores',0,28,21
+	.byte	'OSServiceId_ControlIdle',0,29,21
+	.byte	'OSServiceId_IocSend',0,30,21
+	.byte	'OSServiceId_IocWrite',0,31,21
+	.byte	'OSServiceId_IocSendGroup',0,32,21
+	.byte	'OSServiceId_IocWriteGroup',0,33,21
+	.byte	'OSServiceId_IocReceive',0,34,21
+	.byte	'OSServiceId_IocRead',0,35,21
+	.byte	'OSServiceId_IocReceiveGroup',0,36,21
+	.byte	'OSServiceId_IocReadGroup',0,37,21
+	.byte	'OSServiceId_IocEmptyQueue',0,38,21
+	.byte	'OSServiceId_GetCurrentApplicationID',0,39,21
+	.byte	'OSServiceId_GetExceptionContext',0,160,1,21
+	.byte	'OSServiceId_SetExceptionContext',0,161,1,21
+	.byte	'OSServiceId_CallNonTrustedFunction',0,162,1,21
+	.byte	'OSServiceId_AppKill',0,163,1,21
+	.byte	'OSServiceId_AlarmActionSetEvent',0,164,1,21
+	.byte	'OSServiceId_AlarmActionActivateTask',0,165,1,21
+	.byte	'OSServiceId_AlarmActionIncrementCounter',0,166,1,21
+	.byte	'OSServiceId_AlarmActionCallback',0,167,1,21
+	.byte	'OSServiceId_TimerIsr',0,168,1,21
+	.byte	'OSServiceId_IsrWrapper',0,169,1,21
+	.byte	'OSServiceId_GetTaskStackUsage',0,170,1,21
+	.byte	'OSServiceId_GetISRStackUsage',0,171,1,21
+	.byte	'OSServiceId_GetKernelStackUsage',0,172,1,21
+	.byte	'OSServiceId_GetStartupHookStackUsage',0,173,1,21
+	.byte	'OSServiceId_GetErrorHookStackUsage',0,174,1,21
+	.byte	'OSServiceId_GetShutdownHookStackUsage',0,175,1,21
+	.byte	'OSServiceId_GetProtectionHookStackUsage',0,176,1,21
+	.byte	'OSServiceId_GetSemaphore',0,177,1,21
+	.byte	'OSServiceId_ReleaseSemaphore',0,178,1,21
+	.byte	'OSServiceId_ScheduleTableActivateTask',0,179,1,21
+	.byte	'OSServiceId_ScheduleTableSetEvent',0,180,1,21
+	.byte	'OSServiceId_DisableInterruptSource',0,181,1,21
+	.byte	'OSServiceId_EnableInterruptSource',0,182,1,21
+	.byte	'OSServiceId_ClearPendingInterrupt',0,183,1,21
+	.byte	'OSServiceId_GetUnhandledIrq',0,184,1,21
+	.byte	'OSServiceId_GetUnhandledExc',0,185,1,21
+	.byte	'OSServiceId_HookCallCallback',0,186,1,21
+	.byte	'OSServiceId_IsInterruptSourceEnabled',0,187,1,21
+	.byte	'OSServiceId_IsInterruptPending',0,188,1,21
+	.byte	'OSServiceId_CallFastTrustedFunction',0,189,1,21
+	.byte	'OSServiceId_BarrierSynchronize',0,190,1,21
+	.byte	'OSServiceId_InitialEnableInterruptSources',0,191,1,21
+	.byte	'OSServiceId_GetCoreStartState',0,192,1,21
+	.byte	'OSServiceId_StartOS',0,208,1,21
+	.byte	'OSServiceId_GetActiveApplicationMode',0,210,1,21
+	.byte	'OSServiceId_DisableAllInterrupts',0,211,1,21
+	.byte	'OSServiceId_EnableAllInterrupts',0,212,1,21
+	.byte	'OSServiceId_SuspendAllInterrupts',0,213,1,21
+	.byte	'OSServiceId_ResumeAllInterrupts',0,214,1,21
+	.byte	'OSServiceId_SuspendOSInterrupts',0,215,1,21
+	.byte	'OSServiceId_ResumeOSInterrupts',0,216,1,21
+	.byte	'OSServiceId_ActivateTask',0,217,1,21
+	.byte	'OSServiceId_TerminateTask',0,218,1,21
+	.byte	'OSServiceId_ChainTask',0,219,1,21
+	.byte	'OSServiceId_GetTaskID',0,220,1,21
+	.byte	'OSServiceId_GetTaskState',0,221,1,21
+	.byte	'OSServiceId_Schedule',0,222,1,21
+	.byte	'OSServiceId_SetEvent',0,223,1,21
+	.byte	'OSServiceId_ClearEvent',0,224,1,21
+	.byte	'OSServiceId_GetEvent',0,225,1,21
+	.byte	'OSServiceId_WaitEvent',0,226,1,21
+	.byte	'OSServiceId_GetAlarmBase',0,227,1,21
+	.byte	'OSServiceId_GetAlarm',0,228,1,21
+	.byte	'OSServiceId_SetRelAlarm',0,229,1,21
+	.byte	'OSServiceId_SetAbsAlarm',0,230,1,21
+	.byte	'OSServiceId_CancelAlarm',0,231,1,21
+	.byte	'OSServiceId_GetResource',0,232,1,21
+	.byte	'OSServiceId_ReleaseResource',0,233,1,21
+	.byte	'OSSERVICEID_COUNT',0,255,1,0,17
+	.byte	'OSServiceIdType',0,10,156,4,3
+	.word	2151
+	.byte	20,10,172,4,9,2,21
+	.byte	'OS_STATUS_OK',0,0,21
+	.byte	'OS_STATUS_CALLEVEL',0,2,21
+	.byte	'OS_STATUS_LIMIT',0,4,21
+	.byte	'OS_STATUS_RESOURCE',0,6,21
+	.byte	'OS_STATUS_SERVICEID',0,9,21
+	.byte	'OS_STATUS_ILLEGAL_ADDRESS',0,10,21
+	.byte	'OS_STATUS_MISSINGEND',0,11,21
+	.byte	'OS_STATUS_DISABLEDINT',0,12,21
+	.byte	'OS_STATUS_STACKFAULT',0,13,21
+	.byte	'OS_STATUS_PROTECTION_MEMORY',0,14,21
+	.byte	'OS_STATUS_PROTECTION_TIME',0,15,21
+	.byte	'OS_STATUS_PROTECTION_ARRIVAL',0,16,21
+	.byte	'OS_STATUS_PROTECTION_LOCKED',0,17,21
+	.byte	'OS_STATUS_PROTECTION_EXCEPTION',0,18,21
+	.byte	'OS_STATUS_INTERFERENCE_DEADLOCK',0,19,21
+	.byte	'OS_STATUS_NESTING_DEADLOCK',0,20,21
+	.byte	'OS_STATUS_SPINLOCK',0,21,21
+	.byte	'OS_STATUS_CORE',0,22,21
+	.byte	'OS_STATUS_OVERFLOW',0,245,1,21
+	.byte	'OS_STATUS_KILL_KERNEL_OBJ',0,246,1,21
+	.byte	'OS_STATUS_NO_RESTARTTASK',0,247,1,21
+	.byte	'OS_STATUS_CALL_NOT_ALLOWED',0,248,1,21
+	.byte	'OS_STATUS_FUNCTION_UNAVAILABLE',0,249,1,21
+	.byte	'OS_STATUS_PROTECTION_SYSCALL',0,250,1,21
+	.byte	'OS_STATUS_PROTECTION_IRQ',0,251,1,21
+	.byte	'OS_STATUS_API_ERROR',0,252,1,21
+	.byte	'OS_STATUS_ASSERTION',0,253,1,21
+	.byte	'OS_STATUS_OVERLOAD',0,254,1,21
+	.byte	'OS_STATUS_ACCESSRIGHTS_1',0,129,2,21
+	.byte	'OS_STATUS_CALLEVEL_SHARED_STACK',0,130,2,21
+	.byte	'OS_STATUS_ID_1',0,131,2,21
+	.byte	'OS_STATUS_UNLOCKED',0,133,2,21
+	.byte	'OS_STATUS_ORDER',0,134,2,21
+	.byte	'OS_STATUS_STATE_1',0,135,2,21
+	.byte	'OS_STATUS_VALUE_IS_ZERO_1',0,136,2,21
+	.byte	'OS_STATUS_CORE_CROSS_DATA',0,150,2,21
+	.byte	'OS_STATUS_PARAM_POINTER_1',0,151,2,21
+	.byte	'OS_STATUS_STACKUSAGE_DISABLED_BY_CONFIG',0,241,3,21
+	.byte	'OS_STATUS_NO_BARRIER_PARTICIPANT',0,242,3,21
+	.byte	'OS_STATUS_UNIMPLEMENTED_CLEARPENDING',0,243,3,21
+	.byte	'OS_STATUS_NO_NTFSTACK_POOL_EMPTY',0,244,3,21
+	.byte	'OS_STATUS_ACCESSRIGHTS_2',0,129,4,21
+	.byte	'OS_STATUS_CALLEVEL_CROSS_CORE_SYNC',0,130,4,21
+	.byte	'OS_STATUS_ID_2',0,131,4,21
+	.byte	'OS_STATUS_NOFUNC_1',0,133,4,21
+	.byte	'OS_STATUS_LIFO_TOP_IS_SPINLOCK',0,134,4,21
+	.byte	'OS_STATUS_STATE_2',0,135,4,21
+	.byte	'OS_STATUS_VALUE_IS_ZERO_2',0,136,4,21
+	.byte	'OS_STATUS_PARAM_POINTER_2',0,151,4,21
+	.byte	'OS_STATUS_EVENT_DISABLED_BY_CONFIG',0,241,5,21
+	.byte	'OS_STATUS_UNIMPLEMENTED_EXCEPTIONCONTEXT',0,243,5,21
+	.byte	'OS_STATUS_NO_NTFSTACK_APPLIMIT_EXCEEDED',0,244,5,21
+	.byte	'OS_STATUS_NOTACCESSIBLE_1',0,129,6,21
+	.byte	'OS_STATUS_ID_TYPE_1',0,131,6,21
+	.byte	'OS_STATUS_NOFUNC_2',0,133,6,21
+	.byte	'OS_STATUS_LIFO_TOP_IS_RESOURCE',0,134,6,21
+	.byte	'OS_STATUS_STATE_STOPPED',0,135,6,21
+	.byte	'OS_STATUS_VALUE_IS_TOO_HIGH_1',0,136,6,21
+	.byte	'OS_STATUS_PARAM_POINTER_3',0,151,6,21
+	.byte	'OS_STATUS_NOTACCESSIBLE_2',0,129,8,21
+	.byte	'OS_STATUS_ID_DIFFERENT_COUNTER',0,131,8,21
+	.byte	'OS_STATUS_SPINLOCK_ORDER',0,133,8,21
+	.byte	'OS_STATUS_STATE_RUNNING',0,135,8,21
+	.byte	'OS_STATUS_VALUE_IS_TOO_HIGH_2',0,136,8,21
+	.byte	'OS_STATUS_NOEXTENDEDTASK_1',0,129,10,21
+	.byte	'OS_STATUS_ID_DIFFERENT_SYNC',0,131,10,21
+	.byte	'OS_STATUS_STOPPED_1',0,133,10,21
+	.byte	'OS_STATUS_STATE_NEXTED',0,135,10,21
+	.byte	'OS_STATUS_VALUE_IS_TOO_HIGH_3',0,136,10,21
+	.byte	'OS_STATUS_NOEXTENDEDTASK_2',0,129,12,21
+	.byte	'OS_STATUS_HOOK_NOT_AVAILABLE',0,131,12,21
+	.byte	'OS_STATUS_NOT_STOPPED_2',0,133,12,21
+	.byte	'OS_STATUS_STATE_WAITING',0,135,12,21
+	.byte	'OS_STATUS_VALUE_IS_OUT_OF_BOUNDS_1',0,136,12,21
+	.byte	'OS_STATUS_NOEXTENDEDTASK_CALLER',0,129,14,21
+	.byte	'OS_STATUS_NEXTED_1',0,133,14,21
+	.byte	'OS_STATUS_STATE_NO_RESTART',0,135,14,21
+	.byte	'OS_STATUS_VALUE_IS_OUT_OF_BOUNDS_2',0,136,14,21
+	.byte	'OS_STATUS_LOCKED',0,129,16,21
+	.byte	'OS_STATUS_KILLING_IS_DISABLED',0,133,16,21
+	.byte	'OS_STATUS_STATE_ALREADY_TERMINATED',0,135,16,21
+	.byte	'OS_STATUS_VALUE_IS_TOO_LOW_1',0,136,16,21
+	.byte	'OS_STATUS_PRIORITY',0,129,18,21
+	.byte	'OS_STATUS_STATE_RESTARTING_NO_MEMBER',0,135,18,21
+	.byte	'OS_STATUS_VALUE_IS_TOO_LOW_2',0,136,18,21
+	.byte	'OS_STATUS_NOT_THE_OWNER_1',0,129,20,21
+	.byte	'OS_STATUS_STATE_ALREADY_RESTARTING',0,135,20,21
+	.byte	'OS_STATUS_VALUE_IS_TOO_LOW_3',0,136,20,21
+	.byte	'OS_STATUS_VALUE_IS_NOT_BOOLEAN',0,136,22,0,17
+	.byte	'Os_StatusType',0,10,236,5,3
+	.word	5321
+	.byte	18,10,137,6,9,4,19
+	.byte	'Service',0
+	.word	2151
+	.byte	1,2,35,0,19
+	.byte	'Error',0
+	.word	383
+	.byte	1,2,35,1,19
+	.byte	'DetailedError',0
+	.word	5321
+	.byte	2,2,35,2,0,17
+	.byte	'Os_ErrorInformationType',0,10,147,6,3
+	.word	7919
+	.byte	20,10,179,6,9,1,21
+	.byte	'SCHEDULETABLE_STOPPED',0,0,21
+	.byte	'SCHEDULETABLE_NEXT',0,1,21
+	.byte	'SCHEDULETABLE_WAITING',0,2,21
+	.byte	'SCHEDULETABLE_RUNNING',0,3,21
+	.byte	'SCHEDULETABLE_RUNNING_AND_SYNCHRONOUS',0,4,0,17
+	.byte	'ScheduleTableStatusType',0,10,196,6,3
+	.word	8014
+	.byte	17
+	.byte	'Os_AccessCheckAddress',0,10,203,6,29
+	.word	690
+	.byte	20,10,215,6,9,1,21
+	.byte	'OS_MEM_ACCESS_TYPE_NON',0,0,21
+	.byte	'OS_MEM_ACCESS_TYPE_R',0,1,21
+	.byte	'OS_MEM_ACCESS_TYPE_READ',0,1,21
+	.byte	'OS_MEM_ACCESS_TYPE_W',0,2,21
+	.byte	'OS_MEM_ACCESS_TYPE_WRITE',0,2,21
+	.byte	'OS_MEM_ACCESS_TYPE_RW',0,3,21
+	.byte	'OS_MEM_ACCESS_TYPE_EXECUTE',0,4,21
+	.byte	'OS_MEM_ACCESS_TYPE_X',0,4,21
+	.byte	'OS_MEM_ACCESS_TYPE_RX',0,5,21
+	.byte	'OS_MEM_ACCESS_TYPE_WX',0,6,21
+	.byte	'OS_MEM_ACCESS_TYPE_RWX',0,7,21
+	.byte	'OS_MEM_ACCESS_TYPE_S',0,8,21
+	.byte	'OS_MEM_ACCESS_TYPE_STACK',0,8,21
+	.byte	'OS_MEM_ACCESS_TYPE_RS',0,9,21
+	.byte	'OS_MEM_ACCESS_TYPE_WS',0,10,21
+	.byte	'OS_MEM_ACCESS_TYPE_RWS',0,11,21
+	.byte	'OS_MEM_ACCESS_TYPE_XS',0,12,21
+	.byte	'OS_MEM_ACCESS_TYPE_RXS',0,13,21
+	.byte	'OS_MEM_ACCESS_TYPE_WXS',0,14,21
+	.byte	'OS_MEM_ACCESS_TYPE_RWXS',0,15,0,17
+	.byte	'Os_MemAccessType',0,10,237,6,3
+	.word	8218
+	.byte	17
+	.byte	'PduIdType',0,11,51,15
+	.word	383
+	.byte	17
+	.byte	'PduLengthType',0,11,53,16
+	.word	540
+	.byte	7
+	.word	383
+	.byte	17
+	.byte	'SduDataPtrType',0,12,196,1,54
+	.word	8787
+	.byte	20,12,219,1,9,1,21
+	.byte	'TP_DATACONF',0,0,21
+	.byte	'TP_DATARETRY',0,1,21
+	.byte	'TP_CONFPENDING',0,2,0,17
+	.byte	'TpDataStateType',0,12,226,1,3
+	.word	8816
+	.byte	17
+	.byte	'E_Sig_0x302_Used_1',0,13,37,16
+	.word	540
+	.byte	17
+	.byte	'E_Sig_0x302_Used_2',0,13,40,15
+	.word	383
+	.byte	17
+	.byte	'E_Sig_0x302_Used_3',0,13,43,15
+	.word	383
+	.byte	17
+	.byte	'F_AAA_Angle',0,13,46,15
+	.word	383
+	.byte	17
+	.byte	'F_Button1_State',0,13,49,15
+	.word	383
+	.byte	17
+	.byte	'F_Button2_State',0,13,52,15
+	.word	383
+	.byte	17
+	.byte	'F_Button3_State',0,13,55,15
+	.word	383
+	.byte	17
+	.byte	'F_Button4_State',0,13,58,15
+	.word	383
+	.byte	17
+	.byte	'F_Meg_E2E_Error',0,13,61,15
+	.word	383
+	.byte	17
+	.byte	'F_Mes_Lost_Error',0,13,64,15
+	.word	383
+	.byte	17
+	.byte	'F_PowerMode',0,13,67,15
+	.word	383
+	.byte	17
+	.byte	'F_Sig_0x214_Used_1',0,13,70,16
+	.word	540
+	.byte	17
+	.byte	'F_Sig_0x214_Used_2',0,13,73,16
+	.word	540
+	.byte	17
+	.byte	'F_Sig_0x214_Used_3',0,13,76,16
+	.word	540
+	.byte	17
+	.byte	'F_Sig_0x214_Used_5',0,13,79,16
+	.word	540
+	.byte	17
+	.byte	'SupD_Checksum_0x300',0,13,85,15
+	.word	383
+	.byte	17
+	.byte	'SupD_Checksum_0x304',0,13,88,15
+	.word	383
+	.byte	17
+	.byte	'SupD_Counter_0x300',0,13,91,15
+	.word	383
+	.byte	17
+	.byte	'SupD_Counter_0x304',0,13,94,15
+	.word	383
+	.byte	17
+	.byte	'SupF_Checksum_0x212',0,13,97,15
+	.word	383
+	.byte	17
+	.byte	'SupF_Counter_0x212',0,13,100,15
+	.word	383
+	.byte	17
+	.byte	'D_Button1_Control',0,13,103,15
+	.word	383
+	.byte	17
+	.byte	'D_Button2_Control',0,13,106,15
+	.word	383
+	.byte	17
+	.byte	'D_Button3_Control',0,13,109,15
+	.word	383
+	.byte	17
+	.byte	'D_Button4_Control',0,13,112,15
+	.word	383
+	.byte	17
+	.byte	'D_Led1_Control',0,13,115,15
+	.word	383
+	.byte	17
+	.byte	'D_Led1_CtrlMode',0,13,118,15
+	.word	383
+	.byte	17
+	.byte	'D_Led2_Control',0,13,121,15
+	.word	383
+	.byte	17
+	.byte	'D_Led2_CtrlMode',0,13,124,15
+	.word	383
+	.byte	17
+	.byte	'D_Led3_Control',0,13,127,15
+	.word	383
+	.byte	17
+	.byte	'D_Led3_CtrlMode',0,13,130,1,15
+	.word	383
+	.byte	17
+	.byte	'D_Led4_Control',0,13,133,1,15
+	.word	383
+	.byte	17
+	.byte	'D_Led4_CtrlMode',0,13,136,1,15
+	.word	383
+	.byte	17
+	.byte	'F_Led1_State',0,13,139,1,15
+	.word	383
+	.byte	17
+	.byte	'F_Led2_State',0,13,142,1,15
+	.word	383
+	.byte	17
+	.byte	'F_Led3_State',0,13,145,1,15
+	.word	383
+	.byte	17
+	.byte	'F_Led4_State',0,13,148,1,15
+	.word	383
+	.byte	17
+	.byte	'EcuM_ModeType',0,13,132,3,15
+	.word	383
+	.byte	17
+	.byte	'EcuM_StateType',0,13,138,3,15
+	.word	383
+	.byte	17
+	.byte	'AAA_Angle',0,13,147,3,15
+	.word	383
+	.byte	17
+	.byte	'Button1_Control',0,13,150,3,17
+	.word	383
+	.byte	17
+	.byte	'Button1_State',0,13,153,3,17
+	.word	383
+	.byte	17
+	.byte	'Button2_Control',0,13,156,3,17
+	.word	383
+	.byte	17
+	.byte	'Button2_State',0,13,159,3,17
+	.word	383
+	.byte	17
+	.byte	'Button3_Control',0,13,162,3,17
+	.word	383
+	.byte	17
+	.byte	'Button3_State',0,13,165,3,17
+	.word	383
+	.byte	17
+	.byte	'Button4_Control',0,13,168,3,17
+	.word	383
+	.byte	17
+	.byte	'Button4_State',0,13,171,3,17
+	.word	383
+	.byte	17
+	.byte	'CrcSig_Pack_3',0,13,183,3,15
+	.word	383
+	.byte	17
+	.byte	'CrcSig_Pack_4',0,13,186,3,16
+	.word	690
+	.byte	17
+	.byte	'CrcSig_Pack_5',0,13,189,3,16
+	.word	690
+	.byte	17
+	.byte	'Led1_Control_1',0,13,195,3,17
+	.word	383
+	.byte	17
+	.byte	'Led1_State',0,13,198,3,17
+	.word	383
+	.byte	17
+	.byte	'Led2_Control_1',0,13,204,3,17
+	.word	383
+	.byte	17
+	.byte	'Led2_State',0,13,207,3,17
+	.word	383
+	.byte	17
+	.byte	'Led3_Control_1',0,13,213,3,17
+	.word	383
+	.byte	17
+	.byte	'Led3_State',0,13,216,3,17
+	.word	383
+	.byte	17
+	.byte	'Led4_Control_1',0,13,222,3,17
+	.word	383
+	.byte	17
+	.byte	'Led4_State',0,13,225,3,17
+	.word	383
+	.byte	17
+	.byte	'PowerMode',0,13,228,3,15
+	.word	383
+	.byte	17
+	.byte	'Sig_0x114_Used_1',0,13,231,3,15
+	.word	383
+	.byte	17
+	.byte	'Sig_0x114_Used_2',0,13,234,3,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x114_Used_3',0,13,237,3,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x114_Used_4',0,13,240,3,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x114_Used_5',0,13,243,3,15
+	.word	383
+	.byte	17
+	.byte	'Sig_0x114_Used_6',0,13,246,3,15
+	.word	383
+	.byte	17
+	.byte	'Sig_0x402_Used_1',0,13,249,3,15
+	.word	383
+	.byte	17
+	.byte	'Sig_0x402_Used_2',0,13,252,3,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x402_Used_3',0,13,255,3,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x402_Used_4',0,13,130,4,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x402_Used_5',0,13,133,4,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x403_Used_1',0,13,136,4,15
+	.word	383
+	.byte	17
+	.byte	'Sig_0x403_Used_2',0,13,139,4,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x403_Used_3',0,13,142,4,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x403_Used_4',0,13,145,4,16
+	.word	540
+	.byte	17
+	.byte	'Sig_0x403_Used_5',0,13,148,4,16
+	.word	540
+	.byte	17
+	.byte	'SupA_Checksum_0x112',0,13,151,4,15
+	.word	383
+	.byte	17
+	.byte	'SupA_Counter_0x112',0,13,154,4,15
+	.word	383
+	.byte	17
+	.byte	'SupB_Checksum_0x400_1',0,13,160,4,15
+	.word	383
+	.byte	17
+	.byte	'SupB_Counter_0x400_1',0,13,166,4,15
+	.word	383
+	.byte	7
+	.word	690
+	.byte	17
+	.byte	'EcuM_CoreStatusArrayType',0,14,137,1,17
+	.word	10872
+	.byte	25,1,1,7
+	.word	10911
+	.byte	17
+	.byte	'EcuM_DriverFuncType',0,14,237,2,9
+	.word	10914
+	.byte	17
+	.byte	'EcuM_WakeupSourceListIterType',0,14,139,3,21
+	.word	383
+	.byte	17
+	.byte	'EcuM_DefaultAppModeType',0,14,163,3,16
+	.word	690
+	.byte	17
+	.byte	'EcuM_NormalMcuModeType',0,14,181,3,16
+	.word	690
+	.byte	17
+	.byte	'EcuM_ApplicationOfPartitionDataType',0,14,184,3,15
+	.word	383
+	.byte	17
+	.byte	'EcuM_ValidationTimeoutTableType',0,14,205,3,16
+	.word	540
+	.byte	17
+	.byte	'EcuM_ChannelOfWakeupSourceListType',0,14,208,3,15
+	.word	383
+	.byte	17
+	.byte	'EcuM_ValidationTimeOfWakeupSourceListType',0,14,211,3,16
+	.word	540
+	.byte	24
+	.byte	'sEcuM_DriverInitOneType',0,14,227,3,16,4,19
+	.byte	'FunctionOfDriverInitOne',0
+	.word	10919
+	.byte	4,2,35,0,0,17
+	.byte	'EcuM_DriverInitOneType',0,14,230,3,3
+	.word	11233
+	.byte	7
+	.word	10911
+	.byte	24
+	.byte	'sEcuM_PartitionDataType',0,14,233,3,16,1,19
+	.byte	'ApplicationOfPartitionData',0
+	.word	383
+	.byte	1,2,35,0,0,17
+	.byte	'EcuM_PartitionDataType',0,14,236,3,3
+	.word	11334
+	.byte	24
+	.byte	'sEcuM_WakeupSourceListType',0,14,239,3,16,4,19
+	.byte	'ValidationTimeOfWakeupSourceList',0
+	.word	540
+	.byte	2,2,35,0,19
+	.byte	'ChannelOfWakeupSourceList',0
+	.word	383
+	.byte	1,2,35,2,0,17
+	.byte	'EcuM_WakeupSourceListType',0,14,243,3,3
+	.word	11433
+	.byte	24
+	.byte	'sEcuM_PCConfigType',0,14,163,4,16,1,19
+	.byte	'EcuM_PCConfigNeverUsed',0
+	.word	383
+	.byte	1,2,35,0,0,17
+	.byte	'EcuM_PCConfigType',0,14,166,4,3
+	.word	11579
+	.byte	17
+	.byte	'Can_IdType',0,15,40,30
+	.word	540
+	.byte	17
+	.byte	'Can_HwHandleType',0,15,43,29
+	.word	383
+	.byte	17
+	.byte	'Can_SduPtrType',0,15,46,45
+	.word	8787
+	.byte	24
+	.byte	'Can_PduTypeTag',0,15,49,16,12,19
+	.byte	'id',0
+	.word	540
+	.byte	2,2,35,0,19
+	.byte	'length',0
+	.word	383
+	.byte	1,2,35,2,19
+	.byte	'sdu',0
+	.word	11708
+	.byte	4,2,35,4,19
+	.byte	'swPduHandle',0
+	.word	383
+	.byte	1,2,35,8,0,17
+	.byte	'Can_PduType',0,15,55,3
+	.word	11731
+	.byte	7
+	.word	383
+	.byte	20,15,65,9,1,21
+	.byte	'CAN_CS_UNINIT',0,0,21
+	.byte	'CAN_CS_STARTED',0,1,21
+	.byte	'CAN_CS_STOPPED',0,2,21
+	.byte	'CAN_CS_SLEEP',0,3,0,17
+	.byte	'Can_ControllerStateType',0,15,70,3
+	.word	11839
+	.byte	20,15,72,9,1,21
+	.byte	'CAN_ERRORSTATE_ACTIVE',0,0,21
+	.byte	'CAN_ERRORSTATE_PASSIVE',0,1,21
+	.byte	'CAN_ERRORSTATE_BUSOFF',0,2,0,17
+	.byte	'Can_ErrorStateType',0,15,76,3
+	.word	11942
+	.byte	20,15,79,9,1,21
+	.byte	'CAN_NOT_OK',0,0,21
+	.byte	'CAN_OK',0,1,21
+	.byte	'CAN_BUSY',0,2,0,17
+	.byte	'Can_ReturnType',0,15,83,3
+	.word	12048
+	.byte	17
+	.byte	'tCanLLCanIntOld',0,16,162,3,37
+	.word	690
+	.byte	22,4
+	.word	540
+	.byte	23,1,0,22,4
+	.word	383
+	.byte	23,3,0,26,16,170,3,3,4,19
+	.byte	'reg32',0
+	.word	690
+	.byte	4,2,35,0,19
+	.byte	'reg16',0
+	.word	12135
+	.byte	4,2,35,0,19
+	.byte	'reg8',0
+	.word	12144
+	.byte	4,2,35,0,0,22,8
+	.word	690
+	.byte	23,1,0,24
+	.byte	'tCanTmpMsgObjStructTag',0,16,164,3,16,16,19
+	.byte	'MoFCR_Mode',0
+	.word	383
+	.byte	1,2,35,0,19
+	.byte	'MoFCR_Gate',0
+	.word	383
+	.byte	1,2,35,1,19
+	.byte	'MoFCR_IE',0
+	.word	383
+	.byte	1,2,35,2,19
+	.byte	'MoFCR_DLC',0
+	.word	383
+	.byte	1,2,35,3,19
+	.byte	'MoAR',0
+	.word	12153
+	.byte	4,2,35,4,19
+	.byte	'MoDR',0
+	.word	12204
+	.byte	8,2,35,8,0,17
+	.byte	'tCanTmpMsgObjStruct',0,16,177,3,3
+	.word	12213
+	.byte	17
+	.byte	'Can_ExternalTickType',0,16,186,3,16
+	.word	690
+	.byte	22,16
+	.word	690
+	.byte	23,3,0,17
+	.byte	'Can_LoopTimeout_dim_type',0,16,189,3,44
+	.word	12407
+	.byte	17
+	.byte	'Can_ControllerConfigIterType',0,16,253,11,21
+	.word	383
+	.byte	17
+	.byte	'Can_PduOfActiveSendObjectType',0,16,212,12,19
+	.word	383
+	.byte	17
+	.byte	'Can_StateOfActiveSendObjectType',0,16,215,12,16
+	.word	540
+	.byte	17
+	.byte	'Can_CanIfChannelIdType',0,16,221,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_CanControllerDefaultBaudrateIdxOfControllerConfigType',0,16,224,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_CanControllerDefaultBaudrateOfControllerConfigType',0,16,227,12,16
+	.word	540
+	.byte	17
+	.byte	'Can_MailboxRxBasicEndIdxOfControllerConfigType',0,16,230,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxRxBasicLengthOfControllerConfigType',0,16,233,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxRxBasicStartIdxOfControllerConfigType',0,16,236,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxRxFullEndIdxOfControllerConfigType',0,16,242,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxRxFullLengthOfControllerConfigType',0,16,245,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxRxFullStartIdxOfControllerConfigType',0,16,248,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxTxBasicEndIdxOfControllerConfigType',0,16,254,12,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxTxBasicLengthOfControllerConfigType',0,16,129,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxTxBasicStartIdxOfControllerConfigType',0,16,132,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxUnusedEndIdxOfControllerConfigType',0,16,138,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxUnusedLengthOfControllerConfigType',0,16,141,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxUnusedStartIdxOfControllerConfigType',0,16,144,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_RxBasicHwStartOfControllerConfigType',0,16,150,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_RxBasicHwStopOfControllerConfigType',0,16,153,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_RxFullHwStartOfControllerConfigType',0,16,156,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_RxFullHwStopOfControllerConfigType',0,16,159,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_TxBasicHwStartOfControllerConfigType',0,16,162,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_TxBasicHwStopOfControllerConfigType',0,16,165,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_TxFullHwStartOfControllerConfigType',0,16,168,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_TxFullHwStopOfControllerConfigType',0,16,171,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_UnusedHwStartOfControllerConfigType',0,16,174,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_UnusedHwStopOfControllerConfigType',0,16,177,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_BusOffNotifiedOfControllerDataType',0,16,180,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_BusOffTransitionRequestOfControllerDataType',0,16,183,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_CanInterruptCounterOfControllerDataType',0,16,186,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_HaltOfControllerDataType',0,16,189,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_IsBusOffOfControllerDataType',0,16,192,13,17
+	.word	383
+	.byte	17
+	.byte	'Can_LastInitObjectOfControllerDataType',0,16,195,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_LogStatusOfControllerDataType',0,16,198,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_ModeTransitionRequestOfControllerDataType',0,16,201,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_RamCheckTransitionRequestOfControllerDataType',0,16,204,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_GlobalInterruptPendingMaskType',0,16,207,13,16
+	.word	540
+	.byte	17
+	.byte	'Can_InitBTType',0,16,210,13,16
+	.word	540
+	.byte	17
+	.byte	'Can_InitCodeHType',0,16,213,13,16
+	.word	540
+	.byte	17
+	.byte	'Can_InitCodeLType',0,16,216,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_InitMaskHType',0,16,219,13,16
+	.word	540
+	.byte	17
+	.byte	'Can_InitMaskLType',0,16,222,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_InitObjectBaudrateType',0,16,225,13,16
+	.word	540
+	.byte	17
+	.byte	'Can_InitObjectStartIndexType',0,16,228,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_InitPortSelType',0,16,231,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_IsrOsIdType',0,16,234,13,16
+	.word	690
+	.byte	17
+	.byte	'Can_ActiveSendObjectOfMailboxType',0,16,237,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_ControllerConfigIdxOfMailboxType',0,16,240,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_HwHandleOfMailboxType',0,16,243,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_HwHandleStopOfMailboxType',0,16,246,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_IDValueOfMailboxType',0,16,249,13,16
+	.word	540
+	.byte	17
+	.byte	'Can_MailboxSizeOfMailboxType',0,16,252,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxTypeOfMailboxType',0,16,255,13,15
+	.word	383
+	.byte	17
+	.byte	'Can_MaxDataLenOfMailboxType',0,16,130,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_MemorySectionsIndexOfMailboxType',0,16,133,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_MemorySectionStartOfMemorySectionInfoType',0,16,136,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_MemoryStartAddressOfMemorySectionInfoType',0,16,139,14,16
+	.word	690
+	.byte	17
+	.byte	'Can_HwHandleOfMemorySectionObjectsType',0,16,142,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxElementOfMemorySectionObjectsType',0,16,145,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_MailboxHandleOfMemorySectionObjectsType',0,16,148,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_NodeAdrType',0,16,151,14,16
+	.word	690
+	.byte	17
+	.byte	'Can_NodeNumType',0,16,154,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_PhysPrioType',0,16,157,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_RxBasicInterruptPendingMaskType',0,16,163,14,16
+	.word	540
+	.byte	17
+	.byte	'Can_RxFullInterruptPendingMaskType',0,16,166,14,16
+	.word	540
+	.byte	17
+	.byte	'Can_SrcNumType',0,16,244,14,15
+	.word	383
+	.byte	17
+	.byte	'Can_TxInterruptPendingMaskType',0,16,247,14,15
+	.word	383
+	.byte	24
+	.byte	'sCan_ActiveSendObjectType',0,16,135,15,16,4,19
+	.byte	'StateOfActiveSendObject',0
+	.word	540
+	.byte	2,2,35,0,19
+	.byte	'PduOfActiveSendObject',0
+	.word	383
+	.byte	1,2,35,2,0,17
+	.byte	'Can_ActiveSendObjectType',0,16,139,15,3
+	.word	15491
+	.byte	24
+	.byte	'sCan_ControllerConfigType',0,16,142,15,16,28,19
+	.byte	'CanControllerDefaultBaudrateOfControllerConfig',0
+	.word	540
+	.byte	2,2,35,0,19
+	.byte	'CanControllerDefaultBaudrateIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,2,19
+	.byte	'MailboxRxBasicEndIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,3,19
+	.byte	'MailboxRxBasicLengthOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,4,19
+	.byte	'MailboxRxBasicStartIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,5,19
+	.byte	'MailboxRxFullEndIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,6,19
+	.byte	'MailboxRxFullLengthOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,7,19
+	.byte	'MailboxRxFullStartIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,8,19
+	.byte	'MailboxTxBasicEndIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,9,19
+	.byte	'MailboxTxBasicLengthOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,10,19
+	.byte	'MailboxTxBasicStartIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,11,19
+	.byte	'MailboxUnusedEndIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,12,19
+	.byte	'MailboxUnusedLengthOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,13,19
+	.byte	'MailboxUnusedStartIdxOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,14,19
+	.byte	'RxBasicHwStartOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,15,19
+	.byte	'RxBasicHwStopOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,16,19
+	.byte	'RxFullHwStartOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,17,19
+	.byte	'RxFullHwStopOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,18,19
+	.byte	'TxBasicHwStartOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,19,19
+	.byte	'TxBasicHwStopOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,20,19
+	.byte	'TxFullHwStartOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,21,19
+	.byte	'TxFullHwStopOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,22,19
+	.byte	'UnusedHwStartOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,23,19
+	.byte	'UnusedHwStopOfControllerConfig',0
+	.word	383
+	.byte	1,2,35,24,0,17
+	.byte	'Can_ControllerConfigType',0,16,168,15,3
+	.word	15622
+	.byte	24
+	.byte	'sCan_ControllerDataType',0,16,171,15,16,32,19
+	.byte	'BusOffNotifiedOfControllerData',0
+	.word	383
+	.byte	1,2,35,0,19
+	.byte	'BusOffTransitionRequestOfControllerData',0
+	.word	383
+	.byte	1,2,35,1,19
+	.byte	'CanInterruptCounterOfControllerData',0
+	.word	383
+	.byte	1,2,35,2,19
+	.byte	'HaltOfControllerData',0
+	.word	383
+	.byte	1,2,35,3,19
+	.byte	'IsBusOffOfControllerData',0
+	.word	383
+	.byte	1,2,35,4,19
+	.byte	'LastInitObjectOfControllerData',0
+	.word	383
+	.byte	1,2,35,5,19
+	.byte	'LogStatusOfControllerData',0
+	.word	383
+	.byte	1,2,35,6,19
+	.byte	'ModeTransitionRequestOfControllerData',0
+	.word	383
+	.byte	1,2,35,7,19
+	.byte	'RamCheckTransitionRequestOfControllerData',0
+	.word	383
+	.byte	1,2,35,8,19
+	.byte	'CanInterruptOldStatusOfControllerData',0
+	.word	690
+	.byte	4,2,35,10,19
+	.byte	'LoopTimeoutOfControllerData',0
+	.word	12416
+	.byte	16,2,35,14,0,17
+	.byte	'Can_ControllerDataType',0,16,184,15,3
+	.word	16791
+	.byte	22,16
+	.word	690
+	.byte	23,3,0,24
+	.byte	'sCan_MailboxType',0,16,187,15,16,12,19
+	.byte	'IDValueOfMailbox',0
+	.word	540
+	.byte	2,2,35,0,19
+	.byte	'ActiveSendObjectOfMailbox',0
+	.word	383
+	.byte	1,2,35,2,19
+	.byte	'ControllerConfigIdxOfMailbox',0
+	.word	383
+	.byte	1,2,35,3,19
+	.byte	'HwHandleOfMailbox',0
+	.word	383
+	.byte	1,2,35,4,19
+	.byte	'HwHandleStopOfMailbox',0
+	.word	383
+	.byte	1,2,35,5,19
+	.byte	'MailboxSizeOfMailbox',0
+	.word	383
+	.byte	1,2,35,6,19
+	.byte	'MailboxTypeOfMailbox',0
+	.word	383
+	.byte	1,2,35,7,19
+	.byte	'MaxDataLenOfMailbox',0
+	.word	383
+	.byte	1,2,35,8,19
+	.byte	'MemorySectionsIndexOfMailbox',0
+	.word	383
+	.byte	1,2,35,9,0,17
+	.byte	'Can_MailboxType',0,16,198,15,3
+	.word	17318
+	.byte	24
+	.byte	'sCan_MemorySectionInfoType',0,16,201,15,16,6,19
+	.byte	'MemoryStartAddressOfMemorySectionInfo',0
+	.word	690
+	.byte	4,2,35,0,19
+	.byte	'MemorySectionStartOfMemorySectionInfo',0
+	.word	383
+	.byte	1,2,35,4,0,17
+	.byte	'Can_MemorySectionInfoType',0,16,205,15,3
+	.word	17651
+	.byte	24
+	.byte	'sCan_MemorySectionObjectsType',0,16,208,15,16,4,19
+	.byte	'HwHandleOfMemorySectionObjects',0
+	.word	383
+	.byte	1,2,35,0,19
+	.byte	'MailboxElementOfMemorySectionObjects',0
+	.word	383
+	.byte	1,2,35,1,19
+	.byte	'MailboxHandleOfMemorySectionObjects',0
+	.word	383
+	.byte	1,2,35,2,0,17
+	.byte	'Can_MemorySectionObjectsType',0,16,213,15,3
+	.word	17814
+	.byte	24
+	.byte	'sCan_PCConfigType',0,16,181,16,16,1,19
+	.byte	'Can_PCConfigNeverUsed',0
+	.word	383
+	.byte	1,2,35,0,0,17
+	.byte	'Can_PCConfigType',0,16,184,16,3
+	.word	18020
+	.byte	17
+	.byte	'Can_ConfigType',0,16,186,16,26
+	.word	18020
+	.byte	17
+	.byte	'tCanTxId0',0,3,167,9,26
+	.word	540
+	.byte	17
+	.byte	'tCanTxId1',0,3,168,9,26
+	.word	540
+	.byte	17
+	.byte	'tCanDlc',0,3,186,9,26
+	.word	383
+.L209:
+	.byte	6
+	.word	690
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,11,46,1
+	.byte	3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,12,5,0,3,8,58,15,59,15,57,15,73,19,0,0,13,46,0
+	.byte	3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,14,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12
+	.byte	60,12,0,0,15,46,0,3,8,58,15,59,15,57,15,73,19,54,15,63,12,60,12,0,0,16,21,0,54,15,0,0,17,22,0,3,8,58,15
+	.byte	59,15,57,15,73,19,0,0,18,19,1,58,15,59,15,57,15,11,15,0,0,19,13,0,3,8,73,19,11,15,56,9,0,0,20,4,1,58,15
+	.byte	59,15,57,15,11,15,0,0,21,40,0,3,8,28,13,0,0,22,1,1,11,15,73,19,0,0,23,33,0,47,15,0,0,24,19,1,3,8,58,15
+	.byte	59,15,57,15,11,15,0,0,25,21,0,54,15,39,12,0,0,26,23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L62:
+	.word	.L214-.L213
+.L213:
+	.half	3
+	.word	.L216-.L215
+.L215:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	0
+	.byte	'Os.h',0,1,0,0
+	.byte	'EcuM.h',0,2,0,0
+	.byte	'Can.h',0,3,0,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0
+	.byte	'Platform_Types.h',0,4,0,0
+	.byte	'Std_Types.h',0,4,0,0
+	.byte	'Os_Types_Lcfg.h',0,5,0,0
+	.byte	'Os_Hal_Os_Types.h',0,1,0,0
+	.byte	'Os_Hal_OsInt.h',0,1,0,0
+	.byte	'Os_Types.h',0,1,0,0
+	.byte	'ComStack_Cfg.h',0,5,0,0
+	.byte	'ComStack_Types.h',0,4,0,0
+	.byte	'Rte_Type.h',0,5,0,0
+	.byte	'EcuM_Cfg.h',0,5,0,0
+	.byte	'Can_DrvGeneralTypes.h',0,5,0,0
+	.byte	'Can_Cfg.h',0,5,0,0,0
+.L216:
+.L214:
+	.sdecl	'.debug_info',debug,cluster('Os_Task_Default_Init_Task')
+	.sect	'.debug_info'
+.L63:
+	.word	248
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L66,.L65
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'Os_Task_Default_Init_Task',0,1,236,2,1,1,1,1
+	.word	.L18,.L177,.L17
+	.byte	4
+	.word	.L18,.L177
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Os_Task_Default_Init_Task')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Os_Task_Default_Init_Task')
+	.sect	'.debug_line'
+.L65:
+	.word	.L218-.L217
+.L217:
+	.half	3
+	.word	.L220-.L219
+.L219:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L220:
+	.byte	5,18,7,0,5,2
+	.word	.L18
+	.byte	3,254,2,1,5,36,9
+	.half	.L221-.L18
+	.byte	3,2,1,5,22,9
+	.half	.L222-.L221
+	.byte	3,3,1,5,1,9
+	.half	.L223-.L222
+	.byte	3,1,1,7,9
+	.half	.L67-.L223
+	.byte	0,1,1
+.L218:
+	.sdecl	'.debug_ranges',debug,cluster('Os_Task_Default_Init_Task')
+	.sect	'.debug_ranges'
+.L66:
+	.word	-1,.L18,0,.L67-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.debug_info'
+.L68:
+	.word	254
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L71,.L70
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'Os_Task_Default_Init_Task_Core1',0,1,146,3,1,1,1,1
+	.word	.L20,.L178,.L19
+	.byte	4
+	.word	.L20,.L178
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.debug_line'
+.L70:
+	.word	.L225-.L224
+.L224:
+	.half	3
+	.word	.L227-.L226
+.L226:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L227:
+	.byte	5,18,7,0,5,2
+	.word	.L20
+	.byte	3,151,3,1,5,36,9
+	.half	.L228-.L20
+	.byte	3,2,1,5,22,9
+	.half	.L229-.L228
+	.byte	3,2,1,5,1,9
+	.half	.L230-.L229
+	.byte	3,1,1,7,9
+	.half	.L72-.L230
+	.byte	0,1,1
+.L225:
+	.sdecl	'.debug_ranges',debug,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.debug_ranges'
+.L71:
+	.word	-1,.L20,0,.L72-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.debug_info'
+.L73:
+	.word	254
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L76,.L75
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'Os_Task_Default_Init_Task_Core2',0,1,169,3,1,1,1,1
+	.word	.L22,.L179,.L21
+	.byte	4
+	.word	.L22,.L179
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.debug_line'
+.L75:
+	.word	.L232-.L231
+.L231:
+	.half	3
+	.word	.L234-.L233
+.L233:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L234:
+	.byte	5,18,7,0,5,2
+	.word	.L22
+	.byte	3,174,3,1,5,36,9
+	.half	.L235-.L22
+	.byte	3,2,1,5,22,9
+	.half	.L236-.L235
+	.byte	3,2,1,5,1,9
+	.half	.L237-.L236
+	.byte	3,1,1,7,9
+	.half	.L77-.L237
+	.byte	0,1,1
+.L232:
+	.sdecl	'.debug_ranges',debug,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.debug_ranges'
+.L76:
+	.word	-1,.L22,0,.L77-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('BrsMainInit')
+	.sect	'.debug_info'
+.L78:
+	.word	234
+	.half	3
+	.word	.L79
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L81,.L80
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'BrsMainInit',0,1,224,1,6,1,1,1
+	.word	.L16,.L180,.L15
+	.byte	4
+	.word	.L16,.L180
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BrsMainInit')
+	.sect	'.debug_abbrev'
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BrsMainInit')
+	.sect	'.debug_line'
+.L80:
+	.word	.L239-.L238
+.L238:
+	.half	3
+	.word	.L241-.L240
+.L240:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L241:
+	.byte	5,3,7,0,5,2
+	.word	.L16
+	.byte	3,230,1,1,5,35,9
+	.half	.L242-.L16
+	.byte	1,5,33,9
+	.half	.L243-.L242
+	.byte	1,5,1,9
+	.half	.L244-.L243
+	.byte	3,44,1,7,9
+	.half	.L82-.L244
+	.byte	0,1,1
+.L239:
+	.sdecl	'.debug_ranges',debug,cluster('BrsMainInit')
+	.sect	'.debug_ranges'
+.L81:
+	.word	-1,.L16,0,.L82-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('BrsMainExceptionHandler')
+	.sect	'.debug_info'
+.L83:
+	.word	348
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L86,.L85
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'BrsMainExceptionHandler',0,1,171,5,6,1,1,1
+	.word	.L24,.L181,.L23
+	.byte	4
+	.byte	'ErrorCode',0,1,171,5,36
+	.word	.L182,.L183
+	.byte	4
+	.byte	'ModuleCode',0,1,171,5,53
+	.word	.L182,.L184
+	.byte	4
+	.byte	'LineNumber',0,1,171,5,72
+	.word	.L185,.L186
+	.byte	5
+	.word	.L24,.L181
+	.byte	6
+	.byte	'BrsMain_Continue',0,1,191,5,18
+	.word	.L187,.L188
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BrsMainExceptionHandler')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BrsMainExceptionHandler')
+	.sect	'.debug_line'
+.L85:
+	.word	.L246-.L245
+.L245:
+	.half	3
+	.word	.L248-.L247
+.L247:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L248:
+	.byte	5,6,7,0,5,2
+	.word	.L24
+	.byte	3,170,5,1,5,22,9
+	.half	.L210-.L24
+	.byte	3,21,1,5,20,9
+	.half	.L249-.L210
+	.byte	1,5,23,9
+	.half	.L250-.L249
+	.byte	3,1,1,5,31,9
+	.half	.L211-.L250
+	.byte	3,1,1,5,10,9
+	.half	.L2-.L211
+	.byte	1,5,31,9
+	.half	.L251-.L2
+	.byte	1,5,1,7,9
+	.half	.L252-.L251
+	.byte	3,8,1,7,9
+	.half	.L87-.L252
+	.byte	0,1,1
+.L246:
+	.sdecl	'.debug_ranges',debug,cluster('BrsMainExceptionHandler')
+	.sect	'.debug_ranges'
+.L86:
+	.word	-1,.L24,0,.L87-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('BrsMainExceptionStartup')
+	.sect	'.debug_info'
+.L88:
+	.word	246
+	.half	3
+	.word	.L89
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L91,.L90
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'BrsMainExceptionStartup',0,1,216,5,6,1,1,1
+	.word	.L26,.L189,.L25
+	.byte	4
+	.word	.L26,.L189
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('BrsMainExceptionStartup')
+	.sect	'.debug_abbrev'
+.L89:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('BrsMainExceptionStartup')
+	.sect	'.debug_line'
+.L90:
+	.word	.L254-.L253
+.L253:
+	.half	3
+	.word	.L256-.L255
+.L255:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L256:
+	.byte	5,27,7,0,5,2
+	.word	.L26
+	.byte	3,217,5,1,5,56,9
+	.half	.L257-.L26
+	.byte	1,5,84,9
+	.half	.L258-.L257
+	.byte	1,5,1,9
+	.half	.L259-.L258
+	.byte	3,1,1,7,9
+	.half	.L92-.L259
+	.byte	0,1,1
+.L254:
+	.sdecl	'.debug_ranges',debug,cluster('BrsMainExceptionStartup')
+	.sect	'.debug_ranges'
+.L91:
+	.word	-1,.L26,0,.L92-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('main')
+	.sect	'.debug_info'
+.L93:
+	.word	231
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L96,.L95
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'main',0,1,231,5,5
+	.word	.L190
+	.byte	1,1,1
+	.word	.L28,.L191,.L27
+	.byte	4
+	.word	.L28,.L191
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('main')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('main')
+	.sect	'.debug_line'
+.L95:
+	.word	.L261-.L260
+.L260:
+	.half	3
+	.word	.L263-.L262
+.L262:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L263:
+	.byte	5,16,7,0,5,2
+	.word	.L28
+	.byte	3,233,5,1,5,10,9
+	.half	.L264-.L28
+	.byte	3,1,1,5,12,9
+	.half	.L265-.L264
+	.byte	3,2,1,5,10,9
+	.half	.L266-.L265
+	.byte	3,1,1,5,3,9
+	.half	.L267-.L266
+	.byte	1,5,1,9
+	.half	.L4-.L267
+	.byte	3,1,1,7,9
+	.half	.L97-.L4
+	.byte	0,1,1
+.L261:
+	.sdecl	'.debug_ranges',debug,cluster('main')
+	.sect	'.debug_ranges'
+.L96:
+	.word	-1,.L28,0,.L97-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('Appl_UnlockEndinit')
+	.sect	'.debug_info'
+.L98:
+	.word	241
+	.half	3
+	.word	.L99
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L101,.L100
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'Appl_UnlockEndinit',0,1,210,6,6,1,1,1
+	.word	.L54,.L192,.L53
+	.byte	4
+	.word	.L54,.L192
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Appl_UnlockEndinit')
+	.sect	'.debug_abbrev'
+.L99:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Appl_UnlockEndinit')
+	.sect	'.debug_line'
+.L100:
+	.word	.L269-.L268
+.L268:
+	.half	3
+	.word	.L271-.L270
+.L270:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L271:
+	.byte	5,19,7,0,5,2
+	.word	.L54
+	.byte	3,211,6,1,5,1,9
+	.half	.L272-.L54
+	.byte	3,2,1,7,9
+	.half	.L102-.L272
+	.byte	0,1,1
+.L269:
+	.sdecl	'.debug_ranges',debug,cluster('Appl_UnlockEndinit')
+	.sect	'.debug_ranges'
+.L101:
+	.word	-1,.L54,0,.L102-.L54,0,0
+	.sdecl	'.debug_info',debug,cluster('Appl_LockEndinit')
+	.sect	'.debug_info'
+.L103:
+	.word	239
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L106,.L105
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'Appl_LockEndinit',0,1,215,6,6,1,1,1
+	.word	.L56,.L193,.L55
+	.byte	4
+	.word	.L56,.L193
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Appl_LockEndinit')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Appl_LockEndinit')
+	.sect	'.debug_line'
+.L105:
+	.word	.L274-.L273
+.L273:
+	.half	3
+	.word	.L276-.L275
+.L275:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L276:
+	.byte	5,17,7,0,5,2
+	.word	.L56
+	.byte	3,217,6,1,5,1,9
+	.half	.L277-.L56
+	.byte	3,2,1,7,9
+	.half	.L107-.L277
+	.byte	0,1,1
+.L274:
+	.sdecl	'.debug_ranges',debug,cluster('Appl_LockEndinit')
+	.sect	'.debug_ranges'
+.L106:
+	.word	-1,.L56,0,.L107-.L56,0,0
+	.sdecl	'.debug_info',debug,cluster('ApplCanWaitSetMCR')
+	.sect	'.debug_info'
+.L108:
+	.word	256
+	.half	3
+	.word	.L109
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L111,.L110
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'ApplCanWaitSetMCR',0,1,222,6,6,1,1,1
+	.word	.L58,.L194,.L57
+	.byte	4
+	.word	.L58,.L194
+	.byte	5
+	.byte	'i',0,1,224,6,9
+	.word	.L195,.L196
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ApplCanWaitSetMCR')
+	.sect	'.debug_abbrev'
+.L109:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ApplCanWaitSetMCR')
+	.sect	'.debug_line'
+.L110:
+	.word	.L279-.L278
+.L278:
+	.half	3
+	.word	.L281-.L280
+.L280:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L281:
+	.byte	5,8,7,0,5,2
+	.word	.L58
+	.byte	3,224,6,1,5,24,9
+	.half	.L212-.L58
+	.byte	1,5,3,9
+	.half	.L14-.L212
+	.byte	3,2,1,5,8,9
+	.half	.L282-.L14
+	.byte	1,5,27,9
+	.half	.L283-.L282
+	.byte	3,126,1,5,18,9
+	.half	.L13-.L283
+	.byte	1,5,24,9
+	.half	.L284-.L13
+	.byte	1,5,1,7,9
+	.half	.L285-.L284
+	.byte	3,5,1,7,9
+	.half	.L112-.L285
+	.byte	0,1,1
+.L279:
+	.sdecl	'.debug_ranges',debug,cluster('ApplCanWaitSetMCR')
+	.sect	'.debug_ranges'
+.L111:
+	.word	-1,.L58,0,.L112-.L58,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_info'
+.L113:
+	.word	258
+	.half	3
+	.word	.L114
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L116,.L115
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0',0,1,253,5,6,1,1,1
+	.word	.L30,.L197,.L29
+	.byte	4
+	.word	.L30,.L197
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_abbrev'
+.L114:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_line'
+.L115:
+	.word	.L287-.L286
+.L286:
+	.half	3
+	.word	.L289-.L288
+.L288:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L289:
+	.byte	5,9,7,0,5,2
+	.word	.L30
+	.byte	3,254,5,1,5,7,9
+	.half	.L290-.L30
+	.byte	1,5,9,9
+	.half	.L291-.L290
+	.byte	1,5,3,9
+	.half	.L292-.L291
+	.byte	1,5,37,7,9
+	.half	.L293-.L292
+	.byte	3,2,1,5,1,9
+	.half	.L5-.L293
+	.byte	3,2,1,7,9
+	.half	.L117-.L5
+	.byte	0,1,1
+.L287:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_ranges'
+.L116:
+	.word	-1,.L30,0,.L117-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_info'
+.L118:
+	.word	257
+	.half	3
+	.word	.L119
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L121,.L120
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0',0,1,133,6,6,1,1,1
+	.word	.L32,.L198,.L31
+	.byte	4
+	.word	.L32,.L198
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_abbrev'
+.L119:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_line'
+.L120:
+	.word	.L295-.L294
+.L294:
+	.half	3
+	.word	.L297-.L296
+.L296:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L297:
+	.byte	5,9,7,0,5,2
+	.word	.L32
+	.byte	3,134,6,1,5,7,9
+	.half	.L298-.L32
+	.byte	1,5,9,9
+	.half	.L299-.L298
+	.byte	1,5,3,9
+	.half	.L300-.L299
+	.byte	1,5,36,7,9
+	.half	.L301-.L300
+	.byte	3,2,1,5,1,9
+	.half	.L6-.L301
+	.byte	3,2,1,7,9
+	.half	.L122-.L6
+	.byte	0,1,1
+.L295:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_ranges'
+.L121:
+	.word	-1,.L32,0,.L122-.L32,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_info'
+.L123:
+	.word	258
+	.half	3
+	.word	.L124
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L126,.L125
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6',0,1,141,6,6,1,1,1
+	.word	.L34,.L199,.L33
+	.byte	4
+	.word	.L34,.L199
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_abbrev'
+.L124:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_line'
+.L125:
+	.word	.L303-.L302
+.L302:
+	.half	3
+	.word	.L305-.L304
+.L304:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L305:
+	.byte	5,9,7,0,5,2
+	.word	.L34
+	.byte	3,142,6,1,5,7,9
+	.half	.L306-.L34
+	.byte	1,5,9,9
+	.half	.L307-.L306
+	.byte	1,5,3,9
+	.half	.L308-.L307
+	.byte	1,5,37,7,9
+	.half	.L309-.L308
+	.byte	3,2,1,5,1,9
+	.half	.L7-.L309
+	.byte	3,2,1,7,9
+	.half	.L127-.L7
+	.byte	0,1,1
+.L303:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_ranges'
+.L126:
+	.word	-1,.L34,0,.L127-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_info'
+.L128:
+	.word	257
+	.half	3
+	.word	.L129
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L131,.L130
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6',0,1,149,6,6,1,1,1
+	.word	.L36,.L200,.L35
+	.byte	4
+	.word	.L36,.L200
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_abbrev'
+.L129:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_line'
+.L130:
+	.word	.L311-.L310
+.L310:
+	.half	3
+	.word	.L313-.L312
+.L312:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L313:
+	.byte	5,9,7,0,5,2
+	.word	.L36
+	.byte	3,150,6,1,5,7,9
+	.half	.L314-.L36
+	.byte	1,5,9,9
+	.half	.L315-.L314
+	.byte	1,5,3,9
+	.half	.L316-.L315
+	.byte	1,5,36,7,9
+	.half	.L317-.L316
+	.byte	3,2,1,5,1,9
+	.half	.L8-.L317
+	.byte	3,2,1,7,9
+	.half	.L132-.L8
+	.byte	0,1,1
+.L311:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_ranges'
+.L131:
+	.word	-1,.L36,0,.L132-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_info'
+.L133:
+	.word	262
+	.half	3
+	.word	.L134
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L136,.L135
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0',0,1,157,6,6,1,1,1
+	.word	.L38,.L201,.L37
+	.byte	4
+	.word	.L38,.L201
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_abbrev'
+.L134:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_line'
+.L135:
+	.word	.L319-.L318
+.L318:
+	.half	3
+	.word	.L321-.L320
+.L320:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L321:
+	.byte	5,9,7,0,5,2
+	.word	.L38
+	.byte	3,158,6,1,5,7,9
+	.half	.L322-.L38
+	.byte	1,5,9,9
+	.half	.L323-.L322
+	.byte	1,5,3,9
+	.half	.L324-.L323
+	.byte	1,5,37,7,9
+	.half	.L325-.L324
+	.byte	3,2,1,5,1,9
+	.half	.L9-.L325
+	.byte	3,2,1,7,9
+	.half	.L137-.L9
+	.byte	0,1,1
+.L319:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_ranges'
+.L136:
+	.word	-1,.L38,0,.L137-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_info'
+.L138:
+	.word	261
+	.half	3
+	.word	.L139
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L141,.L140
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0',0,1,165,6,6,1,1,1
+	.word	.L40,.L202,.L39
+	.byte	4
+	.word	.L40,.L202
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_abbrev'
+.L139:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_line'
+.L140:
+	.word	.L327-.L326
+.L326:
+	.half	3
+	.word	.L329-.L328
+.L328:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L329:
+	.byte	5,9,7,0,5,2
+	.word	.L40
+	.byte	3,166,6,1,5,7,9
+	.half	.L330-.L40
+	.byte	1,5,9,9
+	.half	.L331-.L330
+	.byte	1,5,3,9
+	.half	.L332-.L331
+	.byte	1,5,36,7,9
+	.half	.L333-.L332
+	.byte	3,2,1,5,1,9
+	.half	.L10-.L333
+	.byte	3,2,1,7,9
+	.half	.L142-.L10
+	.byte	0,1,1
+.L327:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_ranges'
+.L141:
+	.word	-1,.L40,0,.L142-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_info'
+.L143:
+	.word	262
+	.half	3
+	.word	.L144
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L146,.L145
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4',0,1,173,6,6,1,1,1
+	.word	.L42,.L203,.L41
+	.byte	4
+	.word	.L42,.L203
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_abbrev'
+.L144:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_line'
+.L145:
+	.word	.L335-.L334
+.L334:
+	.half	3
+	.word	.L337-.L336
+.L336:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L337:
+	.byte	5,9,7,0,5,2
+	.word	.L42
+	.byte	3,174,6,1,5,7,9
+	.half	.L338-.L42
+	.byte	1,5,9,9
+	.half	.L339-.L338
+	.byte	1,5,3,9
+	.half	.L340-.L339
+	.byte	1,5,37,7,9
+	.half	.L341-.L340
+	.byte	3,2,1,5,1,9
+	.half	.L11-.L341
+	.byte	3,2,1,7,9
+	.half	.L147-.L11
+	.byte	0,1,1
+.L335:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_ranges'
+.L146:
+	.word	-1,.L42,0,.L147-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_info'
+.L148:
+	.word	261
+	.half	3
+	.word	.L149
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L151,.L150
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4',0,1,181,6,6,1,1,1
+	.word	.L44,.L204,.L43
+	.byte	4
+	.word	.L44,.L204
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_abbrev'
+.L149:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_line'
+.L150:
+	.word	.L343-.L342
+.L342:
+	.half	3
+	.word	.L345-.L344
+.L344:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L345:
+	.byte	5,9,7,0,5,2
+	.word	.L44
+	.byte	3,182,6,1,5,7,9
+	.half	.L346-.L44
+	.byte	1,5,9,9
+	.half	.L347-.L346
+	.byte	1,5,3,9
+	.half	.L348-.L347
+	.byte	1,5,36,7,9
+	.half	.L349-.L348
+	.byte	3,2,1,5,1,9
+	.half	.L12-.L349
+	.byte	3,2,1,7,9
+	.half	.L152-.L12
+	.byte	0,1,1
+.L343:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_ranges'
+.L151:
+	.word	-1,.L44,0,.L152-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_info'
+.L153:
+	.word	262
+	.half	3
+	.word	.L154
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L156,.L155
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1',0,1,189,6,6,1,1,1
+	.word	.L46,.L205,.L45
+	.byte	4
+	.word	.L46,.L205
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_abbrev'
+.L154:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_line'
+.L155:
+	.word	.L351-.L350
+.L350:
+	.half	3
+	.word	.L353-.L352
+.L352:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L353:
+	.byte	5,1,7,0,5,2
+	.word	.L46
+	.byte	3,191,6,1,7,9
+	.half	.L157-.L46
+	.byte	0,1,1
+.L351:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_ranges'
+.L156:
+	.word	-1,.L46,0,.L157-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_info'
+.L158:
+	.word	261
+	.half	3
+	.word	.L159
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L161,.L160
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1',0,1,194,6,6,1,1,1
+	.word	.L48,.L206,.L47
+	.byte	4
+	.word	.L48,.L206
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_abbrev'
+.L159:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_line'
+.L160:
+	.word	.L355-.L354
+.L354:
+	.half	3
+	.word	.L357-.L356
+.L356:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L357:
+	.byte	5,1,7,0,5,2
+	.word	.L48
+	.byte	3,196,6,1,7,9
+	.half	.L162-.L48
+	.byte	0,1,1
+.L355:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_ranges'
+.L161:
+	.word	-1,.L48,0,.L162-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_info'
+.L163:
+	.word	260
+	.half	3
+	.word	.L164
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L166,.L165
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1',0,1,199,6,6,1,1,1
+	.word	.L50,.L207,.L49
+	.byte	4
+	.word	.L50,.L207
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_abbrev'
+.L164:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_line'
+.L165:
+	.word	.L359-.L358
+.L358:
+	.half	3
+	.word	.L361-.L360
+.L360:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L361:
+	.byte	5,1,7,0,5,2
+	.word	.L50
+	.byte	3,201,6,1,7,9
+	.half	.L167-.L50
+	.byte	0,1,1
+.L359:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_ranges'
+.L166:
+	.word	-1,.L50,0,.L167-.L50,0,0
+	.sdecl	'.debug_info',debug,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_info'
+.L168:
+	.word	259
+	.half	3
+	.word	.L169
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L171,.L170
+	.byte	2
+	.word	.L59
+	.byte	3
+	.byte	'SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1',0,1,204,6,6,1,1,1
+	.word	.L52,.L208,.L51
+	.byte	4
+	.word	.L52,.L208
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_abbrev'
+.L169:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_line'
+.L170:
+	.word	.L363-.L362
+.L362:
+	.half	3
+	.word	.L365-.L364
+.L364:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_04_StartUp\\BrsMain.c',0,0,0,0,0
+.L365:
+	.byte	5,1,7,0,5,2
+	.word	.L52
+	.byte	3,206,6,1,7,9
+	.half	.L172-.L52
+	.byte	0,1,1
+.L363:
+	.sdecl	'.debug_ranges',debug,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_ranges'
+.L171:
+	.word	-1,.L52,0,.L172-.L52,0,0
+	.sdecl	'.debug_info',debug,cluster('BrsAsrApplCanInterruptLockCtr')
+	.sect	'.debug_info'
+.L173:
+	.word	229
+	.half	3
+	.word	.L174
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L59
+	.byte	3
+	.byte	'BrsAsrApplCanInterruptLockCtr',0,4,130,1,16
+	.word	.L182
+	.byte	5,3
+	.word	BrsAsrApplCanInterruptLockCtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('BrsAsrApplCanInterruptLockCtr')
+	.sect	'.debug_abbrev'
+.L174:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('dummy')
+	.sect	'.debug_info'
+.L175:
+	.word	205
+	.half	3
+	.word	.L176
+	.byte	4,1
+	.byte	'..\\_04_StartUp\\BrsMain.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L59
+	.byte	3
+	.byte	'dummy',0,4,221,6,24
+	.word	.L209
+	.byte	5,3
+	.word	dummy
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('dummy')
+	.sect	'.debug_abbrev'
+.L176:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('ApplCanWaitSetMCR')
+	.sect	'.debug_loc'
+.L57:
+	.word	-1,.L58,0,.L194-.L58
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L196:
+	.word	-1,.L58,.L212-.L58,.L194-.L58
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Appl_LockEndinit')
+	.sect	'.debug_loc'
+.L55:
+	.word	-1,.L56,0,.L193-.L56
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Appl_UnlockEndinit')
+	.sect	'.debug_loc'
+.L53:
+	.word	-1,.L54,0,.L192-.L54
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BrsMainExceptionHandler')
+	.sect	'.debug_loc'
+.L23:
+	.word	-1,.L24,0,.L210-.L24
+	.half	2
+	.byte	138,0
+	.word	.L210-.L24,.L181-.L24
+	.half	2
+	.byte	138,8
+	.word	.L181-.L24,.L181-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L188:
+	.word	-1,.L24,0,.L181-.L24
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L183:
+	.word	-1,.L24,0,.L211-.L24
+	.half	1
+	.byte	84
+	.word	0,0
+.L186:
+	.word	-1,.L24,0,.L211-.L24
+	.half	1
+	.byte	86
+	.word	0,0
+.L184:
+	.word	-1,.L24,0,.L211-.L24
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BrsMainExceptionStartup')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L26,0,.L189-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('BrsMainInit')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L180-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Os_Task_Default_Init_Task')
+	.sect	'.debug_loc'
+.L17:
+	.word	-1,.L18,0,.L177-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.debug_loc'
+.L19:
+	.word	-1,.L20,0,.L178-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.debug_loc'
+.L21:
+	.word	-1,.L22,0,.L179-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_loc'
+.L37:
+	.word	-1,.L38,0,.L201-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_loc'
+.L45:
+	.word	-1,.L46,0,.L205-.L46
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_loc'
+.L41:
+	.word	-1,.L42,0,.L203-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L30,0,.L197-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_loc'
+.L33:
+	.word	-1,.L34,0,.L199-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_loc'
+.L49:
+	.word	-1,.L50,0,.L207-.L50
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L40,0,.L202-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_loc'
+.L47:
+	.word	-1,.L48,0,.L206-.L48
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_loc'
+.L43:
+	.word	-1,.L44,0,.L204-.L44
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_loc'
+.L31:
+	.word	-1,.L32,0,.L198-.L32
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_loc'
+.L35:
+	.word	-1,.L36,0,.L200-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_loc'
+.L51:
+	.word	-1,.L52,0,.L208-.L52
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('main')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L191-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L366:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('BrsMainInit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L366,.L16,.L180-.L16
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Os_Task_Default_Init_Task')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L18,.L177-.L18
+	.sdecl	'.debug_frame',debug,cluster('Os_Task_Default_Init_Task_Core1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L20,.L178-.L20
+	.sdecl	'.debug_frame',debug,cluster('Os_Task_Default_Init_Task_Core2')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L22,.L179-.L22
+	.sdecl	'.debug_frame',debug,cluster('BrsMainExceptionHandler')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L366,.L24,.L181-.L24
+	.byte	4
+	.word	(.L210-.L24)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L181-.L210)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('BrsMainExceptionStartup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L26,.L189-.L26
+	.sdecl	'.debug_frame',debug,cluster('main')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L28,.L191-.L28
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L30,.L197-.L30
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_0')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L32,.L198-.L32
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L34,.L199-.L34
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_Can_CAN_EXCLUSIVE_AREA_6')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L36,.L200-.L36
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L38,.L201-.L38
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_CanIf_CANIF_EXCLUSIVE_AREA_0')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L40,.L202-.L40
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L42,.L203-.L42
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_4')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L44,.L204-.L44
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L366,.L46,.L205-.L46
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_CanSM_CANSM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L366,.L48,.L206-.L48
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('SchM_Enter_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L366,.L50,.L207-.L50
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('SchM_Exit_ComM_COMM_EXCLUSIVE_AREA_1')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L366,.L52,.L208-.L52
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Appl_UnlockEndinit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L54,.L192-.L54
+	.sdecl	'.debug_frame',debug,cluster('Appl_LockEndinit')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L366,.L56,.L193-.L56
+	.sdecl	'.debug_frame',debug,cluster('ApplCanWaitSetMCR')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L366,.L58,.L194-.L58
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+
+
+	; Module end

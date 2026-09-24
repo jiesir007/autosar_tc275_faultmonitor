@@ -1,0 +1,445 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_01_BSW\\Src\\E2E\\.E2E.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_01_BSW\\Src\\E2E\\E2E.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _01_BSW\\Src\\E2E\\E2E.src ..\\_01_BSW\\Src\\E2E\\E2E.c"
+	.compiler_name		"ctc"
+	;source	'..\\_01_BSW\\Src\\E2E\\E2E.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.E2E.E2E_GetVersionInfo',code,cluster('E2E_GetVersionInfo')
+	.sect	'.text.E2E.E2E_GetVersionInfo'
+	.align	2
+	
+	.global	E2E_GetVersionInfo
+
+; ..\_01_BSW\Src\E2E\E2E.c	     1  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	     2   *  COPYRIGHT
+; ..\_01_BSW\Src\E2E\E2E.c	     3   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Src\E2E\E2E.c	     4   *  \verbatim
+; ..\_01_BSW\Src\E2E\E2E.c	     5   *  Copyright (c) 2019 by Vector Informatik GmbH.                                              All rights reserved.
+; ..\_01_BSW\Src\E2E\E2E.c	     6   *
+; ..\_01_BSW\Src\E2E\E2E.c	     7   *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+; ..\_01_BSW\Src\E2E\E2E.c	     8   *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+; ..\_01_BSW\Src\E2E\E2E.c	     9   *                All other rights remain with Vector Informatik GmbH.
+; ..\_01_BSW\Src\E2E\E2E.c	    10   *  \endverbatim
+; ..\_01_BSW\Src\E2E\E2E.c	    11   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Src\E2E\E2E.c	    12   *  FILE DESCRIPTION
+; ..\_01_BSW\Src\E2E\E2E.c	    13   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Src\E2E\E2E.c	    14   *         \file  E2E.c
+; ..\_01_BSW\Src\E2E\E2E.c	    15   *        \brief  E2E source file
+; ..\_01_BSW\Src\E2E\E2E.c	    16   *
+; ..\_01_BSW\Src\E2E\E2E.c	    17   *      \details  E2E protection ensures data exchange which is protected at runtime against the effects of faults within
+; ..\_01_BSW\Src\E2E\E2E.c	    18   *                the communication link. E2E Library provides mechanisms for E2E protection, adequate for safety-related
+; ..\_01_BSW\Src\E2E\E2E.c	    19   *                communication having requirements up to ASIL D.
+; ..\_01_BSW\Src\E2E\E2E.c	    20   *
+; ..\_01_BSW\Src\E2E\E2E.c	    21   *********************************************************************************************************************/
+; ..\_01_BSW\Src\E2E\E2E.c	    22  
+; ..\_01_BSW\Src\E2E\E2E.c	    23  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	    24   *  INCLUDES
+; ..\_01_BSW\Src\E2E\E2E.c	    25   *********************************************************************************************************************/
+; ..\_01_BSW\Src\E2E\E2E.c	    26  #include "E2E.h"
+; ..\_01_BSW\Src\E2E\E2E.c	    27  
+; ..\_01_BSW\Src\E2E\E2E.c	    28  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	    29   *  VERSION CHECK
+; ..\_01_BSW\Src\E2E\E2E.c	    30   *********************************************************************************************************************/
+; ..\_01_BSW\Src\E2E\E2E.c	    31  #if(   (E2E_SW_MAJOR_VERSION != (2u) ) \ 
+; ..\_01_BSW\Src\E2E\E2E.c	    32      || (E2E_SW_MINOR_VERSION != (2u) ))
+; ..\_01_BSW\Src\E2E\E2E.c	    33  # error "Version numbers of E2E.c and E2E.h are inconsistent!"
+; ..\_01_BSW\Src\E2E\E2E.c	    34  #endif
+; ..\_01_BSW\Src\E2E\E2E.c	    35  
+; ..\_01_BSW\Src\E2E\E2E.c	    36  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	    37   *  LOCAL DATA TYPES AND STRUCTURES
+; ..\_01_BSW\Src\E2E\E2E.c	    38   *********************************************************************************************************************/
+; ..\_01_BSW\Src\E2E\E2E.c	    39  
+; ..\_01_BSW\Src\E2E\E2E.c	    40  #if !defined (E2E_LOCAL) /* COV_E2E_COMPATIBILITY */
+; ..\_01_BSW\Src\E2E\E2E.c	    41  # define E2E_LOCAL static
+; ..\_01_BSW\Src\E2E\E2E.c	    42  #endif
+; ..\_01_BSW\Src\E2E\E2E.c	    43  
+; ..\_01_BSW\Src\E2E\E2E.c	    44  #if !defined (E2E_LOCAL_INLINE) /* COV_E2E_COMPATIBILITY */
+; ..\_01_BSW\Src\E2E\E2E.c	    45  # define E2E_LOCAL_INLINE LOCAL_INLINE
+; ..\_01_BSW\Src\E2E\E2E.c	    46  #endif
+; ..\_01_BSW\Src\E2E\E2E.c	    47  
+; ..\_01_BSW\Src\E2E\E2E.c	    48  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	    49   *  GLOBAL FUNCTIONS
+; ..\_01_BSW\Src\E2E\E2E.c	    50   **********************************************************************************************************************/
+; ..\_01_BSW\Src\E2E\E2E.c	    51  
+; ..\_01_BSW\Src\E2E\E2E.c	    52  # define E2E_START_SEC_CODE
+; ..\_01_BSW\Src\E2E\E2E.c	    53  # include "MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_01_BSW\Src\E2E\E2E.c	    54  
+; ..\_01_BSW\Src\E2E\E2E.c	    55  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	    56   *  E2E_GetVersionInfo()
+; ..\_01_BSW\Src\E2E\E2E.c	    57   *********************************************************************************************************************/
+; ..\_01_BSW\Src\E2E\E2E.c	    58  /*!
+; ..\_01_BSW\Src\E2E\E2E.c	    59   * Internal comment removed.
+; ..\_01_BSW\Src\E2E\E2E.c	    60   *
+; ..\_01_BSW\Src\E2E\E2E.c	    61   *
+; ..\_01_BSW\Src\E2E\E2E.c	    62   */
+; ..\_01_BSW\Src\E2E\E2E.c	    63  FUNC(void, E2E_CODE) E2E_GetVersionInfo(P2VAR(Std_VersionInfoType, AUTOMATIC, E2E_APPL_DATA) VersionInfo)
+; Function E2E_GetVersionInfo
+.L4:
+E2E_GetVersionInfo:	.type	func
+
+; ..\_01_BSW\Src\E2E\E2E.c	    64  {
+; ..\_01_BSW\Src\E2E\E2E.c	    65    if (VersionInfo != NULL_PTR)
+	jz.a	a4,.L2
+.L25:
+
+; ..\_01_BSW\Src\E2E\E2E.c	    66    {
+; ..\_01_BSW\Src\E2E\E2E.c	    67      VersionInfo->vendorID = E2E_VENDOR_ID; /* SBSW_E2E_01 */
+	mov	d15,#30
+.L26:
+	st.h	[a4],d15
+.L27:
+
+; ..\_01_BSW\Src\E2E\E2E.c	    68      VersionInfo->moduleID = E2E_MODULE_ID; /* SBSW_E2E_01 */
+	mov	d15,#207
+.L28:
+	st.h	[a4]2,d15
+.L29:
+
+; ..\_01_BSW\Src\E2E\E2E.c	    69      VersionInfo->sw_major_version = E2E_SW_MAJOR_VERSION; /* SBSW_E2E_01 */
+	mov	d15,#2
+.L30:
+	st.b	[a4]4,d15
+.L31:
+
+; ..\_01_BSW\Src\E2E\E2E.c	    70      VersionInfo->sw_minor_version = E2E_SW_MINOR_VERSION; /* SBSW_E2E_01 */
+	mov	d15,#2
+.L32:
+	st.b	[a4]5,d15
+.L33:
+
+; ..\_01_BSW\Src\E2E\E2E.c	    71      VersionInfo->sw_patch_version = E2E_SW_PATCH_VERSION; /* SBSW_E2E_01 */
+	mov	d15,#0
+.L34:
+	st.b	[a4]6,d15
+.L2:
+
+; ..\_01_BSW\Src\E2E\E2E.c	    72    }
+; ..\_01_BSW\Src\E2E\E2E.c	    73  }
+	ret
+.L14:
+	
+__E2E_GetVersionInfo_function_end:
+	.size	E2E_GetVersionInfo,__E2E_GetVersionInfo_function_end-E2E_GetVersionInfo
+.L13:
+	; End of function
+	
+	.calls	'E2E_GetVersionInfo','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L6:
+	.word	1164
+	.half	3
+	.word	.L7
+	.byte	4
+.L5:
+	.byte	1
+	.byte	'..\\_01_BSW\\Src\\E2E\\E2E.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L8
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	186
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	193
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	235
+	.byte	7
+	.word	235
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	251
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	256
+	.byte	9
+	.byte	'value',0
+	.word	235
+	.byte	9
+	.byte	'compare',0
+	.word	235
+	.byte	0,2
+	.byte	'unsigned short int',0,2,7,2
+	.byte	'unsigned char',0,1,8,10,1,134,1,9,8,11
+	.byte	'vendorID',0
+	.word	313
+	.byte	2,2,35,0,11
+	.byte	'moduleID',0
+	.word	313
+	.byte	2,2,35,2,11
+	.byte	'sw_major_version',0
+	.word	335
+	.byte	1,2,35,4,11
+	.byte	'sw_minor_version',0
+	.word	335
+	.byte	1,2,35,5,11
+	.byte	'sw_patch_version',0
+	.word	335
+	.byte	1,2,35,6,0
+.L15:
+	.byte	7
+	.word	352
+	.byte	12,1,7
+	.word	478
+	.byte	13
+	.byte	'__codeptr',0,2,1,1
+	.word	480
+	.byte	13
+	.byte	'uint8',0,3,127,31
+	.word	335
+	.byte	13
+	.byte	'uint16',0,3,129,1,31
+	.word	313
+	.byte	13
+	.byte	'Std_VersionInfoType',0,1,141,1,3
+	.word	352
+	.byte	14,4,54,9,1,15
+	.byte	'E2E_P_OK',0,0,15
+	.byte	'E2E_P_REPEATED',0,1,15
+	.byte	'E2E_P_WRONGSEQUENCE',0,2,15
+	.byte	'E2E_P_ERROR',0,3,15
+	.byte	'E2E_P_NOTAVAILABLE',0,4,15
+	.byte	'E2E_P_NONEWDATA',0,5,0,13
+	.byte	'E2E_PCheckStatusType',0,4,62,3
+	.word	562
+	.byte	10,4,64,9,8,11
+	.byte	'WindowSize',0
+	.word	335
+	.byte	1,2,35,0,11
+	.byte	'MinOkStateInit',0
+	.word	335
+	.byte	1,2,35,1,11
+	.byte	'MaxErrorStateInit',0
+	.word	335
+	.byte	1,2,35,2,11
+	.byte	'MinOkStateValid',0
+	.word	335
+	.byte	1,2,35,3,11
+	.byte	'MaxErrorStateValid',0
+	.word	335
+	.byte	1,2,35,4,11
+	.byte	'MinOkStateInvalid',0
+	.word	335
+	.byte	1,2,35,5,11
+	.byte	'MaxErrorStateInvalid',0
+	.word	335
+	.byte	1,2,35,6,0,13
+	.byte	'E2E_SMConfigType',0,4,76,3
+	.word	700
+	.byte	14,4,78,9,1,15
+	.byte	'E2E_SM_VALID',0,0,15
+	.byte	'E2E_SM_DEINIT',0,1,15
+	.byte	'E2E_SM_NODATA',0,2,15
+	.byte	'E2E_SM_INIT',0,3,15
+	.byte	'E2E_SM_INVALID',0,4,0,13
+	.byte	'E2E_SMStateType',0,4,85,3
+	.word	912
+	.byte	7
+	.word	335
+	.byte	10,4,87,9,8,11
+	.byte	'ProfileStatusWindow',0
+	.word	1020
+	.byte	4,2,35,0,11
+	.byte	'WindowTopIndex',0
+	.word	335
+	.byte	1,2,35,4,11
+	.byte	'OkCount',0
+	.word	335
+	.byte	1,2,35,5,11
+	.byte	'ErrorCount',0
+	.word	335
+	.byte	1,2,35,6,11
+	.byte	'SMState',0
+	.word	912
+	.byte	1,2,35,7,0,13
+	.byte	'E2E_SMCheckStateType',0,4,94,3
+	.word	1025
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,21,0,54,15,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0,14,4,1,58,15,59,15,57,15,11,15,0,0,15,40,0
+	.byte	3,8,28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L8:
+	.word	.L18-.L17
+.L17:
+	.half	3
+	.word	.L20-.L19
+.L19:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	0
+	.byte	'Std_Types.h',0,1,0,0
+	.byte	'..\\_01_BSW\\Src\\E2E\\E2E.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'..\\_01_BSW\\Src\\E2E\\E2E_SM.h',0,0,0,0,0
+.L20:
+.L18:
+	.sdecl	'.debug_info',debug,cluster('E2E_GetVersionInfo')
+	.sect	'.debug_info'
+.L9:
+	.word	264
+	.half	3
+	.word	.L10
+	.byte	4,1
+	.byte	'..\\_01_BSW\\Src\\E2E\\E2E.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L12,.L11
+	.byte	2
+	.word	.L5
+	.byte	3
+	.byte	'E2E_GetVersionInfo',0,1,63,22,1,1,1
+	.word	.L4,.L14,.L3
+	.byte	4
+	.byte	'VersionInfo',0,1,63,94
+	.word	.L15,.L16
+	.byte	5
+	.word	.L4,.L14
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('E2E_GetVersionInfo')
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('E2E_GetVersionInfo')
+	.sect	'.debug_line'
+.L11:
+	.word	.L22-.L21
+.L21:
+	.half	3
+	.word	.L24-.L23
+.L23:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_01_BSW\\Src\\E2E\\E2E.c',0,0,0,0,0
+.L24:
+	.byte	5,3,7,0,5,2
+	.word	.L4
+	.byte	3,192,0,1,5,29,7,9
+	.half	.L25-.L4
+	.byte	3,2,1,5,27,9
+	.half	.L26-.L25
+	.byte	1,5,29,9
+	.half	.L27-.L26
+	.byte	3,1,1,5,27,9
+	.half	.L28-.L27
+	.byte	1,5,37,9
+	.half	.L29-.L28
+	.byte	3,1,1,5,35,9
+	.half	.L30-.L29
+	.byte	1,5,37,9
+	.half	.L31-.L30
+	.byte	3,1,1,5,35,9
+	.half	.L32-.L31
+	.byte	1,5,37,9
+	.half	.L33-.L32
+	.byte	3,1,1,5,35,9
+	.half	.L34-.L33
+	.byte	1,5,1,9
+	.half	.L2-.L34
+	.byte	3,2,1,7,9
+	.half	.L13-.L2
+	.byte	0,1,1
+.L22:
+	.sdecl	'.debug_ranges',debug,cluster('E2E_GetVersionInfo')
+	.sect	'.debug_ranges'
+.L12:
+	.word	-1,.L4,0,.L13-.L4,0,0
+	.sdecl	'.debug_loc',debug,cluster('E2E_GetVersionInfo')
+	.sect	'.debug_loc'
+.L3:
+	.word	-1,.L4,0,.L14-.L4
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L16:
+	.word	-1,.L4,0,.L14-.L4
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L35:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('E2E_GetVersionInfo')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L35,.L4,.L14-.L4
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+
+; ..\_01_BSW\Src\E2E\E2E.c	    74  
+; ..\_01_BSW\Src\E2E\E2E.c	    75  
+; ..\_01_BSW\Src\E2E\E2E.c	    76  # define E2E_STOP_SEC_CODE
+; ..\_01_BSW\Src\E2E\E2E.c	    77  # include "MemMap.h" /* PRQA S 5087 */  /* MD_MSR_MemMap */
+; ..\_01_BSW\Src\E2E\E2E.c	    78  
+; ..\_01_BSW\Src\E2E\E2E.c	    79  /* Justification for module-specific MISRA deviations:
+; ..\_01_BSW\Src\E2E\E2E.c	    80  
+; ..\_01_BSW\Src\E2E\E2E.c	    81   MD_EtoE_2.2:
+; ..\_01_BSW\Src\E2E\E2E.c	    82        Reason:     Redundant initialization is kept because some compilers (and linters) are criticizing the follow up
+; ..\_01_BSW\Src\E2E\E2E.c	    83                    code to be 'potentially uninitialized' even this is not true.
+; ..\_01_BSW\Src\E2E\E2E.c	    84        Risk:       None.
+; ..\_01_BSW\Src\E2E\E2E.c	    85        Prevention: Program flow has been verified by component test and review.
+; ..\_01_BSW\Src\E2E\E2E.c	    86  
+; ..\_01_BSW\Src\E2E\E2E.c	    87   MD_EtoE_17.8:
+; ..\_01_BSW\Src\E2E\E2E.c	    88        Reason:     Target function requires the start address to the buffer that shall be calculated.
+; ..\_01_BSW\Src\E2E\E2E.c	    89        Risk:       The used function parameter is an object with automatic storage duration. When the address would be
+; ..\_01_BSW\Src\E2E\E2E.c	    90                    stored and accessed later it may not be valid anymore.
+; ..\_01_BSW\Src\E2E\E2E.c	    91        Prevention: Program flow has been verified by component test and review.
+; ..\_01_BSW\Src\E2E\E2E.c	    92  
+; ..\_01_BSW\Src\E2E\E2E.c	    93  */
+; ..\_01_BSW\Src\E2E\E2E.c	    94  
+; ..\_01_BSW\Src\E2E\E2E.c	    95  
+; ..\_01_BSW\Src\E2E\E2E.c	    96  /* START_COVERAGE_JUSTIFICATION
+; ..\_01_BSW\Src\E2E\E2E.c	    97    \ID COV_E2E_MISRA
+; ..\_01_BSW\Src\E2E\E2E.c	    98      \ACCEPT XX
+; ..\_01_BSW\Src\E2E\E2E.c	    99      \REASON [MSR_COV_MISRA]
+; ..\_01_BSW\Src\E2E\E2E.c	   100  
+; ..\_01_BSW\Src\E2E\E2E.c	   101    \ID COV_E2E_COMPATIBILITY
+; ..\_01_BSW\Src\E2E\E2E.c	   102      \ACCEPT TX
+; ..\_01_BSW\Src\E2E\E2E.c	   103      \ACCEPT XF
+; ..\_01_BSW\Src\E2E\E2E.c	   104      \REASON [COV_MSR_COMPATIBILITY]
+; ..\_01_BSW\Src\E2E\E2E.c	   105  END_COVERAGE_JUSTIFICATION */
+; ..\_01_BSW\Src\E2E\E2E.c	   106  
+; ..\_01_BSW\Src\E2E\E2E.c	   107  /* SBSW_JUSTIFICATION_BEGIN
+; ..\_01_BSW\Src\E2E\E2E.c	   108  
+; ..\_01_BSW\Src\E2E\E2E.c	   109      \ID SBSW_E2E_01
+; ..\_01_BSW\Src\E2E\E2E.c	   110        \DESCRIPTION The function E2E_GetVersionInfo writes to the object referenced by parameter VersionInfo.
+; ..\_01_BSW\Src\E2E\E2E.c	   111        \COUNTERMEASURE \N The caller ensures that the pointer passed to the parameter VersionInfo is valid.
+; ..\_01_BSW\Src\E2E\E2E.c	   112  
+; ..\_01_BSW\Src\E2E\E2E.c	   113      \ID SBSW_E2E_02
+; ..\_01_BSW\Src\E2E\E2E.c	   114        \DESCRIPTION Function is called with reference to local parameter.
+; ..\_01_BSW\Src\E2E\E2E.c	   115        \COUNTERMEASURE \N Reference to local parameter is valid because it is initialized in every case.
+; ..\_01_BSW\Src\E2E\E2E.c	   116  
+; ..\_01_BSW\Src\E2E\E2E.c	   117      \ID SBSW_E2E_03
+; ..\_01_BSW\Src\E2E\E2E.c	   118        \DESCRIPTION Function is called with pointer parameter. Parameter is either DataPtr, StatePtr or ConfigPtr.
+; ..\_01_BSW\Src\E2E\E2E.c	   119        \COUNTERMEASURE \N The caller of the function ensures that the pointer passed to the parameter is valid.
+; ..\_01_BSW\Src\E2E\E2E.c	   120  
+; ..\_01_BSW\Src\E2E\E2E.c	   121      \ID SBSW_E2E_04
+; ..\_01_BSW\Src\E2E\E2E.c	   122        \DESCRIPTION Value is assigned to parameter which is referenced by pointer NewDataAvailablePtr.
+; ..\_01_BSW\Src\E2E\E2E.c	   123        \COUNTERMEASURE \N The caller of the function ensures that the pointer passed to the parameter NewDataAvailablePtr is valid.
+; ..\_01_BSW\Src\E2E\E2E.c	   124  
+; ..\_01_BSW\Src\E2E\E2E.c	   125      \ID SBSW_E2E_05
+; ..\_01_BSW\Src\E2E\E2E.c	   126        \DESCRIPTION Write access to local array with static index.
+; ..\_01_BSW\Src\E2E\E2E.c	   127        \COUNTERMEASURE \N Index of array access does not exceed array length because indexes and array length are defined statically.
+; ..\_01_BSW\Src\E2E\E2E.c	   128  SBSW_JUSTIFICATION_END */
+; ..\_01_BSW\Src\E2E\E2E.c	   129  
+; ..\_01_BSW\Src\E2E\E2E.c	   130  /**********************************************************************************************************************
+; ..\_01_BSW\Src\E2E\E2E.c	   131   *  END OF FILE: E2E.c
+; ..\_01_BSW\Src\E2E\E2E.c	   132   *********************************************************************************************************************/
+
+	; Module end

@@ -1,0 +1,692 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_02_CDD\\AdcCdd\\.AdcCdd.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_02_CDD\\AdcCdd\\AdcCdd.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _02_CDD\\AdcCdd\\AdcCdd.src ..\\_02_CDD\\AdcCdd\\AdcCdd.c"
+	.compiler_name		"ctc"
+	;source	'..\\_02_CDD\\AdcCdd\\AdcCdd.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.AdcCdd.AdcCdd_Init',code,cluster('AdcCdd_Init')
+	.sect	'.text.AdcCdd.AdcCdd_Init'
+	.align	2
+	
+	.global	AdcCdd_Init
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     1  #include "AdcCdd.h"
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     2  #include "Adc.h"
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     3  
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     4  static uint16 ADC_KL30_RawValBuf = 0;
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     5  static uint16 ADC_KL30_RawVal = 0;
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     6  float ADC_KL30_PhyVal = 0;
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     7  
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     8  void AdcCdd_Init(void)
+; Function AdcCdd_Init
+.L3:
+AdcCdd_Init:	.type	func
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	     9  {
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    10  	Adc_EnableGroupNotification(AdcConf_AdcGroup_AdcGroup_0);
+	mov	d4,#0
+	call	Adc_EnableGroupNotification
+.L38:
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    11  	Adc_SetupResultBuffer(AdcConf_AdcGroup_AdcGroup_0, &ADC_KL30_RawValBuf);
+	mov	d4,#0
+.L39:
+	movh.a	a4,#@his(ADC_KL30_RawValBuf)
+	lea	a4,[a4]@los(ADC_KL30_RawValBuf)
+	call	Adc_SetupResultBuffer
+.L40:
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    12  }
+	ret
+.L26:
+	
+__AdcCdd_Init_function_end:
+	.size	AdcCdd_Init,__AdcCdd_Init_function_end-AdcCdd_Init
+.L14:
+	; End of function
+	
+	.sdecl	'.text.AdcCdd.AdcCdd_Mainfunction',code,cluster('AdcCdd_Mainfunction')
+	.sect	'.text.AdcCdd.AdcCdd_Mainfunction'
+	.align	2
+	
+	.global	AdcCdd_Mainfunction
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    13  
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    14  
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    15  void AdcCdd_Mainfunction(void)
+; Function AdcCdd_Mainfunction
+.L5:
+AdcCdd_Mainfunction:	.type	func
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    16  {
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    17  	/* ADC */
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    18  	Adc_StartGroupConversion(AdcConf_AdcGroup_AdcGroup_0);
+	mov	d4,#0
+	call	Adc_StartGroupConversion
+.L45:
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    19  	Adc_ReadGroup(AdcConf_AdcGroup_AdcGroup_0, &ADC_KL30_RawVal);
+	mov	d4,#0
+.L46:
+	movh.a	a4,#@his(ADC_KL30_RawVal)
+	lea	a4,[a4]@los(ADC_KL30_RawVal)
+	call	Adc_ReadGroup
+.L47:
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    20  
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    21      /* Assumption the physical max voltage to 20V(the real max voltage is 5V) */
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    22  	/* PhyVal = ADC_RawValue / (1023 / 20 ) */
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    23  	ADC_KL30_PhyVal = (float)((int)(((float)ADC_KL30_RawVal / 51.15) * 10)) / 10;
+	movh.a	a15,#@his(ADC_KL30_PhyVal)
+	lea	a15,[a15]@los(ADC_KL30_PhyVal)
+.L48:
+	movh.a	a2,#@his(ADC_KL30_RawVal)
+	lea	a2,[a2]@los(ADC_KL30_RawVal)
+	ld.hu	d15,[a2]0
+.L49:
+	utof	d15,d15
+.L50:
+	mov.u	d0,#39322
+	addih	d0,d0,#16972
+.L51:
+	div.f	d15,d15,d0
+.L52:
+	movh	d0,#16672
+.L53:
+	mul.f	d15,d15,d0
+.L54:
+	ftoiz	d15,d15
+.L55:
+	itof	d15,d15
+.L56:
+	movh	d0,#16672
+.L57:
+	div.f	d15,d15,d0
+.L58:
+	st.w	[a15],d15
+.L59:
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    24  }
+	ret
+.L27:
+	
+__AdcCdd_Mainfunction_function_end:
+	.size	AdcCdd_Mainfunction,__AdcCdd_Mainfunction_function_end-AdcCdd_Mainfunction
+.L19:
+	; End of function
+	
+	.sdecl	'.data.AdcCdd.ADC_KL30_RawValBuf',data,cluster('ADC_KL30_RawValBuf')
+	.sect	'.data.AdcCdd.ADC_KL30_RawValBuf'
+	.align	2
+ADC_KL30_RawValBuf:	.type	object
+	.size	ADC_KL30_RawValBuf,2
+	.space	2
+	.sdecl	'.data.AdcCdd.ADC_KL30_RawVal',data,cluster('ADC_KL30_RawVal')
+	.sect	'.data.AdcCdd.ADC_KL30_RawVal'
+	.align	2
+ADC_KL30_RawVal:	.type	object
+	.size	ADC_KL30_RawVal,2
+	.space	2
+	.sdecl	'.data.AdcCdd.ADC_KL30_PhyVal',data,cluster('ADC_KL30_PhyVal')
+	.sect	'.data.AdcCdd.ADC_KL30_PhyVal'
+	.global	ADC_KL30_PhyVal
+	.align	2
+ADC_KL30_PhyVal:	.type	object
+	.size	ADC_KL30_PhyVal,4
+	.space	4
+	.calls	'AdcCdd_Init','Adc_EnableGroupNotification'
+	.calls	'AdcCdd_Init','Adc_SetupResultBuffer'
+	.calls	'AdcCdd_Mainfunction','Adc_StartGroupConversion'
+	.calls	'AdcCdd_Mainfunction','Adc_ReadGroup'
+	.calls	'AdcCdd_Init','',0
+	.extern	Adc_SetupResultBuffer
+	.extern	Adc_StartGroupConversion
+	.extern	Adc_ReadGroup
+	.extern	Adc_EnableGroupNotification
+	.calls	'AdcCdd_Mainfunction','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L7:
+	.word	2341
+	.half	3
+	.word	.L8
+	.byte	4
+.L6:
+	.byte	1
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L9
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	188
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	195
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	237
+	.byte	7
+	.word	237
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	253
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	258
+	.byte	9
+	.byte	'value',0
+	.word	237
+	.byte	9
+	.byte	'compare',0
+	.word	237
+	.byte	0,2
+	.byte	'unsigned char',0,1,8
+.L28:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,7
+	.word	332
+	.byte	10
+	.byte	'Adc_SetupResultBuffer',0,1,214,8,23
+	.word	315
+	.byte	1,1,1,1,11
+	.byte	'Group',0,1,216,8,17
+	.word	332
+	.byte	11
+	.byte	'DataBufferPtr',0,1,217,8,23
+	.word	354
+	.byte	0,12
+	.byte	'Adc_StartGroupConversion',0,1,163,9,13,1,1,1,1,11
+	.byte	'Group',0,1,165,9,17
+	.word	332
+	.byte	0,10
+	.byte	'Adc_ReadGroup',0,1,251,9,23
+	.word	315
+	.byte	1,1,1,1,11
+	.byte	'Group',0,1,253,9,19
+	.word	332
+	.byte	11
+	.byte	'DataBufferPtr',0,1,254,9,25
+	.word	354
+	.byte	0,12
+	.byte	'Adc_EnableGroupNotification',0,1,249,10,13,1,1,1,1,11
+	.byte	'Group',0,1,251,10,17
+	.word	332
+	.byte	0,13,1,7
+	.word	602
+	.byte	14
+	.byte	'__codeptr',0,2,1,1
+	.word	604
+	.byte	14
+	.byte	'uint8',0,3,127,31
+	.word	315
+	.byte	14
+	.byte	'uint16',0,3,129,1,31
+	.word	332
+	.byte	2
+	.byte	'unsigned long int',0,4,7,14
+	.byte	'uint32',0,3,131,1,31
+	.word	657
+	.byte	14
+	.byte	'Std_ReturnType',0,4,132,1,15
+	.word	315
+	.byte	14
+	.byte	'Adc_ChannelType',0,1,227,2,15
+	.word	315
+	.byte	14
+	.byte	'Adc_GroupType',0,1,233,2,16
+	.word	332
+	.byte	14
+	.byte	'Adc_ValueGroupType',0,1,247,2,16
+	.word	332
+	.byte	14
+	.byte	'Adc_PrescaleType',0,1,144,3,16
+	.word	657
+	.byte	14
+	.byte	'Adc_TriggerSourceType',0,1,200,3,15
+	.word	315
+	.byte	14
+	.byte	'Adc_GroupConvModeType',0,1,208,3,15
+	.word	315
+	.byte	14
+	.byte	'Adc_GroupPriorityType',0,1,215,3,15
+	.word	315
+	.byte	14
+	.byte	'Adc_GroupDefType',0,1,130,4,25
+	.word	315
+	.byte	14
+	.byte	'Adc_StreamNumSampleType',0,1,135,4,15
+	.word	315
+	.byte	14
+	.byte	'Adc_StreamBufferModeType',0,1,148,4,15
+	.word	315
+	.byte	14
+	.byte	'Adc_TriggSrcArbLevelType',0,1,179,4,16
+	.word	657
+	.byte	15
+	.byte	'Adc_TriggSrcData',0,1,205,4,16,4,16
+	.byte	'GrpId',0
+	.word	332
+	.byte	2,2,35,0,16
+	.byte	'GrpPriority',0
+	.word	315
+	.byte	1,2,35,2,16
+	.byte	'IsrDoNothing',0
+	.word	315
+	.byte	1,2,35,3,0,14
+	.byte	'Adc_TriggSrcDataType',0,1,223,4,2
+	.word	1040
+	.byte	17,16
+	.word	315
+	.byte	18,15,0,17,16
+	.word	315
+	.byte	18,15,0,15
+	.byte	'Adc_GroupData',0,1,232,4,16,32,16
+	.byte	'GrpChannels',0
+	.word	1152
+	.byte	16,2,35,0,16
+	.byte	'GrpChannelRes',0
+	.word	1161
+	.byte	16,2,35,16,0,14
+	.byte	'Adc_GroupDataType',0,1,250,4,2
+	.word	1170
+	.byte	19,1,1,7
+	.word	1262
+	.byte	14
+	.byte	'Adc_NotifFctPtrType',0,1,132,6,16
+	.word	1265
+	.byte	17,8
+	.word	657
+	.byte	18,1,0,15
+	.byte	'Adc_HwUnitCfgType',0,1,138,6,16,20,16
+	.byte	'ArbitrationLength',0
+	.word	657
+	.byte	4,2,35,0,16
+	.byte	'TriggSrcArbLevel',0
+	.word	657
+	.byte	4,2,35,4,16
+	.byte	'KernelInputClass',0
+	.word	1299
+	.byte	8,2,35,8,16
+	.byte	'SyncConvMode',0
+	.word	315
+	.byte	1,2,35,16,16
+	.byte	'SlaveReady',0
+	.word	315
+	.byte	1,2,35,17,16
+	.byte	'DmaChannel',0
+	.word	315
+	.byte	1,2,35,18,0,14
+	.byte	'Adc_HwUnitCfgType',0,1,174,6,2
+	.word	1308
+	.byte	3
+	.word	315
+	.byte	7
+	.word	1501
+	.byte	15
+	.byte	'Adc_GroupCfgType',0,1,177,6,16,16,16
+	.byte	'NotifFctPtr',0
+	.word	1270
+	.byte	4,2,35,0,16
+	.byte	'GroupDefinition',0
+	.word	1506
+	.byte	4,2,35,4,16
+	.byte	'IntChMask',0
+	.word	332
+	.byte	2,2,35,8,16
+	.byte	'TriggSrc',0
+	.word	315
+	.byte	1,2,35,10,16
+	.byte	'GrpRequestSrc',0
+	.word	315
+	.byte	1,2,35,11,16
+	.byte	'ConvMode',0
+	.word	315
+	.byte	1,2,35,12,16
+	.byte	'NumSamples',0
+	.word	315
+	.byte	1,2,35,13,16
+	.byte	'StreamBufferMode',0
+	.word	315
+	.byte	1,2,35,14,0,14
+	.byte	'Adc_GroupCfgType',0,1,252,6,3
+	.word	1511
+	.byte	7
+	.word	1262
+	.byte	15
+	.byte	'Adc_ChannelCfgType',0,1,131,7,17,28,16
+	.byte	'AdcChConfigValue',0
+	.word	657
+	.byte	4,2,35,0,16
+	.byte	'AdcChResAccumulation',0
+	.word	657
+	.byte	4,2,35,4,16
+	.byte	'AdcIsChLimitChkEnabled',0
+	.word	657
+	.byte	4,2,35,8,16
+	.byte	'AdcLimitChkRange',0
+	.word	657
+	.byte	4,2,35,12,16
+	.byte	'AdcLimitChkBnd',0
+	.word	657
+	.byte	4,2,35,16,16
+	.byte	'AdcChBndSelxValue',0
+	.word	657
+	.byte	4,2,35,20,16
+	.byte	'AdcSyncChannel',0
+	.word	315
+	.byte	1,2,35,24,0,14
+	.byte	'Adc_ChannelCfgType',0,1,155,7,3
+	.word	1736
+	.byte	3
+	.word	1308
+	.byte	7
+	.word	1979
+	.byte	3
+	.word	1736
+	.byte	7
+	.word	1989
+	.byte	3
+	.word	1511
+	.byte	7
+	.word	1999
+	.byte	15
+	.byte	'Adc_KernelConfigType',0,1,158,7,17,16,16
+	.byte	'HwCfgPtr',0
+	.word	1984
+	.byte	4,2,35,0,16
+	.byte	'ChCfgPtr',0
+	.word	1994
+	.byte	4,2,35,4,16
+	.byte	'GrpCfgPtr',0
+	.word	2004
+	.byte	4,2,35,8,16
+	.byte	'TotCfgGrps',0
+	.word	315
+	.byte	1,2,35,12,0,14
+	.byte	'Adc_KernelConfigType',0,1,178,7,3
+	.word	2009
+	.byte	15
+	.byte	'Adc_GlobalCfgType',0,1,181,7,17,28,16
+	.byte	'ClkPrescale',0
+	.word	657
+	.byte	4,2,35,0,16
+	.byte	'GlobInputClass',0
+	.word	1299
+	.byte	8,2,35,4,16
+	.byte	'PostCalEnable',0
+	.word	657
+	.byte	4,2,35,12,16
+	.byte	'LowPowerSupply',0
+	.word	657
+	.byte	4,2,35,16,16
+	.byte	'RefPrechargeCtrl',0
+	.word	657
+	.byte	4,2,35,20,16
+	.byte	'OperationMode',0
+	.word	315
+	.byte	1,2,35,24,0,14
+	.byte	'Adc_GlobalCfgType',0,1,239,7,3
+	.word	2142
+.L29:
+	.byte	2
+	.byte	'float',0,4,4,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L8:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,11
+	.byte	5,0,3,8,58,15,59,15,57,15,73,19,0,0,12,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,13,21,0
+	.byte	54,15,0,0,14,22,0,3,8,58,15,59,15,57,15,73,19,0,0,15,19,1,3,8,58,15,59,15,57,15,11,15,0,0,16,13,0,3,8
+	.byte	73,19,11,15,56,9,0,0,17,1,1,11,15,73,19,0,0,18,33,0,47,15,0,0,19,21,0,54,15,39,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L9:
+	.word	.L31-.L30
+.L30:
+	.half	3
+	.word	.L33-.L32
+.L32:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	0
+	.byte	'Adc.h',0,1,0,0
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0,0
+.L33:
+.L31:
+	.sdecl	'.debug_info',debug,cluster('AdcCdd_Init')
+	.sect	'.debug_info'
+.L10:
+	.word	235
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L13,.L12
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'AdcCdd_Init',0,1,8,6,1,1,1
+	.word	.L3,.L26,.L2
+	.byte	4
+	.word	.L3,.L26
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AdcCdd_Init')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AdcCdd_Init')
+	.sect	'.debug_line'
+.L12:
+	.word	.L35-.L34
+.L34:
+	.half	3
+	.word	.L37-.L36
+.L36:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0,0,0,0,0
+.L37:
+	.byte	5,30,7,0,5,2
+	.word	.L3
+	.byte	3,9,1,5,24,9
+	.half	.L38-.L3
+	.byte	3,1,1,5,54,9
+	.half	.L39-.L38
+	.byte	1,5,1,9
+	.half	.L40-.L39
+	.byte	3,1,1,7,9
+	.half	.L14-.L40
+	.byte	0,1,1
+.L35:
+	.sdecl	'.debug_ranges',debug,cluster('AdcCdd_Init')
+	.sect	'.debug_ranges'
+.L13:
+	.word	-1,.L3,0,.L14-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('AdcCdd_Mainfunction')
+	.sect	'.debug_info'
+.L15:
+	.word	243
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'AdcCdd_Mainfunction',0,1,15,6,1,1,1
+	.word	.L5,.L27,.L4
+	.byte	4
+	.word	.L5,.L27
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AdcCdd_Mainfunction')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AdcCdd_Mainfunction')
+	.sect	'.debug_line'
+.L17:
+	.word	.L42-.L41
+.L41:
+	.half	3
+	.word	.L44-.L43
+.L43:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0,0,0,0,0
+.L44:
+	.byte	5,27,7,0,5,2
+	.word	.L5
+	.byte	3,17,1,5,16,9
+	.half	.L45-.L5
+	.byte	3,1,1,5,46,9
+	.half	.L46-.L45
+	.byte	1,5,2,9
+	.half	.L47-.L46
+	.byte	3,4,1,5,42,9
+	.half	.L48-.L47
+	.byte	1,5,35,9
+	.half	.L49-.L48
+	.byte	1,5,60,9
+	.half	.L50-.L49
+	.byte	1,5,58,9
+	.half	.L51-.L50
+	.byte	1,5,69,9
+	.half	.L52-.L51
+	.byte	1,5,67,9
+	.half	.L53-.L52
+	.byte	1,5,28,9
+	.half	.L54-.L53
+	.byte	1,5,20,9
+	.half	.L55-.L54
+	.byte	1,5,76,9
+	.half	.L56-.L55
+	.byte	1,5,74,9
+	.half	.L57-.L56
+	.byte	1,5,18,9
+	.half	.L58-.L57
+	.byte	1,5,1,9
+	.half	.L59-.L58
+	.byte	3,1,1,7,9
+	.half	.L19-.L59
+	.byte	0,1,1
+.L42:
+	.sdecl	'.debug_ranges',debug,cluster('AdcCdd_Mainfunction')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L5,0,.L19-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('ADC_KL30_RawValBuf')
+	.sect	'.debug_info'
+.L20:
+	.word	219
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L6
+	.byte	3
+	.byte	'ADC_KL30_RawValBuf',0,2,4,15
+	.word	.L28
+	.byte	5,3
+	.word	ADC_KL30_RawValBuf
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ADC_KL30_RawValBuf')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('ADC_KL30_RawVal')
+	.sect	'.debug_info'
+.L22:
+	.word	216
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L6
+	.byte	3
+	.byte	'ADC_KL30_RawVal',0,2,5,15
+	.word	.L28
+	.byte	5,3
+	.word	ADC_KL30_RawVal
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ADC_KL30_RawVal')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('ADC_KL30_PhyVal')
+	.sect	'.debug_info'
+.L24:
+	.word	217
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'..\\_02_CDD\\AdcCdd\\AdcCdd.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1,2
+	.word	.L6
+	.byte	3
+	.byte	'ADC_KL30_PhyVal',0,2,6,7
+	.word	.L29
+	.byte	1,5,3
+	.word	ADC_KL30_PhyVal
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('ADC_KL30_PhyVal')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('AdcCdd_Init')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L26-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AdcCdd_Mainfunction')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L27-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L60:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AdcCdd_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L60,.L3,.L26-.L3
+	.sdecl	'.debug_frame',debug,cluster('AdcCdd_Mainfunction')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L60,.L5,.L27-.L5
+
+; ..\_02_CDD\AdcCdd\AdcCdd.c	    25  
+
+	; Module end

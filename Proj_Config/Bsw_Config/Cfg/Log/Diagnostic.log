@@ -1,0 +1,1056 @@
+﻿[11:12:17] INFO   ----> Process of diagnostic specification
+[11:12:18] INFO   DDM-Version: 16.1.0 (Release)
+[11:12:18] INFO   Importing ODX file D:\autosar_dev\05-Proj\autosar_tc275_faultmonitor\Proj_Config\Bsw_Config\Cfg\DBC\ABS_ESP-Example.cdd, ECU: ABS_ESP, variant: BaseVariant
+[11:12:18] INFO   Selecting ECU 'ABS_ESP'  Variant 'BaseVariant'  Protocol UDS.
+[11:12:18] WARN   Diagnostic OEM 'Vector' differs from OEM 'Unknown' in 'D:\autosar_dev\05-Proj\autosar_tc275_faultmonitor\Proj_Config\Bsw_Config\Cfg\DBC\ABS_ESP-Example.cdd'.
+[11:12:18] INFO   Selecting Manufacturer 'Vector'.
+[11:12:18] INFO   'Vector' was selected and 'unspecified' was detected.
+[11:12:18] INFO   Importing Database information.
+[11:12:18] INFO   ----> Importing Variants
+[11:12:18] INFO   <---- Importing Variants
+[11:12:18] INFO   ----> Importing StateGroups
+[11:12:18] INFO   Importing StateMachine information.
+[11:12:18] INFO   <---- Importing StateGroups
+[11:12:18] INFO   ----> Importing Services
+[11:12:18] INFO   Importing Service '1001'.
+[11:12:18] INFO   Importing Service '1002'.
+[11:12:18] INFO   Importing Service '1003'.
+[11:12:18] INFO   Importing Service '1101'.
+[11:12:18] INFO   Importing Service '1103'.
+[11:12:18] INFO   Importing Service '14'.
+[11:12:18] INFO   Importing Service '1901'.
+[11:12:18] INFO   Importing Service '1902'.
+[11:12:18] INFO   Importing Service '1904'.
+[11:12:18] INFO   Importing Service '1906'.
+[11:12:18] INFO   Importing Service '190A'.
+[11:12:18] INFO   Importing Service '220100'.
+[11:12:18] INFO   Importing Service '220107'.
+[11:12:18] INFO   Importing Service '220109'.
+[11:12:18] INFO   Importing Service '22010A'.
+[11:12:18] INFO   Importing Service '22010B'.
+[11:12:18] INFO   Importing Service '22010C'.
+[11:12:18] INFO   Importing Service '22010D'.
+[11:12:18] INFO   Importing Service '22010E'.
+[11:12:18] INFO   Importing Service '22010F'.
+[11:12:18] INFO   Importing Service '220110'.
+[11:12:18] INFO   Importing Service '220111'.
+[11:12:18] INFO   Importing Service '220112'.
+[11:12:18] INFO   Importing Service '22F189'.
+[11:12:18] INFO   Importing Service '22F18C'.
+[11:12:18] INFO   Importing Service '22F190'.
+[11:12:18] INFO   Importing Service '22F191'.
+[11:12:18] INFO   Importing Service '22F192'.
+[11:12:18] INFO   Importing Service '22F194'.
+[11:12:18] INFO   Importing Service '22F198'.
+[11:12:18] INFO   Importing Service '2701'.
+[11:12:18] INFO   Importing Service '2702'.
+[11:12:18] INFO   Importing Service '2800'.
+[11:12:18] INFO   Importing Service '2801'.
+[11:12:18] INFO   Importing Service '2E0109'.
+[11:12:18] INFO   Importing Service '2E0112'.
+[11:12:18] INFO   Importing Service '2EF189'.
+[11:12:18] INFO   Importing Service '2EF18C'.
+[11:12:18] INFO   Importing Service '2EF190'.
+[11:12:18] INFO   Importing Service '2EF191'.
+[11:12:18] INFO   Importing Service '2EF192'.
+[11:12:18] INFO   Importing Service '2EF194'.
+[11:12:18] INFO   Importing Service '2EF198'.
+[11:12:18] INFO   Importing Service '2F011001'.
+[11:12:18] INFO   Importing Service '2F011003'.
+[11:12:18] INFO   Importing Service '31010100'.
+[11:12:18] INFO   Importing Service '31030100'.
+[11:12:18] INFO   Importing Service '3E00'.
+[11:12:18] INFO   Importing Service '8501'.
+[11:12:18] INFO   Importing Service '8502'.
+[11:12:18] INFO   <---- Importing Services
+[11:12:18] INFO   ----> Importing FaultMemory
+[11:12:18] INFO   Importing FaultMemory.
+[11:12:18] WARN   Could not extract DTC format.
+[11:12:18] INFO   <---- Importing FaultMemory
+[11:12:18] INFO   ----> Importing FreezeFrame
+[11:12:18] INFO   <---- Importing FreezeFrame
+[11:12:18] INFO   ----> Importing DiagSettings
+[11:12:18] INFO   Importing DiagSettings
+[11:12:18] INFO   <---- Importing DiagSettings
+[11:12:18] INFO   ----> Importing DataCompProps
+[11:12:18] INFO   <---- Importing DataCompProps
+[11:12:18] INFO   ODX Import finished successfully.
+[11:12:18] INFO   Shaping imported model for diagnostic OEM 'Vector'
+[11:12:18] INFO   Adding shaper script to remove freeze frame 0x00
+[11:12:18] INFO   >>>>>>>>>>>>>>>> SHAPING preparation >>>>>>>>>>>>>>>>
+[11:12:18] INFO   <<<<<<<<<<<<<<<< SHAPING ready after 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> SHAPING started >>>>>>>>>>>>>>>>
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep ServiceSelection >>>>>>>>>>>>>>>>
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep ServiceSelection( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep DataPreparation >>>>>>>>>>>>>>>>
+[11:12:18] NOTE     - Shape Data Comp Collections
+[11:12:18] INFO   At Ecu 
+[11:12:18] INFO     - Fix Unsigned Boolean
+[11:12:18] INFO     - Convert XInt24/XInt64 to Byte-Array
+[11:12:18] INFO     - Set Compu-Scale Symbols
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep DataPreparation( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep ServiceDefinition >>>>>>>>>>>>>>>>
+[11:12:18] INFO   Finding duplicated services... 
+[11:12:18] INFO   Destroying duplicated services... 
+[11:12:18] INFO   At Service 0x22 
+[11:12:18] INFO     - combination of subservices changed from unsupported  to supported.
+[11:12:18] INFO   At Service 0x22 SubService 0x100 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x100 Braking_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x100 Braking_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x107 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x107 Supply_Voltage_ECU_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x107 Supply_Voltage_ECU_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x109 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x109 Wheel_Type_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x109 Wheel_Type_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x10a 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10a Wheel_Speed_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10a Wheel_Speed_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x10b 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10b Acceleration_Sensor_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10b Acceleration_Sensor_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x10c 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10c Hydro_Unit_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10c Hydro_Unit_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x10d 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10d Brake_Pedal_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10d Brake_Pedal_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x10e 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10e Brake_Pressure_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10e Brake_Pressure_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x10f 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10f Hydraulic_Pump_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x10f Hydraulic_Pump_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x110 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x110 Switches_Read_1
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x110 Switches_Read_1
+[11:12:18] INFO   At Service 0x22 SubService 0x111 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x111 Inflation_Pressure_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x111 Inflation_Pressure_Read
+[11:12:18] INFO   At Service 0x22 SubService 0x112 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x112 Service_Information_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0x112 Service_Information_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf189 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf189 Software_Version_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf189 Software_Version_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf18c 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf18c Serial_Number_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf18c Serial_Number_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf190 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf190 VIN_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf190 VIN_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf191 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf191 Hardware_Part_Number_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf191 Hardware_Part_Number_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf192 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf192 Hardware_Supplier_Identification_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf192 Hardware_Supplier_Identification_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf194 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf194 Software_Supplier_Identification_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf194 Software_Supplier_Identification_Read
+[11:12:18] INFO   At Service 0x22 SubService 0xf198 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf198 Fingerprint_Read
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x22 0xf198 Fingerprint_Read
+[11:12:18] INFO   At Service 0x2e SubService 0x109 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0x109 Wheel_Type_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0x109 Wheel_Type_Write
+[11:12:18] INFO   At Service 0x2e SubService 0x112 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0x112 Service_Information_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0x112 Service_Information_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf189 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf189 Software_Version_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf189 Software_Version_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf18c 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf18c Serial_Number_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf18c Serial_Number_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf190 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf190 VIN_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf190 VIN_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf191 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf191 Hardware_Part_Number_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf191 Hardware_Part_Number_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf192 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf192 Hardware_Supplier_Identification_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf192 Hardware_Supplier_Identification_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf194 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf194 Software_Supplier_Identification_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf194 Software_Supplier_Identification_Write
+[11:12:18] INFO   At Service 0x2e SubService 0xf198 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf198 Fingerprint_Write
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RecordDataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2e 0xf198 Fingerprint_Write
+[11:12:18] INFO   At Service 0x2f SubService 0x110 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [DataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2f 0x110 0x1 Switches_Reset
+[11:12:18] INFO     - Applying service definition shaping to protocol component [DataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2f 0x110 0x1 Switches_Reset
+[11:12:18] INFO   At Service 0x2f SubService 0x110 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [DataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2f 0x110 0x3 Switches_Set
+[11:12:18] INFO     - Applying service definition shaping to protocol component [DataIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x2f 0x110 0x3 Switches_Set
+[11:12:18] INFO   At Service 0x31 SubService 0x1 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RoutineIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x31 0x1 0x100 ECU_Check_Start
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RoutineIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x31 0x1 0x100 ECU_Check_Start
+[11:12:18] INFO   At Service 0x31 SubService 0x3 
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RoutineIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x31 0x3 0x100 ECU_Check_Results
+[11:12:18] INFO     - Applying service definition shaping to protocol component [RoutineIdentifier]
+[11:12:18] INFO     - Service has now new definition: 0x31 0x3 0x100 ECU_Check_Results
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep ServiceDefinition( completed in 0.015s (15ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep DataDefinition >>>>>>>>>>>>>>>>
+[11:12:18] INFO   Service: 0x2e 0x109 Wheel_Type_Write shared data components linked to: Service: 0x22 0x109 Wheel_Type_Read !!!
+[11:12:18] INFO   Service: 0x2e 0x112 Service_Information_Write shared data components linked to: Service: 0x22 0x112 Service_Information_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf189 Software_Version_Write shared data components linked to: Service: 0x22 0xf189 Software_Version_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf18c Serial_Number_Write shared data components linked to: Service: 0x22 0xf18c Serial_Number_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf190 VIN_Write shared data components linked to: Service: 0x22 0xf190 VIN_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf191 Hardware_Part_Number_Write shared data components linked to: Service: 0x22 0xf191 Hardware_Part_Number_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf192 Hardware_Supplier_Identification_Write shared data components linked to: Service: 0x22 0xf192 Hardware_Supplier_Identification_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf194 Software_Supplier_Identification_Write shared data components linked to: Service: 0x22 0xf194 Software_Supplier_Identification_Read !!!
+[11:12:18] INFO   Service: 0x2e 0xf198 Fingerprint_Write shared data components linked to: Service: 0x22 0xf198 Fingerprint_Read !!!
+[11:12:18] NOTE     - Combine Pid Parameters
+[11:12:18] NOTE     - Building Service Dids
+[11:12:18] NOTE     - Building Routines
+[11:12:18] NOTE     -  + Routine 'ECU_Check' created
+[11:12:18] NOTE     - Shape Routine Parameter Names
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep DataDefinition( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep DataIdentifier >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At Did 0xf190 - 'VIN' 
+[11:12:18] INFO     - Set DID property 'IsVIN' to 'true'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep DataIdentifier( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep Service >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At Service 0x10 
+[11:12:18] INFO     - Qualifier changed from 'DefaultSession_Start' to 'DiagSessionControl'
+[11:12:18] INFO     - Service action qualifier set to 'SessionControl'
+[11:12:18] INFO   At Service 0x10 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'StartSession'
+[11:12:18] INFO   At Service 0x10 SubService 0x2 
+[11:12:18] INFO     - SubService action qualifier set to 'StartSession'
+[11:12:18] INFO   At Service 0x10 SubService 0x3 
+[11:12:18] INFO     - SubService action qualifier set to 'StartSession'
+[11:12:18] INFO   At Service 0x10 SubService 0x1 
+[11:12:18] INFO     - Qualifier changed from 'DefaultSession_Start' to 'Default'
+[11:12:18] INFO   At Service 0x10 SubService 0x2 
+[11:12:18] INFO     - Qualifier changed from 'ProgrammingSession_Start' to 'Programming'
+[11:12:18] INFO   At Service 0x10 SubService 0x3 
+[11:12:18] INFO     - Qualifier changed from 'ExtendedDiagnosticSession_Start' to 'Extended'
+[11:12:18] INFO   At Service 0x11 
+[11:12:18] INFO     - Qualifier changed from 'HardReset_Reset' to 'EcuReset'
+[11:12:18] INFO   At Service 0x11 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'EcuReset'
+[11:12:18] INFO   At Service 0x11 SubService 0x3 
+[11:12:18] INFO     - SubService action qualifier set to 'EcuReset'
+[11:12:18] INFO   At Service 0x11 SubService 0x1 
+[11:12:18] INFO     - Qualifier changed from 'HardReset_Reset' to 'Hard'
+[11:12:18] INFO   At Service 0x11 SubService 0x3 
+[11:12:18] INFO     - Qualifier changed from 'SoftReset_Reset' to 'Soft'
+[11:12:18] INFO   At Service 0x14 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_Clear' to 'ClearDiagInfo'
+[11:12:18] INFO   At Service 0x14 SubService 
+[11:12:18] INFO     - SubService action qualifier set to 'Clear'
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_Clear' to 'ClearDiagInfo'
+[11:12:18] INFO   At Service 0x19 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_ReadAllIdentified' to 'ReadDtcInfo'
+[11:12:18] INFO   At Service 0x19 SubService 0x2 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDtc'
+[11:12:18] INFO   At Service 0x19 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDtc'
+[11:12:18] INFO   At Service 0x19 SubService 0x4 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDtc'
+[11:12:18] INFO   At Service 0x19 SubService 0x6 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDtc'
+[11:12:18] INFO   At Service 0x19 SubService 0xa 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDtc'
+[11:12:18] INFO   At Service 0x19 SubService 0x1 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_ReadNumber' to 'RNODTCBSM'
+[11:12:18] INFO   At Service 0x19 SubService 0x2 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_ReadAllIdentified' to 'RDTCBSM'
+[11:12:18] INFO   At Service 0x19 SubService 0x4 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_ReadEnvironmentData' to 'RDTCSSBDTC'
+[11:12:18] INFO   At Service 0x19 SubService 0x6 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_Read_extended_data' to 'RDTCEDRBDN'
+[11:12:18] INFO   At Service 0x19 SubService 0xa 
+[11:12:18] INFO     - Qualifier changed from 'FaultMemory_ReadAllSupported' to 'RSUPDTC'
+[11:12:18] INFO   At Service 0x22 
+[11:12:18] INFO     - Qualifier changed from 'Braking_Read' to 'ReadDataById'
+[11:12:18] INFO     - Service action qualifier set to 'Read'
+[11:12:18] INFO   At Service 0x22 SubService 0x100 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x107 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x109 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x10a 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x10b 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x10c 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x10d 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x10e 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x10f 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x110 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x111 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0x112 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf189 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf18c 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf190 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf191 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf192 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf194 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x22 SubService 0xf198 
+[11:12:18] INFO     - SubService action qualifier set to 'ReadDid'
+[11:12:18] INFO   At Service 0x27 
+[11:12:18] INFO     - Qualifier changed from 'SeedLevel1_Request' to 'SecurityAccess'
+[11:12:18] INFO     - Service action qualifier set to 'SecurityAccess'
+[11:12:18] INFO   At Service 0x27 SubService 0x2 
+[11:12:18] INFO     - SubService action qualifier set to 'SendKey'
+[11:12:18] INFO   At Service 0x27 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'GetSeed'
+[11:12:18] INFO   At Service 0x28 
+[11:12:18] INFO     - Qualifier changed from 'EnableRxAndEnableTx_Control' to 'CommunicationControl'
+[11:12:18] INFO   At Service 0x28 SubService 0x0 
+[11:12:18] INFO     - SubService action qualifier set to 'CommCtrl'
+[11:12:18] INFO   At Service 0x28 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'CommCtrl'
+[11:12:18] INFO   At Service 0x28 SubService 0x0 
+[11:12:18] INFO     - Qualifier changed from 'EnableRxAndEnableTx_Control' to 'EnableRxAndTx'
+[11:12:18] INFO   At Service 0x28 SubService 0x1 
+[11:12:18] INFO     - Qualifier changed from 'EnableRxAndDisableTx_Control' to 'EnableRxAndDisableTx'
+[11:12:18] INFO   At Service 0x2e 
+[11:12:18] INFO     - Spec changed from '10' to 'Other'(12)
+[11:12:18] INFO     - Qualifier changed from 'Wheel_Type_Write' to 'WriteDataById'
+[11:12:18] INFO     - Service action qualifier set to 'Write'
+[11:12:18] INFO   At Service 0x2e SubService 0x109 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0x112 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf189 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf18c 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf190 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf191 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf192 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf194 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2e SubService 0xf198 
+[11:12:18] INFO     - SubService action qualifier set to 'WriteDid'
+[11:12:18] INFO   At Service 0x2f 
+[11:12:18] INFO     - Qualifier changed from 'Switches_Reset' to 'IoControlById'
+[11:12:18] INFO     - Service action qualifier set to 'IoCtrl'
+[11:12:18] INFO   At Service 0x2f SubService 0x110 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'IoCtrlRstToDefault'
+[11:12:18] INFO   At Service 0x2f SubService 0x110 0x3 
+[11:12:18] INFO     - SubService action qualifier set to 'IoCtrlShortTermAdj'
+[11:12:18] INFO   At Service 0x31 
+[11:12:18] INFO     - Qualifier changed from 'ECU_Check_Start' to 'RoutineControl'
+[11:12:18] INFO   At Service 0x31 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'RtnCtrlStart'
+[11:12:18] INFO   At Service 0x31 SubService 0x3 
+[11:12:18] INFO     - SubService action qualifier set to 'RtnCtrlReqRes'
+[11:12:18] INFO   At Service 0x3e 
+[11:12:18] INFO     - Qualifier changed from 'TesterPresent_Send' to 'TesterPresent'
+[11:12:18] INFO   At Service 0x3e SubService 0x0 
+[11:12:18] INFO     - SubService action qualifier set to 'Send'
+[11:12:18] INFO     - Qualifier changed from 'TesterPresent_Send' to 'TesterPresent'
+[11:12:18] INFO   At Service 0x85 
+[11:12:18] INFO     - Spec changed from '8' to 'FaultMemory'(2)
+[11:12:18] INFO     - Qualifier changed from 'DTC_Setting_Mode_On_Send' to 'ControlDtcSetting'
+[11:12:18] INFO   At Service 0x85 SubService 0x1 
+[11:12:18] INFO     - SubService action qualifier set to 'ControlDtcSetting'
+[11:12:18] INFO   At Service 0x85 SubService 0x2 
+[11:12:18] INFO     - SubService action qualifier set to 'ControlDtcSetting'
+[11:12:18] INFO   At Service 0x85 SubService 0x1 
+[11:12:18] INFO     - Qualifier changed from 'DTC_Setting_Mode_On_Send' to 'Enable'
+[11:12:18] INFO   At Service 0x85 SubService 0x2 
+[11:12:18] INFO     - Qualifier changed from 'DTC_Setting_Mode_Off_Send' to 'Disable'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep Service( completed in 0.016s (16ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep StateMachine >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At Ecu 
+[11:12:18] INFO     - Session 'Default' does not have any P2 timings! Created default P2: 50ms
+[11:12:18] INFO     - Session 'Default' does not have any P2Ex timings! Created default P2Ex: 5000ms
+[11:12:18] INFO     - Session 'Programming' does not have any P2 timings! Created default P2: 50ms
+[11:12:18] INFO     - Session 'Programming' does not have any P2Ex timings! Created default P2Ex: 5000ms
+[11:12:18] INFO     - Session 'Extended' does not have any P2 timings! Created default P2: 50ms
+[11:12:18] INFO     - Session 'Extended' does not have any P2Ex timings! Created default P2Ex: 5000ms
+[11:12:18] NOTE     - Building Diagnostic Sessions
+[11:12:18] NOTE     -  + Session 'Default' created
+[11:12:18] NOTE     -  + Session 'Programming' created
+[11:12:18] NOTE     -  + Session 'Extended' created
+[11:12:18] NOTE     - Building Diagnostic Securities
+[11:12:18] NOTE     -  + Security 'UnlockedL1' created
+[11:12:18] NOTE     - Building Access Conditions
+[11:12:18] NOTE     -  + Access Cond '|' created
+[11:12:18] NOTE     -  + Access Cond '02;03|' created
+[11:12:18] NOTE     - Building Access Conditions - finshed
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep StateMachine( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep StateMachine2 >>>>>>>>>>>>>>>>
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep StateMachine2( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep Settings >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At Ecu 'ABS_ESP' 
+[11:12:18] INFO     - Set 'periodic rate slow' to default '1000'
+[11:12:18] INFO     - Set 'periodic rate medium' to default '100'
+[11:12:18] INFO     - Set 'periodic rate fast' to default '20'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep Settings( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep FaultMemory >>>>>>>>>>>>>>>>
+[11:12:18] NOTE     - Building Diagnostic Event Memories
+[11:12:18] INFO   At Ecu 
+[11:12:18] INFO     -  + Event-Memory 'PrimaryMemory' created
+[11:12:18] ERROR  At DTC 0x401001 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x401001'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x401003 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x401003'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x402001 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x402001'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x402011 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x402011'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x402012 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x402012'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x402013 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x402013'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x402025 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x402025'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403001 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403001'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403113 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403113'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403121 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403121'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403122 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403122'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403413 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403413'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403421 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403421'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403422 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403422'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403713 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403713'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403721 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403721'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403722 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403722'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403a13 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403a13'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403a21 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403a21'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x403a22 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x403a22'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404011 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404011'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404012 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404012'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404013 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404013'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404211 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404211'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404212 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404212'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404213 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404213'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404421 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404421'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404422 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404422'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x404428 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x404428'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x406221 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x406221'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x406222 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x406222'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x406225 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x406225'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x406321 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x406321'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x406322 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x406322'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] ERROR  At DTC 0x406325 
+[11:12:18] ERROR    - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+[11:12:18] INFO     - Set DTC-Prop 'Qualifier' to 'DTC_0x406325'
+[11:12:18] INFO     - Set DTC-Prop 'DtcType' to default 'Fault'
+[11:12:18] INFO     - Add to 'EventMemory' value(s) 'Primary'
+[11:12:18] INFO   At Faultmemory  
+[11:12:18] INFO     - Set fault memory property 'ssrUpdatable' to 'true'
+[11:12:18] INFO     - Set fault memory property 'ecgNaming' to 'singleElem'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep FaultMemory( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep FaultMemory2 >>>>>>>>>>>>>>>>
+[11:12:18] NOTE     - Building DidSets. WWH-OBD supported: false
+[11:12:18] NOTE     - Building Events
+[11:12:18] INFO   At Faultmemory  SSR-Numeration is Null 
+[11:12:18] INFO     - Set fault memory property 'ssrNumeration' to 'calculated'
+[11:12:18] INFO   At Event 'DTC_0x401001_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x401003_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402001_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402011_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402012_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402013_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402025_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403001_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403113_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403121_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403122_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403413_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403421_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403422_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403713_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403721_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403722_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403a13_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403a21_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403a22_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404011_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404012_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404013_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404211_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404212_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404213_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404421_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404422_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404428_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406221_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406222_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406225_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406321_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406322_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406325_Event' EventKind is Null 
+[11:12:18] INFO     - Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep FaultMemory2( completed in 0.016s (16ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep FaultMemory3 >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At DTC 0x401001 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x401003 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x402001 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x402011 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x402012 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x402013 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x402025 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403001 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403113 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403121 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403122 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403413 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403421 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403422 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403713 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403721 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403722 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403a13 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403a21 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x403a22 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404011 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404012 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404013 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404211 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404212 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404213 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404421 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404422 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x404428 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x406221 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x406222 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x406225 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x406321 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x406322 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At DTC 0x406325 SsrNumeration: calculated MaxSsrCount: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'MaxSsrCount' to '2'
+[11:12:18] INFO   At Event 'DTC_0x401001_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x401003_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x402001_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x402011_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x402012_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x402013_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x402025_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403001_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403113_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403121_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403122_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403413_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403421_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403422_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403713_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403721_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403722_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403a13_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403a21_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x403a22_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404011_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404012_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404013_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404211_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404212_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404213_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404421_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404422_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x404428_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x406221_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x406222_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x406225_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x406321_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x406322_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At Event 'DTC_0x406325_Event' Microsar: true OpCycle is Null 
+[11:12:18] INFO     - Set Event-Prop 'OpCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep FaultMemory3( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep FaultMemory4 >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At Event 'DTC_0x401001_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x401003_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402001_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402011_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402012_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402013_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x402025_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403001_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403113_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403121_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403122_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403413_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403421_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403422_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403713_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403721_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403722_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403a13_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403a21_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x403a22_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404011_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404012_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404013_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404211_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404212_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404213_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404421_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404422_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x404428_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406221_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406222_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406225_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406321_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406322_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At Event 'DTC_0x406325_Event' DebounceType is Null 
+[11:12:18] INFO     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[11:12:18] INFO   At DTC 0x401001 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x401003 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x402001 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x402011 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x402012 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x402013 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x402025 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403001 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403113 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403121 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403122 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403413 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403421 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403422 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403713 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403721 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403722 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403a13 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403a21 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x403a22 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404011 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404012 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404013 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404211 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404212 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404213 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404421 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404422 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x404428 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x406221 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x406222 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x406225 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x406321 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x406322 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   At DTC 0x406325 Microsar: true AgingCycle: NULL 
+[11:12:18] INFO     - Set DTC-Prop 'AgingCycle' to 'DEM_POWER' using 'Power'
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep FaultMemory4( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep FaultMemory5 >>>>>>>>>>>>>>>>
+[11:12:18] INFO   At Ecu 'ABS_ESP' 
+[11:12:18] INFO     - Merging Debounce Algorithms
+[11:12:18] INFO        - Algorithm 'DTC_0x401001_DebounceAlgorithmProperties' has 34 dublicate(s)
+[11:12:18] INFO     - Merging Operation Cycles
+[11:12:18] INFO     - Merging Warning Indicators
+[11:12:18] INFO     - Merging Enable/Storage Conditions
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep FaultMemory5( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep Obd >>>>>>>>>>>>>>>>
+[11:12:18] NOTE     - Building OBD Service Pids
+[11:12:18] NOTE     - Building OBD Service Monitor Identifier
+[11:12:18] NOTE     - Building OBD Service Rids
+[11:12:18] NOTE     - Building OBD Service Vehicle Infos
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep Obd( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   >>>>>>>>>>>>>>>> ShapingStep CleanUp >>>>>>>>>>>>>>>>
+[11:12:18] INFO   <<<<<<<<<<<<<<<< ShapingStep CleanUp( completed in 0s (0ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   <<<<<<<<<<<<<<<< SHAPING finished after 0.047s (47ms) <<<<<<<<<<<<<<<<
+[11:12:18] INFO   Shaping AR-Export
+[11:12:18] INFO   ----> Shaping DescDataModel
+[11:12:18] INFO   ----> Shape service data
+[11:12:18] INFO   <---- Finished shaping service data
+[11:12:18] INFO   <---- Finished shaping DescDataModel 
+[11:12:18] INFO   Exporting ECUC module configurations to file: C:\Users\Administrator\AppData\Local\Temp\DaVinci\Cfg-1964146\DiagnosticsImportService\1775272337464-0\DiagnosticsDescriptionData3994980396915329167.xml
+[11:12:18] INFO   ----> Create ECUC from imported diagnostic data.
+[11:12:18] NOTE   Using EcucEx-Parameter 'DemDidQualifierMode' = 'R19' (default)
+[11:12:18] NOTE   Using EcucEx-Parameter 'DcmQualifierMode' = 'R19' (default)
+[11:12:18] INFO   ----> STEP 1: Create ECUC model.
+[11:12:18] INFO   Creating Dcm module configuration...
+[11:12:18] INFO   Creating Dem module configuration...
+[11:12:18] INFO   <---- STEP 1: Finished.
+[11:12:18] INFO   ----> STEP 2: Postprocess created ECUC model.
+[11:12:18] INFO   ----> Decorate imported object qualifiers/shortnames
+[11:12:18] INFO   <---- Finished decorating qualifiers/shortnames
+[11:12:18] INFO   ----> Transform imported object qualifiers/shortnames to match AUTOSAR IDENTIFIER pattern restriction (except length limit)
+[11:12:18] INFO   <---- Finished transforming shortnames
+[11:12:18] INFO   ----> Ensure uniqueness of container shortnames within their scope
+[11:12:18] INFO   <---- Finished ensuring uniqueness of container shortnames
+[11:12:18] INFO   ----> Truncate shortnames whose length exceeds the 128 character limit for AUTOSAR shortnames
+[11:12:18] INFO   <---- Finished truncating shortnames
+[11:12:18] INFO   ----> Resolve reference parameters
+[11:12:18] INFO   <---- Finished resolving reference parameters
+[11:12:18] INFO   <---- STEP 2: Finished.
+[11:12:18] INFO   ----> STEP 3: Serialize ECUC model to XML.
+[11:12:18] INFO   <---- STEP 3: Finished.
+[11:12:18] INFO   <---- Finished creation of ECUC from imported diagnostic data.
+[11:12:18] INFO   <---- Process of diagnostic specification.

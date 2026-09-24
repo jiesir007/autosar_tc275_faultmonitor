@@ -1,0 +1,470 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_01_BSW\\Gen\\GenData\\.EcuM_Init_Cfg.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_01_BSW\\Gen\\GenData\\EcuM_Init_Cfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _01_BSW\\Gen\\GenData\\EcuM_Init_Cfg.src ..\\_01_BSW\\Gen\\GenData\\EcuM_Init_Cfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\_01_BSW\\Gen\\GenData\\EcuM_Init_Cfg.c'
+
+	
+$TC16X
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	3391
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\_01_BSW\\Gen\\GenData\\EcuM_Init_Cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L5
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	200
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	207
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	249
+	.byte	7
+	.word	249
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	265
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	270
+	.byte	9
+	.byte	'value',0
+	.word	249
+	.byte	9
+	.byte	'compare',0
+	.word	249
+	.byte	0,10,1,7
+	.word	327
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	329
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'boolean',0,2,124,31
+	.word	352
+	.byte	11
+	.byte	'uint8',0,2,127,31
+	.word	352
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,129,1,31
+	.word	399
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,131,1,31
+	.word	437
+	.byte	11
+	.byte	'uint8_least',0,2,134,1,31
+	.word	352
+	.byte	11
+	.byte	'PduLengthType',0,3,53,16
+	.word	399
+	.byte	7
+	.word	352
+	.byte	11
+	.byte	'SduDataPtrType',0,4,196,1,54
+	.word	517
+	.byte	12,4,219,1,9,1,13
+	.byte	'TP_DATACONF',0,0,13
+	.byte	'TP_DATARETRY',0,1,13
+	.byte	'TP_CONFPENDING',0,2,0,11
+	.byte	'TpDataStateType',0,4,226,1,3
+	.word	546
+	.byte	11
+	.byte	'E_Sig_0x302_Used_1',0,5,37,16
+	.word	399
+	.byte	11
+	.byte	'E_Sig_0x302_Used_2',0,5,40,15
+	.word	352
+	.byte	11
+	.byte	'E_Sig_0x302_Used_3',0,5,43,15
+	.word	352
+	.byte	11
+	.byte	'F_AAA_Angle',0,5,46,15
+	.word	352
+	.byte	11
+	.byte	'F_Button1_State',0,5,49,15
+	.word	352
+	.byte	11
+	.byte	'F_Button2_State',0,5,52,15
+	.word	352
+	.byte	11
+	.byte	'F_Button3_State',0,5,55,15
+	.word	352
+	.byte	11
+	.byte	'F_Button4_State',0,5,58,15
+	.word	352
+	.byte	11
+	.byte	'F_Meg_E2E_Error',0,5,61,15
+	.word	352
+	.byte	11
+	.byte	'F_Mes_Lost_Error',0,5,64,15
+	.word	352
+	.byte	11
+	.byte	'F_PowerMode',0,5,67,15
+	.word	352
+	.byte	11
+	.byte	'F_Sig_0x214_Used_1',0,5,70,16
+	.word	399
+	.byte	11
+	.byte	'F_Sig_0x214_Used_2',0,5,73,16
+	.word	399
+	.byte	11
+	.byte	'F_Sig_0x214_Used_3',0,5,76,16
+	.word	399
+	.byte	11
+	.byte	'F_Sig_0x214_Used_5',0,5,79,16
+	.word	399
+	.byte	11
+	.byte	'SupD_Checksum_0x300',0,5,85,15
+	.word	352
+	.byte	11
+	.byte	'SupD_Checksum_0x304',0,5,88,15
+	.word	352
+	.byte	11
+	.byte	'SupD_Counter_0x300',0,5,91,15
+	.word	352
+	.byte	11
+	.byte	'SupD_Counter_0x304',0,5,94,15
+	.word	352
+	.byte	11
+	.byte	'SupF_Checksum_0x212',0,5,97,15
+	.word	352
+	.byte	11
+	.byte	'SupF_Counter_0x212',0,5,100,15
+	.word	352
+	.byte	11
+	.byte	'D_Button1_Control',0,5,103,15
+	.word	352
+	.byte	11
+	.byte	'D_Button2_Control',0,5,106,15
+	.word	352
+	.byte	11
+	.byte	'D_Button3_Control',0,5,109,15
+	.word	352
+	.byte	11
+	.byte	'D_Button4_Control',0,5,112,15
+	.word	352
+	.byte	11
+	.byte	'D_Led1_Control',0,5,115,15
+	.word	352
+	.byte	11
+	.byte	'D_Led1_CtrlMode',0,5,118,15
+	.word	352
+	.byte	11
+	.byte	'D_Led2_Control',0,5,121,15
+	.word	352
+	.byte	11
+	.byte	'D_Led2_CtrlMode',0,5,124,15
+	.word	352
+	.byte	11
+	.byte	'D_Led3_Control',0,5,127,15
+	.word	352
+	.byte	11
+	.byte	'D_Led3_CtrlMode',0,5,130,1,15
+	.word	352
+	.byte	11
+	.byte	'D_Led4_Control',0,5,133,1,15
+	.word	352
+	.byte	11
+	.byte	'D_Led4_CtrlMode',0,5,136,1,15
+	.word	352
+	.byte	11
+	.byte	'F_Led1_State',0,5,139,1,15
+	.word	352
+	.byte	11
+	.byte	'F_Led2_State',0,5,142,1,15
+	.word	352
+	.byte	11
+	.byte	'F_Led3_State',0,5,145,1,15
+	.word	352
+	.byte	11
+	.byte	'F_Led4_State',0,5,148,1,15
+	.word	352
+	.byte	11
+	.byte	'EcuM_ModeType',0,5,132,3,15
+	.word	352
+	.byte	11
+	.byte	'EcuM_StateType',0,5,138,3,15
+	.word	352
+	.byte	11
+	.byte	'AAA_Angle',0,5,147,3,15
+	.word	352
+	.byte	11
+	.byte	'Button1_Control',0,5,150,3,17
+	.word	352
+	.byte	11
+	.byte	'Button1_State',0,5,153,3,17
+	.word	352
+	.byte	11
+	.byte	'Button2_Control',0,5,156,3,17
+	.word	352
+	.byte	11
+	.byte	'Button2_State',0,5,159,3,17
+	.word	352
+	.byte	11
+	.byte	'Button3_Control',0,5,162,3,17
+	.word	352
+	.byte	11
+	.byte	'Button3_State',0,5,165,3,17
+	.word	352
+	.byte	11
+	.byte	'Button4_Control',0,5,168,3,17
+	.word	352
+	.byte	11
+	.byte	'Button4_State',0,5,171,3,17
+	.word	352
+	.byte	11
+	.byte	'CrcSig_Pack_3',0,5,183,3,15
+	.word	352
+	.byte	11
+	.byte	'CrcSig_Pack_4',0,5,186,3,16
+	.word	437
+	.byte	11
+	.byte	'CrcSig_Pack_5',0,5,189,3,16
+	.word	437
+	.byte	11
+	.byte	'Led1_Control_1',0,5,195,3,17
+	.word	352
+	.byte	11
+	.byte	'Led1_State',0,5,198,3,17
+	.word	352
+	.byte	11
+	.byte	'Led2_Control_1',0,5,204,3,17
+	.word	352
+	.byte	11
+	.byte	'Led2_State',0,5,207,3,17
+	.word	352
+	.byte	11
+	.byte	'Led3_Control_1',0,5,213,3,17
+	.word	352
+	.byte	11
+	.byte	'Led3_State',0,5,216,3,17
+	.word	352
+	.byte	11
+	.byte	'Led4_Control_1',0,5,222,3,17
+	.word	352
+	.byte	11
+	.byte	'Led4_State',0,5,225,3,17
+	.word	352
+	.byte	11
+	.byte	'PowerMode',0,5,228,3,15
+	.word	352
+	.byte	11
+	.byte	'Sig_0x114_Used_1',0,5,231,3,15
+	.word	352
+	.byte	11
+	.byte	'Sig_0x114_Used_2',0,5,234,3,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x114_Used_3',0,5,237,3,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x114_Used_4',0,5,240,3,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x114_Used_5',0,5,243,3,15
+	.word	352
+	.byte	11
+	.byte	'Sig_0x114_Used_6',0,5,246,3,15
+	.word	352
+	.byte	11
+	.byte	'Sig_0x402_Used_1',0,5,249,3,15
+	.word	352
+	.byte	11
+	.byte	'Sig_0x402_Used_2',0,5,252,3,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x402_Used_3',0,5,255,3,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x402_Used_4',0,5,130,4,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x402_Used_5',0,5,133,4,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x403_Used_1',0,5,136,4,15
+	.word	352
+	.byte	11
+	.byte	'Sig_0x403_Used_2',0,5,139,4,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x403_Used_3',0,5,142,4,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x403_Used_4',0,5,145,4,16
+	.word	399
+	.byte	11
+	.byte	'Sig_0x403_Used_5',0,5,148,4,16
+	.word	399
+	.byte	11
+	.byte	'SupA_Checksum_0x112',0,5,151,4,15
+	.word	352
+	.byte	11
+	.byte	'SupA_Counter_0x112',0,5,154,4,15
+	.word	352
+	.byte	11
+	.byte	'SupB_Checksum_0x400_1',0,5,160,4,15
+	.word	352
+	.byte	11
+	.byte	'SupB_Counter_0x400_1',0,5,166,4,15
+	.word	352
+	.byte	7
+	.word	437
+	.byte	11
+	.byte	'EcuM_CoreStatusArrayType',0,6,137,1,17
+	.word	2602
+	.byte	14,1,1,7
+	.word	2641
+	.byte	11
+	.byte	'EcuM_DriverFuncType',0,6,237,2,9
+	.word	2644
+	.byte	11
+	.byte	'EcuM_WakeupSourceListIterType',0,6,139,3,21
+	.word	352
+	.byte	11
+	.byte	'EcuM_DefaultAppModeType',0,6,163,3,16
+	.word	437
+	.byte	11
+	.byte	'EcuM_NormalMcuModeType',0,6,181,3,16
+	.word	437
+	.byte	11
+	.byte	'EcuM_ApplicationOfPartitionDataType',0,6,184,3,15
+	.word	352
+	.byte	11
+	.byte	'EcuM_ValidationTimeoutTableType',0,6,205,3,16
+	.word	399
+	.byte	11
+	.byte	'EcuM_ChannelOfWakeupSourceListType',0,6,208,3,15
+	.word	352
+	.byte	11
+	.byte	'EcuM_ValidationTimeOfWakeupSourceListType',0,6,211,3,16
+	.word	399
+	.byte	15
+	.byte	'sEcuM_DriverInitOneType',0,6,227,3,16,4,16
+	.byte	'FunctionOfDriverInitOne',0
+	.word	2649
+	.byte	4,2,35,0,0,11
+	.byte	'EcuM_DriverInitOneType',0,6,230,3,3
+	.word	2963
+	.byte	7
+	.word	2641
+	.byte	15
+	.byte	'sEcuM_PartitionDataType',0,6,233,3,16,1,16
+	.byte	'ApplicationOfPartitionData',0
+	.word	352
+	.byte	1,2,35,0,0,11
+	.byte	'EcuM_PartitionDataType',0,6,236,3,3
+	.word	3064
+	.byte	15
+	.byte	'sEcuM_WakeupSourceListType',0,6,239,3,16,4,16
+	.byte	'ValidationTimeOfWakeupSourceList',0
+	.word	399
+	.byte	2,2,35,0,16
+	.byte	'ChannelOfWakeupSourceList',0
+	.word	352
+	.byte	1,2,35,2,0,11
+	.byte	'EcuM_WakeupSourceListType',0,6,243,3,3
+	.word	3163
+	.byte	15
+	.byte	'sEcuM_PCConfigType',0,6,163,4,16,1,16
+	.byte	'EcuM_PCConfigNeverUsed',0
+	.word	352
+	.byte	1,2,35,0,0,11
+	.byte	'EcuM_PCConfigType',0,6,166,4,3
+	.word	3309
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,4,1,58
+	.byte	15,59,15,57,15,11,15,0,0,13,40,0,3,8,28,13,0,0,14,21,0,54,15,39,12,0,0,15,19,1,3,8,58,15,59,15,57,15,11
+	.byte	15,0,0,16,13,0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	0
+	.byte	'..\\_01_BSW\\Gen\\GenData\\EcuM_Init_Cfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'ComStack_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,1,0,0
+	.byte	'Rte_Type.h',0,2,0,0
+	.byte	'EcuM_Cfg.h',0,2,0,0,0
+.L9:
+.L7:
+
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     1  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     2   *  COPYRIGHT
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     3   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     4   *  \verbatim
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     5   *
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     6   *                 This software is copyright protected and proprietary to Vector Informatik GmbH.
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     7   *                 Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     8   *                 All other rights remain with Vector Informatik GmbH.
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	     9   *  \endverbatim
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    10   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    11   *  LICENSE
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    12   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    13   *            Module: EcuM
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    14   *           Program: MSR_Vector_SLP4
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    15   *          Customer: China FAW Group Corporation
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    16   *       Expiry Date: Not restricted
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    17   *  Ordered Derivat.: TC297TA
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    18   *    License Scope : The usage is restricted to CBD1600956_D01
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    19   *
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    20   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    21   *  FILE DESCRIPTION
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    22   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    23   *              File: EcuM_Init_Cfg.c
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    24   *   Generation Time: 2024-01-10 07:48:04
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    25   *           Project: TC27x - Version 1.0
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    26   *          Delivery: CBD1600956_D01
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    27   *      Tool Version: DaVinci Configurator  5.20.35
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    28   *
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    29   *
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    30   *********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    31  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    32  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    33  #define ECUM_INIT_CFG_SOURCE
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    34  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    35  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    36   *  INCLUDES
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    37   *********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    38  # include "EcuM_Init_PBcfg.h" 
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    39   
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    40  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    41   
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    42  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    43  #if 0
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    44  #endif
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    45  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    46  
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    47  /**********************************************************************************************************************
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    48   *  END OF FILE: ECUM_INIT_PBCFG_SOURCE.C
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    49   *********************************************************************************************************************/
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    50   
+; ..\_01_BSW\Gen\GenData\EcuM_Init_Cfg.c	    51  
+
+	; Module end

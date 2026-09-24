@@ -1,0 +1,716 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_00_ASW\\Core0\\AppButtonCtrl\\.AppButtonCtrl.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.src ..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c"
+	.compiler_name		"ctc"
+	;source	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.AppButtonCtrl.AppButtonCtrl_Init',code,cluster('AppButtonCtrl_Init')
+	.sect	'.text.AppButtonCtrl.AppButtonCtrl_Init'
+	.align	2
+	
+	.global	AppButtonCtrl_Init
+
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     1  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     2   *  FILE REQUIRES USER MODIFICATIONS
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     3   *  Template Scope: sections marked with Start and End comments
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     4   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     5   *  This file includes template code that must be completed and/or adapted during BSW integration.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     6   *  The template code is incomplete and only intended for providing a signature and an empty implementation.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     7   *  It is neither intended nor qualified for use in series production without applying suitable quality measures.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     8   *  The template code must be completed as described in the instructions given within this file and/or in the.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	     9   *  Technical Reference.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    10   *  The completed implementation must be tested with diligent care and must comply with all quality requirements which.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    11   *  are necessary according to the state of the art before its use.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    12   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    13  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    14   *  FILE DESCRIPTION
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    15   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    16   *             File:  AppButtonCtrl.c
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    17   *           Config:  E:/Embedded_Software_Develop/Project/Tc275_MultiCore_Proj/Code_Edit/XB_Tc275_Mulcore/Proj_Config/Bsw_Config/Cfg/TC27x.dpa
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    18   *        SW-C Type:  AppButtonCtrl
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    19   *  Generation Time:  2024-02-05 11:23:32
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    20   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    21   *        Generator:  MICROSAR RTE Generator Version 4.21.0
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    22   *                    RTE Core Version 1.21.0
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    23   *          License:  CBD1600956
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    24   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    25   *      Description:  C-Code implementation template for SW-C <AppButtonCtrl>
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    26   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    27  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    28  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    29  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    30   * DO NOT CHANGE THIS COMMENT!           << Start of version logging area >>                DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    31   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    32  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    33  /* PRQA S 0777, 0779 EOF */ /* MD_MSR_Rule5.1, MD_MSR_Rule5.2 */
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    34  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    35  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    36   * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    37   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    38  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    39  #include "Rte_AppButtonCtrl.h"
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    40  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    41  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    42  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    43   * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    44   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    45  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    46  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    47  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    48   * DO NOT CHANGE THIS COMMENT!           << End of include and declaration area >>          DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    49   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    50  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    51  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    52  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    53   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    54   * Used AUTOSAR Data Types
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    55   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    56   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    57   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    58   * Primitive Types:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    59   * ================
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    60   * Button1_Control: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    61   * Button1_State: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    62   * Button2_Control: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    63   * Button2_State: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    64   * Button3_Control: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    65   * Button3_State: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    66   * Button4_Control: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    67   * Button4_State: Boolean
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    68   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    69   * Record Types:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    70   * =============
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    71   * SG_Sig_Grp_0x111: Record with elements
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    72   *   Button1_State of type Button1_State
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    73   *   Button2_State of type Button2_State
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    74   *   Button3_State of type Button3_State
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    75   *   Button4_State of type Button4_State
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    76   * SG_Sig_Grp_0x401: Record with elements
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    77   *   Button1_Control of type Button1_Control
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    78   *   Button2_Control of type Button2_Control
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    79   *   Button3_Control of type Button3_Control
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    80   *   Button4_Control of type Button4_Control
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    81   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    82   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    83  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    84  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    85  #define AppButtonCtrl_START_SEC_CODE
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    86  #include "AppButtonCtrl_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    87  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    88  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    89   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    90   * Runnable Entity Name: AppButtonCtrl_Init
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    91   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    92   *---------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    93   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    94   * Executed once after the RTE is started
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    95   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    96   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    97   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    98   * Input Interfaces:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	    99   * =================
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   100   *   Explicit S/R API:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   101   *   -----------------
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   102   *   Std_ReturnType Rte_Read_SG_Sig_Grp_0x401_SR_R_SG_Sig_Grp_0x401(SG_Sig_Grp_0x401 *data)
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   103   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   104   * Output Interfaces:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   105   * ==================
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   106   *   Explicit S/R API:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   107   *   -----------------
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   108   *   Std_ReturnType Rte_Write_SG_Sig_Grp_0x111_SR_S_SG_Sig_Grp_0x111(const SG_Sig_Grp_0x111 *data)
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   109   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   110   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   111  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   112   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   113   * Symbol: AppButtonCtrl_Init_doc
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   114   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   115  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   116  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   117  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   118   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   119   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   120  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   121  FUNC(void, AppButtonCtrl_CODE) AppButtonCtrl_Init(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function AppButtonCtrl_Init
+.L3:
+AppButtonCtrl_Init:	.type	func
+
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   122  {
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   123  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   124   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   125   * Symbol: AppButtonCtrl_Init
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   126   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   127  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   128  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   129  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   130   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   131   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   132  }
+	ret
+.L20:
+	
+__AppButtonCtrl_Init_function_end:
+	.size	AppButtonCtrl_Init,__AppButtonCtrl_Init_function_end-AppButtonCtrl_Init
+.L14:
+	; End of function
+	
+	.sdecl	'.text.AppButtonCtrl.AppButtonCtrl_MainFunction',code,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.text.AppButtonCtrl.AppButtonCtrl_MainFunction'
+	.align	2
+	
+	.global	AppButtonCtrl_MainFunction
+
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   133  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   134  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   135   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   136   * Runnable Entity Name: AppButtonCtrl_MainFunction
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   137   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   138   *---------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   139   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   140   * Executed if at least one of the following trigger conditions occurred:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   141   *   - triggered on TimingEvent every 10ms
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   142   *
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   143   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   144  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   145   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   146   * Symbol: AppButtonCtrl_MainFunction_doc
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   147   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   148  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   149  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   150  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   151   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   152   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   153  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   154  FUNC(void, AppButtonCtrl_CODE) AppButtonCtrl_MainFunction(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function AppButtonCtrl_MainFunction
+.L5:
+AppButtonCtrl_MainFunction:	.type	func
+
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   155  {
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   156  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   157   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   158   * Symbol: AppButtonCtrl_MainFunction
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   159   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   160  #if 0
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   161    SG_Sig_Grp_0x401 SG_Sig_Grp_0x401_ButCtrl;
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   162    SG_Sig_Grp_0x401 SG_Sig_Grp_0x111_ButCtrl = {0};
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   163    Rte_Read_AppButtonCtrl_SG_Sig_Grp_0x401_SR_R_SG_Sig_Grp_0x401(&SG_Sig_Grp_0x401_ButCtrl);
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   164    Rte_Write_AppButtonCtrl_SG_Sig_Grp_0x111_SR_S_SG_Sig_Grp_0x111(&SG_Sig_Grp_0x111_ButCtrl);
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   165  #endif
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   166  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   167   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   168   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   169  }
+	ret
+.L21:
+	
+__AppButtonCtrl_MainFunction_function_end:
+	.size	AppButtonCtrl_MainFunction,__AppButtonCtrl_MainFunction_function_end-AppButtonCtrl_MainFunction
+.L19:
+	; End of function
+	
+	.calls	'AppButtonCtrl_Init','',0
+	.calls	'AppButtonCtrl_MainFunction','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L7:
+	.word	2539
+	.half	3
+	.word	.L8
+	.byte	4
+.L6:
+	.byte	1
+	.byte	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L9
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	208
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	215
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	257
+	.byte	7
+	.word	257
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	273
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	278
+	.byte	9
+	.byte	'value',0
+	.word	257
+	.byte	9
+	.byte	'compare',0
+	.word	257
+	.byte	0,10,1,7
+	.word	335
+	.byte	11
+	.byte	'__codeptr',0,1,1,1
+	.word	337
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'boolean',0,2,124,31
+	.word	360
+	.byte	11
+	.byte	'uint8',0,2,127,31
+	.word	360
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11
+	.byte	'uint16',0,2,129,1,31
+	.word	407
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,2,131,1,31
+	.word	445
+	.byte	11
+	.byte	'PduLengthType',0,3,53,16
+	.word	407
+	.byte	7
+	.word	360
+	.byte	11
+	.byte	'SduDataPtrType',0,4,196,1,54
+	.word	504
+	.byte	12,4,219,1,9,1,13
+	.byte	'TP_DATACONF',0,0,13
+	.byte	'TP_DATARETRY',0,1,13
+	.byte	'TP_CONFPENDING',0,2,0,11
+	.byte	'TpDataStateType',0,4,226,1,3
+	.word	533
+	.byte	11
+	.byte	'E_Sig_0x302_Used_1',0,5,37,16
+	.word	407
+	.byte	11
+	.byte	'E_Sig_0x302_Used_2',0,5,40,15
+	.word	360
+	.byte	11
+	.byte	'E_Sig_0x302_Used_3',0,5,43,15
+	.word	360
+	.byte	11
+	.byte	'F_AAA_Angle',0,5,46,15
+	.word	360
+	.byte	11
+	.byte	'F_Button1_State',0,5,49,15
+	.word	360
+	.byte	11
+	.byte	'F_Button2_State',0,5,52,15
+	.word	360
+	.byte	11
+	.byte	'F_Button3_State',0,5,55,15
+	.word	360
+	.byte	11
+	.byte	'F_Button4_State',0,5,58,15
+	.word	360
+	.byte	11
+	.byte	'F_Meg_E2E_Error',0,5,61,15
+	.word	360
+	.byte	11
+	.byte	'F_Mes_Lost_Error',0,5,64,15
+	.word	360
+	.byte	11
+	.byte	'F_PowerMode',0,5,67,15
+	.word	360
+	.byte	11
+	.byte	'F_Sig_0x214_Used_1',0,5,70,16
+	.word	407
+	.byte	11
+	.byte	'F_Sig_0x214_Used_2',0,5,73,16
+	.word	407
+	.byte	11
+	.byte	'F_Sig_0x214_Used_3',0,5,76,16
+	.word	407
+	.byte	11
+	.byte	'F_Sig_0x214_Used_5',0,5,79,16
+	.word	407
+	.byte	11
+	.byte	'SupD_Checksum_0x300',0,5,85,15
+	.word	360
+	.byte	11
+	.byte	'SupD_Checksum_0x304',0,5,88,15
+	.word	360
+	.byte	11
+	.byte	'SupD_Counter_0x300',0,5,91,15
+	.word	360
+	.byte	11
+	.byte	'SupD_Counter_0x304',0,5,94,15
+	.word	360
+	.byte	11
+	.byte	'SupF_Checksum_0x212',0,5,97,15
+	.word	360
+	.byte	11
+	.byte	'SupF_Counter_0x212',0,5,100,15
+	.word	360
+	.byte	11
+	.byte	'D_Button1_Control',0,5,103,15
+	.word	360
+	.byte	11
+	.byte	'D_Button2_Control',0,5,106,15
+	.word	360
+	.byte	11
+	.byte	'D_Button3_Control',0,5,109,15
+	.word	360
+	.byte	11
+	.byte	'D_Button4_Control',0,5,112,15
+	.word	360
+	.byte	11
+	.byte	'D_Led1_Control',0,5,115,15
+	.word	360
+	.byte	11
+	.byte	'D_Led1_CtrlMode',0,5,118,15
+	.word	360
+	.byte	11
+	.byte	'D_Led2_Control',0,5,121,15
+	.word	360
+	.byte	11
+	.byte	'D_Led2_CtrlMode',0,5,124,15
+	.word	360
+	.byte	11
+	.byte	'D_Led3_Control',0,5,127,15
+	.word	360
+	.byte	11
+	.byte	'D_Led3_CtrlMode',0,5,130,1,15
+	.word	360
+	.byte	11
+	.byte	'D_Led4_Control',0,5,133,1,15
+	.word	360
+	.byte	11
+	.byte	'D_Led4_CtrlMode',0,5,136,1,15
+	.word	360
+	.byte	11
+	.byte	'F_Led1_State',0,5,139,1,15
+	.word	360
+	.byte	11
+	.byte	'F_Led2_State',0,5,142,1,15
+	.word	360
+	.byte	11
+	.byte	'F_Led3_State',0,5,145,1,15
+	.word	360
+	.byte	11
+	.byte	'F_Led4_State',0,5,148,1,15
+	.word	360
+	.byte	11
+	.byte	'AAA_Angle',0,5,147,3,15
+	.word	360
+	.byte	11
+	.byte	'Button1_Control',0,5,150,3,17
+	.word	360
+	.byte	11
+	.byte	'Button1_State',0,5,153,3,17
+	.word	360
+	.byte	11
+	.byte	'Button2_Control',0,5,156,3,17
+	.word	360
+	.byte	11
+	.byte	'Button2_State',0,5,159,3,17
+	.word	360
+	.byte	11
+	.byte	'Button3_Control',0,5,162,3,17
+	.word	360
+	.byte	11
+	.byte	'Button3_State',0,5,165,3,17
+	.word	360
+	.byte	11
+	.byte	'Button4_Control',0,5,168,3,17
+	.word	360
+	.byte	11
+	.byte	'Button4_State',0,5,171,3,17
+	.word	360
+	.byte	11
+	.byte	'CrcSig_Pack_3',0,5,183,3,15
+	.word	360
+	.byte	11
+	.byte	'CrcSig_Pack_4',0,5,186,3,16
+	.word	445
+	.byte	11
+	.byte	'CrcSig_Pack_5',0,5,189,3,16
+	.word	445
+	.byte	11
+	.byte	'Led1_Control_1',0,5,195,3,17
+	.word	360
+	.byte	11
+	.byte	'Led1_State',0,5,198,3,17
+	.word	360
+	.byte	11
+	.byte	'Led2_Control_1',0,5,204,3,17
+	.word	360
+	.byte	11
+	.byte	'Led2_State',0,5,207,3,17
+	.word	360
+	.byte	11
+	.byte	'Led3_Control_1',0,5,213,3,17
+	.word	360
+	.byte	11
+	.byte	'Led3_State',0,5,216,3,17
+	.word	360
+	.byte	11
+	.byte	'Led4_Control_1',0,5,222,3,17
+	.word	360
+	.byte	11
+	.byte	'Led4_State',0,5,225,3,17
+	.word	360
+	.byte	11
+	.byte	'PowerMode',0,5,228,3,15
+	.word	360
+	.byte	11
+	.byte	'Sig_0x114_Used_1',0,5,231,3,15
+	.word	360
+	.byte	11
+	.byte	'Sig_0x114_Used_2',0,5,234,3,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x114_Used_3',0,5,237,3,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x114_Used_4',0,5,240,3,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x114_Used_5',0,5,243,3,15
+	.word	360
+	.byte	11
+	.byte	'Sig_0x114_Used_6',0,5,246,3,15
+	.word	360
+	.byte	11
+	.byte	'Sig_0x402_Used_1',0,5,249,3,15
+	.word	360
+	.byte	11
+	.byte	'Sig_0x402_Used_2',0,5,252,3,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x402_Used_3',0,5,255,3,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x402_Used_4',0,5,130,4,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x402_Used_5',0,5,133,4,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x403_Used_1',0,5,136,4,15
+	.word	360
+	.byte	11
+	.byte	'Sig_0x403_Used_2',0,5,139,4,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x403_Used_3',0,5,142,4,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x403_Used_4',0,5,145,4,16
+	.word	407
+	.byte	11
+	.byte	'Sig_0x403_Used_5',0,5,148,4,16
+	.word	407
+	.byte	11
+	.byte	'SupA_Checksum_0x112',0,5,151,4,15
+	.word	360
+	.byte	11
+	.byte	'SupA_Counter_0x112',0,5,154,4,15
+	.word	360
+	.byte	11
+	.byte	'SupB_Checksum_0x400_1',0,5,160,4,15
+	.word	360
+	.byte	11
+	.byte	'SupB_Counter_0x400_1',0,5,166,4,15
+	.word	360
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L8:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,21,0,54,15,0,0,11,22,0,3,8,58,15,59,15,57,15,73,19,0,0,12,4,1,58
+	.byte	15,59,15,57,15,11,15,0,0,13,40,0,3,8,28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L9:
+	.word	.L23-.L22
+.L22:
+	.half	3
+	.word	.L25-.L24
+.L24:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	0
+	.byte	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'ComStack_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,1,0,0
+	.byte	'Rte_Type.h',0,2,0,0,0
+.L25:
+.L23:
+	.sdecl	'.debug_info',debug,cluster('AppButtonCtrl_Init')
+	.sect	'.debug_info'
+.L10:
+	.word	262
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L13,.L12
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'AppButtonCtrl_Init',0,1,121,32,1,1,1
+	.word	.L3,.L20,.L2
+	.byte	4
+	.word	.L3,.L20
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppButtonCtrl_Init')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppButtonCtrl_Init')
+	.sect	'.debug_line'
+.L12:
+	.word	.L27-.L26
+.L26:
+	.half	3
+	.word	.L29-.L28
+.L28:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c',0,0,0,0,0
+.L29:
+	.byte	5,1,7,0,5,2
+	.word	.L3
+	.byte	3,131,1,1,7,9
+	.half	.L14-.L3
+	.byte	0,1,1
+.L27:
+	.sdecl	'.debug_ranges',debug,cluster('AppButtonCtrl_Init')
+	.sect	'.debug_ranges'
+.L13:
+	.word	-1,.L3,0,.L14-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.debug_info'
+.L15:
+	.word	271
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'AppButtonCtrl_MainFunction',0,1,154,1,32,1,1,1
+	.word	.L5,.L21,.L4
+	.byte	4
+	.word	.L5,.L21
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.debug_line'
+.L17:
+	.word	.L31-.L30
+.L30:
+	.half	3
+	.word	.L33-.L32
+.L32:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_00_ASW\\Core0\\AppButtonCtrl\\AppButtonCtrl.c',0,0,0,0,0
+.L33:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,168,1,1,7,9
+	.half	.L19-.L5
+	.byte	0,1,1
+.L31:
+	.sdecl	'.debug_ranges',debug,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L5,0,.L19-.L5,0,0
+	.sdecl	'.debug_loc',debug,cluster('AppButtonCtrl_Init')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L20-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L21-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L34:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AppButtonCtrl_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L34,.L3,.L20-.L3
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('AppButtonCtrl_MainFunction')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L34,.L5,.L21-.L5
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   170  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   171  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   172  #define AppButtonCtrl_STOP_SEC_CODE
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   173  #include "AppButtonCtrl_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   174  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   175  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   176  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   177   * DO NOT CHANGE THIS COMMENT!           << Start of function definition area >>            DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   178   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   179  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   180  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   181  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   182   * DO NOT CHANGE THIS COMMENT!           << End of function definition area >>              DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   183   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   184  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   185  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   186  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   187   * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   188   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   189  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   190  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   191  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   192   * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   193   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   194  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   195  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   196   MISRA 2012 violations and justifications
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   197   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   198  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   199  /* module specific MISRA deviations:
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   200     MD_Rte_0624:  MISRA rule: Rule8.3
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   201       Reason:     This MISRA violation is a consequence from the RTE requirements [SWS_Rte_01007] [SWS_Rte_01150].
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   202                   The typedefs are never used in the same context.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   203       Risk:       No functional risk. Only a cast to uint8* is performed.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   204       Prevention: Not required.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   205  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   206     MD_Rte_3206:  MISRA rule: Rule2.7
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   207       Reason:     The parameter are not used by the code in all possible code variants.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   208       Risk:       No functional risk.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   209       Prevention: Not required.
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   210  
+; ..\_00_ASW\Core0\AppButtonCtrl\AppButtonCtrl.c	   211  */
+
+	; Module end

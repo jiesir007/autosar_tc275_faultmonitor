@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="075d6a25-500b-4eb0-8a0e-4696d4a04c0d">
+      <SHORT-NAME>AURIX</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="7a063cf9-77da-4cbc-be2a-79d1a58db25d">
+          <SHORT-NAME>Icu_ib_bswmd</SHORT-NAME>
+          <AR-PACKAGES>
+            <AR-PACKAGE UUID="4ee21b7d-2b6b-4b1c-8131-21a753df625c">
+              <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+              <ELEMENTS>
+                <BSW-MODULE-DESCRIPTION UUID="f3460195-7546-4e94-ad7a-f858606092fd">
+                  <SHORT-NAME>Icu</SHORT-NAME>
+                  <INTERNAL-BEHAVIORS>
+                    <BSW-INTERNAL-BEHAVIOR UUID="88a394a6-9cd8-4813-a2b6-c6d9883ac2a9">
+                      <SHORT-NAME>IcuBehavior</SHORT-NAME>
+                      <EXCLUSIVE-AREAS>
+                        <EXCLUSIVE-AREA UUID="0fdabd20-4b6f-487f-841a-e687d379d44b">
+                          <SHORT-NAME>EnableWakeup</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="21460847-2de0-44ae-ba93-d76023eebddb">
+                          <SHORT-NAME>Ccu6IenUpdate</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="011082bf-5835-4d8f-b447-09636f6ac307">
+                          <SHORT-NAME>EnableNotification</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="3ddbd3db-9a8a-4431-87a1-69f73220064b">
+                          <SHORT-NAME>ResetEdgeCount</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="6bb99248-5b75-4b96-9e58-846c27588e08">
+                          <SHORT-NAME>CcuInterruptHandle</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                        <EXCLUSIVE-AREA UUID="baf42ad8-d482-4d07-b4a0-0cc612a9dd7c">
+                          <SHORT-NAME>CcuVariableupdate</SHORT-NAME>
+                        </EXCLUSIVE-AREA>
+                      </EXCLUSIVE-AREAS>
+                    </BSW-INTERNAL-BEHAVIOR>
+                  </INTERNAL-BEHAVIORS>
+                </BSW-MODULE-DESCRIPTION>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

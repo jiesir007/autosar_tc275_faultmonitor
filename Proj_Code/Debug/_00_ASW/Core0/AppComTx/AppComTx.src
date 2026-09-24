@@ -1,0 +1,838 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_00_ASW\\Core0\\AppComTx\\.AppComTx.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_00_ASW\\Core0\\AppComTx\\AppComTx.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _00_ASW\\Core0\\AppComTx\\AppComTx.src ..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c"
+	.compiler_name		"ctc"
+	;source	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.AppComTx.AppComTx_Init',code,cluster('AppComTx_Init')
+	.sect	'.text.AppComTx.AppComTx_Init'
+	.align	2
+	
+	.global	AppComTx_Init
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     1  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     2  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     3  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     4   * DO NOT CHANGE THIS COMMENT!           << Start of version logging area >>                DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     5   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     6  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     7  /* PRQA S 0777, 0779 EOF */ /* MD_MSR_Rule5.1, MD_MSR_Rule5.2 */
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     8  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	     9  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    10   * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    11   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    12  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    13  #include "Rte_AppComTx.h"
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    14  //#include "E2EPW_AppComTx_SG_Sig_Grp_0x112_SG_Sig_Grp_0x112_tx.h"
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    15  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    16   * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    17   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    18  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    19  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    20  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    21   * DO NOT CHANGE THIS COMMENT!           << End of include and declaration area >>          DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    22   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    23  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    24  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    25  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    26   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    27   * Used AUTOSAR Data Types
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    28   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    29   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    30   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    31   * Primitive Types:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    32   * ================
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    33   * Sig_Test02_10: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    34   * Sig_Test02_11: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    35   * Sig_Test02_12: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    36   * Sig_Test02_7: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    37   * Sig_Test02_8: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    38   * Sig_Test02_9: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    39   * Sig_Test03_3: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    40   * Sig_Test03_4: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    41   * Sig_Test05_1: Boolean
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    42   * Sig_Test05_3: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    43   * Sig_Test05_4: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    44   * Sig_Test05_5: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    45   * Sig_Test05_6: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    46   * Sig_Test05_7: Integer in interval [0...255]
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    47   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    48   * Enumeration Types:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    49   * ==================
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    50   * Sig_Test05_2: Enumeration of integer in interval [0...255] with enumerators
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    51   *   Cx0_OFF0x12 (0U)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    52   *   Cx1_ON (1U)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    53   *   Cx2_Reserve (2U)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    54   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    55   * Record Types:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    56   * =============
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    57   * SG_Sig_Grp_0x124: Record with elements
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    58   *   Sig_Test02_1 of type Sig_Test02_7
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    59   *   Sig_Test02_2 of type Sig_Test02_8
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    60   *   Sig_Test02_3 of type Sig_Test02_9
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    61   *   Sig_Test02_4 of type Sig_Test02_10
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    62   *   Sig_Test02_5 of type Sig_Test02_11
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    63   *   Sig_Test02_6 of type Sig_Test02_12
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    64   * SG_Sig_Grp_0x125: Record with elements
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    65   *   Sig_Test03_1 of type Sig_Test03_3
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    66   *   Sig_Test03_2 of type Sig_Test03_4
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    67   * SG_Sig_Grp_0x127: Record with elements
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    68   *   Sig_Test05_1 of type Sig_Test05_1
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    69   *   Sig_Test05_2 of type Sig_Test05_2
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    70   *   Sig_Test05_3 of type Sig_Test05_3
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    71   *   Sig_Test05_4 of type Sig_Test05_4
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    72   *   Sig_Test05_5 of type Sig_Test05_5
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    73   *   Sig_Test05_6 of type Sig_Test05_6
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    74   *   Sig_Test05_7 of type Sig_Test05_7
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    75   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    76   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    77  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    78  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    79  #define AppComTx_START_SEC_CODE
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    80  #include "AppComTx_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    81  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    82  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    83  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    84   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    85   * Runnable Entity Name: AppComTx_Init
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    86   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    87   *---------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    88   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    89   * Executed once after the RTE is started
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    90   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    91   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    92  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    93   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    94   * Symbol: AppComTx_Init_doc
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    95   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    96  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    97  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    98   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	    99   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   100  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   101  FUNC(void, AppComTx_CODE) AppComTx_Init(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function AppComTx_Init
+.L5:
+AppComTx_Init:	.type	func
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   102  {
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   103  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   104   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   105   * Symbol: AppComTx_Init
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   106   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   107  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   108  	//E2EPW_WriteInit_SG_Sig_Grp_0x112_SG_Sig_Grp_0x112();
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   109  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   110   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   111   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   112  }
+	ret
+.L22:
+	
+__AppComTx_Init_function_end:
+	.size	AppComTx_Init,__AppComTx_Init_function_end-AppComTx_Init
+.L16:
+	; End of function
+	
+	.sdecl	'.text.AppComTx.AppComTx_MainFunction',code,cluster('AppComTx_MainFunction')
+	.sect	'.text.AppComTx.AppComTx_MainFunction'
+	.align	2
+	
+	.global	AppComTx_MainFunction
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   113  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   114  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   115   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   116   * Runnable Entity Name: AppComTx_MainFunction
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   117   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   118   *---------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   119   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   120   * Executed if at least one of the following trigger conditions occurred:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   121   *   - triggered on TimingEvent every 10ms
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   122   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   123   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   124   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   125   * Input Interfaces:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   126   * =================
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   127   *   Explicit S/R API:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   128   *   -----------------
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   129   *   Std_ReturnType Rte_Read_SG_Sig_Grp_0x124_AppSR_R_SG_Sig_Grp_0x124(SG_Sig_Grp_0x124 *data)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   130   *   Std_ReturnType Rte_Read_SG_Sig_Grp_0x125_AppSR_R_SG_Sig_Grp_0x125(SG_Sig_Grp_0x125 *data)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   131   *   Std_ReturnType Rte_Read_SG_Sig_Grp_0x127_AppSR_R_SG_Sig_Grp_0x127(SG_Sig_Grp_0x127 *data)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   132   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   133   * Output Interfaces:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   134   * ==================
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   135   *   Explicit S/R API:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   136   *   -----------------
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   137   *   Std_ReturnType Rte_Write_SG_Sig_Grp_0x124_SG_Sig_Grp_0x124(const SG_Sig_Grp_0x124 *data)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   138   *   Std_ReturnType Rte_Write_SG_Sig_Grp_0x125_SG_Sig_Grp_0x125(const SG_Sig_Grp_0x125 *data)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   139   *   Std_ReturnType Rte_Write_SG_Sig_Grp_0x127_SG_Sig_Grp_0x127(const SG_Sig_Grp_0x127 *data)
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   140   *
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   141   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   142  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   143   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   144   * Symbol: AppComTx_MainFunction_doc
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   145   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   146  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   147  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   148  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   149   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   150   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   151  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   152  FUNC(void, AppComTx_CODE) AppComTx_MainFunction(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function AppComTx_MainFunction
+.L7:
+AppComTx_MainFunction:	.type	func
+	sub.a	a10,#8
+.L28:
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   153  {
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   154  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   155   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   156   * Symbol: AppComTx_MainFunction
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   157   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   158    boolean Meg_Trigger_State;
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   159    SG_Sig_Grp_0x214 SG_Sig_Grp_0x214_AppComTx = {0};
+	movh.a	a15,#@his(.1.ini)
+	lea	a15,[a15]@los(.1.ini)
+	ld.da	a2/a3,[a15]0
+.L42:
+	st.da	[a10]0,a2/a3
+.L43:
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   160    Rte_Read_Meg_Trigger_State_0x214_SR_R_Meg_Trigger_State(&Meg_Trigger_State);
+	movh.a	a15,#@his(Rte_AppCtrl_Meg_Trigger_State_0x214_SR_S_Meg_Trigger_State)
+	lea	a15,[a15]@los(Rte_AppCtrl_Meg_Trigger_State_0x214_SR_S_Meg_Trigger_State)
+	ld.bu	d15,[a15]
+.L29:
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   161  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   162    if(Meg_Trigger_State == 1)
+	jne	d15,#1,.L2
+.L44:
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   163    {
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   164      Rte_Write_SG_Sig_Grp_0x214_SG_Sig_Grp_0x214(&SG_Sig_Grp_0x214_AppComTx);
+	lea	a4,[a10]0
+	call	Rte_Write_AppComTx_SG_Sig_Grp_0x214_SG_Sig_Grp_0x214
+.L45:
+	j	.L3
+.L2:
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   165    }
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   166    else
+.L3:
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   167    {
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   168  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   169    }
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   170    
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   171  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   172   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   173   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   174  }
+	ret
+.L23:
+	
+__AppComTx_MainFunction_function_end:
+	.size	AppComTx_MainFunction,__AppComTx_MainFunction_function_end-AppComTx_MainFunction
+.L21:
+	; End of function
+	
+	.sdecl	'.rodata.AppComTx..1.ini',data,rom
+	.sect	'.rodata.AppComTx..1.ini'
+	.align	4
+.1.ini:	.type	object
+	.size	.1.ini,8
+	.space	8
+	.calls	'AppComTx_MainFunction','Rte_Write_AppComTx_SG_Sig_Grp_0x214_SG_Sig_Grp_0x214'
+	.calls	'AppComTx_Init','',0
+	.extern	Rte_AppCtrl_Meg_Trigger_State_0x214_SR_S_Meg_Trigger_State
+	.extern	Rte_Write_AppComTx_SG_Sig_Grp_0x214_SG_Sig_Grp_0x214
+	.calls	'AppComTx_MainFunction','',8
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L9:
+	.word	2882
+	.half	3
+	.word	.L10
+	.byte	4
+.L8:
+	.byte	1
+	.byte	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L11
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	198
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	205
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	247
+	.byte	7
+	.word	247
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	263
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	268
+	.byte	9
+	.byte	'value',0
+	.word	247
+	.byte	9
+	.byte	'compare',0
+	.word	247
+	.byte	0
+.L24:
+	.byte	2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'unsigned short int',0,2,7
+.L26:
+	.byte	10,2,210,1,9,8,11
+	.byte	'F_Sig_0x214_Used_1',0
+	.word	342
+	.byte	2,2,35,0,11
+	.byte	'F_Sig_0x214_Used_2',0
+	.word	342
+	.byte	2,2,35,2,11
+	.byte	'F_Sig_0x214_Used_3',0
+	.word	342
+	.byte	2,2,35,4,11
+	.byte	'F_Sig_0x214_Used_5',0
+	.word	342
+	.byte	2,2,35,6,0,3
+	.word	364
+	.byte	7
+	.word	483
+	.byte	12
+	.byte	'Rte_Write_AppComTx_SG_Sig_Grp_0x214_SG_Sig_Grp_0x214',0,1,58,32
+	.word	325
+	.byte	1,1,1,1,13
+	.byte	'data',0,1,58,146,1
+	.word	488
+	.byte	0,14,1,7
+	.word	573
+	.byte	15
+	.byte	'__codeptr',0,3,1,1
+	.word	575
+	.byte	15
+	.byte	'boolean',0,4,124,31
+	.word	325
+	.byte	15
+	.byte	'uint8',0,4,127,31
+	.word	325
+	.byte	15
+	.byte	'uint16',0,4,129,1,31
+	.word	342
+	.byte	2
+	.byte	'unsigned long int',0,4,7,15
+	.byte	'uint32',0,4,131,1,31
+	.word	644
+	.byte	15
+	.byte	'Std_ReturnType',0,5,132,1,15
+	.word	325
+	.byte	15
+	.byte	'PduLengthType',0,6,53,16
+	.word	342
+	.byte	7
+	.word	325
+	.byte	15
+	.byte	'SduDataPtrType',0,7,196,1,54
+	.word	727
+	.byte	16,7,219,1,9,1,17
+	.byte	'TP_DATACONF',0,0,17
+	.byte	'TP_DATARETRY',0,1,17
+	.byte	'TP_CONFPENDING',0,2,0,15
+	.byte	'TpDataStateType',0,7,226,1,3
+	.word	756
+	.byte	15
+	.byte	'E_Sig_0x302_Used_1',0,2,37,16
+	.word	342
+	.byte	15
+	.byte	'E_Sig_0x302_Used_2',0,2,40,15
+	.word	325
+	.byte	15
+	.byte	'E_Sig_0x302_Used_3',0,2,43,15
+	.word	325
+	.byte	15
+	.byte	'F_AAA_Angle',0,2,46,15
+	.word	325
+	.byte	15
+	.byte	'F_Button1_State',0,2,49,15
+	.word	325
+	.byte	15
+	.byte	'F_Button2_State',0,2,52,15
+	.word	325
+	.byte	15
+	.byte	'F_Button3_State',0,2,55,15
+	.word	325
+	.byte	15
+	.byte	'F_Button4_State',0,2,58,15
+	.word	325
+	.byte	15
+	.byte	'F_Meg_E2E_Error',0,2,61,15
+	.word	325
+	.byte	15
+	.byte	'F_Mes_Lost_Error',0,2,64,15
+	.word	325
+	.byte	15
+	.byte	'F_PowerMode',0,2,67,15
+	.word	325
+	.byte	15
+	.byte	'F_Sig_0x214_Used_1',0,2,70,16
+	.word	342
+	.byte	15
+	.byte	'F_Sig_0x214_Used_2',0,2,73,16
+	.word	342
+	.byte	15
+	.byte	'F_Sig_0x214_Used_3',0,2,76,16
+	.word	342
+	.byte	15
+	.byte	'F_Sig_0x214_Used_5',0,2,79,16
+	.word	342
+	.byte	15
+	.byte	'Meg_Trigger_Type',0,2,82,17
+	.word	325
+	.byte	15
+	.byte	'SupD_Checksum_0x300',0,2,85,15
+	.word	325
+	.byte	15
+	.byte	'SupD_Checksum_0x304',0,2,88,15
+	.word	325
+	.byte	15
+	.byte	'SupD_Counter_0x300',0,2,91,15
+	.word	325
+	.byte	15
+	.byte	'SupD_Counter_0x304',0,2,94,15
+	.word	325
+	.byte	15
+	.byte	'SupF_Checksum_0x212',0,2,97,15
+	.word	325
+	.byte	15
+	.byte	'SupF_Counter_0x212',0,2,100,15
+	.word	325
+	.byte	15
+	.byte	'D_Button1_Control',0,2,103,15
+	.word	325
+	.byte	15
+	.byte	'D_Button2_Control',0,2,106,15
+	.word	325
+	.byte	15
+	.byte	'D_Button3_Control',0,2,109,15
+	.word	325
+	.byte	15
+	.byte	'D_Button4_Control',0,2,112,15
+	.word	325
+	.byte	15
+	.byte	'D_Led1_Control',0,2,115,15
+	.word	325
+	.byte	15
+	.byte	'D_Led1_CtrlMode',0,2,118,15
+	.word	325
+	.byte	15
+	.byte	'D_Led2_Control',0,2,121,15
+	.word	325
+	.byte	15
+	.byte	'D_Led2_CtrlMode',0,2,124,15
+	.word	325
+	.byte	15
+	.byte	'D_Led3_Control',0,2,127,15
+	.word	325
+	.byte	15
+	.byte	'D_Led3_CtrlMode',0,2,130,1,15
+	.word	325
+	.byte	15
+	.byte	'D_Led4_Control',0,2,133,1,15
+	.word	325
+	.byte	15
+	.byte	'D_Led4_CtrlMode',0,2,136,1,15
+	.word	325
+	.byte	15
+	.byte	'F_Led1_State',0,2,139,1,15
+	.word	325
+	.byte	15
+	.byte	'F_Led2_State',0,2,142,1,15
+	.word	325
+	.byte	15
+	.byte	'F_Led3_State',0,2,145,1,15
+	.word	325
+	.byte	15
+	.byte	'F_Led4_State',0,2,148,1,15
+	.word	325
+	.byte	15
+	.byte	'SG_Sig_Grp_0x214',0,2,216,1,3
+	.word	364
+	.byte	15
+	.byte	'AAA_Angle',0,2,147,3,15
+	.word	325
+	.byte	15
+	.byte	'Button1_Control',0,2,150,3,17
+	.word	325
+	.byte	15
+	.byte	'Button1_State',0,2,153,3,17
+	.word	325
+	.byte	15
+	.byte	'Button2_Control',0,2,156,3,17
+	.word	325
+	.byte	15
+	.byte	'Button2_State',0,2,159,3,17
+	.word	325
+	.byte	15
+	.byte	'Button3_Control',0,2,162,3,17
+	.word	325
+	.byte	15
+	.byte	'Button3_State',0,2,165,3,17
+	.word	325
+	.byte	15
+	.byte	'Button4_Control',0,2,168,3,17
+	.word	325
+	.byte	15
+	.byte	'Button4_State',0,2,171,3,17
+	.word	325
+	.byte	15
+	.byte	'CrcSig_Pack_3',0,2,183,3,15
+	.word	325
+	.byte	15
+	.byte	'CrcSig_Pack_4',0,2,186,3,16
+	.word	644
+	.byte	15
+	.byte	'CrcSig_Pack_5',0,2,189,3,16
+	.word	644
+	.byte	15
+	.byte	'Led1_Control_1',0,2,195,3,17
+	.word	325
+	.byte	15
+	.byte	'Led1_State',0,2,198,3,17
+	.word	325
+	.byte	15
+	.byte	'Led2_Control_1',0,2,204,3,17
+	.word	325
+	.byte	15
+	.byte	'Led2_State',0,2,207,3,17
+	.word	325
+	.byte	15
+	.byte	'Led3_Control_1',0,2,213,3,17
+	.word	325
+	.byte	15
+	.byte	'Led3_State',0,2,216,3,17
+	.word	325
+	.byte	15
+	.byte	'Led4_Control_1',0,2,222,3,17
+	.word	325
+	.byte	15
+	.byte	'Led4_State',0,2,225,3,17
+	.word	325
+	.byte	15
+	.byte	'PowerMode',0,2,228,3,15
+	.word	325
+	.byte	15
+	.byte	'Sig_0x114_Used_1',0,2,231,3,15
+	.word	325
+	.byte	15
+	.byte	'Sig_0x114_Used_2',0,2,234,3,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x114_Used_3',0,2,237,3,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x114_Used_4',0,2,240,3,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x114_Used_5',0,2,243,3,15
+	.word	325
+	.byte	15
+	.byte	'Sig_0x114_Used_6',0,2,246,3,15
+	.word	325
+	.byte	15
+	.byte	'Sig_0x402_Used_1',0,2,249,3,15
+	.word	325
+	.byte	15
+	.byte	'Sig_0x402_Used_2',0,2,252,3,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x402_Used_3',0,2,255,3,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x402_Used_4',0,2,130,4,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x402_Used_5',0,2,133,4,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x403_Used_1',0,2,136,4,15
+	.word	325
+	.byte	15
+	.byte	'Sig_0x403_Used_2',0,2,139,4,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x403_Used_3',0,2,142,4,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x403_Used_4',0,2,145,4,16
+	.word	342
+	.byte	15
+	.byte	'Sig_0x403_Used_5',0,2,148,4,16
+	.word	342
+	.byte	15
+	.byte	'SupA_Checksum_0x112',0,2,151,4,15
+	.word	325
+	.byte	15
+	.byte	'SupA_Counter_0x112',0,2,154,4,15
+	.word	325
+	.byte	15
+	.byte	'SupB_Checksum_0x400_1',0,2,160,4,15
+	.word	325
+	.byte	15
+	.byte	'SupB_Counter_0x400_1',0,2,166,4,15
+	.word	325
+	.byte	18
+	.byte	'Rte_AppCtrl_Meg_Trigger_State_0x214_SR_S_Meg_Trigger_State',0,1,34,44
+	.word	325
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,12,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,13,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,14,21,0,54,15,0,0,15,22,0,3,8,58,15,59,15,57,15,73,19,0,0,16,4,1,58,15,59,15,57,15,11,15,0,0,17,40,0
+	.byte	3,8,28,13,0,0,18,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L11:
+	.word	.L31-.L30
+.L30:
+	.half	3
+	.word	.L33-.L32
+.L32:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	0
+	.byte	'Rte_AppComTx.h',0,1,0,0
+	.byte	'Rte_Type.h',0,2,0,0
+	.byte	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c',0,0,0,0
+	.byte	'Platform_Types.h',0,3,0,0
+	.byte	'Std_Types.h',0,3,0,0
+	.byte	'ComStack_Cfg.h',0,2,0,0
+	.byte	'ComStack_Types.h',0,3,0,0,0
+.L33:
+.L31:
+	.sdecl	'.debug_info',debug,cluster('AppComTx_Init')
+	.sect	'.debug_info'
+.L12:
+	.word	247
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L15,.L14
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'AppComTx_Init',0,1,101,27,1,1,1
+	.word	.L5,.L22,.L4
+	.byte	4
+	.word	.L5,.L22
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppComTx_Init')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppComTx_Init')
+	.sect	'.debug_line'
+.L14:
+	.word	.L35-.L34
+.L34:
+	.half	3
+	.word	.L37-.L36
+.L36:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c',0,0,0,0,0
+.L37:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,239,0,1,7,9
+	.half	.L16-.L5
+	.byte	0,1,1
+.L35:
+	.sdecl	'.debug_ranges',debug,cluster('AppComTx_Init')
+	.sect	'.debug_ranges'
+.L15:
+	.word	-1,.L5,0,.L16-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('AppComTx_MainFunction')
+	.sect	'.debug_info'
+.L17:
+	.word	327
+	.half	3
+	.word	.L18
+	.byte	4,1
+	.byte	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L20,.L19
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'AppComTx_MainFunction',0,1,152,1,27,1,1,1
+	.word	.L7,.L23,.L6
+	.byte	4
+	.word	.L7,.L23
+	.byte	5
+	.byte	'Meg_Trigger_State',0,1,158,1,11
+	.word	.L24,.L25
+	.byte	5
+	.byte	'SG_Sig_Grp_0x214_AppComTx',0,1,159,1,20
+	.word	.L26,.L27
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppComTx_MainFunction')
+	.sect	'.debug_abbrev'
+.L18:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppComTx_MainFunction')
+	.sect	'.debug_line'
+.L19:
+	.word	.L39-.L38
+.L38:
+	.half	3
+	.word	.L41-.L40
+.L40:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_00_ASW\\Core0\\AppComTx\\AppComTx.c',0,0,0,0,0
+.L41:
+	.byte	5,27,7,0,5,2
+	.word	.L7
+	.byte	3,151,1,1,5,48,9
+	.half	.L28-.L7
+	.byte	3,7,1,5,46,9
+	.half	.L42-.L28
+	.byte	1,5,3,9
+	.half	.L43-.L42
+	.byte	3,1,1,9
+	.half	.L29-.L43
+	.byte	3,2,1,5,50,7,9
+	.half	.L44-.L29
+	.byte	3,2,1,5,76,9
+	.half	.L45-.L44
+	.byte	1,5,1,9
+	.half	.L3-.L45
+	.byte	3,10,1,7,9
+	.half	.L21-.L3
+	.byte	0,1,1
+.L39:
+	.sdecl	'.debug_ranges',debug,cluster('AppComTx_MainFunction')
+	.sect	'.debug_ranges'
+.L20:
+	.word	-1,.L7,0,.L21-.L7,0,0
+	.sdecl	'.debug_loc',debug,cluster('AppComTx_Init')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L22-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AppComTx_MainFunction')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L28-.L7
+	.half	2
+	.byte	138,0
+	.word	.L28-.L7,.L23-.L7
+	.half	2
+	.byte	138,8
+	.word	.L23-.L7,.L23-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L25:
+	.word	-1,.L7,.L29-.L7,.L23-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L27:
+	.word	-1,.L7,0,.L23-.L7
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L46:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AppComTx_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L46,.L5,.L22-.L5
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('AppComTx_MainFunction')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L46,.L7,.L23-.L7
+	.byte	4
+	.word	(.L28-.L7)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L23-.L28)/2
+	.byte	19,0,8,26,0,0
+
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   175  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   176  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   177  #define AppComTx_STOP_SEC_CODE
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   178  #include "AppComTx_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   179  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   180  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   181  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   182   * DO NOT CHANGE THIS COMMENT!           << Start of function definition area >>            DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   183   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   184  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   185  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   186  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   187   * DO NOT CHANGE THIS COMMENT!           << End of function definition area >>              DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   188   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   189  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   190  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   191  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   192   * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   193   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   194  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   195  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   196  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   197   * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   198   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   199  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   200  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   201   MISRA 2012 violations and justifications
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   202   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   203  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   204  /* module specific MISRA deviations:
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   205     MD_Rte_0624:  MISRA rule: Rule8.3
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   206       Reason:     This MISRA violation is a consequence from the RTE requirements [SWS_Rte_01007] [SWS_Rte_01150].
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   207                   The typedefs are never used in the same context.
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   208       Risk:       No functional risk. Only a cast to uint8* is performed.
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   209       Prevention: Not required.
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   210  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   211     MD_Rte_3206:  MISRA rule: Rule2.7
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   212       Reason:     The parameter are not used by the code in all possible code variants.
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   213       Risk:       No functional risk.
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   214       Prevention: Not required.
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   215  
+; ..\_00_ASW\Core0\AppComTx\AppComTx.c	   216  */
+
+	; Module end

@@ -1,0 +1,445 @@
+
+**** Build of configuration Debug for project TC275 ****
+
+"C:\\Program Files\\TASKING\\TriCore v6.3r1\\ctc\\bin\\amk" -j24 all -a 
+Compiling AppButtonCtrl.c
+Compiling AppComRx.c
+Compiling AppComTx.c
+Compiling AppCtrl.c
+Compiling AppLedCtrl.c
+Compiling AppWakeUpCtrl.c
+Compiling AppCtrl1.c
+Compiling AppCtrl2.c
+Compiling BswM_Lcfg.c
+Compiling Can_Lcfg.c
+Compiling Can_PBcfg.c
+Compiling CanIf_Lcfg.c
+Compiling CanIf_PBcfg.c
+Compiling CanNm_Cfg.c
+Compiling CanNm_Lcfg.c
+Compiling CanNm_PBcfg.c
+Compiling CanSM_Lcfg.c
+Compiling CanTp_Lcfg.c
+Compiling CanTp_PBcfg.c
+Compiling CanTrcv_30_Tja1043_Cfg.c
+Compiling Com_Lcfg.c
+Compiling Com_PBcfg.c
+Compiling ComM_Lcfg.c
+Compiling ComM_PBcfg.c
+Compiling Dcm_Lcfg.c
+ctc W500: ["..\_00_ASW\Core0\AppComTx\AppComTx.c" 160/78] expression without effect
+0 errors, 1 warnings
+Compiling Dcm_PBcfg.c
+Compiling Dem_Lcfg.c
+Compiling Dem_PBcfg.c
+Compiling Det_Cfg.c
+Compiling EcuM_Cfg.c
+Compiling EcuM_Init_Cfg.c
+Compiling EcuM_Init_PBcfg.c
+ctc W500: ["..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c" 171/57] expression without effect
+0 errors, 1 warnings
+Compiling EcuM_PBcfg.c
+Compiling Nm_Cfg.c
+Compiling Nm_Lcfg.c
+Compiling Os_AccessCheck_Lcfg.c
+Compiling Os_Alarm_Lcfg.c
+Compiling Os_Application_Lcfg.c
+Compiling Os_Barrier_Lcfg.c
+Compiling Os_Core_Lcfg.c
+ctc W577: ["..\_00_ASW\Core0\AppCtrl\AppCtrl.c" 47/18] calling a function without a prototype
+ctc W500: ["..\_00_ASW\Core0\AppCtrl\AppCtrl.c" 69/77] expression without effect
+ctc W577: ["..\_00_ASW\Core0\AppCtrl\AppCtrl.c" 76/26] calling a function without a prototype
+0 errors, 3 warnings
+Compiling Os_Counter_Lcfg.c
+Compiling Os_Error_Lcfg.c
+Compiling Os_Hal_Context_Lcfg.c
+Compiling Os_Hal_Core_Lcfg.c
+Compiling Os_Hal_Entry_Lcfg.c
+Compiling Os_Hal_Interrupt_Lcfg.c
+Compiling Os_Hal_Kernel_Lcfg.c
+Compiling Os_Hal_MemoryProtection_Lcfg.c
+Compiling Os_Hal_Timer_Lcfg.c
+Compiling Os_Hook_Lcfg.c
+Compiling Os_Ioc_Lcfg.c
+Compiling Os_Isr_Lcfg.c
+Compiling Os_MemoryProtection_Lcfg.c
+Compiling Os_Peripheral_Lcfg.c
+Compiling Os_Resource_Lcfg.c
+Compiling Os_Scheduler_Lcfg.c
+Compiling Os_ScheduleTable_Lcfg.c
+ctc W542: ["..\_01_BSW\Gen\GenData\Dem_Lcfg.c" 1172/78] missing braces around initializer
+0 errors, 1 warnings
+Compiling Os_ServiceFunction_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Spinlock_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Stack_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Task_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_TimingProtection_Lcfg.c
+Compiling Os_Trace_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_XSignal_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_PBcfg.c
+Compiling Rte.c
+Compiling Rte_SystemApplication_OsCore0.c
+Compiling Rte_SystemApplication_OsCore1.c
+Compiling Rte_SystemApplication_OsCore2.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling vLinkGen_InitSections_Lcfg.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling BswM_Callout_Stubs.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Dem_Callout_Stubs.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling EcuM_Callout_Stubs.c
+Compiling Os_Callout_Stubs.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling BswM.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Can.c
+Compiling Can_Irq.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling CanIf.c
+Compiling CanNm.c
+Compiling CanSM.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling CanTp.c
+Compiling CanTrcv_30_Tja1043.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Com.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling ComM.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Crc.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Dcm.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Dcm_Ext.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Dem.c
+Compiling Det.c
+Compiling E2E.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling E2E_P01.c
+Compiling E2E_SM.c
+Compiling EcuM.c
+Compiling Nm.c
+Compiling Os_AccessCheck.c
+Compiling Os_Alarm.c
+Compiling Os_Application.c
+Compiling Os_Barrier.c
+Compiling Os_Bit.c
+Compiling Os_BitArray.c
+Compiling Os_Core.c
+Compiling Os_Counter.c
+ctc W537: ["..\_01_BSW\Src\Can\Can.c" 3158/11] unused variable "area"
+0 errors, 1 warnings
+Compiling Os_Deque.c
+ctc W537: ["..\_01_BSW\Src\ComM\ComM.c" 3893/9] unused variable "errorId"
+0 errors, 1 warnings
+Compiling Os_Error.c
+Compiling Os_Event.c
+Compiling Os_Fifo.c
+ctc W537: ["..\_01_BSW\Src\CanSM\CanSM.c" 2389/9] unused variable "CanSM_DetErrorId"
+0 errors, 1 warnings
+Compiling Os_Fifo08.c
+Compiling Os_Fifo16.c
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 2674/21] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 2675/21] unused variable "ecumErrorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 2804/18] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 2896/18] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 2994/19] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3076/18] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3184/10] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3282/33] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3374/18] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3467/18] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3554/18] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 3645/33] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 4323/10] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 4512/21] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 4820/21] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\CanNm\CanNm.c" 4892/21] unused variable "errorId"
+0 errors, 16 warnings
+Compiling Os_Fifo32.c
+ctc W537: ["..\_01_BSW\Src\CanTp\CanTp.c" 4291/13] unused variable "lTxHdl"
+ctc W537: ["..\_01_BSW\Src\CanTp\CanTp.c" 5998/9] unused variable "lErrorId"
+0 errors, 2 warnings
+Compiling Os_FifoRef.c
+Compiling Os_Hal_Compiler_Diab.c
+Compiling Os_Hal_Compiler_Greenhills.c
+Compiling Os_Hal_Compiler_HighTec.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Hal_Context.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Hal_Core.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Hal_Entry.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Hal_Trap.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Hook.c
+Compiling Os_Interrupt.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Ioc.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Isr.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Job.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Lock.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_MemoryProtection.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Peripheral.c
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 1203/9] unused variable "errorId"
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 1675/55] unused variable "partitionIdx"
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 1898/55] unused variable "partitionIdx"
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 2116/55] unused variable "partitionIdx"
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 2179/55] unused variable "partitionIdx"
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 3015/55] unused variable "partitionIdx"
+ctc W537: ["..\_01_BSW\Src\BswM\BswM.c" 3182/55] unused variable "partitionIdx"
+0 errors, 7 warnings
+Compiling Os_PriorityQueue.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Resource.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W544: ["..\_01_BSW\Gen\Source\EcuM_Callout_Stubs.c" 199/3] unreachable code
+ctc W505: ["..\_01_BSW\Gen\Source\EcuM_Callout_Stubs.c" 378/3] implicit declaration of function "IrqGtm_Init"
+ctc W577: ["..\_01_BSW\Gen\Source\EcuM_Callout_Stubs.c" 378/14] calling a function without a prototype
+0 errors, 3 warnings
+Compiling Os_Scheduler.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_ScheduleTable.c
+Compiling Os_ServiceFunction.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Spinlock.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Stack.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Task.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Thread.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Timer.c
+ctc W529: ["D:\Autosar\CodePackage\autosar_tc275_faultmonitor-V0.01\autosar_tc275_faultmonitor\Proj_Code\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_TimingProtection.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Trace.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_Trap.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Os_XSignal.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_Bm.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_Fm.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_IFQ.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_Lock.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_McQ.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_RmIf.c
+Compiling PduR_RmTp.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_RmTp_TxInst.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling PduR_Sm.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling vstdlib.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling AdcCdd.c
+Compiling CanInterCdd.c
+Compiling ComFaultCdd.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling IcuCdd.c
+Compiling IoHwAb.c
+Compiling NmCdd.c
+Compiling WakeUpCdd.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Adc_PBCfg.c
+Compiling Dio_PBCfg.c
+Compiling Gtm_LCfg.c
+Compiling Gtm_PBCfg.c
+Compiling Icu_17_GtmCcu6_PBCfg.c
+Compiling Mcu_PBCfg.c
+Compiling Port_PBCfg.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Adc.c
+Compiling Adc_Calibration.c
+Compiling Adc_ConvHandle.c
+Compiling Adc_HwHandle.c
+Compiling Adc_Ver.c
+Compiling Dio.c
+Compiling Dio_Ver.c
+ctc W537: ["..\_02_CDD\IcuCdd\IcuCdd.c" 99/16] unused variable "Revert_flag"
+0 errors, 1 warnings
+Compiling Icu_17_GtmCcu6.c
+ctc W523: ["..\_02_CDD\NmCdd\NmCdd.c" 51/68] pointers to different types at argument #2
+0 errors, 1 warnings
+Compiling Icu_17_GtmCcu6_Safe.c
+Compiling Icu_17_GtmCcu6_Ver.c
+Compiling SchM.c
+Compiling Test_Print.c
+Compiling Test_Setup.c
+Compiling Test_Time.c
+Compiling Adc_Irq.c
+Compiling Gtm_Irq.c
+Compiling Irq.c
+Compiling Mcal_Trap.c
+Compiling Mcal.c
+Compiling Mcal_DmaLib.c
+Compiling Mcal_TcLib.c
+Compiling Mcal_WdgLib.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Compiling Gtm.c
+ctc W537: ["..\_03_MCAL\Src\Intergration_general\src\Test_Print.c" 158/13] unused variable "ubOutputBuf"
+ctc W506: ["..\_03_MCAL\Src\Intergration_general\src\Test_Print.c" 942/36] variable "uwData" is not initialized
+0 errors, 2 warnings
+Compiling Gtm_Platform.c
+ctc W560: ["..\_03_MCAL\Src\Intergration_general\src\Test_Setup.c" 123/14] possible truncation at implicit conversion to type "char"
+ctc W537: ["..\_03_MCAL\Src\Intergration_general\src\Test_Setup.c" 252/21] unused variable "postAmble"
+0 errors, 2 warnings
+Compiling Mcu.c
+Compiling Mcu_Crc.c
+Compiling Mcu_Dma.c
+Compiling Mcu_Platform.c
+Compiling Mcu_Ver.c
+Compiling Port.c
+Compiling BrsHw.c
+Compiling BrsHwStartup.c
+Compiling BrsMain.c
+Compiling BrsMainStartup.c
+Compiling BrsTcc.c
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W505: ["..\_04_StartUp\BrsMainStartup.c" 153/7] implicit declaration of function "BrsHwUnlockInit"
+ctc W577: ["..\_04_StartUp\BrsMainStartup.c" 153/22] calling a function without a prototype
+ctc W505: ["..\_04_StartUp\BrsMainStartup.c" 155/7] implicit declaration of function "BrsHwLockInit"
+ctc W577: ["..\_04_StartUp\BrsMainStartup.c" 155/20] calling a function without a prototype
+ctc W505: ["..\_04_StartUp\BrsMainStartup.c" 158/5] implicit declaration of function "BrsHwUnlockInit"
+ctc W577: ["..\_04_StartUp\BrsMainStartup.c" 158/20] calling a function without a prototype
+ctc W505: ["..\_04_StartUp\BrsMainStartup.c" 160/5] implicit declaration of function "BrsHwLockInit"
+ctc W577: ["..\_04_StartUp\BrsMainStartup.c" 160/18] calling a function without a prototype
+0 errors, 8 warnings
+ctc W544: ["..\_01_BSW\Src\Os\Os_Isr.c" 550/22] unreachable code
+ctc W544: ["..\_01_BSW\Src\Os\Os_Isr.c" 619/22] unreachable code
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 3 warnings
+ctc W505: ["..\_04_StartUp\BrsMain.c" 852/2] implicit declaration of function "Mcal_ResetENDINIT"
+ctc W577: ["..\_04_StartUp\BrsMain.c" 852/19] calling a function without a prototype
+ctc W505: ["..\_04_StartUp\BrsMain.c" 858/2] implicit declaration of function "Mcal_SetENDINIT"
+ctc W577: ["..\_04_StartUp\BrsMain.c" 858/17] calling a function without a prototype
+0 errors, 4 warnings
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+ctc W555: ["..\_01_BSW\Src\Os\Os_Hook.c" 490/1] function declared with _Noreturn or __noreturn__ may return
+0 errors, 2 warnings
+ctc W544: ["..\_01_BSW\Src\Os\Os_Task.c" 610/26] unreachable code
+ctc W544: ["..\_01_BSW\Src\Os\Os_Task.c" 1217/22] unreachable code
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 3 warnings
+ctc W536: ["..\_01_BSW\Src\Dem\Dem_Nvm_Implementation.h" 265/1] unused static function "Dem_Nvm_SetTimeSeriesMemoryBlockState"
+0 errors, 1 warnings
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+ctc W529: ["..\_01_BSW\Src\Os\Os_Timer.h" 686/34] overflow in constant expression of type "unsigned long int"
+0 errors, 1 warnings
+Linking to TC275.elf
+ltc W159: LSL: section ".text.brsResetLabel" (function brsStartupEntry) was not selected because it already has an absolute restriction
+ltc W174: the locator symbol "_lc_ub_csa_tc0" matches multiple sections
+ltc W174: the locator symbol "_lc_ue_csa_tc0" matches multiple sections
+
+Time consumed: 60177 ms
+**** End of build ****
+
+Tool info: 
+TASKING VX-toolset for TriCore: control program v6.3r1 Build 19041558
+TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428
+TASKING VX-toolset for TriCore: assembler v6.3r1 Build 19041558
+TASKING program builder v6.3r1 Build 19041558
+TASKING VX-toolset for TriCore: object linker v6.3r1 Build 21092262 SN 73118428

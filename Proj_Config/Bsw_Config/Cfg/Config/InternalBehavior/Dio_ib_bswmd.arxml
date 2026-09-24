@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="075d6a25-500b-4eb0-8a0e-4696d4a04c0d">
+      <SHORT-NAME>AURIX</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="dd94fb57-fdf8-415d-89e2-33eee872408f">
+          <SHORT-NAME>Dio_ib_bswmd</SHORT-NAME>
+          <AR-PACKAGES>
+            <AR-PACKAGE UUID="6c4d6553-4095-4faf-94c1-18ed30f12ef7">
+              <SHORT-NAME>BswModuleDescriptions</SHORT-NAME>
+              <ELEMENTS>
+                <BSW-MODULE-DESCRIPTION UUID="b4d7c676-66ac-4e8b-bf26-16c84f39ff3b">
+                  <SHORT-NAME>Dio</SHORT-NAME>
+                  <INTERNAL-BEHAVIORS>
+                    <BSW-INTERNAL-BEHAVIOR UUID="af2dfd63-09f7-4cd7-9d5c-491c1b685912">
+                      <SHORT-NAME>DioBehavior</SHORT-NAME>
+                    </BSW-INTERNAL-BEHAVIOR>
+                  </INTERNAL-BEHAVIORS>
+                </BSW-MODULE-DESCRIPTION>
+              </ELEMENTS>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

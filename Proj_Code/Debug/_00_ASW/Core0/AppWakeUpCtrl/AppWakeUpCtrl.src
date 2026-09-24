@@ -1,0 +1,2362 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_00_ASW\\Core0\\AppWakeUpCtrl\\.AppWakeUpCtrl.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.src ..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c"
+	.compiler_name		"ctc"
+	;source	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.AppWakeUpCtrl.AppWakeUpCtrl_Init',code,cluster('AppWakeUpCtrl_Init')
+	.sect	'.text.AppWakeUpCtrl.AppWakeUpCtrl_Init'
+	.align	2
+	
+	.global	AppWakeUpCtrl_Init
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     1  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     2   *  FILE REQUIRES USER MODIFICATIONS
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     3   *  Template Scope: sections marked with Start and End comments
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     4   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     5   *  This file includes template code that must be completed and/or adapted during BSW integration.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     6   *  The template code is incomplete and only intended for providing a signature and an empty implementation.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     7   *  It is neither intended nor qualified for use in series production without applying suitable quality measures.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     8   *  The template code must be completed as described in the instructions given within this file and/or in the.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	     9   *  Technical Reference.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    10   *  The completed implementation must be tested with diligent care and must comply with all quality requirements which.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    11   *  are necessary according to the state of the art before its use.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    12   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    13  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    14   *  FILE DESCRIPTION
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    15   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    16   *             File:  AppWakeUpCtrl.c
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    17   *           Config:  E:/Embedded_Software_Develop/Project/Tc275_MultiCore_Proj/Code_Edit/XB_Tc275_Mulcore/Proj_Config/Bsw_Config/Cfg/TC27x.dpa
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    18   *        SW-C Type:  AppWakeUpCtrl
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    19   *  Generation Time:  2024-02-05 09:44:28
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    20   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    21   *        Generator:  MICROSAR RTE Generator Version 4.21.0
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    22   *                    RTE Core Version 1.21.0
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    23   *          License:  CBD1600956
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    24   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    25   *      Description:  C-Code implementation template for SW-C <AppWakeUpCtrl>
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    26   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    27  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    28  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    29  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    30   * DO NOT CHANGE THIS COMMENT!           << Start of version logging area >>                DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    31   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    32  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    33  /* PRQA S 0777, 0779 EOF */ /* MD_MSR_Rule5.1, MD_MSR_Rule5.2 */
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    34  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    35  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    36   * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    37   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    38  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    39  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    40   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    41   * AUTOSAR Modelling Object Descriptions
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    42   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    43   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    44   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    45   * Data Types:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    46   * ===========
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    47   * ComM_ModeType
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    48   *   uint8 represents integers with a minimum value of 0 and a maximum value of 255.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    49   *      The order-relation on uint8 is: x < y if y - x is positive.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    50   *      uint8 has a lexical representation consisting of a finite-length sequence 
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    51   *      of decimal digits (#x30-#x39).
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    52   *      
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    53   *      For example: 1, 0, 126, +10.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    54   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    55   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    56  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    57  #include "Rte_AppWakeUpCtrl.h"
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    58  #include "ComM.h"
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    59  #include "Dio.h"
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    60  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    61   * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    62   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    63  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    64  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    65  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    66   * DO NOT CHANGE THIS COMMENT!           << End of include and declaration area >>          DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    67   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    68  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    69  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    70  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    71   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    72   * Used AUTOSAR Data Types
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    73   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    74   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    75   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    76   * Primitive Types:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    77   * ================
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    78   * uint8: Integer in interval [0...255] (standard type)
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    79   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    80   * Enumeration Types:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    81   * ==================
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    82   * ComM_ModeType: Enumeration of integer in interval [0...3] with enumerators
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    83   *   COMM_NO_COMMUNICATION (0U)
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    84   *   COMM_SILENT_COMMUNICATION (1U)
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    85   *   COMM_FULL_COMMUNICATION (2U)
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    86   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    87   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    88  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    89  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    90  #define AppWakeUpCtrl_START_SEC_CODE
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    91  #include "AppWakeUpCtrl_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    92  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    93  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    94   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    95   * Runnable Entity Name: AppWakeUpCtrl_Init
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    96   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    97   *---------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    98   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	    99   * Executed once after the RTE is started
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   100   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   101   **********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   102   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   103   * Output Interfaces:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   104   * ==================
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   105   *   Explicit S/R API:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   106   *   -----------------
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   107   *   Std_ReturnType Rte_Write_App_ComM_Mode_Request_Request_Mode(ComM_ModeType data)
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   108   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   109   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   110  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   111   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   112   * Symbol: AppWakeUpCtrl_Init_doc
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   113   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   114  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   115  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   116  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   117   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   118   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   119  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   120  FUNC(void, AppWakeUpCtrl_CODE) AppWakeUpCtrl_Init(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function AppWakeUpCtrl_Init
+.L5:
+AppWakeUpCtrl_Init:	.type	func
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   121  {
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   122  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   123   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   124   * Symbol: AppWakeUpCtrl_Init
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   125   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   126  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   127  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   128   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   129   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   130  }
+	ret
+.L22:
+	
+__AppWakeUpCtrl_Init_function_end:
+	.size	AppWakeUpCtrl_Init,__AppWakeUpCtrl_Init_function_end-AppWakeUpCtrl_Init
+.L16:
+	; End of function
+	
+	.sdecl	'.text.AppWakeUpCtrl.AppWakeUpCtrl_MainFunction',code,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.text.AppWakeUpCtrl.AppWakeUpCtrl_MainFunction'
+	.align	2
+	
+	.global	AppWakeUpCtrl_MainFunction
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   131  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   132  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   133   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   134   * Runnable Entity Name: AppWakeUpCtrl_MainFunction
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   135   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   136   *---------------------------------------------------------------------------------------------------------------------
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   137   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   138   * Executed if at least one of the following trigger conditions occurred:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   139   *   - triggered on TimingEvent every 10ms
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   140   *
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   141   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   142  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   143   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   144   * Symbol: AppWakeUpCtrl_MainFunction_doc
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   145   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   146  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   147  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   148  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   149   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   150   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   151  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   152  FUNC(void, AppWakeUpCtrl_CODE) AppWakeUpCtrl_MainFunction(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function AppWakeUpCtrl_MainFunction
+.L7:
+AppWakeUpCtrl_MainFunction:	.type	func
+	sub.a	a10,#8
+.L27:
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   153  {
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   154  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   155   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   156   * Symbol: AppWakeUpCtrl_MainFunction
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   157   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   158    ComM_ModeType ComM_Mode;
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   159    IOHWAB_BOOL KL15_State;
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   160    IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read(&KL15_State);
+	lea	a4,[a10]0
+	call	IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+.L41:
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   161  	if(KL15_State == STD_HIGH)
+	ld.bu	d15,[a10]
+.L42:
+	jne	d15,#1,.L2
+.L43:
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   162  	{
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   163  		ComM_Mode = COMM_FULL_COMMUNICATION;
+	mov	d15,#2
+.L28:
+	j	.L3
+.L2:
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   164  	}
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   165  	else
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   166  	{
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   167  		ComM_Mode = COMM_NO_COMMUNICATION;
+	mov	d15,#0
+.L3:
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   168  	}
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   169  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   170  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   171  	Rte_Write_App_ComM_Mode_Request_Request_Mode(ComM_Mode);
+	movh.a	a15,#@his(Rte_AppWakeUpCtrl_App_ComM_Mode_Request_Request_Mode)
+	lea	a15,[a15]@los(Rte_AppWakeUpCtrl_App_ComM_Mode_Request_Request_Mode)
+	st.b	[a15],d15
+.L44:
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   172  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   173  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   174   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   175   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   176  }
+	ret
+.L23:
+	
+__AppWakeUpCtrl_MainFunction_function_end:
+	.size	AppWakeUpCtrl_MainFunction,__AppWakeUpCtrl_MainFunction_function_end-AppWakeUpCtrl_MainFunction
+.L21:
+	; End of function
+	
+	.calls	'AppWakeUpCtrl_MainFunction','IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read'
+	.calls	'AppWakeUpCtrl_Init','',0
+	.extern	Rte_AppWakeUpCtrl_App_ComM_Mode_Request_Request_Mode
+	.extern	IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+	.calls	'AppWakeUpCtrl_MainFunction','',8
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L9:
+	.word	12832
+	.half	3
+	.word	.L10
+	.byte	4
+.L8:
+	.byte	1
+	.byte	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L11
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	208
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	215
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	257
+	.byte	7
+	.word	257
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	273
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	278
+	.byte	9
+	.byte	'value',0
+	.word	257
+	.byte	9
+	.byte	'compare',0
+	.word	257
+	.byte	0
+.L24:
+	.byte	2
+	.byte	'unsigned char',0,1,8,7
+	.word	335
+	.byte	10
+	.byte	'IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read',0,1,78,44
+	.word	335
+	.byte	1,1,1,1,11
+	.byte	'IoHwAbOperationArgument',0,1,78,135,1
+	.word	352
+	.byte	0,12,1,7
+	.word	443
+	.byte	13
+	.byte	'__codeptr',0,2,1,1
+	.word	445
+	.byte	13
+	.byte	'boolean',0,3,124,31
+	.word	335
+	.byte	13
+	.byte	'uint8',0,3,127,31
+	.word	335
+	.byte	2
+	.byte	'unsigned short int',0,2,7,13
+	.byte	'uint16',0,3,129,1,31
+	.word	498
+	.byte	2
+	.byte	'unsigned long int',0,4,7,13
+	.byte	'uint32',0,3,131,1,31
+	.word	536
+	.byte	13
+	.byte	'uint8_least',0,3,134,1,31
+	.word	335
+	.byte	13
+	.byte	'Std_ReturnType',0,4,132,1,15
+	.word	335
+	.byte	13
+	.byte	'PduLengthType',0,5,53,16
+	.word	498
+	.byte	7
+	.word	335
+	.byte	13
+	.byte	'SduDataPtrType',0,6,196,1,54
+	.word	640
+	.byte	14,6,219,1,9,1,15
+	.byte	'TP_DATACONF',0,0,15
+	.byte	'TP_DATARETRY',0,1,15
+	.byte	'TP_CONFPENDING',0,2,0,13
+	.byte	'TpDataStateType',0,6,226,1,3
+	.word	669
+	.byte	13
+	.byte	'E_Sig_0x302_Used_1',0,7,37,16
+	.word	498
+	.byte	13
+	.byte	'E_Sig_0x302_Used_2',0,7,40,15
+	.word	335
+	.byte	13
+	.byte	'E_Sig_0x302_Used_3',0,7,43,15
+	.word	335
+	.byte	13
+	.byte	'F_AAA_Angle',0,7,46,15
+	.word	335
+	.byte	13
+	.byte	'F_Button1_State',0,7,49,15
+	.word	335
+	.byte	13
+	.byte	'F_Button2_State',0,7,52,15
+	.word	335
+	.byte	13
+	.byte	'F_Button3_State',0,7,55,15
+	.word	335
+	.byte	13
+	.byte	'F_Button4_State',0,7,58,15
+	.word	335
+	.byte	13
+	.byte	'F_Meg_E2E_Error',0,7,61,15
+	.word	335
+	.byte	13
+	.byte	'F_Mes_Lost_Error',0,7,64,15
+	.word	335
+	.byte	13
+	.byte	'F_PowerMode',0,7,67,15
+	.word	335
+	.byte	13
+	.byte	'F_Sig_0x214_Used_1',0,7,70,16
+	.word	498
+	.byte	13
+	.byte	'F_Sig_0x214_Used_2',0,7,73,16
+	.word	498
+	.byte	13
+	.byte	'F_Sig_0x214_Used_3',0,7,76,16
+	.word	498
+	.byte	13
+	.byte	'F_Sig_0x214_Used_5',0,7,79,16
+	.word	498
+	.byte	13
+	.byte	'SupD_Checksum_0x300',0,7,85,15
+	.word	335
+	.byte	13
+	.byte	'SupD_Checksum_0x304',0,7,88,15
+	.word	335
+	.byte	13
+	.byte	'SupD_Counter_0x300',0,7,91,15
+	.word	335
+	.byte	13
+	.byte	'SupD_Counter_0x304',0,7,94,15
+	.word	335
+	.byte	13
+	.byte	'SupF_Checksum_0x212',0,7,97,15
+	.word	335
+	.byte	13
+	.byte	'SupF_Counter_0x212',0,7,100,15
+	.word	335
+	.byte	13
+	.byte	'D_Button1_Control',0,7,103,15
+	.word	335
+	.byte	13
+	.byte	'D_Button2_Control',0,7,106,15
+	.word	335
+	.byte	13
+	.byte	'D_Button3_Control',0,7,109,15
+	.word	335
+	.byte	13
+	.byte	'D_Button4_Control',0,7,112,15
+	.word	335
+	.byte	13
+	.byte	'D_Led1_Control',0,7,115,15
+	.word	335
+	.byte	13
+	.byte	'D_Led1_CtrlMode',0,7,118,15
+	.word	335
+	.byte	13
+	.byte	'D_Led2_Control',0,7,121,15
+	.word	335
+	.byte	13
+	.byte	'D_Led2_CtrlMode',0,7,124,15
+	.word	335
+	.byte	13
+	.byte	'D_Led3_Control',0,7,127,15
+	.word	335
+	.byte	13
+	.byte	'D_Led3_CtrlMode',0,7,130,1,15
+	.word	335
+	.byte	13
+	.byte	'D_Led4_Control',0,7,133,1,15
+	.word	335
+	.byte	13
+	.byte	'D_Led4_CtrlMode',0,7,136,1,15
+	.word	335
+	.byte	13
+	.byte	'F_Led1_State',0,7,139,1,15
+	.word	335
+	.byte	13
+	.byte	'F_Led2_State',0,7,142,1,15
+	.word	335
+	.byte	13
+	.byte	'F_Led3_State',0,7,145,1,15
+	.word	335
+	.byte	13
+	.byte	'F_Led4_State',0,7,148,1,15
+	.word	335
+	.byte	13
+	.byte	'ComM_InhibitionStatusType',0,7,137,2,15
+	.word	335
+	.byte	13
+	.byte	'IOHWAB_BOOL',0,7,161,2,17
+	.word	335
+	.byte	13
+	.byte	'ComM_ModeType',0,7,173,2,15
+	.word	335
+	.byte	13
+	.byte	'AAA_Angle',0,7,147,3,15
+	.word	335
+	.byte	13
+	.byte	'Button1_Control',0,7,150,3,17
+	.word	335
+	.byte	13
+	.byte	'Button1_State',0,7,153,3,17
+	.word	335
+	.byte	13
+	.byte	'Button2_Control',0,7,156,3,17
+	.word	335
+	.byte	13
+	.byte	'Button2_State',0,7,159,3,17
+	.word	335
+	.byte	13
+	.byte	'Button3_Control',0,7,162,3,17
+	.word	335
+	.byte	13
+	.byte	'Button3_State',0,7,165,3,17
+	.word	335
+	.byte	13
+	.byte	'Button4_Control',0,7,168,3,17
+	.word	335
+	.byte	13
+	.byte	'Button4_State',0,7,171,3,17
+	.word	335
+	.byte	13
+	.byte	'CrcSig_Pack_3',0,7,183,3,15
+	.word	335
+	.byte	13
+	.byte	'CrcSig_Pack_4',0,7,186,3,16
+	.word	536
+	.byte	13
+	.byte	'CrcSig_Pack_5',0,7,189,3,16
+	.word	536
+	.byte	13
+	.byte	'Led1_Control_1',0,7,195,3,17
+	.word	335
+	.byte	13
+	.byte	'Led1_State',0,7,198,3,17
+	.word	335
+	.byte	13
+	.byte	'Led2_Control_1',0,7,204,3,17
+	.word	335
+	.byte	13
+	.byte	'Led2_State',0,7,207,3,17
+	.word	335
+	.byte	13
+	.byte	'Led3_Control_1',0,7,213,3,17
+	.word	335
+	.byte	13
+	.byte	'Led3_State',0,7,216,3,17
+	.word	335
+	.byte	13
+	.byte	'Led4_Control_1',0,7,222,3,17
+	.word	335
+	.byte	13
+	.byte	'Led4_State',0,7,225,3,17
+	.word	335
+	.byte	13
+	.byte	'PowerMode',0,7,228,3,15
+	.word	335
+	.byte	13
+	.byte	'Sig_0x114_Used_1',0,7,231,3,15
+	.word	335
+	.byte	13
+	.byte	'Sig_0x114_Used_2',0,7,234,3,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x114_Used_3',0,7,237,3,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x114_Used_4',0,7,240,3,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x114_Used_5',0,7,243,3,15
+	.word	335
+	.byte	13
+	.byte	'Sig_0x114_Used_6',0,7,246,3,15
+	.word	335
+	.byte	13
+	.byte	'Sig_0x402_Used_1',0,7,249,3,15
+	.word	335
+	.byte	13
+	.byte	'Sig_0x402_Used_2',0,7,252,3,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x402_Used_3',0,7,255,3,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x402_Used_4',0,7,130,4,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x402_Used_5',0,7,133,4,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x403_Used_1',0,7,136,4,15
+	.word	335
+	.byte	13
+	.byte	'Sig_0x403_Used_2',0,7,139,4,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x403_Used_3',0,7,142,4,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x403_Used_4',0,7,145,4,16
+	.word	498
+	.byte	13
+	.byte	'Sig_0x403_Used_5',0,7,148,4,16
+	.word	498
+	.byte	13
+	.byte	'SupA_Checksum_0x112',0,7,151,4,15
+	.word	335
+	.byte	13
+	.byte	'SupA_Counter_0x112',0,7,154,4,15
+	.word	335
+	.byte	13
+	.byte	'SupB_Checksum_0x400_1',0,7,160,4,15
+	.word	335
+	.byte	13
+	.byte	'SupB_Counter_0x400_1',0,7,166,4,15
+	.word	335
+	.byte	16
+	.byte	'Rte_AppWakeUpCtrl_App_ComM_Mode_Request_Request_Mode',0,1,56,41
+	.word	335
+	.byte	1,1,13
+	.byte	'ComM_ChannelIterType',0,8,192,3,21
+	.word	335
+	.byte	13
+	.byte	'ComM_NmSupportOfChannelType',0,8,234,3,17
+	.word	335
+	.byte	13
+	.byte	'ComM_NmTypeOfChannelType',0,8,237,3,15
+	.word	335
+	.byte	13
+	.byte	'ComM_SilentSupportOfChannelType',0,8,240,3,17
+	.word	335
+	.byte	13
+	.byte	'ComM_WakeupStateOfChannelType',0,8,243,3,15
+	.word	335
+	.byte	13
+	.byte	'ComM_UserReqFullComEndIdxOfChannelPbType',0,8,246,3,15
+	.word	335
+	.byte	13
+	.byte	'ComM_UserReqFullComStartIdxOfChannelPbType',0,8,249,3,15
+	.word	335
+	.byte	13
+	.byte	'ComM_DcmRequestActiveType',0,8,255,3,17
+	.word	335
+	.byte	13
+	.byte	'ComM_PncUserOfUserType',0,8,148,4,17
+	.word	335
+	.byte	13
+	.byte	'ComM_UserByteMaskEndIdxOfUserType',0,8,151,4,15
+	.word	335
+	.byte	13
+	.byte	'ComM_UserByteMaskStartIdxOfUserType',0,8,154,4,15
+	.word	335
+	.byte	13
+	.byte	'ComM_ChannelOfUserByteMaskType',0,8,160,4,15
+	.word	335
+	.byte	13
+	.byte	'ComM_UserReqFullComIdxOfUserByteMaskType',0,8,169,4,15
+	.word	335
+	.byte	13
+	.byte	'ComM_UserReqFullComType',0,8,172,4,15
+	.word	335
+	.byte	17
+	.byte	'sComM_ChannelType',0,8,188,4,16,4,18
+	.byte	'NmSupportOfChannel',0
+	.word	335
+	.byte	1,2,35,0,18
+	.byte	'SilentSupportOfChannel',0
+	.word	335
+	.byte	1,2,35,1,18
+	.byte	'NmTypeOfChannel',0
+	.word	335
+	.byte	1,2,35,2,18
+	.byte	'WakeupStateOfChannel',0
+	.word	335
+	.byte	1,2,35,3,0,13
+	.byte	'ComM_ChannelType',0,8,194,4,3
+	.word	3381
+	.byte	17
+	.byte	'sComM_ChannelPbType',0,8,197,4,16,2,18
+	.byte	'UserReqFullComEndIdxOfChannelPb',0
+	.word	335
+	.byte	1,2,35,0,18
+	.byte	'UserReqFullComStartIdxOfChannelPb',0
+	.word	335
+	.byte	1,2,35,1,0,13
+	.byte	'ComM_ChannelPbType',0,8,201,4,3
+	.word	3547
+	.byte	17
+	.byte	'sComM_UserType',0,8,204,4,16,4,18
+	.byte	'PncUserOfUser',0
+	.word	335
+	.byte	1,2,35,0,18
+	.byte	'UserByteMaskEndIdxOfUser',0
+	.word	335
+	.byte	1,2,35,1,18
+	.byte	'UserByteMaskStartIdxOfUser',0
+	.word	335
+	.byte	1,2,35,2,0,13
+	.byte	'ComM_UserType',0,8,209,4,3
+	.word	3686
+	.byte	17
+	.byte	'sComM_UserByteMaskType',0,8,212,4,16,2,18
+	.byte	'ChannelOfUserByteMask',0
+	.word	335
+	.byte	1,2,35,0,18
+	.byte	'UserReqFullComIdxOfUserByteMask',0
+	.word	335
+	.byte	1,2,35,1,0,13
+	.byte	'ComM_UserByteMaskType',0,8,216,4,3
+	.word	3824
+	.byte	17
+	.byte	'ComM_DcmRequestActiveStructSTag',0,8,228,4,16,2,18
+	.byte	'ComMChannel_0',0
+	.word	335
+	.byte	1,2,35,0,18
+	.byte	'ComMChannel_1',0
+	.word	335
+	.byte	1,2,35,1,0,13
+	.byte	'ComM_DcmRequestActiveStructSType',0,8,232,4,3
+	.word	3957
+	.byte	17
+	.byte	'sComM_PCConfigType',0,8,159,5,16,1,18
+	.byte	'ComM_PCConfigNeverUsed',0
+	.word	335
+	.byte	1,2,35,0,0,13
+	.byte	'ComM_PCConfigType',0,8,162,5,3
+	.word	4084
+	.byte	17
+	.byte	'_Ifx_P_ACCEN0_Bits',0,9,45,16,4,19
+	.byte	'EN0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'EN1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'EN2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'EN3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'EN4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'EN5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'EN6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'EN7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'EN8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'EN9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'EN10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'EN11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'EN12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'EN13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'EN14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'EN15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'EN16',0,1
+	.word	335
+	.byte	1,7,2,35,2,19
+	.byte	'EN17',0,1
+	.word	335
+	.byte	1,6,2,35,2,19
+	.byte	'EN18',0,1
+	.word	335
+	.byte	1,5,2,35,2,19
+	.byte	'EN19',0,1
+	.word	335
+	.byte	1,4,2,35,2,19
+	.byte	'EN20',0,1
+	.word	335
+	.byte	1,3,2,35,2,19
+	.byte	'EN21',0,1
+	.word	335
+	.byte	1,2,2,35,2,19
+	.byte	'EN22',0,1
+	.word	335
+	.byte	1,1,2,35,2,19
+	.byte	'EN23',0,1
+	.word	335
+	.byte	1,0,2,35,2,19
+	.byte	'EN24',0,1
+	.word	335
+	.byte	1,7,2,35,3,19
+	.byte	'EN25',0,1
+	.word	335
+	.byte	1,6,2,35,3,19
+	.byte	'EN26',0,1
+	.word	335
+	.byte	1,5,2,35,3,19
+	.byte	'EN27',0,1
+	.word	335
+	.byte	1,4,2,35,3,19
+	.byte	'EN28',0,1
+	.word	335
+	.byte	1,3,2,35,3,19
+	.byte	'EN29',0,1
+	.word	335
+	.byte	1,2,2,35,3,19
+	.byte	'EN30',0,1
+	.word	335
+	.byte	1,1,2,35,3,19
+	.byte	'EN31',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_ACCEN0_Bits',0,9,79,3
+	.word	4169
+	.byte	17
+	.byte	'_Ifx_P_ACCEN1_Bits',0,9,82,16,4,19
+	.byte	'reserved_0',0,4
+	.word	257
+	.byte	32,0,2,35,0,0,13
+	.byte	'Ifx_P_ACCEN1_Bits',0,9,85,3
+	.word	4722
+	.byte	17
+	.byte	'_Ifx_P_ESR_Bits',0,9,88,16,4,19
+	.byte	'EN0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'EN1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'EN2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'EN3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'EN4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'EN5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'EN6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'EN7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'EN8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'EN9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'EN10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'EN11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'EN12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'EN13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'EN14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'EN15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_ESR_Bits',0,9,107,3
+	.word	4795
+	.byte	17
+	.byte	'_Ifx_P_ID_Bits',0,9,110,16,4,19
+	.byte	'MODREV',0,1
+	.word	335
+	.byte	8,0,2,35,0,19
+	.byte	'MODTYPE',0,1
+	.word	335
+	.byte	8,0,2,35,1,19
+	.byte	'MODNUMBER',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_ID_Bits',0,9,115,3
+	.word	5109
+	.byte	17
+	.byte	'_Ifx_P_IN_Bits',0,9,118,16,4,19
+	.byte	'P0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'P1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'P2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'P3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'P4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'P5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'P6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'P7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'P8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'P9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'P10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'P11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'P12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'P13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'P14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'P15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_IN_Bits',0,9,137,1,3
+	.word	5210
+	.byte	17
+	.byte	'_Ifx_P_IOCR0_Bits',0,9,140,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	3,5,2,35,0,19
+	.byte	'PC0',0,1
+	.word	335
+	.byte	5,0,2,35,0,19
+	.byte	'reserved_8',0,1
+	.word	335
+	.byte	3,5,2,35,1,19
+	.byte	'PC1',0,1
+	.word	335
+	.byte	5,0,2,35,1,19
+	.byte	'reserved_16',0,1
+	.word	335
+	.byte	3,5,2,35,2,19
+	.byte	'PC2',0,1
+	.word	335
+	.byte	5,0,2,35,2,19
+	.byte	'reserved_24',0,1
+	.word	335
+	.byte	3,5,2,35,3,19
+	.byte	'PC3',0,1
+	.word	335
+	.byte	5,0,2,35,3,0,13
+	.byte	'Ifx_P_IOCR0_Bits',0,9,150,1,3
+	.word	5507
+	.byte	17
+	.byte	'_Ifx_P_IOCR12_Bits',0,9,153,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	3,5,2,35,0,19
+	.byte	'PC12',0,1
+	.word	335
+	.byte	5,0,2,35,0,19
+	.byte	'reserved_8',0,1
+	.word	335
+	.byte	3,5,2,35,1,19
+	.byte	'PC13',0,1
+	.word	335
+	.byte	5,0,2,35,1,19
+	.byte	'reserved_16',0,1
+	.word	335
+	.byte	3,5,2,35,2,19
+	.byte	'PC14',0,1
+	.word	335
+	.byte	5,0,2,35,2,19
+	.byte	'reserved_24',0,1
+	.word	335
+	.byte	3,5,2,35,3,19
+	.byte	'PC15',0,1
+	.word	335
+	.byte	5,0,2,35,3,0,13
+	.byte	'Ifx_P_IOCR12_Bits',0,9,163,1,3
+	.word	5708
+	.byte	17
+	.byte	'_Ifx_P_IOCR4_Bits',0,9,166,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	3,5,2,35,0,19
+	.byte	'PC4',0,1
+	.word	335
+	.byte	5,0,2,35,0,19
+	.byte	'reserved_8',0,1
+	.word	335
+	.byte	3,5,2,35,1,19
+	.byte	'PC5',0,1
+	.word	335
+	.byte	5,0,2,35,1,19
+	.byte	'reserved_16',0,1
+	.word	335
+	.byte	3,5,2,35,2,19
+	.byte	'PC6',0,1
+	.word	335
+	.byte	5,0,2,35,2,19
+	.byte	'reserved_24',0,1
+	.word	335
+	.byte	3,5,2,35,3,19
+	.byte	'PC7',0,1
+	.word	335
+	.byte	5,0,2,35,3,0,13
+	.byte	'Ifx_P_IOCR4_Bits',0,9,176,1,3
+	.word	5915
+	.byte	17
+	.byte	'_Ifx_P_IOCR8_Bits',0,9,179,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	3,5,2,35,0,19
+	.byte	'PC8',0,1
+	.word	335
+	.byte	5,0,2,35,0,19
+	.byte	'reserved_8',0,1
+	.word	335
+	.byte	3,5,2,35,1,19
+	.byte	'PC9',0,1
+	.word	335
+	.byte	5,0,2,35,1,19
+	.byte	'reserved_16',0,1
+	.word	335
+	.byte	3,5,2,35,2,19
+	.byte	'PC10',0,1
+	.word	335
+	.byte	5,0,2,35,2,19
+	.byte	'reserved_24',0,1
+	.word	335
+	.byte	3,5,2,35,3,19
+	.byte	'PC11',0,1
+	.word	335
+	.byte	5,0,2,35,3,0,13
+	.byte	'Ifx_P_IOCR8_Bits',0,9,189,1,3
+	.word	6116
+	.byte	17
+	.byte	'_Ifx_P_LPCR0_Bits',0,9,192,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'PS1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'reserved_2',0,4
+	.word	257
+	.byte	30,0,2,35,0,0,13
+	.byte	'Ifx_P_LPCR0_Bits',0,9,197,1,3
+	.word	6319
+	.byte	17
+	.byte	'_Ifx_P_LPCR1_Bits',0,9,200,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'PS1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'reserved_2',0,4
+	.word	257
+	.byte	30,0,2,35,0,0,13
+	.byte	'Ifx_P_LPCR1_Bits',0,9,205,1,3
+	.word	6429
+	.byte	17
+	.byte	'_Ifx_P_LPCR1_P21_Bits',0,9,208,1,16,4,19
+	.byte	'RDIS_CTRL',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'RX_DIS',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'TERM',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'LRXTERM',0,1
+	.word	335
+	.byte	5,0,2,35,0,19
+	.byte	'reserved_8',0,4
+	.word	257
+	.byte	24,0,2,35,0,0,13
+	.byte	'Ifx_P_LPCR1_P21_Bits',0,9,215,1,3
+	.word	6539
+	.byte	17
+	.byte	'_Ifx_P_LPCR2_Bits',0,9,218,1,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	8,0,2,35,0,19
+	.byte	'LVDSR',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'LVDSRL',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'reserved_10',0,1
+	.word	335
+	.byte	2,4,2,35,1,19
+	.byte	'TDIS_CTRL',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'TX_DIS',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'TX_PD',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'TX_PWDPD',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_LPCR2_Bits',0,9,229,1,3
+	.word	6694
+	.byte	17
+	.byte	'_Ifx_P_OMCR0_Bits',0,9,232,1,16,4,19
+	.byte	'reserved_0',0,2
+	.word	498
+	.byte	16,0,2,35,0,19
+	.byte	'PCL0',0,1
+	.word	335
+	.byte	1,7,2,35,2,19
+	.byte	'PCL1',0,1
+	.word	335
+	.byte	1,6,2,35,2,19
+	.byte	'PCL2',0,1
+	.word	335
+	.byte	1,5,2,35,2,19
+	.byte	'PCL3',0,1
+	.word	335
+	.byte	1,4,2,35,2,19
+	.byte	'reserved_20',0,2
+	.word	498
+	.byte	12,0,2,35,2,0,13
+	.byte	'Ifx_P_OMCR0_Bits',0,9,240,1,3
+	.word	6924
+	.byte	17
+	.byte	'_Ifx_P_OMCR12_Bits',0,9,243,1,16,4,19
+	.byte	'reserved_0',0,4
+	.word	257
+	.byte	28,4,2,35,0,19
+	.byte	'PCL12',0,1
+	.word	335
+	.byte	1,3,2,35,3,19
+	.byte	'PCL13',0,1
+	.word	335
+	.byte	1,2,2,35,3,19
+	.byte	'PCL14',0,1
+	.word	335
+	.byte	1,1,2,35,3,19
+	.byte	'PCL15',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_OMCR12_Bits',0,9,250,1,3
+	.word	7084
+	.byte	17
+	.byte	'_Ifx_P_OMCR4_Bits',0,9,253,1,16,4,19
+	.byte	'reserved_0',0,4
+	.word	257
+	.byte	20,12,2,35,0,19
+	.byte	'PCL4',0,1
+	.word	335
+	.byte	1,3,2,35,2,19
+	.byte	'PCL5',0,1
+	.word	335
+	.byte	1,2,2,35,2,19
+	.byte	'PCL6',0,1
+	.word	335
+	.byte	1,1,2,35,2,19
+	.byte	'PCL7',0,1
+	.word	335
+	.byte	1,0,2,35,2,19
+	.byte	'reserved_24',0,1
+	.word	335
+	.byte	8,0,2,35,3,0,13
+	.byte	'Ifx_P_OMCR4_Bits',0,9,133,2,3
+	.word	7227
+	.byte	17
+	.byte	'_Ifx_P_OMCR8_Bits',0,9,136,2,16,4,19
+	.byte	'reserved_0',0,4
+	.word	257
+	.byte	24,8,2,35,0,19
+	.byte	'PCL8',0,1
+	.word	335
+	.byte	1,7,2,35,3,19
+	.byte	'PCL9',0,1
+	.word	335
+	.byte	1,6,2,35,3,19
+	.byte	'PCL10',0,1
+	.word	335
+	.byte	1,5,2,35,3,19
+	.byte	'PCL11',0,1
+	.word	335
+	.byte	1,4,2,35,3,19
+	.byte	'reserved_28',0,1
+	.word	335
+	.byte	4,0,2,35,3,0,13
+	.byte	'Ifx_P_OMCR8_Bits',0,9,144,2,3
+	.word	7387
+	.byte	17
+	.byte	'_Ifx_P_OMCR_Bits',0,9,147,2,16,4,19
+	.byte	'reserved_0',0,2
+	.word	498
+	.byte	16,0,2,35,0,19
+	.byte	'PCL0',0,1
+	.word	335
+	.byte	1,7,2,35,2,19
+	.byte	'PCL1',0,1
+	.word	335
+	.byte	1,6,2,35,2,19
+	.byte	'PCL2',0,1
+	.word	335
+	.byte	1,5,2,35,2,19
+	.byte	'PCL3',0,1
+	.word	335
+	.byte	1,4,2,35,2,19
+	.byte	'PCL4',0,1
+	.word	335
+	.byte	1,3,2,35,2,19
+	.byte	'PCL5',0,1
+	.word	335
+	.byte	1,2,2,35,2,19
+	.byte	'PCL6',0,1
+	.word	335
+	.byte	1,1,2,35,2,19
+	.byte	'PCL7',0,1
+	.word	335
+	.byte	1,0,2,35,2,19
+	.byte	'PCL8',0,1
+	.word	335
+	.byte	1,7,2,35,3,19
+	.byte	'PCL9',0,1
+	.word	335
+	.byte	1,6,2,35,3,19
+	.byte	'PCL10',0,1
+	.word	335
+	.byte	1,5,2,35,3,19
+	.byte	'PCL11',0,1
+	.word	335
+	.byte	1,4,2,35,3,19
+	.byte	'PCL12',0,1
+	.word	335
+	.byte	1,3,2,35,3,19
+	.byte	'PCL13',0,1
+	.word	335
+	.byte	1,2,2,35,3,19
+	.byte	'PCL14',0,1
+	.word	335
+	.byte	1,1,2,35,3,19
+	.byte	'PCL15',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_OMCR_Bits',0,9,166,2,3
+	.word	7549
+	.byte	17
+	.byte	'_Ifx_P_OMR_Bits',0,9,169,2,16,4,19
+	.byte	'PS0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'PS1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'PS2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'PS3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'PS4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'PS5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'PS6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'PS7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'PS8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'PS9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'PS10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'PS11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'PS12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'PS13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'PS14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'PS15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'PCL0',0,1
+	.word	335
+	.byte	1,7,2,35,2,19
+	.byte	'PCL1',0,1
+	.word	335
+	.byte	1,6,2,35,2,19
+	.byte	'PCL2',0,1
+	.word	335
+	.byte	1,5,2,35,2,19
+	.byte	'PCL3',0,1
+	.word	335
+	.byte	1,4,2,35,2,19
+	.byte	'PCL4',0,1
+	.word	335
+	.byte	1,3,2,35,2,19
+	.byte	'PCL5',0,1
+	.word	335
+	.byte	1,2,2,35,2,19
+	.byte	'PCL6',0,1
+	.word	335
+	.byte	1,1,2,35,2,19
+	.byte	'PCL7',0,1
+	.word	335
+	.byte	1,0,2,35,2,19
+	.byte	'PCL8',0,1
+	.word	335
+	.byte	1,7,2,35,3,19
+	.byte	'PCL9',0,1
+	.word	335
+	.byte	1,6,2,35,3,19
+	.byte	'PCL10',0,1
+	.word	335
+	.byte	1,5,2,35,3,19
+	.byte	'PCL11',0,1
+	.word	335
+	.byte	1,4,2,35,3,19
+	.byte	'PCL12',0,1
+	.word	335
+	.byte	1,3,2,35,3,19
+	.byte	'PCL13',0,1
+	.word	335
+	.byte	1,2,2,35,3,19
+	.byte	'PCL14',0,1
+	.word	335
+	.byte	1,1,2,35,3,19
+	.byte	'PCL15',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_OMR_Bits',0,9,203,2,3
+	.word	7882
+	.byte	17
+	.byte	'_Ifx_P_OMSR0_Bits',0,9,206,2,16,4,19
+	.byte	'PS0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'PS1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'PS2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'PS3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'reserved_4',0,4
+	.word	257
+	.byte	28,0,2,35,0,0,13
+	.byte	'Ifx_P_OMSR0_Bits',0,9,213,2,3
+	.word	8437
+	.byte	17
+	.byte	'_Ifx_P_OMSR12_Bits',0,9,216,2,16,4,19
+	.byte	'reserved_0',0,2
+	.word	498
+	.byte	12,4,2,35,0,19
+	.byte	'PS12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'PS13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'PS14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'PS15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_OMSR12_Bits',0,9,224,2,3
+	.word	8570
+	.byte	17
+	.byte	'_Ifx_P_OMSR4_Bits',0,9,227,2,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	4,4,2,35,0,19
+	.byte	'PS4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'PS5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'PS6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'PS7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'reserved_8',0,4
+	.word	257
+	.byte	24,0,2,35,0,0,13
+	.byte	'Ifx_P_OMSR4_Bits',0,9,235,2,3
+	.word	8732
+	.byte	17
+	.byte	'_Ifx_P_OMSR8_Bits',0,9,238,2,16,4,19
+	.byte	'reserved_0',0,1
+	.word	335
+	.byte	8,0,2,35,0,19
+	.byte	'PS8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'PS9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'PS10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'PS11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'reserved_12',0,4
+	.word	257
+	.byte	20,0,2,35,0,0,13
+	.byte	'Ifx_P_OMSR8_Bits',0,9,246,2,3
+	.word	8887
+	.byte	17
+	.byte	'_Ifx_P_OMSR_Bits',0,9,249,2,16,4,19
+	.byte	'PS0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'PS1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'PS2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'PS3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'PS4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'PS5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'PS6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'PS7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'PS8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'PS9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'PS10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'PS11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'PS12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'PS13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'PS14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'PS15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_OMSR_Bits',0,9,140,3,3
+	.word	9045
+	.byte	17
+	.byte	'_Ifx_P_OUT_Bits',0,9,143,3,16,4,19
+	.byte	'P0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'P1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'P2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'P3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'P4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'P5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'P6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'P7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'P8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'P9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'P10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'P11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'P12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'P13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'P14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'P15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_OUT_Bits',0,9,162,3,3
+	.word	9363
+	.byte	17
+	.byte	'_Ifx_P_PCSR_Bits',0,9,165,3,16,4,19
+	.byte	'SEL0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'SEL1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'SEL2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'SEL3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'SEL4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'SEL5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'SEL6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'reserved_7',0,2
+	.word	498
+	.byte	3,6,2,35,0,19
+	.byte	'SEL10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'SEL11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'reserved_12',0,4
+	.word	257
+	.byte	19,1,2,35,0,19
+	.byte	'LCK',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_PCSR_Bits',0,9,179,3,3
+	.word	9663
+	.byte	17
+	.byte	'_Ifx_P_PDISC_Bits',0,9,182,3,16,4,19
+	.byte	'PDIS0',0,1
+	.word	335
+	.byte	1,7,2,35,0,19
+	.byte	'PDIS1',0,1
+	.word	335
+	.byte	1,6,2,35,0,19
+	.byte	'PDIS2',0,1
+	.word	335
+	.byte	1,5,2,35,0,19
+	.byte	'PDIS3',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'PDIS4',0,1
+	.word	335
+	.byte	1,3,2,35,0,19
+	.byte	'PDIS5',0,1
+	.word	335
+	.byte	1,2,2,35,0,19
+	.byte	'PDIS6',0,1
+	.word	335
+	.byte	1,1,2,35,0,19
+	.byte	'PDIS7',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'PDIS8',0,1
+	.word	335
+	.byte	1,7,2,35,1,19
+	.byte	'PDIS9',0,1
+	.word	335
+	.byte	1,6,2,35,1,19
+	.byte	'PDIS10',0,1
+	.word	335
+	.byte	1,5,2,35,1,19
+	.byte	'PDIS11',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'PDIS12',0,1
+	.word	335
+	.byte	1,3,2,35,1,19
+	.byte	'PDIS13',0,1
+	.word	335
+	.byte	1,2,2,35,1,19
+	.byte	'PDIS14',0,1
+	.word	335
+	.byte	1,1,2,35,1,19
+	.byte	'PDIS15',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'reserved_16',0,2
+	.word	498
+	.byte	16,0,2,35,2,0,13
+	.byte	'Ifx_P_PDISC_Bits',0,9,201,3,3
+	.word	9918
+	.byte	17
+	.byte	'_Ifx_P_PDR0_Bits',0,9,204,3,16,4,19
+	.byte	'PD0',0,1
+	.word	335
+	.byte	3,5,2,35,0,19
+	.byte	'PL0',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'PD1',0,1
+	.word	335
+	.byte	3,1,2,35,0,19
+	.byte	'PL1',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'PD2',0,1
+	.word	335
+	.byte	3,5,2,35,1,19
+	.byte	'PL2',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'PD3',0,1
+	.word	335
+	.byte	3,1,2,35,1,19
+	.byte	'PL3',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'PD4',0,1
+	.word	335
+	.byte	3,5,2,35,2,19
+	.byte	'PL4',0,1
+	.word	335
+	.byte	1,4,2,35,2,19
+	.byte	'PD5',0,1
+	.word	335
+	.byte	3,1,2,35,2,19
+	.byte	'PL5',0,1
+	.word	335
+	.byte	1,0,2,35,2,19
+	.byte	'PD6',0,1
+	.word	335
+	.byte	3,5,2,35,3,19
+	.byte	'PL6',0,1
+	.word	335
+	.byte	1,4,2,35,3,19
+	.byte	'PD7',0,1
+	.word	335
+	.byte	3,1,2,35,3,19
+	.byte	'PL7',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_PDR0_Bits',0,9,222,3,3
+	.word	10270
+	.byte	17
+	.byte	'_Ifx_P_PDR1_Bits',0,9,225,3,16,4,19
+	.byte	'PD8',0,1
+	.word	335
+	.byte	3,5,2,35,0,19
+	.byte	'PL8',0,1
+	.word	335
+	.byte	1,4,2,35,0,19
+	.byte	'PD9',0,1
+	.word	335
+	.byte	3,1,2,35,0,19
+	.byte	'PL9',0,1
+	.word	335
+	.byte	1,0,2,35,0,19
+	.byte	'PD10',0,1
+	.word	335
+	.byte	3,5,2,35,1,19
+	.byte	'PL10',0,1
+	.word	335
+	.byte	1,4,2,35,1,19
+	.byte	'PD11',0,1
+	.word	335
+	.byte	3,1,2,35,1,19
+	.byte	'PL11',0,1
+	.word	335
+	.byte	1,0,2,35,1,19
+	.byte	'PD12',0,1
+	.word	335
+	.byte	3,5,2,35,2,19
+	.byte	'PL12',0,1
+	.word	335
+	.byte	1,4,2,35,2,19
+	.byte	'PD13',0,1
+	.word	335
+	.byte	3,1,2,35,2,19
+	.byte	'PL13',0,1
+	.word	335
+	.byte	1,0,2,35,2,19
+	.byte	'PD14',0,1
+	.word	335
+	.byte	3,5,2,35,3,19
+	.byte	'PL14',0,1
+	.word	335
+	.byte	1,4,2,35,3,19
+	.byte	'PD15',0,1
+	.word	335
+	.byte	3,1,2,35,3,19
+	.byte	'PL15',0,1
+	.word	335
+	.byte	1,0,2,35,3,0,13
+	.byte	'Ifx_P_PDR1_Bits',0,9,243,3,3
+	.word	10559
+	.byte	20,9,251,3,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	4169
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_ACCEN0',0,9,128,4,3
+	.word	10860
+	.byte	20,9,131,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	4722
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_ACCEN1',0,9,136,4,3
+	.word	10922
+	.byte	20,9,139,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	4795
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_ESR',0,9,144,4,3
+	.word	10984
+	.byte	20,9,147,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	5109
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_ID',0,9,152,4,3
+	.word	11043
+	.byte	20,9,155,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	5210
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_IN',0,9,160,4,3
+	.word	11101
+	.byte	20,9,163,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	5507
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_IOCR0',0,9,168,4,3
+	.word	11159
+	.byte	20,9,171,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	5708
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_IOCR12',0,9,176,4,3
+	.word	11220
+	.byte	20,9,179,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	5915
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_IOCR4',0,9,184,4,3
+	.word	11282
+	.byte	20,9,187,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	6116
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_IOCR8',0,9,192,4,3
+	.word	11343
+	.byte	20,9,195,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	6319
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_LPCR0',0,9,200,4,3
+	.word	11404
+	.byte	20,9,203,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	6429
+	.byte	4,2,35,0,18
+	.byte	'B_P21',0
+	.word	6539
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_LPCR1',0,9,209,4,3
+	.word	11465
+	.byte	20,9,212,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	6694
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_LPCR2',0,9,217,4,3
+	.word	11541
+	.byte	20,9,220,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	7549
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMCR',0,9,225,4,3
+	.word	11602
+	.byte	20,9,228,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	6924
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMCR0',0,9,233,4,3
+	.word	11662
+	.byte	20,9,236,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	7084
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMCR12',0,9,241,4,3
+	.word	11723
+	.byte	20,9,244,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	7227
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMCR4',0,9,249,4,3
+	.word	11785
+	.byte	20,9,252,4,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	7387
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMCR8',0,9,129,5,3
+	.word	11846
+	.byte	20,9,132,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	7882
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMR',0,9,137,5,3
+	.word	11907
+	.byte	20,9,140,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	9045
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMSR',0,9,145,5,3
+	.word	11966
+	.byte	20,9,148,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	8437
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMSR0',0,9,153,5,3
+	.word	12026
+	.byte	20,9,156,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	8570
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMSR12',0,9,161,5,3
+	.word	12087
+	.byte	20,9,164,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	8732
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMSR4',0,9,169,5,3
+	.word	12149
+	.byte	20,9,172,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	8887
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OMSR8',0,9,177,5,3
+	.word	12210
+	.byte	20,9,180,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	9363
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_OUT',0,9,185,5,3
+	.word	12271
+	.byte	20,9,188,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	9663
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_PCSR',0,9,193,5,3
+	.word	12330
+	.byte	20,9,196,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	9918
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_PDISC',0,9,201,5,3
+	.word	12390
+	.byte	20,9,204,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	10270
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_PDR0',0,9,209,5,3
+	.word	12451
+	.byte	20,9,212,5,9,4,18
+	.byte	'U',0
+	.word	257
+	.byte	4,2,35,0,18
+	.byte	'I',0
+	.word	208
+	.byte	4,2,35,0,18
+	.byte	'B',0
+	.word	10559
+	.byte	4,2,35,0,0,13
+	.byte	'Ifx_P_PDR1',0,9,217,5,3
+	.word	12511
+	.byte	13
+	.byte	'Dio_PortType',0,10,249,1,17
+	.word	335
+	.byte	13
+	.byte	'Dio_PortLevelType',0,10,252,1,17
+	.word	498
+	.byte	17
+	.byte	'Dio_ChannelGroupType',0,10,129,2,16,4,18
+	.byte	'mask',0
+	.word	498
+	.byte	2,2,35,0,18
+	.byte	'offset',0
+	.word	335
+	.byte	1,2,35,2,18
+	.byte	'port',0
+	.word	335
+	.byte	1,2,35,3,0,13
+	.byte	'Dio_ChannelGroupType',0,10,137,2,3
+	.word	12620
+	.byte	17
+	.byte	'Dio_PortChannelIdType',0,10,139,2,16,8,18
+	.byte	'Dio_PortIdConfig',0
+	.word	536
+	.byte	4,2,35,0,18
+	.byte	'Dio_ChannelConfig',0
+	.word	536
+	.byte	4,2,35,4,0,13
+	.byte	'Dio_PortChannelIdType',0,10,145,2,2
+	.word	12722
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L10:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,11
+	.byte	5,0,3,8,58,15,59,15,57,15,73,19,0,0,12,21,0,54,15,0,0,13,22,0,3,8,58,15,59,15,57,15,73,19,0,0,14,4,1,58
+	.byte	15,59,15,57,15,11,15,0,0,15,40,0,3,8,28,13,0,0,16,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,17
+	.byte	19,1,3,8,58,15,59,15,57,15,11,15,0,0,18,13,0,3,8,73,19,11,15,56,9,0,0,19,13,0,3,8,11,15,73,19,13,15,12
+	.byte	15,56,9,0,0,20,23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L11:
+	.word	.L30-.L29
+.L29:
+	.half	3
+	.word	.L32-.L31
+.L31:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc',0
+	.byte	0
+	.byte	'Rte_AppWakeUpCtrl.h',0,1,0,0
+	.byte	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0
+	.byte	'ComStack_Cfg.h',0,3,0,0
+	.byte	'ComStack_Types.h',0,2,0,0
+	.byte	'Rte_Type.h',0,3,0,0
+	.byte	'ComM_Cfg.h',0,3,0,0
+	.byte	'IfxPort_regdef.h',0,4,0,0
+	.byte	'Dio.h',0,5,0,0,0
+.L32:
+.L30:
+	.sdecl	'.debug_info',debug,cluster('AppWakeUpCtrl_Init')
+	.sect	'.debug_info'
+.L12:
+	.word	262
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L15,.L14
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'AppWakeUpCtrl_Init',0,1,120,32,1,1,1
+	.word	.L5,.L22,.L4
+	.byte	4
+	.word	.L5,.L22
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppWakeUpCtrl_Init')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppWakeUpCtrl_Init')
+	.sect	'.debug_line'
+.L14:
+	.word	.L34-.L33
+.L33:
+	.half	3
+	.word	.L36-.L35
+.L35:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c',0,0,0,0,0
+.L36:
+	.byte	5,1,7,0,5,2
+	.word	.L5
+	.byte	3,129,1,1,7,9
+	.half	.L16-.L5
+	.byte	0,1,1
+.L34:
+	.sdecl	'.debug_ranges',debug,cluster('AppWakeUpCtrl_Init')
+	.sect	'.debug_ranges'
+.L15:
+	.word	-1,.L5,0,.L16-.L5,0,0
+	.sdecl	'.debug_info',debug,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.debug_info'
+.L17:
+	.word	319
+	.half	3
+	.word	.L18
+	.byte	4,1
+	.byte	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L20,.L19
+	.byte	2
+	.word	.L8
+	.byte	3
+	.byte	'AppWakeUpCtrl_MainFunction',0,1,152,1,32,1,1,1
+	.word	.L7,.L23,.L6
+	.byte	4
+	.word	.L7,.L23
+	.byte	5
+	.byte	'ComM_Mode',0,1,158,1,17
+	.word	.L24,.L25
+	.byte	5
+	.byte	'KL15_State',0,1,159,1,15
+	.word	.L24,.L26
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.debug_abbrev'
+.L18:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.debug_line'
+.L19:
+	.word	.L38-.L37
+.L37:
+	.half	3
+	.word	.L40-.L39
+.L39:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_00_ASW\\Core0\\AppWakeUpCtrl\\AppWakeUpCtrl.c',0,0,0,0,0
+.L40:
+	.byte	5,32,7,0,5,2
+	.word	.L7
+	.byte	3,151,1,1,5,44,9
+	.half	.L27-.L7
+	.byte	3,8,1,5,5,9
+	.half	.L41-.L27
+	.byte	3,1,1,5,2,9
+	.half	.L42-.L41
+	.byte	1,5,13,7,9
+	.half	.L43-.L42
+	.byte	3,2,1,5,38,9
+	.half	.L28-.L43
+	.byte	1,5,13,9
+	.half	.L2-.L28
+	.byte	3,4,1,5,2,9
+	.half	.L3-.L2
+	.byte	3,4,1,5,1,9
+	.half	.L44-.L3
+	.byte	3,5,1,7,9
+	.half	.L21-.L44
+	.byte	0,1,1
+.L38:
+	.sdecl	'.debug_ranges',debug,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.debug_ranges'
+.L20:
+	.word	-1,.L7,0,.L21-.L7,0,0
+	.sdecl	'.debug_loc',debug,cluster('AppWakeUpCtrl_Init')
+	.sect	'.debug_loc'
+.L4:
+	.word	-1,.L5,0,.L22-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L27-.L7
+	.half	2
+	.byte	138,0
+	.word	.L27-.L7,.L23-.L7
+	.half	2
+	.byte	138,8
+	.word	.L23-.L7,.L23-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L25:
+	.word	-1,.L7,.L28-.L7,.L2-.L7
+	.half	1
+	.byte	95
+	.word	.L3-.L7,.L23-.L7
+	.half	1
+	.byte	95
+	.word	0,0
+.L26:
+	.word	-1,.L7,0,.L23-.L7
+	.half	2
+	.byte	145,120
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L45:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AppWakeUpCtrl_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L45,.L5,.L22-.L5
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('AppWakeUpCtrl_MainFunction')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L45,.L7,.L23-.L7
+	.byte	4
+	.word	(.L27-.L7)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L23-.L27)/2
+	.byte	19,0,8,26,0,0
+
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   177  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   178  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   179  #define AppWakeUpCtrl_STOP_SEC_CODE
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   180  #include "AppWakeUpCtrl_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   181  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   182  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   183  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   184   * DO NOT CHANGE THIS COMMENT!           << Start of function definition area >>            DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   185   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   186  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   187  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   188  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   189   * DO NOT CHANGE THIS COMMENT!           << End of function definition area >>              DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   190   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   191  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   192  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   193  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   194   * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   195   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   196  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   197  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   198  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   199   * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   200   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   201  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   202  /**********************************************************************************************************************
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   203   MISRA 2012 violations and justifications
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   204   *********************************************************************************************************************/
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   205  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   206  /* module specific MISRA deviations:
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   207     MD_Rte_0624:  MISRA rule: Rule8.3
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   208       Reason:     This MISRA violation is a consequence from the RTE requirements [SWS_Rte_01007] [SWS_Rte_01150].
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   209                   The typedefs are never used in the same context.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   210       Risk:       No functional risk. Only a cast to uint8* is performed.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   211       Prevention: Not required.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   212  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   213     MD_Rte_3206:  MISRA rule: Rule2.7
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   214       Reason:     The parameter are not used by the code in all possible code variants.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   215       Risk:       No functional risk.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   216       Prevention: Not required.
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   217  
+; ..\_00_ASW\Core0\AppWakeUpCtrl\AppWakeUpCtrl.c	   218  */
+
+	; Module end

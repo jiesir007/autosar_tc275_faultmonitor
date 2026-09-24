@@ -1,0 +1,4519 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 21092262 SN 73118428"
+	.compiler_invocation	"ctc --dep-file=_02_CDD\\IoHwAb\\.IoHwAb.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc27x -D__CPU_TC27X__ --core=tc1.6.x --iso=99 -DBRS_COMP_TASKING -D_TASKING_C_TRICORE_=1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\AdcCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\ComFaultCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComRx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppComTx -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppWakeUpCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppButtonCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core0\\AppLedCtrl -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_00_ASW\\Core1\\AppCtrl1 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Components -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\Make -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData\\RteCache\\504704712 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\Source -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\BswM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Can\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanIf\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanNm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanSM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Com\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\ComM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Det\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\EcuM\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Nm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Os\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\PduR\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\VStdLib\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dcm\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Dem -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTp -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043 -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\CanTrcv_30_Tja1043\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\E2E -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Crc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\IoHwAb\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\CanInterCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IcuCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\IoHwAb -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\NmCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_02_CDD\\WakeUpCdd -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\Demo_Aurix -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\mak -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Gen\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Intergration_general\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Irq\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcal\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Mcu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Port\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Icu\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\src -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Adc\\inc -ID:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_04_StartUp -g2 --make-target=_02_CDD\\IoHwAb\\IoHwAb.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=0 -O0 --default-a1-size=0 --default-a0-size=0 --source --align=0 --switch=auto --error-limit=42 -o _02_CDD\\IoHwAb\\IoHwAb.src ..\\_02_CDD\\IoHwAb\\IoHwAb.c"
+	.compiler_name		"ctc"
+	;source	'..\\_02_CDD\\IoHwAb\\IoHwAb.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read',code,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     1  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     2   *  FILE REQUIRES USER MODIFICATIONS
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     3   *  Template Scope: sections marked with Start and End comments
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     4   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     5   *  This file includes template code that must be completed and/or adapted during BSW integration.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     6   *  The template code is incomplete and only intended for providing a signature and an empty implementation.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     7   *  It is neither intended nor qualified for use in series production without applying suitable quality measures.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     8   *  The template code must be completed as described in the instructions given within this file and/or in the.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	     9   *  Technical Reference.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    10   *  The completed implementation must be tested with diligent care and must comply with all quality requirements which.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    11   *  are necessary according to the state of the art before its use.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    12   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    13  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    14   *  FILE DESCRIPTION
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    15   *  -------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    16   *             File:  IoHwAb.c
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    17   *           Config:  E:/Embedded_Software_Develop/Project/Tc275_MultiCore_Proj/Code_Edit/XB_Tc275_Mulcore/Proj_Config/Bsw_Config/Cfg/TC27x.dpa
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    18   *        SW-C Type:  IoHwAb
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    19   *  Generation Time:  2024-02-05 15:42:29
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    20   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    21   *        Generator:  MICROSAR RTE Generator Version 4.21.0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    22   *                    RTE Core Version 1.21.0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    23   *          License:  CBD1600956
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    24   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    25   *      Description:  C-Code implementation template for SW-C <IoHwAb>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    26   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    27  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    28  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    29  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    30   * DO NOT CHANGE THIS COMMENT!           << Start of version logging area >>                DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    31   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    32  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    33  /* PRQA S 0777, 0779 EOF */ /* MD_MSR_Rule5.1, MD_MSR_Rule5.2 */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    34  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    35  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    36   * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    37   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    38  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    39  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    40   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    41   * AUTOSAR Modelling Object Descriptions
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    42   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    43   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    44   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    45   * Data Types:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    46   * ===========
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    47   * IOHWAB_BOOL
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    48   *   boolean has the value space required to support the mathematical concept of 
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    49   *      binary-valued logic: {true, false}.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    50   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    51   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    52   * Runnable Entities:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    53   * ==================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    54   * IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    55   *   Runnable Entity for calling the Operation 'IoHwAbOp_Button1_Read' of the Client/Server Port Prototype 'IoHwAbCS_Button1'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    56   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    57   * IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    58   *   Runnable Entity for calling the Operation 'IoHwAbOp_Button2_Read' of the Client/Server Port Prototype 'IoHwAbCS_Button2'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    59   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    60   * IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    61   *   Runnable Entity for calling the Operation 'IoHwAbOp_Button3_Read' of the Client/Server Port Prototype 'IoHwAbCS_Button3'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    62   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    63   * IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    64   *   Runnable Entity for calling the Operation 'IoHwAbOp_Button4_Read' of the Client/Server Port Prototype 'IoHwAbCS_Button4'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    65   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    66   * IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    67   *   Runnable Entity for calling the Operation 'IoHwAbOp_KL15_Read' of the Client/Server Port Prototype 'IoHwAbCS_KL15'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    68   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    69   * IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    70   *   Runnable Entity for calling the Operation 'IoHwAbOp_KL15_Write' of the Client/Server Port Prototype 'IoHwAbCS_KL15'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    71   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    72   * IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    73   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED1_Read' of the Client/Server Port Prototype 'IoHwAbCS_LED1'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    74   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    75   * IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    76   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED1_Write' of the Client/Server Port Prototype 'IoHwAbCS_LED1'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    77   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    78   * IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    79   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED2_Read' of the Client/Server Port Prototype 'IoHwAbCS_LED2'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    80   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    81   * IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    82   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED2_Write' of the Client/Server Port Prototype 'IoHwAbCS_LED2'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    83   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    84   * IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    85   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED3_Read' of the Client/Server Port Prototype 'IoHwAbCS_LED3'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    86   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    87   * IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    88   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED3_Write' of the Client/Server Port Prototype 'IoHwAbCS_LED3'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    89   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    90   * IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    91   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED4_Read' of the Client/Server Port Prototype 'IoHwAbCS_LED4'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    92   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    93   * IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    94   *   Runnable Entity for calling the Operation 'IoHwAbOp_LED4_Write' of the Client/Server Port Prototype 'IoHwAbCS_LED4'.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    95   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    96   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    97  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    98  #include "Rte_IoHwAb.h"
+; ..\_02_CDD\IoHwAb\IoHwAb.c	    99  #include "Dio.h"
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   100  #include "Dio_Cfg.h"
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   101  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   102  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   103   * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   104   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   105  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   106  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   107  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   108   * DO NOT CHANGE THIS COMMENT!           << End of include and declaration area >>          DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   109   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   110  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   111  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   112  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   113   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   114   * Used AUTOSAR Data Types
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   115   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   116   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   117   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   118   * Primitive Types:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   119   * ================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   120   * IOHWAB_BOOL: Boolean
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   121   * boolean: Boolean (standard type)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   122   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   123   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   124  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   125  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   126  #define IoHwAb_START_SEC_CODE
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   127  #include "IoHwAb_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   128  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   129  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   130   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   131   * Runnable Entity Name: IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   132   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   133   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   134   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   135   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   136   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   137   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   138   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_Button1_Read> of PortPrototype <IoHwAbCS_Button1>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   139   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   140   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   141   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   142   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   143   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   144   *   Std_ReturnType IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   145   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   146   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   147   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   148   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   149   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   150   *   RTE_E_IoHwAbCSIf_Button1_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   151   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   152   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   153  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   154   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   155   * Symbol: IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   156   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   157  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   158  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   159  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   160   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   161   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   162  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   163  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read
+.L34:
+IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read:	.type	func
+	mov.aa	a15,a4
+.L165:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   164  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   165  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   166   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   167   * Symbol: IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   168   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   169    if(Dio_ReadChannel(DioConf_DioChannel_Button1) == STD_HIGH)
+	mov	d4,#244
+	call	Dio_ReadChannel
+.L164:
+	jne	d2,#1,.L2
+.L202:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   170    {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   171  	  *IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L203:
+	st.b	[a15],d15
+.L204:
+	j	.L3
+.L2:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   172    }
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   173    else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   174    {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   175  	  *IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L205:
+	st.b	[a15],d15
+.L3:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   176    }
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   177    return RTE_E_OK;
+	mov	d2,#0
+.L206:
+	j	.L4
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   178  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   179  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   180   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   181   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   182  }
+.L4:
+	ret
+.L136:
+	
+__IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read,__IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read_function_end-IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read
+.L69:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read',code,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   183  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   184  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   185   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   186   * Runnable Entity Name: IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   187   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   188   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   189   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   190   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   191   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   192   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   193   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_Button2_Read> of PortPrototype <IoHwAbCS_Button2>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   194   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   195   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   196   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   197   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   198   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   199   *   Std_ReturnType IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   200   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   201   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   202   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   203   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   204   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   205   *   RTE_E_IoHwAbCSIf_Button2_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   206   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   207   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   208  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   209   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   210   * Symbol: IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   211   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   212  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   213  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   214  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   215   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   216   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   217  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   218  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read
+.L36:
+IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read:	.type	func
+	mov.aa	a15,a4
+.L167:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   219  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   220  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   221   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   222   * Symbol: IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   223   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   224  	if(Dio_ReadChannel(DioConf_DioChannel_Button2) == STD_HIGH)
+	mov	d4,#245
+	call	Dio_ReadChannel
+.L166:
+	jne	d2,#1,.L5
+.L211:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   225  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   226  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L212:
+	st.b	[a15],d15
+.L213:
+	j	.L6
+.L5:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   227  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   228  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   229  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   230  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L214:
+	st.b	[a15],d15
+.L6:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   231  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   232    return RTE_E_OK;
+	mov	d2,#0
+.L215:
+	j	.L7
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   233  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   234  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   235   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   236   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   237  }
+.L7:
+	ret
+.L139:
+	
+__IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read,__IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read_function_end-IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read
+.L74:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read',code,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   238  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   239  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   240   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   241   * Runnable Entity Name: IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   242   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   243   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   244   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   245   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   246   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   247   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   248   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_Button3_Read> of PortPrototype <IoHwAbCS_Button3>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   249   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   250   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   251   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   252   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   253   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   254   *   Std_ReturnType IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   255   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   256   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   257   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   258   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   259   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   260   *   RTE_E_IoHwAbCSIf_Button3_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   261   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   262   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   263  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   264   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   265   * Symbol: IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   266   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   267  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   268  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   269  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   270   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   271   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   272  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   273  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read
+.L38:
+IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read:	.type	func
+	mov.aa	a15,a4
+.L169:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   274  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   275  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   276   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   277   * Symbol: IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   278   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   279  	if(Dio_ReadChannel(DioConf_DioChannel_Button3) == STD_HIGH)
+	mov	d4,#231
+	call	Dio_ReadChannel
+.L168:
+	jne	d2,#1,.L8
+.L220:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   280  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   281  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L221:
+	st.b	[a15],d15
+.L222:
+	j	.L9
+.L8:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   282  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   283  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   284  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   285  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L223:
+	st.b	[a15],d15
+.L9:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   286  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   287    return RTE_E_OK;
+	mov	d2,#0
+.L224:
+	j	.L10
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   288  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   289  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   290   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   291   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   292  }
+.L10:
+	ret
+.L141:
+	
+__IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read,__IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read_function_end-IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read
+.L79:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read',code,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   293  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   294  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   295   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   296   * Runnable Entity Name: IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   297   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   298   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   299   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   300   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   301   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   302   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   303   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_Button4_Read> of PortPrototype <IoHwAbCS_Button4>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   304   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   305   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   306   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   307   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   308   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   309   *   Std_ReturnType IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   310   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   311   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   312   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   313   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   314   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   315   *   RTE_E_IoHwAbCSIf_Button4_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   316   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   317   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   318  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   319   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   320   * Symbol: IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   321   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   322  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   323  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   324  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   325   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   326   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   327  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   328  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read
+.L40:
+IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read:	.type	func
+	mov.aa	a15,a4
+.L171:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   329  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   330  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   331   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   332   * Symbol: IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   333   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   334  	if(Dio_ReadChannel(DioConf_DioChannel_Button4) == STD_HIGH)
+	mov	d4,#232
+	call	Dio_ReadChannel
+.L170:
+	jne	d2,#1,.L11
+.L229:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   335  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   336  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L230:
+	st.b	[a15],d15
+.L231:
+	j	.L12
+.L11:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   337  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   338  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   339  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   340  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L232:
+	st.b	[a15],d15
+.L12:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   341  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   342    return RTE_E_OK;
+	mov	d2,#0
+.L233:
+	j	.L13
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   343  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   344  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   345   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   346   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   347  }
+.L13:
+	ret
+.L143:
+	
+__IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read,__IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read_function_end-IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read
+.L84:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read',code,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   348  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   349  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   350   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   351   * Runnable Entity Name: IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   352   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   353   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   354   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   355   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   356   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   357   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   358   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_KL15_Read> of PortPrototype <IoHwAbCS_KL15>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   359   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   360   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   361   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   362   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   363   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   364   *   Std_ReturnType IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   365   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   366   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   367   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   368   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   369   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   370   *   RTE_E_IoHwAbCSIf_KL15_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   371   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   372   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   373  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   374   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   375   * Symbol: IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   376   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   377  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   378  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   379  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   380   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   381   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   382  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   383  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+.L42:
+IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read:	.type	func
+	mov.aa	a15,a4
+.L173:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   384  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   385  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   386   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   387   * Symbol: IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   388   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   389  	if(Dio_ReadChannel(DioConf_DioChannel_KL15) == STD_HIGH)
+	mov	d4,#528
+	call	Dio_ReadChannel
+.L172:
+	jne	d2,#1,.L14
+.L238:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   390  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   391  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L239:
+	st.b	[a15],d15
+.L240:
+	j	.L15
+.L14:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   392  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   393  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   394  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   395  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L241:
+	st.b	[a15],d15
+.L15:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   396  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   397    return RTE_E_OK;
+	mov	d2,#0
+.L242:
+	j	.L16
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   398  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   399  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   400   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   401   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   402  }
+.L16:
+	ret
+.L145:
+	
+__IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read,__IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read_function_end-IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read
+.L89:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read',code,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   403  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   404  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   405   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   406   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   407   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   408   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   409   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   410   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   411   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   412   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   413   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED1_Read> of PortPrototype <IoHwAbCS_LED1>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   414   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   415   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   416   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   417   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   418   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   419   *   Std_ReturnType IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   420   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   421   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   422   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   423   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   424   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   425   *   RTE_E_IoHwAbCSIf_LED1_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   426   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   427   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   428  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   429   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   430   * Symbol: IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   431   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   432  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   433  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   434  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   435   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   436   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   437  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   438  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read
+.L44:
+IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read:	.type	func
+	mov.aa	a15,a4
+.L175:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   439  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   440  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   441   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   442   * Symbol: IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   443   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   444  	if(Dio_ReadChannel(DioConf_DioChannel_LED1) == STD_HIGH)
+	mov	d4,#240
+	call	Dio_ReadChannel
+.L174:
+	jne	d2,#1,.L17
+.L247:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   445  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   446  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L248:
+	st.b	[a15],d15
+.L249:
+	j	.L18
+.L17:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   447  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   448  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   449  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   450  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L250:
+	st.b	[a15],d15
+.L18:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   451  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   452    return RTE_E_OK;
+	mov	d2,#0
+.L251:
+	j	.L19
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   453  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   454  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   455   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   456   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   457  }
+.L19:
+	ret
+.L147:
+	
+__IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read,__IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read_function_end-IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read
+.L94:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write',code,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   458  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   459  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   460   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   461   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   462   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   463   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   464   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   465   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   466   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   467   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   468   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED1_Write> of PortPrototype <IoHwAbCS_LED1>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   469   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   470   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   471   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   472   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   473   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   474   *   Std_ReturnType IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write(IOHWAB_BOOL IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   475   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   476   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   477   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   478   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   479   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   480   *   RTE_E_IoHwAbCSIf_LED1_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   481   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   482   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   483  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   484   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   485   * Symbol: IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   486   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   487  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   488  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   489  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   490   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   491   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   492  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   493  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write(IOHWAB_BOOL IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write
+.L46:
+IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write:	.type	func
+	mov	d5,d4
+.L177:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   494  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   495  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   496   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   497   * Symbol: IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   498   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   499    Dio_WriteChannel(DioConf_DioChannel_LED1, IoHwAbOperationArgument);
+	mov	d4,#240
+.L176:
+	call	Dio_WriteChannel
+.L178:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   500    return RTE_E_OK;
+	mov	d2,#0
+.L256:
+	j	.L20
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   501  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   502  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   503   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   504   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   505  }
+.L20:
+	ret
+.L149:
+	
+__IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write_function_end:
+	.size	IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write,__IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write_function_end-IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write
+.L99:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read',code,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   506  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   507  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   508   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   509   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   510   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   511   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   512   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   513   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   514   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   515   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   516   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED2_Read> of PortPrototype <IoHwAbCS_LED2>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   517   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   518   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   519   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   520   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   521   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   522   *   Std_ReturnType IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   523   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   524   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   525   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   526   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   527   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   528   *   RTE_E_IoHwAbCSIf_LED2_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   529   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   530   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   531  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   532   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   533   * Symbol: IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   534   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   535  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   536  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   537  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   538   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   539   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   540  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   541  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read
+.L48:
+IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read:	.type	func
+	mov.aa	a15,a4
+.L180:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   542  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   543  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   544   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   545   * Symbol: IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   546   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   547  	if(Dio_ReadChannel(DioConf_DioChannel_LED2) == STD_HIGH)
+	mov	d4,#241
+	call	Dio_ReadChannel
+.L179:
+	jne	d2,#1,.L21
+.L261:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   548  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   549  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L262:
+	st.b	[a15],d15
+.L263:
+	j	.L22
+.L21:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   550  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   551  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   552  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   553  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L264:
+	st.b	[a15],d15
+.L22:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   554  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   555    return RTE_E_OK;
+	mov	d2,#0
+.L265:
+	j	.L23
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   556  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   557  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   558   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   559   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   560  }
+.L23:
+	ret
+.L151:
+	
+__IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read,__IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read_function_end-IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read
+.L104:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write',code,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   561  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   562  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   563   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   564   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   565   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   566   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   567   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   568   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   569   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   570   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   571   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED2_Write> of PortPrototype <IoHwAbCS_LED2>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   572   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   573   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   574   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   575   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   576   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   577   *   Std_ReturnType IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write(IOHWAB_BOOL IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   578   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   579   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   580   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   581   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   582   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   583   *   RTE_E_IoHwAbCSIf_LED2_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   584   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   585   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   586  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   587   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   588   * Symbol: IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   589   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   590  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   591  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   592  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   593   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   594   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   595  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   596  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write(IOHWAB_BOOL IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write
+.L50:
+IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write:	.type	func
+	mov	d5,d4
+.L182:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   597  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   598  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   599   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   600   * Symbol: IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   601   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   602    Dio_WriteChannel(DioConf_DioChannel_LED2, IoHwAbOperationArgument);
+	mov	d4,#241
+.L181:
+	call	Dio_WriteChannel
+.L183:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   603    return RTE_E_OK;
+	mov	d2,#0
+.L270:
+	j	.L24
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   604  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   605  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   606   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   607   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   608  }
+.L24:
+	ret
+.L153:
+	
+__IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write_function_end:
+	.size	IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write,__IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write_function_end-IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write
+.L109:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read',code,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   609  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   610  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   611   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   612   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   613   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   614   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   615   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   616   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   617   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   618   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   619   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED3_Read> of PortPrototype <IoHwAbCS_LED3>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   620   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   621   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   622   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   623   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   624   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   625   *   Std_ReturnType IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   626   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   627   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   628   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   629   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   630   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   631   *   RTE_E_IoHwAbCSIf_LED3_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   632   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   633   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   634  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   635   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   636   * Symbol: IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   637   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   638  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   639  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   640  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   641   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   642   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   643  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   644  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read
+.L52:
+IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read:	.type	func
+	mov.aa	a15,a4
+.L185:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   645  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   646  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   647   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   648   * Symbol: IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   649   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   650  	if(Dio_ReadChannel(DioConf_DioChannel_LED3) == STD_HIGH)
+	mov	d4,#242
+	call	Dio_ReadChannel
+.L184:
+	jne	d2,#1,.L25
+.L275:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   651  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   652  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L276:
+	st.b	[a15],d15
+.L277:
+	j	.L26
+.L25:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   653  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   654  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   655  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   656  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L278:
+	st.b	[a15],d15
+.L26:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   657  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   658    return RTE_E_OK;
+	mov	d2,#0
+.L279:
+	j	.L27
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   659  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   660  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   661   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   662   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   663  }
+.L27:
+	ret
+.L155:
+	
+__IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read,__IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read_function_end-IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read
+.L114:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write',code,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   664  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   665  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   666   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   667   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   668   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   669   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   670   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   671   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   672   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   673   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   674   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED3_Write> of PortPrototype <IoHwAbCS_LED3>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   675   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   676   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   677   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   678   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   679   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   680   *   Std_ReturnType IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write(IOHWAB_BOOL IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   681   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   682   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   683   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   684   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   685   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   686   *   RTE_E_IoHwAbCSIf_LED3_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   687   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   688   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   689  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   690   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   691   * Symbol: IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   692   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   693  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   694  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   695  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   696   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   697   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   698  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   699  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write(IOHWAB_BOOL IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write
+.L54:
+IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write:	.type	func
+	mov	d5,d4
+.L187:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   700  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   701  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   702   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   703   * Symbol: IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   704   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   705    Dio_WriteChannel(DioConf_DioChannel_LED3, IoHwAbOperationArgument);
+	mov	d4,#242
+.L186:
+	call	Dio_WriteChannel
+.L188:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   706    return RTE_E_OK;
+	mov	d2,#0
+.L284:
+	j	.L28
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   707  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   708  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   709   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   710   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   711  }
+.L28:
+	ret
+.L157:
+	
+__IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write_function_end:
+	.size	IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write,__IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write_function_end-IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write
+.L119:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read',code,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   712  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   713  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   714   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   715   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   716   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   717   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   718   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   719   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   720   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   721   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   722   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED4_Read> of PortPrototype <IoHwAbCS_LED4>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   723   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   724   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   725   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   726   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   727   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   728   *   Std_ReturnType IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read(IOHWAB_BOOL *IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   729   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   730   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   731   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   732   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   733   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   734   *   RTE_E_IoHwAbCSIf_LED4_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   735   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   736   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   737  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   738   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   739   * Symbol: IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   740   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   741  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   742  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   743  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   744   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   745   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   746  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   747  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read(P2VAR(IOHWAB_BOOL, AUTOMATIC, RTE_IOHWAB_APPL_VAR) IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read
+.L56:
+IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read:	.type	func
+	mov.aa	a15,a4
+.L190:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   748  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   749  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   750   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   751   * Symbol: IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   752   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   753  	if(Dio_ReadChannel(DioConf_DioChannel_LED4) == STD_HIGH)
+	mov	d4,#243
+	call	Dio_ReadChannel
+.L189:
+	jne	d2,#1,.L29
+.L289:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   754  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   755  		*IoHwAbOperationArgument = STD_HIGH;
+	mov	d15,#1
+.L290:
+	st.b	[a15],d15
+.L291:
+	j	.L30
+.L29:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   756  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   757  	else
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   758  	{
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   759  		*IoHwAbOperationArgument = STD_LOW;
+	mov	d15,#0
+.L292:
+	st.b	[a15],d15
+.L30:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   760  	}
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   761    return RTE_E_OK;
+	mov	d2,#0
+.L293:
+	j	.L31
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   762  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   763  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   764   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   765   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   766  }
+.L31:
+	ret
+.L159:
+	
+__IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read_function_end:
+	.size	IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read,__IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read_function_end-IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read
+.L124:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write',code,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   767  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   768  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   769   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   770   * Runnable Entity Name: IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   771   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   772   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   773   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   774   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   775   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   776   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   777   *   - triggered by server invocation for OperationPrototype <IoHwAbOp_LED4_Write> of PortPrototype <IoHwAbCS_LED4>
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   778   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   779   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   780   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   781   * Runnable prototype:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   782   * ===================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   783   *   Std_ReturnType IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write(IOHWAB_BOOL IoHwAbOperationArgument)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   784   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   785   **********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   786   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   787   * Available Application Errors:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   788   * =============================
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   789   *   RTE_E_IoHwAbCSIf_LED4_IoHwAbApplicationError
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   790   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   791   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   792  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   793   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   794   * Symbol: IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   795   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   796  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   797  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   798  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   799   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   800   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   801  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   802  FUNC(Std_ReturnType, IoHwAb_CODE) IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write(IOHWAB_BOOL IoHwAbOperationArgument) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write
+.L58:
+IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write:	.type	func
+	mov	d5,d4
+.L192:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   803  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   804  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   805   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   806   * Symbol: IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write (returns application error)
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   807   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   808    Dio_WriteChannel(DioConf_DioChannel_LED4, IoHwAbOperationArgument);
+	mov	d4,#243
+.L191:
+	call	Dio_WriteChannel
+.L193:
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   809    return RTE_E_OK;
+	mov	d2,#0
+.L298:
+	j	.L32
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   810  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   811  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   812   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   813   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   814  }
+.L32:
+	ret
+.L161:
+	
+__IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write_function_end:
+	.size	IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write,__IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write_function_end-IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write
+.L129:
+	; End of function
+	
+	.sdecl	'.text.IoHwAb.IoHwAb_IoHwAbRunnable',code,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.text.IoHwAb.IoHwAb_IoHwAbRunnable'
+	.align	2
+	
+	.global	IoHwAb_IoHwAbRunnable
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   815  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   816  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   817   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   818   * Runnable Entity Name: IoHwAb_IoHwAbRunnable
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   819   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   820   * This runnable can be invoked concurrently (reentrant implementation).
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   821   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   822   *---------------------------------------------------------------------------------------------------------------------
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   823   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   824   * Executed if at least one of the following trigger conditions occurred:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   825   *   - triggered on TimingEvent every 5ms
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   826   *
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   827   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   828  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   829   * DO NOT CHANGE THIS COMMENT!           << Start of documentation area >>                  DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   830   * Symbol: IoHwAb_IoHwAbRunnable_doc
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   831   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   832  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   833  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   834  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   835   * DO NOT CHANGE THIS COMMENT!           << End of documentation area >>                    DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   836   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   837  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   838  FUNC(void, IoHwAb_CODE) IoHwAb_IoHwAbRunnable(void) /* PRQA S 0624, 3206 */ /* MD_Rte_0624, MD_Rte_3206 */
+; Function IoHwAb_IoHwAbRunnable
+.L60:
+IoHwAb_IoHwAbRunnable:	.type	func
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   839  {
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   840  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   841   * DO NOT CHANGE THIS COMMENT!           << Start of runnable implementation >>             DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   842   * Symbol: IoHwAb_IoHwAbRunnable
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   843   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   844  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   845  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   846  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   847   * DO NOT CHANGE THIS COMMENT!           << End of runnable implementation >>               DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   848   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   849  }
+	ret
+.L163:
+	
+__IoHwAb_IoHwAbRunnable_function_end:
+	.size	IoHwAb_IoHwAbRunnable,__IoHwAb_IoHwAbRunnable_function_end-IoHwAb_IoHwAbRunnable
+.L134:
+	; End of function
+	
+	.calls	'IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write','Dio_WriteChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write','Dio_WriteChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write','Dio_WriteChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read','Dio_ReadChannel'
+	.calls	'IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write','Dio_WriteChannel'
+	.calls	'IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write','',0
+	.calls	'IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write','',0
+	.calls	'IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write','',0
+	.calls	'IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read','',0
+	.calls	'IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write','',0
+	.extern	Dio_ReadChannel
+	.extern	Dio_WriteChannel
+	.calls	'IoHwAb_IoHwAbRunnable','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L62:
+	.word	11393
+	.half	3
+	.word	.L63
+	.byte	4
+.L61:
+	.byte	1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L64
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	188
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	195
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,6
+	.word	237
+	.byte	7
+	.word	237
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	253
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	258
+	.byte	9
+	.byte	'value',0
+	.word	237
+	.byte	9
+	.byte	'compare',0
+	.word	237
+	.byte	0
+.L135:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L137:
+	.byte	7
+	.word	315
+	.byte	2
+	.byte	'unsigned short int',0,2,7,10
+	.byte	'Dio_ReadChannel',0,1,188,3,22
+	.word	315
+	.byte	1,1,1,1,11
+	.byte	'ChannelId',0,1,190,3,19
+	.word	337
+	.byte	0,12
+	.byte	'Dio_WriteChannel',0,1,232,3,13,1,1,1,1,11
+	.byte	'ChannelId',0,1,234,3,19
+	.word	337
+	.byte	11
+	.byte	'Level',0,1,235,3,17
+	.word	315
+	.byte	0,13,1,7
+	.word	469
+	.byte	14
+	.byte	'__codeptr',0,2,1,1
+	.word	471
+	.byte	14
+	.byte	'boolean',0,3,124,31
+	.word	315
+	.byte	14
+	.byte	'uint8',0,3,127,31
+	.word	315
+	.byte	14
+	.byte	'uint16',0,3,129,1,31
+	.word	337
+	.byte	2
+	.byte	'unsigned long int',0,4,7,14
+	.byte	'uint32',0,3,131,1,31
+	.word	540
+	.byte	14
+	.byte	'Std_ReturnType',0,4,132,1,15
+	.word	315
+	.byte	14
+	.byte	'PduLengthType',0,5,53,16
+	.word	337
+	.byte	7
+	.word	315
+	.byte	14
+	.byte	'SduDataPtrType',0,6,196,1,54
+	.word	623
+	.byte	15,6,219,1,9,1,16
+	.byte	'TP_DATACONF',0,0,16
+	.byte	'TP_DATARETRY',0,1,16
+	.byte	'TP_CONFPENDING',0,2,0,14
+	.byte	'TpDataStateType',0,6,226,1,3
+	.word	652
+	.byte	14
+	.byte	'E_Sig_0x302_Used_1',0,7,37,16
+	.word	337
+	.byte	14
+	.byte	'E_Sig_0x302_Used_2',0,7,40,15
+	.word	315
+	.byte	14
+	.byte	'E_Sig_0x302_Used_3',0,7,43,15
+	.word	315
+	.byte	14
+	.byte	'F_AAA_Angle',0,7,46,15
+	.word	315
+	.byte	14
+	.byte	'F_Button1_State',0,7,49,15
+	.word	315
+	.byte	14
+	.byte	'F_Button2_State',0,7,52,15
+	.word	315
+	.byte	14
+	.byte	'F_Button3_State',0,7,55,15
+	.word	315
+	.byte	14
+	.byte	'F_Button4_State',0,7,58,15
+	.word	315
+	.byte	14
+	.byte	'F_Meg_E2E_Error',0,7,61,15
+	.word	315
+	.byte	14
+	.byte	'F_Mes_Lost_Error',0,7,64,15
+	.word	315
+	.byte	14
+	.byte	'F_PowerMode',0,7,67,15
+	.word	315
+	.byte	14
+	.byte	'F_Sig_0x214_Used_1',0,7,70,16
+	.word	337
+	.byte	14
+	.byte	'F_Sig_0x214_Used_2',0,7,73,16
+	.word	337
+	.byte	14
+	.byte	'F_Sig_0x214_Used_3',0,7,76,16
+	.word	337
+	.byte	14
+	.byte	'F_Sig_0x214_Used_5',0,7,79,16
+	.word	337
+	.byte	14
+	.byte	'SupD_Checksum_0x300',0,7,85,15
+	.word	315
+	.byte	14
+	.byte	'SupD_Checksum_0x304',0,7,88,15
+	.word	315
+	.byte	14
+	.byte	'SupD_Counter_0x300',0,7,91,15
+	.word	315
+	.byte	14
+	.byte	'SupD_Counter_0x304',0,7,94,15
+	.word	315
+	.byte	14
+	.byte	'SupF_Checksum_0x212',0,7,97,15
+	.word	315
+	.byte	14
+	.byte	'SupF_Counter_0x212',0,7,100,15
+	.word	315
+	.byte	14
+	.byte	'D_Button1_Control',0,7,103,15
+	.word	315
+	.byte	14
+	.byte	'D_Button2_Control',0,7,106,15
+	.word	315
+	.byte	14
+	.byte	'D_Button3_Control',0,7,109,15
+	.word	315
+	.byte	14
+	.byte	'D_Button4_Control',0,7,112,15
+	.word	315
+	.byte	14
+	.byte	'D_Led1_Control',0,7,115,15
+	.word	315
+	.byte	14
+	.byte	'D_Led1_CtrlMode',0,7,118,15
+	.word	315
+	.byte	14
+	.byte	'D_Led2_Control',0,7,121,15
+	.word	315
+	.byte	14
+	.byte	'D_Led2_CtrlMode',0,7,124,15
+	.word	315
+	.byte	14
+	.byte	'D_Led3_Control',0,7,127,15
+	.word	315
+	.byte	14
+	.byte	'D_Led3_CtrlMode',0,7,130,1,15
+	.word	315
+	.byte	14
+	.byte	'D_Led4_Control',0,7,133,1,15
+	.word	315
+	.byte	14
+	.byte	'D_Led4_CtrlMode',0,7,136,1,15
+	.word	315
+	.byte	14
+	.byte	'F_Led1_State',0,7,139,1,15
+	.word	315
+	.byte	14
+	.byte	'F_Led2_State',0,7,142,1,15
+	.word	315
+	.byte	14
+	.byte	'F_Led3_State',0,7,145,1,15
+	.word	315
+	.byte	14
+	.byte	'F_Led4_State',0,7,148,1,15
+	.word	315
+	.byte	14
+	.byte	'IOHWAB_BOOL',0,7,161,2,17
+	.word	315
+	.byte	14
+	.byte	'AAA_Angle',0,7,147,3,15
+	.word	315
+	.byte	14
+	.byte	'Button1_Control',0,7,150,3,17
+	.word	315
+	.byte	14
+	.byte	'Button1_State',0,7,153,3,17
+	.word	315
+	.byte	14
+	.byte	'Button2_Control',0,7,156,3,17
+	.word	315
+	.byte	14
+	.byte	'Button2_State',0,7,159,3,17
+	.word	315
+	.byte	14
+	.byte	'Button3_Control',0,7,162,3,17
+	.word	315
+	.byte	14
+	.byte	'Button3_State',0,7,165,3,17
+	.word	315
+	.byte	14
+	.byte	'Button4_Control',0,7,168,3,17
+	.word	315
+	.byte	14
+	.byte	'Button4_State',0,7,171,3,17
+	.word	315
+	.byte	14
+	.byte	'CrcSig_Pack_3',0,7,183,3,15
+	.word	315
+	.byte	14
+	.byte	'CrcSig_Pack_4',0,7,186,3,16
+	.word	540
+	.byte	14
+	.byte	'CrcSig_Pack_5',0,7,189,3,16
+	.word	540
+	.byte	14
+	.byte	'Led1_Control_1',0,7,195,3,17
+	.word	315
+	.byte	14
+	.byte	'Led1_State',0,7,198,3,17
+	.word	315
+	.byte	14
+	.byte	'Led2_Control_1',0,7,204,3,17
+	.word	315
+	.byte	14
+	.byte	'Led2_State',0,7,207,3,17
+	.word	315
+	.byte	14
+	.byte	'Led3_Control_1',0,7,213,3,17
+	.word	315
+	.byte	14
+	.byte	'Led3_State',0,7,216,3,17
+	.word	315
+	.byte	14
+	.byte	'Led4_Control_1',0,7,222,3,17
+	.word	315
+	.byte	14
+	.byte	'Led4_State',0,7,225,3,17
+	.word	315
+	.byte	14
+	.byte	'PowerMode',0,7,228,3,15
+	.word	315
+	.byte	14
+	.byte	'Sig_0x114_Used_1',0,7,231,3,15
+	.word	315
+	.byte	14
+	.byte	'Sig_0x114_Used_2',0,7,234,3,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x114_Used_3',0,7,237,3,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x114_Used_4',0,7,240,3,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x114_Used_5',0,7,243,3,15
+	.word	315
+	.byte	14
+	.byte	'Sig_0x114_Used_6',0,7,246,3,15
+	.word	315
+	.byte	14
+	.byte	'Sig_0x402_Used_1',0,7,249,3,15
+	.word	315
+	.byte	14
+	.byte	'Sig_0x402_Used_2',0,7,252,3,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x402_Used_3',0,7,255,3,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x402_Used_4',0,7,130,4,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x402_Used_5',0,7,133,4,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x403_Used_1',0,7,136,4,15
+	.word	315
+	.byte	14
+	.byte	'Sig_0x403_Used_2',0,7,139,4,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x403_Used_3',0,7,142,4,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x403_Used_4',0,7,145,4,16
+	.word	337
+	.byte	14
+	.byte	'Sig_0x403_Used_5',0,7,148,4,16
+	.word	337
+	.byte	14
+	.byte	'SupA_Checksum_0x112',0,7,151,4,15
+	.word	315
+	.byte	14
+	.byte	'SupA_Counter_0x112',0,7,154,4,15
+	.word	315
+	.byte	14
+	.byte	'SupB_Checksum_0x400_1',0,7,160,4,15
+	.word	315
+	.byte	14
+	.byte	'SupB_Counter_0x400_1',0,7,166,4,15
+	.word	315
+	.byte	17
+	.byte	'_Ifx_P_ACCEN0_Bits',0,8,45,16,4,18
+	.byte	'EN0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'EN1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'EN2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'EN3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'EN4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'EN5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'EN6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'EN7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'EN8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'EN9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'EN10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'EN11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'EN12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'EN13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'EN14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'EN15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'EN16',0,1
+	.word	315
+	.byte	1,7,2,35,2,18
+	.byte	'EN17',0,1
+	.word	315
+	.byte	1,6,2,35,2,18
+	.byte	'EN18',0,1
+	.word	315
+	.byte	1,5,2,35,2,18
+	.byte	'EN19',0,1
+	.word	315
+	.byte	1,4,2,35,2,18
+	.byte	'EN20',0,1
+	.word	315
+	.byte	1,3,2,35,2,18
+	.byte	'EN21',0,1
+	.word	315
+	.byte	1,2,2,35,2,18
+	.byte	'EN22',0,1
+	.word	315
+	.byte	1,1,2,35,2,18
+	.byte	'EN23',0,1
+	.word	315
+	.byte	1,0,2,35,2,18
+	.byte	'EN24',0,1
+	.word	315
+	.byte	1,7,2,35,3,18
+	.byte	'EN25',0,1
+	.word	315
+	.byte	1,6,2,35,3,18
+	.byte	'EN26',0,1
+	.word	315
+	.byte	1,5,2,35,3,18
+	.byte	'EN27',0,1
+	.word	315
+	.byte	1,4,2,35,3,18
+	.byte	'EN28',0,1
+	.word	315
+	.byte	1,3,2,35,3,18
+	.byte	'EN29',0,1
+	.word	315
+	.byte	1,2,2,35,3,18
+	.byte	'EN30',0,1
+	.word	315
+	.byte	1,1,2,35,3,18
+	.byte	'EN31',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_ACCEN0_Bits',0,8,79,3
+	.word	2682
+	.byte	17
+	.byte	'_Ifx_P_ACCEN1_Bits',0,8,82,16,4,18
+	.byte	'reserved_0',0,4
+	.word	237
+	.byte	32,0,2,35,0,0,14
+	.byte	'Ifx_P_ACCEN1_Bits',0,8,85,3
+	.word	3235
+	.byte	17
+	.byte	'_Ifx_P_ESR_Bits',0,8,88,16,4,18
+	.byte	'EN0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'EN1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'EN2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'EN3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'EN4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'EN5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'EN6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'EN7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'EN8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'EN9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'EN10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'EN11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'EN12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'EN13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'EN14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'EN15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_ESR_Bits',0,8,107,3
+	.word	3308
+	.byte	17
+	.byte	'_Ifx_P_ID_Bits',0,8,110,16,4,18
+	.byte	'MODREV',0,1
+	.word	315
+	.byte	8,0,2,35,0,18
+	.byte	'MODTYPE',0,1
+	.word	315
+	.byte	8,0,2,35,1,18
+	.byte	'MODNUMBER',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_ID_Bits',0,8,115,3
+	.word	3622
+	.byte	17
+	.byte	'_Ifx_P_IN_Bits',0,8,118,16,4,18
+	.byte	'P0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'P1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'P2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'P3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'P4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'P5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'P6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'P7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'P8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'P9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'P10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'P11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'P12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'P13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'P14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'P15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_IN_Bits',0,8,137,1,3
+	.word	3723
+	.byte	17
+	.byte	'_Ifx_P_IOCR0_Bits',0,8,140,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	3,5,2,35,0,18
+	.byte	'PC0',0,1
+	.word	315
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	315
+	.byte	3,5,2,35,1,18
+	.byte	'PC1',0,1
+	.word	315
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	315
+	.byte	3,5,2,35,2,18
+	.byte	'PC2',0,1
+	.word	315
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	315
+	.byte	3,5,2,35,3,18
+	.byte	'PC3',0,1
+	.word	315
+	.byte	5,0,2,35,3,0,14
+	.byte	'Ifx_P_IOCR0_Bits',0,8,150,1,3
+	.word	4020
+	.byte	17
+	.byte	'_Ifx_P_IOCR12_Bits',0,8,153,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	3,5,2,35,0,18
+	.byte	'PC12',0,1
+	.word	315
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	315
+	.byte	3,5,2,35,1,18
+	.byte	'PC13',0,1
+	.word	315
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	315
+	.byte	3,5,2,35,2,18
+	.byte	'PC14',0,1
+	.word	315
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	315
+	.byte	3,5,2,35,3,18
+	.byte	'PC15',0,1
+	.word	315
+	.byte	5,0,2,35,3,0,14
+	.byte	'Ifx_P_IOCR12_Bits',0,8,163,1,3
+	.word	4221
+	.byte	17
+	.byte	'_Ifx_P_IOCR4_Bits',0,8,166,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	3,5,2,35,0,18
+	.byte	'PC4',0,1
+	.word	315
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	315
+	.byte	3,5,2,35,1,18
+	.byte	'PC5',0,1
+	.word	315
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	315
+	.byte	3,5,2,35,2,18
+	.byte	'PC6',0,1
+	.word	315
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	315
+	.byte	3,5,2,35,3,18
+	.byte	'PC7',0,1
+	.word	315
+	.byte	5,0,2,35,3,0,14
+	.byte	'Ifx_P_IOCR4_Bits',0,8,176,1,3
+	.word	4428
+	.byte	17
+	.byte	'_Ifx_P_IOCR8_Bits',0,8,179,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	3,5,2,35,0,18
+	.byte	'PC8',0,1
+	.word	315
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,1
+	.word	315
+	.byte	3,5,2,35,1,18
+	.byte	'PC9',0,1
+	.word	315
+	.byte	5,0,2,35,1,18
+	.byte	'reserved_16',0,1
+	.word	315
+	.byte	3,5,2,35,2,18
+	.byte	'PC10',0,1
+	.word	315
+	.byte	5,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	315
+	.byte	3,5,2,35,3,18
+	.byte	'PC11',0,1
+	.word	315
+	.byte	5,0,2,35,3,0,14
+	.byte	'Ifx_P_IOCR8_Bits',0,8,189,1,3
+	.word	4629
+	.byte	17
+	.byte	'_Ifx_P_LPCR0_Bits',0,8,192,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'reserved_2',0,4
+	.word	237
+	.byte	30,0,2,35,0,0,14
+	.byte	'Ifx_P_LPCR0_Bits',0,8,197,1,3
+	.word	4832
+	.byte	17
+	.byte	'_Ifx_P_LPCR1_Bits',0,8,200,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'reserved_2',0,4
+	.word	237
+	.byte	30,0,2,35,0,0,14
+	.byte	'Ifx_P_LPCR1_Bits',0,8,205,1,3
+	.word	4942
+	.byte	17
+	.byte	'_Ifx_P_LPCR1_P21_Bits',0,8,208,1,16,4,18
+	.byte	'RDIS_CTRL',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'RX_DIS',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'TERM',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'LRXTERM',0,1
+	.word	315
+	.byte	5,0,2,35,0,18
+	.byte	'reserved_8',0,4
+	.word	237
+	.byte	24,0,2,35,0,0,14
+	.byte	'Ifx_P_LPCR1_P21_Bits',0,8,215,1,3
+	.word	5052
+	.byte	17
+	.byte	'_Ifx_P_LPCR2_Bits',0,8,218,1,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	8,0,2,35,0,18
+	.byte	'LVDSR',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'LVDSRL',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'reserved_10',0,1
+	.word	315
+	.byte	2,4,2,35,1,18
+	.byte	'TDIS_CTRL',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'TX_DIS',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'TX_PD',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'TX_PWDPD',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_LPCR2_Bits',0,8,229,1,3
+	.word	5207
+	.byte	17
+	.byte	'_Ifx_P_OMCR0_Bits',0,8,232,1,16,4,18
+	.byte	'reserved_0',0,2
+	.word	337
+	.byte	16,0,2,35,0,18
+	.byte	'PCL0',0,1
+	.word	315
+	.byte	1,7,2,35,2,18
+	.byte	'PCL1',0,1
+	.word	315
+	.byte	1,6,2,35,2,18
+	.byte	'PCL2',0,1
+	.word	315
+	.byte	1,5,2,35,2,18
+	.byte	'PCL3',0,1
+	.word	315
+	.byte	1,4,2,35,2,18
+	.byte	'reserved_20',0,2
+	.word	337
+	.byte	12,0,2,35,2,0,14
+	.byte	'Ifx_P_OMCR0_Bits',0,8,240,1,3
+	.word	5437
+	.byte	17
+	.byte	'_Ifx_P_OMCR12_Bits',0,8,243,1,16,4,18
+	.byte	'reserved_0',0,4
+	.word	237
+	.byte	28,4,2,35,0,18
+	.byte	'PCL12',0,1
+	.word	315
+	.byte	1,3,2,35,3,18
+	.byte	'PCL13',0,1
+	.word	315
+	.byte	1,2,2,35,3,18
+	.byte	'PCL14',0,1
+	.word	315
+	.byte	1,1,2,35,3,18
+	.byte	'PCL15',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_OMCR12_Bits',0,8,250,1,3
+	.word	5597
+	.byte	17
+	.byte	'_Ifx_P_OMCR4_Bits',0,8,253,1,16,4,18
+	.byte	'reserved_0',0,4
+	.word	237
+	.byte	20,12,2,35,0,18
+	.byte	'PCL4',0,1
+	.word	315
+	.byte	1,3,2,35,2,18
+	.byte	'PCL5',0,1
+	.word	315
+	.byte	1,2,2,35,2,18
+	.byte	'PCL6',0,1
+	.word	315
+	.byte	1,1,2,35,2,18
+	.byte	'PCL7',0,1
+	.word	315
+	.byte	1,0,2,35,2,18
+	.byte	'reserved_24',0,1
+	.word	315
+	.byte	8,0,2,35,3,0,14
+	.byte	'Ifx_P_OMCR4_Bits',0,8,133,2,3
+	.word	5740
+	.byte	17
+	.byte	'_Ifx_P_OMCR8_Bits',0,8,136,2,16,4,18
+	.byte	'reserved_0',0,4
+	.word	237
+	.byte	24,8,2,35,0,18
+	.byte	'PCL8',0,1
+	.word	315
+	.byte	1,7,2,35,3,18
+	.byte	'PCL9',0,1
+	.word	315
+	.byte	1,6,2,35,3,18
+	.byte	'PCL10',0,1
+	.word	315
+	.byte	1,5,2,35,3,18
+	.byte	'PCL11',0,1
+	.word	315
+	.byte	1,4,2,35,3,18
+	.byte	'reserved_28',0,1
+	.word	315
+	.byte	4,0,2,35,3,0,14
+	.byte	'Ifx_P_OMCR8_Bits',0,8,144,2,3
+	.word	5900
+	.byte	17
+	.byte	'_Ifx_P_OMCR_Bits',0,8,147,2,16,4,18
+	.byte	'reserved_0',0,2
+	.word	337
+	.byte	16,0,2,35,0,18
+	.byte	'PCL0',0,1
+	.word	315
+	.byte	1,7,2,35,2,18
+	.byte	'PCL1',0,1
+	.word	315
+	.byte	1,6,2,35,2,18
+	.byte	'PCL2',0,1
+	.word	315
+	.byte	1,5,2,35,2,18
+	.byte	'PCL3',0,1
+	.word	315
+	.byte	1,4,2,35,2,18
+	.byte	'PCL4',0,1
+	.word	315
+	.byte	1,3,2,35,2,18
+	.byte	'PCL5',0,1
+	.word	315
+	.byte	1,2,2,35,2,18
+	.byte	'PCL6',0,1
+	.word	315
+	.byte	1,1,2,35,2,18
+	.byte	'PCL7',0,1
+	.word	315
+	.byte	1,0,2,35,2,18
+	.byte	'PCL8',0,1
+	.word	315
+	.byte	1,7,2,35,3,18
+	.byte	'PCL9',0,1
+	.word	315
+	.byte	1,6,2,35,3,18
+	.byte	'PCL10',0,1
+	.word	315
+	.byte	1,5,2,35,3,18
+	.byte	'PCL11',0,1
+	.word	315
+	.byte	1,4,2,35,3,18
+	.byte	'PCL12',0,1
+	.word	315
+	.byte	1,3,2,35,3,18
+	.byte	'PCL13',0,1
+	.word	315
+	.byte	1,2,2,35,3,18
+	.byte	'PCL14',0,1
+	.word	315
+	.byte	1,1,2,35,3,18
+	.byte	'PCL15',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_OMCR_Bits',0,8,166,2,3
+	.word	6062
+	.byte	17
+	.byte	'_Ifx_P_OMR_Bits',0,8,169,2,16,4,18
+	.byte	'PS0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'PS2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'PS3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'PS4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'PS5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'PS6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'PS7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'PS8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'PS9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'PS10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'PS11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'PS12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'PS13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'PS14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'PS15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'PCL0',0,1
+	.word	315
+	.byte	1,7,2,35,2,18
+	.byte	'PCL1',0,1
+	.word	315
+	.byte	1,6,2,35,2,18
+	.byte	'PCL2',0,1
+	.word	315
+	.byte	1,5,2,35,2,18
+	.byte	'PCL3',0,1
+	.word	315
+	.byte	1,4,2,35,2,18
+	.byte	'PCL4',0,1
+	.word	315
+	.byte	1,3,2,35,2,18
+	.byte	'PCL5',0,1
+	.word	315
+	.byte	1,2,2,35,2,18
+	.byte	'PCL6',0,1
+	.word	315
+	.byte	1,1,2,35,2,18
+	.byte	'PCL7',0,1
+	.word	315
+	.byte	1,0,2,35,2,18
+	.byte	'PCL8',0,1
+	.word	315
+	.byte	1,7,2,35,3,18
+	.byte	'PCL9',0,1
+	.word	315
+	.byte	1,6,2,35,3,18
+	.byte	'PCL10',0,1
+	.word	315
+	.byte	1,5,2,35,3,18
+	.byte	'PCL11',0,1
+	.word	315
+	.byte	1,4,2,35,3,18
+	.byte	'PCL12',0,1
+	.word	315
+	.byte	1,3,2,35,3,18
+	.byte	'PCL13',0,1
+	.word	315
+	.byte	1,2,2,35,3,18
+	.byte	'PCL14',0,1
+	.word	315
+	.byte	1,1,2,35,3,18
+	.byte	'PCL15',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_OMR_Bits',0,8,203,2,3
+	.word	6395
+	.byte	17
+	.byte	'_Ifx_P_OMSR0_Bits',0,8,206,2,16,4,18
+	.byte	'PS0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'PS2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'PS3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'reserved_4',0,4
+	.word	237
+	.byte	28,0,2,35,0,0,14
+	.byte	'Ifx_P_OMSR0_Bits',0,8,213,2,3
+	.word	6950
+	.byte	17
+	.byte	'_Ifx_P_OMSR12_Bits',0,8,216,2,16,4,18
+	.byte	'reserved_0',0,2
+	.word	337
+	.byte	12,4,2,35,0,18
+	.byte	'PS12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'PS13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'PS14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'PS15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_OMSR12_Bits',0,8,224,2,3
+	.word	7083
+	.byte	17
+	.byte	'_Ifx_P_OMSR4_Bits',0,8,227,2,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	4,4,2,35,0,18
+	.byte	'PS4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'PS5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'PS6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'PS7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'reserved_8',0,4
+	.word	237
+	.byte	24,0,2,35,0,0,14
+	.byte	'Ifx_P_OMSR4_Bits',0,8,235,2,3
+	.word	7245
+	.byte	17
+	.byte	'_Ifx_P_OMSR8_Bits',0,8,238,2,16,4,18
+	.byte	'reserved_0',0,1
+	.word	315
+	.byte	8,0,2,35,0,18
+	.byte	'PS8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'PS9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'PS10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'PS11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'reserved_12',0,4
+	.word	237
+	.byte	20,0,2,35,0,0,14
+	.byte	'Ifx_P_OMSR8_Bits',0,8,246,2,3
+	.word	7400
+	.byte	17
+	.byte	'_Ifx_P_OMSR_Bits',0,8,249,2,16,4,18
+	.byte	'PS0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'PS1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'PS2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'PS3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'PS4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'PS5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'PS6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'PS7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'PS8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'PS9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'PS10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'PS11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'PS12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'PS13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'PS14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'PS15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_OMSR_Bits',0,8,140,3,3
+	.word	7558
+	.byte	17
+	.byte	'_Ifx_P_OUT_Bits',0,8,143,3,16,4,18
+	.byte	'P0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'P1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'P2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'P3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'P4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'P5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'P6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'P7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'P8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'P9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'P10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'P11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'P12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'P13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'P14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'P15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_OUT_Bits',0,8,162,3,3
+	.word	7876
+	.byte	17
+	.byte	'_Ifx_P_PCSR_Bits',0,8,165,3,16,4,18
+	.byte	'SEL0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'SEL1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'SEL2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'SEL3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'SEL4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'SEL5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'SEL6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'reserved_7',0,2
+	.word	337
+	.byte	3,6,2,35,0,18
+	.byte	'SEL10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'SEL11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'reserved_12',0,4
+	.word	237
+	.byte	19,1,2,35,0,18
+	.byte	'LCK',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_PCSR_Bits',0,8,179,3,3
+	.word	8176
+	.byte	17
+	.byte	'_Ifx_P_PDISC_Bits',0,8,182,3,16,4,18
+	.byte	'PDIS0',0,1
+	.word	315
+	.byte	1,7,2,35,0,18
+	.byte	'PDIS1',0,1
+	.word	315
+	.byte	1,6,2,35,0,18
+	.byte	'PDIS2',0,1
+	.word	315
+	.byte	1,5,2,35,0,18
+	.byte	'PDIS3',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'PDIS4',0,1
+	.word	315
+	.byte	1,3,2,35,0,18
+	.byte	'PDIS5',0,1
+	.word	315
+	.byte	1,2,2,35,0,18
+	.byte	'PDIS6',0,1
+	.word	315
+	.byte	1,1,2,35,0,18
+	.byte	'PDIS7',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'PDIS8',0,1
+	.word	315
+	.byte	1,7,2,35,1,18
+	.byte	'PDIS9',0,1
+	.word	315
+	.byte	1,6,2,35,1,18
+	.byte	'PDIS10',0,1
+	.word	315
+	.byte	1,5,2,35,1,18
+	.byte	'PDIS11',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'PDIS12',0,1
+	.word	315
+	.byte	1,3,2,35,1,18
+	.byte	'PDIS13',0,1
+	.word	315
+	.byte	1,2,2,35,1,18
+	.byte	'PDIS14',0,1
+	.word	315
+	.byte	1,1,2,35,1,18
+	.byte	'PDIS15',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'reserved_16',0,2
+	.word	337
+	.byte	16,0,2,35,2,0,14
+	.byte	'Ifx_P_PDISC_Bits',0,8,201,3,3
+	.word	8431
+	.byte	17
+	.byte	'_Ifx_P_PDR0_Bits',0,8,204,3,16,4,18
+	.byte	'PD0',0,1
+	.word	315
+	.byte	3,5,2,35,0,18
+	.byte	'PL0',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'PD1',0,1
+	.word	315
+	.byte	3,1,2,35,0,18
+	.byte	'PL1',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'PD2',0,1
+	.word	315
+	.byte	3,5,2,35,1,18
+	.byte	'PL2',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'PD3',0,1
+	.word	315
+	.byte	3,1,2,35,1,18
+	.byte	'PL3',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'PD4',0,1
+	.word	315
+	.byte	3,5,2,35,2,18
+	.byte	'PL4',0,1
+	.word	315
+	.byte	1,4,2,35,2,18
+	.byte	'PD5',0,1
+	.word	315
+	.byte	3,1,2,35,2,18
+	.byte	'PL5',0,1
+	.word	315
+	.byte	1,0,2,35,2,18
+	.byte	'PD6',0,1
+	.word	315
+	.byte	3,5,2,35,3,18
+	.byte	'PL6',0,1
+	.word	315
+	.byte	1,4,2,35,3,18
+	.byte	'PD7',0,1
+	.word	315
+	.byte	3,1,2,35,3,18
+	.byte	'PL7',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_PDR0_Bits',0,8,222,3,3
+	.word	8783
+	.byte	17
+	.byte	'_Ifx_P_PDR1_Bits',0,8,225,3,16,4,18
+	.byte	'PD8',0,1
+	.word	315
+	.byte	3,5,2,35,0,18
+	.byte	'PL8',0,1
+	.word	315
+	.byte	1,4,2,35,0,18
+	.byte	'PD9',0,1
+	.word	315
+	.byte	3,1,2,35,0,18
+	.byte	'PL9',0,1
+	.word	315
+	.byte	1,0,2,35,0,18
+	.byte	'PD10',0,1
+	.word	315
+	.byte	3,5,2,35,1,18
+	.byte	'PL10',0,1
+	.word	315
+	.byte	1,4,2,35,1,18
+	.byte	'PD11',0,1
+	.word	315
+	.byte	3,1,2,35,1,18
+	.byte	'PL11',0,1
+	.word	315
+	.byte	1,0,2,35,1,18
+	.byte	'PD12',0,1
+	.word	315
+	.byte	3,5,2,35,2,18
+	.byte	'PL12',0,1
+	.word	315
+	.byte	1,4,2,35,2,18
+	.byte	'PD13',0,1
+	.word	315
+	.byte	3,1,2,35,2,18
+	.byte	'PL13',0,1
+	.word	315
+	.byte	1,0,2,35,2,18
+	.byte	'PD14',0,1
+	.word	315
+	.byte	3,5,2,35,3,18
+	.byte	'PL14',0,1
+	.word	315
+	.byte	1,4,2,35,3,18
+	.byte	'PD15',0,1
+	.word	315
+	.byte	3,1,2,35,3,18
+	.byte	'PL15',0,1
+	.word	315
+	.byte	1,0,2,35,3,0,14
+	.byte	'Ifx_P_PDR1_Bits',0,8,243,3,3
+	.word	9072
+	.byte	19,8,251,3,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	2682
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_ACCEN0',0,8,128,4,3
+	.word	9373
+	.byte	19,8,131,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	3235
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_ACCEN1',0,8,136,4,3
+	.word	9435
+	.byte	19,8,139,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	3308
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_ESR',0,8,144,4,3
+	.word	9497
+	.byte	19,8,147,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	3622
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_ID',0,8,152,4,3
+	.word	9556
+	.byte	19,8,155,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	3723
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_IN',0,8,160,4,3
+	.word	9614
+	.byte	19,8,163,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	4020
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_IOCR0',0,8,168,4,3
+	.word	9672
+	.byte	19,8,171,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	4221
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_IOCR12',0,8,176,4,3
+	.word	9733
+	.byte	19,8,179,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	4428
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_IOCR4',0,8,184,4,3
+	.word	9795
+	.byte	19,8,187,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	4629
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_IOCR8',0,8,192,4,3
+	.word	9856
+	.byte	19,8,195,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	4832
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_LPCR0',0,8,200,4,3
+	.word	9917
+	.byte	19,8,203,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	4942
+	.byte	4,2,35,0,20
+	.byte	'B_P21',0
+	.word	5052
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_LPCR1',0,8,209,4,3
+	.word	9978
+	.byte	19,8,212,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	5207
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_LPCR2',0,8,217,4,3
+	.word	10054
+	.byte	19,8,220,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	6062
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMCR',0,8,225,4,3
+	.word	10115
+	.byte	19,8,228,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	5437
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMCR0',0,8,233,4,3
+	.word	10175
+	.byte	19,8,236,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	5597
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMCR12',0,8,241,4,3
+	.word	10236
+	.byte	19,8,244,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	5740
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMCR4',0,8,249,4,3
+	.word	10298
+	.byte	19,8,252,4,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	5900
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMCR8',0,8,129,5,3
+	.word	10359
+	.byte	19,8,132,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	6395
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMR',0,8,137,5,3
+	.word	10420
+	.byte	19,8,140,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	7558
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMSR',0,8,145,5,3
+	.word	10479
+	.byte	19,8,148,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	6950
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMSR0',0,8,153,5,3
+	.word	10539
+	.byte	19,8,156,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	7083
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMSR12',0,8,161,5,3
+	.word	10600
+	.byte	19,8,164,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	7245
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMSR4',0,8,169,5,3
+	.word	10662
+	.byte	19,8,172,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	7400
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OMSR8',0,8,177,5,3
+	.word	10723
+	.byte	19,8,180,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	7876
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_OUT',0,8,185,5,3
+	.word	10784
+	.byte	19,8,188,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	8176
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_PCSR',0,8,193,5,3
+	.word	10843
+	.byte	19,8,196,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	8431
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_PDISC',0,8,201,5,3
+	.word	10903
+	.byte	19,8,204,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	8783
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_PDR0',0,8,209,5,3
+	.word	10964
+	.byte	19,8,212,5,9,4,20
+	.byte	'U',0
+	.word	237
+	.byte	4,2,35,0,20
+	.byte	'I',0
+	.word	188
+	.byte	4,2,35,0,20
+	.byte	'B',0
+	.word	9072
+	.byte	4,2,35,0,0,14
+	.byte	'Ifx_P_PDR1',0,8,217,5,3
+	.word	11024
+	.byte	14
+	.byte	'Dio_LevelType',0,1,237,1,17
+	.word	315
+	.byte	14
+	.byte	'Dio_ChannelType',0,1,243,1,17
+	.word	337
+	.byte	14
+	.byte	'Dio_PortType',0,1,249,1,17
+	.word	315
+	.byte	14
+	.byte	'Dio_PortLevelType',0,1,252,1,17
+	.word	337
+	.byte	17
+	.byte	'Dio_ChannelGroupType',0,1,129,2,16,4,20
+	.byte	'mask',0
+	.word	337
+	.byte	2,2,35,0,20
+	.byte	'offset',0
+	.word	315
+	.byte	1,2,35,2,20
+	.byte	'port',0
+	.word	315
+	.byte	1,2,35,3,0,14
+	.byte	'Dio_ChannelGroupType',0,1,137,2,3
+	.word	11181
+	.byte	17
+	.byte	'Dio_PortChannelIdType',0,1,139,2,16,8,20
+	.byte	'Dio_PortIdConfig',0
+	.word	540
+	.byte	4,2,35,0,20
+	.byte	'Dio_ChannelConfig',0
+	.word	540
+	.byte	4,2,35,4,0,14
+	.byte	'Dio_PortChannelIdType',0,1,145,2,2
+	.word	11283
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L63:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,11
+	.byte	5,0,3,8,58,15,59,15,57,15,73,19,0,0,12,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,13,21,0
+	.byte	54,15,0,0,14,22,0,3,8,58,15,59,15,57,15,73,19,0,0,15,4,1,58,15,59,15,57,15,11,15,0,0,16,40,0,3,8,28,13
+	.byte	0,0,17,19,1,3,8,58,15,59,15,57,15,11,15,0,0,18,13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,19,23,1,58,15
+	.byte	59,15,57,15,11,15,0,0,20,13,0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L64:
+	.word	.L195-.L194
+.L194:
+	.half	3
+	.word	.L197-.L196
+.L196:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\Dio\\inc',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Src\\Common',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_01_BSW\\Gen\\GenData',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\_03_MCAL\\Src\\General\\tricore\\inc\\TC27xD',0
+	.byte	0
+	.byte	'Dio.h',0,1,0,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Std_Types.h',0,2,0,0
+	.byte	'ComStack_Cfg.h',0,3,0,0
+	.byte	'ComStack_Types.h',0,2,0,0
+	.byte	'Rte_Type.h',0,3,0,0
+	.byte	'IfxPort_regdef.h',0,4,0,0,0
+.L197:
+.L195:
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.debug_info'
+.L65:
+	.word	312
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L68,.L67
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read',0,1,163,1,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L34,.L136,.L33
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,163,1,132,1
+	.word	.L137,.L138
+	.byte	5
+	.word	.L34,.L136
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.debug_line'
+.L67:
+	.word	.L199-.L198
+.L198:
+	.half	3
+	.word	.L201-.L200
+.L200:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L201:
+	.byte	5,35,7,0,5,2
+	.word	.L34
+	.byte	3,162,1,1,5,22,9
+	.half	.L165-.L34
+	.byte	3,6,1,5,3,9
+	.half	.L164-.L165
+	.byte	1,5,31,7,9
+	.half	.L202-.L164
+	.byte	3,2,1,5,29,9
+	.half	.L203-.L202
+	.byte	1,5,39,9
+	.half	.L204-.L203
+	.byte	1,5,31,9
+	.half	.L2-.L204
+	.byte	3,4,1,5,29,9
+	.half	.L205-.L2
+	.byte	1,5,10,9
+	.half	.L3-.L205
+	.byte	3,2,1,5,3,9
+	.half	.L206-.L3
+	.byte	1,5,1,9
+	.half	.L4-.L206
+	.byte	3,5,1,7,9
+	.half	.L69-.L4
+	.byte	0,1,1
+.L199:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.debug_ranges'
+.L68:
+	.word	-1,.L34,0,.L69-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.debug_info'
+.L70:
+	.word	312
+	.half	3
+	.word	.L71
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L73,.L72
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read',0,1,218,1,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L36,.L139,.L35
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,218,1,132,1
+	.word	.L137,.L140
+	.byte	5
+	.word	.L36,.L139
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.debug_abbrev'
+.L71:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.debug_line'
+.L72:
+	.word	.L208-.L207
+.L207:
+	.half	3
+	.word	.L210-.L209
+.L209:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L210:
+	.byte	5,35,7,0,5,2
+	.word	.L36
+	.byte	3,217,1,1,5,21,9
+	.half	.L167-.L36
+	.byte	3,6,1,5,2,9
+	.half	.L166-.L167
+	.byte	1,5,30,7,9
+	.half	.L211-.L166
+	.byte	3,2,1,5,28,9
+	.half	.L212-.L211
+	.byte	1,5,38,9
+	.half	.L213-.L212
+	.byte	1,5,30,9
+	.half	.L5-.L213
+	.byte	3,4,1,5,28,9
+	.half	.L214-.L5
+	.byte	1,5,10,9
+	.half	.L6-.L214
+	.byte	3,2,1,5,3,9
+	.half	.L215-.L6
+	.byte	1,5,1,9
+	.half	.L7-.L215
+	.byte	3,5,1,7,9
+	.half	.L74-.L7
+	.byte	0,1,1
+.L208:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.debug_ranges'
+.L73:
+	.word	-1,.L36,0,.L74-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.debug_info'
+.L75:
+	.word	312
+	.half	3
+	.word	.L76
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L78,.L77
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read',0,1,145,2,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L38,.L141,.L37
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,145,2,132,1
+	.word	.L137,.L142
+	.byte	5
+	.word	.L38,.L141
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.debug_abbrev'
+.L76:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.debug_line'
+.L77:
+	.word	.L217-.L216
+.L216:
+	.half	3
+	.word	.L219-.L218
+.L218:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L219:
+	.byte	5,35,7,0,5,2
+	.word	.L38
+	.byte	3,144,2,1,5,21,9
+	.half	.L169-.L38
+	.byte	3,6,1,5,2,9
+	.half	.L168-.L169
+	.byte	1,5,30,7,9
+	.half	.L220-.L168
+	.byte	3,2,1,5,28,9
+	.half	.L221-.L220
+	.byte	1,5,38,9
+	.half	.L222-.L221
+	.byte	1,5,30,9
+	.half	.L8-.L222
+	.byte	3,4,1,5,28,9
+	.half	.L223-.L8
+	.byte	1,5,10,9
+	.half	.L9-.L223
+	.byte	3,2,1,5,3,9
+	.half	.L224-.L9
+	.byte	1,5,1,9
+	.half	.L10-.L224
+	.byte	3,5,1,7,9
+	.half	.L79-.L10
+	.byte	0,1,1
+.L217:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.debug_ranges'
+.L78:
+	.word	-1,.L38,0,.L79-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.debug_info'
+.L80:
+	.word	312
+	.half	3
+	.word	.L81
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L83,.L82
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read',0,1,200,2,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L40,.L143,.L39
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,200,2,132,1
+	.word	.L137,.L144
+	.byte	5
+	.word	.L40,.L143
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.debug_abbrev'
+.L81:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.debug_line'
+.L82:
+	.word	.L226-.L225
+.L225:
+	.half	3
+	.word	.L228-.L227
+.L227:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L228:
+	.byte	5,35,7,0,5,2
+	.word	.L40
+	.byte	3,199,2,1,5,21,9
+	.half	.L171-.L40
+	.byte	3,6,1,5,2,9
+	.half	.L170-.L171
+	.byte	1,5,30,7,9
+	.half	.L229-.L170
+	.byte	3,2,1,5,28,9
+	.half	.L230-.L229
+	.byte	1,5,38,9
+	.half	.L231-.L230
+	.byte	1,5,30,9
+	.half	.L11-.L231
+	.byte	3,4,1,5,28,9
+	.half	.L232-.L11
+	.byte	1,5,10,9
+	.half	.L12-.L232
+	.byte	3,2,1,5,3,9
+	.half	.L233-.L12
+	.byte	1,5,1,9
+	.half	.L13-.L233
+	.byte	3,5,1,7,9
+	.half	.L84-.L13
+	.byte	0,1,1
+.L226:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.debug_ranges'
+.L83:
+	.word	-1,.L40,0,.L84-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.debug_info'
+.L85:
+	.word	305
+	.half	3
+	.word	.L86
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L88,.L87
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read',0,1,255,2,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L42,.L145,.L41
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,255,2,126
+	.word	.L137,.L146
+	.byte	5
+	.word	.L42,.L145
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.debug_abbrev'
+.L86:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.debug_line'
+.L87:
+	.word	.L235-.L234
+.L234:
+	.half	3
+	.word	.L237-.L236
+.L236:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L237:
+	.byte	5,35,7,0,5,2
+	.word	.L42
+	.byte	3,254,2,1,5,21,9
+	.half	.L173-.L42
+	.byte	3,6,1,5,2,9
+	.half	.L172-.L173
+	.byte	1,5,30,7,9
+	.half	.L238-.L172
+	.byte	3,2,1,5,28,9
+	.half	.L239-.L238
+	.byte	1,5,38,9
+	.half	.L240-.L239
+	.byte	1,5,30,9
+	.half	.L14-.L240
+	.byte	3,4,1,5,28,9
+	.half	.L241-.L14
+	.byte	1,5,10,9
+	.half	.L15-.L241
+	.byte	3,2,1,5,3,9
+	.half	.L242-.L15
+	.byte	1,5,1,9
+	.half	.L16-.L242
+	.byte	3,5,1,7,9
+	.half	.L89-.L16
+	.byte	0,1,1
+.L235:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.debug_ranges'
+.L88:
+	.word	-1,.L42,0,.L89-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.debug_info'
+.L90:
+	.word	305
+	.half	3
+	.word	.L91
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L93,.L92
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read',0,1,182,3,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L44,.L147,.L43
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,182,3,126
+	.word	.L137,.L148
+	.byte	5
+	.word	.L44,.L147
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.debug_abbrev'
+.L91:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.debug_line'
+.L92:
+	.word	.L244-.L243
+.L243:
+	.half	3
+	.word	.L246-.L245
+.L245:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L246:
+	.byte	5,35,7,0,5,2
+	.word	.L44
+	.byte	3,181,3,1,5,21,9
+	.half	.L175-.L44
+	.byte	3,6,1,5,2,9
+	.half	.L174-.L175
+	.byte	1,5,30,7,9
+	.half	.L247-.L174
+	.byte	3,2,1,5,28,9
+	.half	.L248-.L247
+	.byte	1,5,38,9
+	.half	.L249-.L248
+	.byte	1,5,30,9
+	.half	.L17-.L249
+	.byte	3,4,1,5,28,9
+	.half	.L250-.L17
+	.byte	1,5,10,9
+	.half	.L18-.L250
+	.byte	3,2,1,5,3,9
+	.half	.L251-.L18
+	.byte	1,5,1,9
+	.half	.L19-.L251
+	.byte	3,5,1,7,9
+	.half	.L94-.L19
+	.byte	0,1,1
+.L244:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.debug_ranges'
+.L93:
+	.word	-1,.L44,0,.L94-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.debug_info'
+.L95:
+	.word	306
+	.half	3
+	.word	.L96
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L98,.L97
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write',0,1,237,3,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L46,.L149,.L45
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,237,3,88
+	.word	.L135,.L150
+	.byte	5
+	.word	.L46,.L149
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.debug_abbrev'
+.L96:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.debug_line'
+.L97:
+	.word	.L253-.L252
+.L252:
+	.half	3
+	.word	.L255-.L254
+.L254:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L255:
+	.byte	5,35,7,0,5,2
+	.word	.L46
+	.byte	3,236,3,1,5,20,9
+	.half	.L177-.L46
+	.byte	3,6,1,5,45,9
+	.half	.L176-.L177
+	.byte	1,5,10,9
+	.half	.L178-.L176
+	.byte	3,1,1,5,3,9
+	.half	.L256-.L178
+	.byte	1,5,1,9
+	.half	.L20-.L256
+	.byte	3,5,1,7,9
+	.half	.L99-.L20
+	.byte	0,1,1
+.L253:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.debug_ranges'
+.L98:
+	.word	-1,.L46,0,.L99-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.debug_info'
+.L100:
+	.word	305
+	.half	3
+	.word	.L101
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L103,.L102
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read',0,1,157,4,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L48,.L151,.L47
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,157,4,126
+	.word	.L137,.L152
+	.byte	5
+	.word	.L48,.L151
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.debug_abbrev'
+.L101:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.debug_line'
+.L102:
+	.word	.L258-.L257
+.L257:
+	.half	3
+	.word	.L260-.L259
+.L259:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L260:
+	.byte	5,35,7,0,5,2
+	.word	.L48
+	.byte	3,156,4,1,5,21,9
+	.half	.L180-.L48
+	.byte	3,6,1,5,2,9
+	.half	.L179-.L180
+	.byte	1,5,30,7,9
+	.half	.L261-.L179
+	.byte	3,2,1,5,28,9
+	.half	.L262-.L261
+	.byte	1,5,38,9
+	.half	.L263-.L262
+	.byte	1,5,30,9
+	.half	.L21-.L263
+	.byte	3,4,1,5,28,9
+	.half	.L264-.L21
+	.byte	1,5,10,9
+	.half	.L22-.L264
+	.byte	3,2,1,5,3,9
+	.half	.L265-.L22
+	.byte	1,5,1,9
+	.half	.L23-.L265
+	.byte	3,5,1,7,9
+	.half	.L104-.L23
+	.byte	0,1,1
+.L258:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.debug_ranges'
+.L103:
+	.word	-1,.L48,0,.L104-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.debug_info'
+.L105:
+	.word	306
+	.half	3
+	.word	.L106
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L108,.L107
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write',0,1,212,4,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L50,.L153,.L49
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,212,4,88
+	.word	.L135,.L154
+	.byte	5
+	.word	.L50,.L153
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.debug_abbrev'
+.L106:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.debug_line'
+.L107:
+	.word	.L267-.L266
+.L266:
+	.half	3
+	.word	.L269-.L268
+.L268:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L269:
+	.byte	5,35,7,0,5,2
+	.word	.L50
+	.byte	3,211,4,1,5,20,9
+	.half	.L182-.L50
+	.byte	3,6,1,5,45,9
+	.half	.L181-.L182
+	.byte	1,5,10,9
+	.half	.L183-.L181
+	.byte	3,1,1,5,3,9
+	.half	.L270-.L183
+	.byte	1,5,1,9
+	.half	.L24-.L270
+	.byte	3,5,1,7,9
+	.half	.L109-.L24
+	.byte	0,1,1
+.L267:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.debug_ranges'
+.L108:
+	.word	-1,.L50,0,.L109-.L50,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.debug_info'
+.L110:
+	.word	305
+	.half	3
+	.word	.L111
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L113,.L112
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read',0,1,132,5,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L52,.L155,.L51
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,132,5,126
+	.word	.L137,.L156
+	.byte	5
+	.word	.L52,.L155
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.debug_abbrev'
+.L111:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.debug_line'
+.L112:
+	.word	.L272-.L271
+.L271:
+	.half	3
+	.word	.L274-.L273
+.L273:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L274:
+	.byte	5,35,7,0,5,2
+	.word	.L52
+	.byte	3,131,5,1,5,21,9
+	.half	.L185-.L52
+	.byte	3,6,1,5,2,9
+	.half	.L184-.L185
+	.byte	1,5,30,7,9
+	.half	.L275-.L184
+	.byte	3,2,1,5,28,9
+	.half	.L276-.L275
+	.byte	1,5,38,9
+	.half	.L277-.L276
+	.byte	1,5,30,9
+	.half	.L25-.L277
+	.byte	3,4,1,5,28,9
+	.half	.L278-.L25
+	.byte	1,5,10,9
+	.half	.L26-.L278
+	.byte	3,2,1,5,3,9
+	.half	.L279-.L26
+	.byte	1,5,1,9
+	.half	.L27-.L279
+	.byte	3,5,1,7,9
+	.half	.L114-.L27
+	.byte	0,1,1
+.L272:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.debug_ranges'
+.L113:
+	.word	-1,.L52,0,.L114-.L52,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.debug_info'
+.L115:
+	.word	306
+	.half	3
+	.word	.L116
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L118,.L117
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write',0,1,187,5,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L54,.L157,.L53
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,187,5,88
+	.word	.L135,.L158
+	.byte	5
+	.word	.L54,.L157
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.debug_abbrev'
+.L116:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.debug_line'
+.L117:
+	.word	.L281-.L280
+.L280:
+	.half	3
+	.word	.L283-.L282
+.L282:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L283:
+	.byte	5,35,7,0,5,2
+	.word	.L54
+	.byte	3,186,5,1,5,20,9
+	.half	.L187-.L54
+	.byte	3,6,1,5,45,9
+	.half	.L186-.L187
+	.byte	1,5,10,9
+	.half	.L188-.L186
+	.byte	3,1,1,5,3,9
+	.half	.L284-.L188
+	.byte	1,5,1,9
+	.half	.L28-.L284
+	.byte	3,5,1,7,9
+	.half	.L119-.L28
+	.byte	0,1,1
+.L281:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.debug_ranges'
+.L118:
+	.word	-1,.L54,0,.L119-.L54,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.debug_info'
+.L120:
+	.word	305
+	.half	3
+	.word	.L121
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L123,.L122
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read',0,1,235,5,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L56,.L159,.L55
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,235,5,126
+	.word	.L137,.L160
+	.byte	5
+	.word	.L56,.L159
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.debug_abbrev'
+.L121:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.debug_line'
+.L122:
+	.word	.L286-.L285
+.L285:
+	.half	3
+	.word	.L288-.L287
+.L287:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L288:
+	.byte	5,35,7,0,5,2
+	.word	.L56
+	.byte	3,234,5,1,5,21,9
+	.half	.L190-.L56
+	.byte	3,6,1,5,2,9
+	.half	.L189-.L190
+	.byte	1,5,30,7,9
+	.half	.L289-.L189
+	.byte	3,2,1,5,28,9
+	.half	.L290-.L289
+	.byte	1,5,38,9
+	.half	.L291-.L290
+	.byte	1,5,30,9
+	.half	.L29-.L291
+	.byte	3,4,1,5,28,9
+	.half	.L292-.L29
+	.byte	1,5,10,9
+	.half	.L30-.L292
+	.byte	3,2,1,5,3,9
+	.half	.L293-.L30
+	.byte	1,5,1,9
+	.half	.L31-.L293
+	.byte	3,5,1,7,9
+	.half	.L124-.L31
+	.byte	0,1,1
+.L286:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.debug_ranges'
+.L123:
+	.word	-1,.L56,0,.L124-.L56,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.debug_info'
+.L125:
+	.word	306
+	.half	3
+	.word	.L126
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L128,.L127
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write',0,1,162,6,35
+	.word	.L135
+	.byte	1,1,1
+	.word	.L58,.L161,.L57
+	.byte	4
+	.byte	'IoHwAbOperationArgument',0,1,162,6,88
+	.word	.L135,.L162
+	.byte	5
+	.word	.L58,.L161
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.debug_abbrev'
+.L126:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.debug_line'
+.L127:
+	.word	.L295-.L294
+.L294:
+	.half	3
+	.word	.L297-.L296
+.L296:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L297:
+	.byte	5,35,7,0,5,2
+	.word	.L58
+	.byte	3,161,6,1,5,20,9
+	.half	.L192-.L58
+	.byte	3,6,1,5,45,9
+	.half	.L191-.L192
+	.byte	1,5,10,9
+	.half	.L193-.L191
+	.byte	3,1,1,5,3,9
+	.half	.L298-.L193
+	.byte	1,5,1,9
+	.half	.L32-.L298
+	.byte	3,5,1,7,9
+	.half	.L129-.L32
+	.byte	0,1,1
+.L295:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.debug_ranges'
+.L128:
+	.word	-1,.L58,0,.L129-.L58,0,0
+	.sdecl	'.debug_info',debug,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.debug_info'
+.L130:
+	.word	246
+	.half	3
+	.word	.L131
+	.byte	4,1
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\Autosar\\CodePackage\\autosar_tc275_faultmonitor-V0.01\\autosar_tc275_faultmonitor\\Proj_Code\\Debug\\',0
+	.byte	12,1
+	.word	.L133,.L132
+	.byte	2
+	.word	.L61
+	.byte	3
+	.byte	'IoHwAb_IoHwAbRunnable',0,1,198,6,25,1,1,1
+	.word	.L60,.L163,.L59
+	.byte	4
+	.word	.L60,.L163
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.debug_abbrev'
+.L131:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.debug_line'
+.L132:
+	.word	.L300-.L299
+.L299:
+	.half	3
+	.word	.L302-.L301
+.L301:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\_02_CDD\\IoHwAb\\IoHwAb.c',0,0,0,0,0
+.L302:
+	.byte	5,1,7,0,5,2
+	.word	.L60
+	.byte	3,208,6,1,7,9
+	.half	.L134-.L60
+	.byte	0,1,1
+.L300:
+	.sdecl	'.debug_ranges',debug,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.debug_ranges'
+.L133:
+	.word	-1,.L60,0,.L134-.L60,0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.debug_loc'
+.L138:
+	.word	-1,.L34,0,.L164-.L34
+	.half	1
+	.byte	100
+	.word	.L165-.L34,.L136-.L34
+	.half	1
+	.byte	111
+	.word	0,0
+.L33:
+	.word	-1,.L34,0,.L136-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.debug_loc'
+.L140:
+	.word	-1,.L36,0,.L166-.L36
+	.half	1
+	.byte	100
+	.word	.L167-.L36,.L139-.L36
+	.half	1
+	.byte	111
+	.word	0,0
+.L35:
+	.word	-1,.L36,0,.L139-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.debug_loc'
+.L142:
+	.word	-1,.L38,0,.L168-.L38
+	.half	1
+	.byte	100
+	.word	.L169-.L38,.L141-.L38
+	.half	1
+	.byte	111
+	.word	0,0
+.L37:
+	.word	-1,.L38,0,.L141-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.debug_loc'
+.L144:
+	.word	-1,.L40,0,.L170-.L40
+	.half	1
+	.byte	100
+	.word	.L171-.L40,.L143-.L40
+	.half	1
+	.byte	111
+	.word	0,0
+.L39:
+	.word	-1,.L40,0,.L143-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.debug_loc'
+.L146:
+	.word	-1,.L42,0,.L172-.L42
+	.half	1
+	.byte	100
+	.word	.L173-.L42,.L145-.L42
+	.half	1
+	.byte	111
+	.word	0,0
+.L41:
+	.word	-1,.L42,0,.L145-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.debug_loc'
+.L148:
+	.word	-1,.L44,0,.L174-.L44
+	.half	1
+	.byte	100
+	.word	.L175-.L44,.L147-.L44
+	.half	1
+	.byte	111
+	.word	0,0
+.L43:
+	.word	-1,.L44,0,.L147-.L44
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.debug_loc'
+.L150:
+	.word	-1,.L46,0,.L176-.L46
+	.half	1
+	.byte	84
+	.word	.L177-.L46,.L178-.L46
+	.half	1
+	.byte	85
+	.word	0,0
+.L45:
+	.word	-1,.L46,0,.L149-.L46
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.debug_loc'
+.L152:
+	.word	-1,.L48,0,.L179-.L48
+	.half	1
+	.byte	100
+	.word	.L180-.L48,.L151-.L48
+	.half	1
+	.byte	111
+	.word	0,0
+.L47:
+	.word	-1,.L48,0,.L151-.L48
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.debug_loc'
+.L154:
+	.word	-1,.L50,0,.L181-.L50
+	.half	1
+	.byte	84
+	.word	.L182-.L50,.L183-.L50
+	.half	1
+	.byte	85
+	.word	0,0
+.L49:
+	.word	-1,.L50,0,.L153-.L50
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.debug_loc'
+.L156:
+	.word	-1,.L52,0,.L184-.L52
+	.half	1
+	.byte	100
+	.word	.L185-.L52,.L155-.L52
+	.half	1
+	.byte	111
+	.word	0,0
+.L51:
+	.word	-1,.L52,0,.L155-.L52
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.debug_loc'
+.L158:
+	.word	-1,.L54,0,.L186-.L54
+	.half	1
+	.byte	84
+	.word	.L187-.L54,.L188-.L54
+	.half	1
+	.byte	85
+	.word	0,0
+.L53:
+	.word	-1,.L54,0,.L157-.L54
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.debug_loc'
+.L160:
+	.word	-1,.L56,0,.L189-.L56
+	.half	1
+	.byte	100
+	.word	.L190-.L56,.L159-.L56
+	.half	1
+	.byte	111
+	.word	0,0
+.L55:
+	.word	-1,.L56,0,.L159-.L56
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.debug_loc'
+.L162:
+	.word	-1,.L58,0,.L191-.L58
+	.half	1
+	.byte	84
+	.word	.L192-.L58,.L193-.L58
+	.half	1
+	.byte	85
+	.word	0,0
+.L57:
+	.word	-1,.L58,0,.L161-.L58
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.debug_loc'
+.L59:
+	.word	-1,.L60,0,.L163-.L60
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L303:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L34,.L136-.L34
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L36,.L139-.L36
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L38,.L141-.L38
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L40,.L143-.L40
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_KL15_IoHwAbOp_KL15_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L42,.L145-.L42
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L44,.L147-.L44
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED1_IoHwAbOp_LED1_Write')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L46,.L149-.L46
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L48,.L151-.L48
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED2_IoHwAbOp_LED2_Write')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L50,.L153-.L50
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L52,.L155-.L52
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED3_IoHwAbOp_LED3_Write')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L54,.L157-.L54
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Read')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L56,.L159-.L56
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbCS_LED4_IoHwAbOp_LED4_Write')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L303,.L58,.L161-.L58
+	.sdecl	'.debug_frame',debug,cluster('IoHwAb_IoHwAbRunnable')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L303,.L60,.L163-.L60
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   850  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   851  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   852  #define IoHwAb_STOP_SEC_CODE
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   853  #include "IoHwAb_MemMap.h" /* PRQA S 5087 */ /* MD_MSR_MemMap */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   854  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   855  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   856  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   857   * DO NOT CHANGE THIS COMMENT!           << Start of function definition area >>            DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   858   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   859  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   860  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   861  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   862   * DO NOT CHANGE THIS COMMENT!           << End of function definition area >>              DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   863   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   864  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   865  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   866  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   867   * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   868   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   869  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   870  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   871  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   872  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   873  /***  Start of saved code (symbol: runnable implementation:IoHwAb_MainFunction)  ****************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   874  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   875  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   876  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   877  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   878  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   879  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   880  /***  Start of saved code (symbol: documentation area:IoHwAb_MainFunction_doc)  *****************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   881  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   882  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   883  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   884  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   885  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   886  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   887  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   888  /***  Start of saved code (symbol: runnable implementation:IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Write)  */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   889  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   890    return RTE_E_OK;
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   891  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   892  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   893  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   894  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   895  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   896  /***  Start of saved code (symbol: documentation area:IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Write_doc)  **/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   897  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   898  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   899  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   900  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   901  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   902  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   903  /***  Start of saved code (symbol: documentation area:IoHwAb_IoHwAbCS_Button1_IoHwAbOp_Button1_Write_doc)  **/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   904  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   905  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   906  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   907  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   908  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   909  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   910  /***  Start of saved code (symbol: documentation area:IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Write_doc)  **/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   911  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   912  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   913  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   914  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   915  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   916  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   917  /***  Start of saved code (symbol: runnable implementation:IoHwAb_IoHwAbCS_Button3_IoHwAbOp_Button3_Write)  */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   918  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   919    return RTE_E_OK;
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   920  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   921  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   922  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   923  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   924  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   925  /***  Start of saved code (symbol: runnable implementation:IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Write)  */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   926  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   927    return RTE_E_OK;
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   928  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   929  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   930  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   931  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   932  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   933  /***  Start of saved code (symbol: runnable implementation:IoHwAb_IoHwAbCS_Button4_IoHwAbOp_Button4_Write)  */
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   934  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   935    return RTE_E_OK;
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   936  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   937  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   938  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   939  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   940  #if 0
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   941  /***  Start of saved code (symbol: documentation area:IoHwAb_IoHwAbCS_Button2_IoHwAbOp_Button2_Write_doc)  **/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   942  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   943  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   944  /***  End of saved code  ************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   945  #endif
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   946  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   947  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   948   * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   949   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   950  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   951  /**********************************************************************************************************************
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   952   MISRA 2012 violations and justifications
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   953   *********************************************************************************************************************/
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   954  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   955  /* module specific MISRA deviations:
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   956     MD_Rte_0624:  MISRA rule: Rule8.3
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   957       Reason:     This MISRA violation is a consequence from the RTE requirements [SWS_Rte_01007] [SWS_Rte_01150].
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   958                   The typedefs are never used in the same context.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   959       Risk:       No functional risk. Only a cast to uint8* is performed.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   960       Prevention: Not required.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   961  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   962     MD_Rte_3206:  MISRA rule: Rule2.7
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   963       Reason:     The parameter are not used by the code in all possible code variants.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   964       Risk:       No functional risk.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   965       Prevention: Not required.
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   966  
+; ..\_02_CDD\IoHwAb\IoHwAb.c	   967  */
+
+	; Module end
